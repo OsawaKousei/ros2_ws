@@ -1,0 +1,2 @@
+Invoking command in '/home/osawakousei/ros2_ws/build/ros2cs_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/ros2cs/ros2cs_common -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/ros2cs_common
+Invoked command in '/home/osawakousei/ros2_ws/build/ros2cs_common' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/ros2cs/ros2cs_common -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/ros2cs_common

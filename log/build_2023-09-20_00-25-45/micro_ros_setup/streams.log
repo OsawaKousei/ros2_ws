@@ -1,0 +1,210 @@
+[0.118s] Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/micro_ros_setup
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.511s] -- Detecting C compiler ABI info
+[0.736s] -- Detecting C compiler ABI info - done
+[0.756s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.756s] -- Detecting C compile features
+[0.757s] -- Detecting C compile features - done
+[0.766s] -- Detecting CXX compiler ABI info
+[1.101s] -- Detecting CXX compiler ABI info - done
+[1.125s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.126s] -- Detecting CXX compile features
+[1.127s] -- Detecting CXX compile features - done
+[1.139s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.750s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.071s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.346s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.439s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.451s] -- Added test 'lint_cmake' to check CMake code style
+[2.459s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.509s] -- Added test 'xmllint' to check XML markup files
+[2.517s] -- Configuring done
+[2.526s] -- Generating done
+[2.531s] -- Build files have been written to: /home/osawakousei/ros2_ws/build/micro_ros_setup
+[2.543s] Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/uros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/micro_ros_setup
+[2.550s] Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_setup -- -j8 -l8
+[2.706s] Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_setup -- -j8 -l8
+[2.875s] Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_setup
+[2.904s] -- Install configuration: ""
+[2.905s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.906s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.906s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.907s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.908s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.908s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.909s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.909s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.910s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.913s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.913s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.914s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.919s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.938s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.940s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.940s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config
+[2.941s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host
+[2.941s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic
+[2.943s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.943s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.948s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.951s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.952s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.953s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.953s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.954s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.957s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.961s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos
+[2.962s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.966s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.967s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.968s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.969s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.970s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.972s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.977s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.979s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.981s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.982s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.988s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.990s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.991s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.992s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.993s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.994s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.995s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.996s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.999s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[3.000s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[3.001s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[3.001s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[3.001s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[3.002s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[3.002s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[3.004s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[3.004s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[3.005s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[3.006s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[3.006s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[3.007s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[3.007s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[3.008s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[3.009s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[3.009s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[3.010s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[3.011s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[3.012s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[3.012s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[3.013s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[3.013s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[3.014s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[3.015s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[3.016s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[3.016s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[3.017s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[3.017s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[3.019s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[3.020s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[3.021s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[3.022s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[3.022s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[3.023s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[3.024s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[3.025s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[3.027s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[3.028s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[3.029s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[3.031s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[3.032s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[3.033s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[3.034s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[3.034s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[3.035s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[3.036s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[3.037s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[3.038s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android
+[3.038s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic
+[3.039s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[3.039s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[3.040s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[3.041s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[3.041s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[3.042s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[3.047s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[3.048s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[3.049s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/utils.sh
+[3.051s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[3.051s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian
+[3.053s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic
+[3.054s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[3.055s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[3.055s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[3.055s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[3.055s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[3.056s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[3.056s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[3.056s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[3.056s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[3.057s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr
+[3.057s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[3.057s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic
+[3.057s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[3.058s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[3.058s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[3.058s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[3.058s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[3.058s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[3.059s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[3.059s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[3.059s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[3.059s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[3.060s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[3.060s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed
+[3.060s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[3.060s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic
+[3.060s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[3.061s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[3.061s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[3.061s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[3.061s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[3.062s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[3.062s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[3.063s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[3.064s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[3.066s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra
+[3.066s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[3.067s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[3.067s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[3.068s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[3.069s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[3.069s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[3.070s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[3.070s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[3.071s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[3.071s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[3.072s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[3.073s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[3.074s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[3.079s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[3.081s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib
+[3.082s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic
+[3.083s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[3.083s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[3.085s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[3.086s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[3.087s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[3.088s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[3.089s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[3.090s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[3.091s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[3.092s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[3.093s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[3.094s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[3.095s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[3.095s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[3.096s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[3.096s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[3.098s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[3.099s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[3.099s] -- Installing: /home/osawakousei/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[3.119s] Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_setup

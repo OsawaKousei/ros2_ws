@@ -1,0 +1,47 @@
+[0.135s] Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity
+[0.998s] -- The C compiler identification is GNU 11.4.0
+[1.499s] -- The CXX compiler identification is GNU 11.4.0
+[1.556s] -- Detecting C compiler ABI info
+[1.815s] -- Detecting C compiler ABI info - done
+[1.834s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.881s] -- Detecting C compile features
+[1.884s] -- Detecting C compile features - done
+[1.905s] -- Detecting CXX compiler ABI info
+[2.243s] -- Detecting CXX compiler ABI info - done
+[2.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.263s] -- Detecting CXX compile features
+[2.267s] -- Detecting CXX compile features - done
+[2.359s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.043s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.544s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.948s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.949s] -- Configured cppcheck include dirs: 
+[3.949s] -- Configured cppcheck exclude dirs and/or files: 
+[3.959s] -- Added test 'lint_cmake' to check CMake code style
+[3.983s] -- Added test 'uncrustify' to check C / C++ code style
+[3.983s] -- Configured uncrustify additional arguments: 
+[3.994s] -- Added test 'xmllint' to check XML markup files
+[4.005s] -- Configuring done
+[4.019s] -- Generating done
+[4.021s] -- Build files have been written to: /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity
+[4.032s] Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity
+[4.038s] Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
+[4.185s] Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
+[4.385s] Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity
+[4.430s] -- Install configuration: ""
+[4.430s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/package_run_dependencies/custom_message_unity
+[4.431s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/parent_prefix_path/custom_message_unity
+[4.431s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.sh
+[4.431s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.dsv
+[4.432s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/path.sh
+[4.432s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/path.dsv
+[4.432s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.bash
+[4.432s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.sh
+[4.433s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.zsh
+[4.433s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.dsv
+[4.433s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.dsv
+[4.433s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/packages/custom_message_unity
+[4.433s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig.cmake
+[4.435s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig-version.cmake
+[4.436s] -- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.xml
+[4.440s] Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity

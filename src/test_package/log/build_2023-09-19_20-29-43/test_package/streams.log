@@ -1,0 +1,47 @@
+[0.042s] Invoking command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/test_package -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/test_package/install/test_package
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.479s] -- The CXX compiler identification is GNU 11.4.0
+[0.492s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.745s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[1.057s] -- Detecting CXX compiler ABI info - done
+[1.074s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.075s] -- Detecting CXX compile features
+[1.076s] -- Detecting CXX compile features - done
+[1.087s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.574s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.880s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.174s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.175s] -- Configured cppcheck include dirs: 
+[2.175s] -- Configured cppcheck exclude dirs and/or files: 
+[2.183s] -- Added test 'lint_cmake' to check CMake code style
+[2.200s] -- Added test 'uncrustify' to check C / C++ code style
+[2.200s] -- Configured uncrustify additional arguments: 
+[2.204s] -- Added test 'xmllint' to check XML markup files
+[2.208s] -- Configuring done
+[2.217s] -- Generating done
+[2.221s] -- Build files have been written to: /home/osawakousei/ros2_ws/src/test_package/build/test_package
+[2.233s] Invoked command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/test_package -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/test_package/install/test_package
+[2.240s] Invoking command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/test_package/build/test_package -- -j8 -l8
+[2.366s] Invoked command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/test_package/build/test_package -- -j8 -l8
+[2.535s] Invoking command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/test_package/build/test_package
+[2.557s] -- Install configuration: ""
+[2.558s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
+[2.559s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package
+[2.560s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/environment/ament_prefix_path.sh
+[2.561s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/environment/ament_prefix_path.dsv
+[2.561s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/environment/path.sh
+[2.562s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/environment/path.dsv
+[2.562s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/local_setup.bash
+[2.563s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/local_setup.sh
+[2.564s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/local_setup.zsh
+[2.565s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/local_setup.dsv
+[2.565s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/package.dsv
+[2.565s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/ament_index/resource_index/packages/test_package
+[2.566s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/cmake/test_packageConfig.cmake
+[2.567s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/cmake/test_packageConfig-version.cmake
+[2.567s] -- Installing: /home/osawakousei/ros2_ws/src/test_package/install/test_package/share/test_package/package.xml
+[2.577s] Invoked command in '/home/osawakousei/ros2_ws/src/test_package/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/test_package/build/test_package

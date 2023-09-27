@@ -1,0 +1,7 @@
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kandroid_controll_test/srv/add_three_ints.hpp: そのようなファイルやディレクトリはありません
+    9 | #include [01;31m[K"android_controll_test/srv/add_three_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/connecter_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

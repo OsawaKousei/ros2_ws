@@ -1,0 +1,47 @@
+[0.102s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target connecter_node[0m
+[0.374s] [ 50%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[7.541s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.543s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.544s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.544s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.544s]                  from [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:5[m[K:
+[7.544s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In lambda function:
+[7.544s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[7.545s]    13 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, msg.data);
+[7.545s]       |                                             [01;35m[K^~~~[m[K
+[7.545s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[7.545s]    13 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", msg.data);
+[7.545s]       |                                              [01;36m[K~^[m[K
+[7.546s]       |                                               [01;36m[K|[m[K
+[7.546s]       |                                               [01;36m[Kchar*[m[K
+[22.214s] [100%] [32m[1mLinking CXX executable connecter_node[0m
+[23.382s] [100%] Built target connecter_node
+[23.422s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[23.630s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test
+[23.660s] -- Install configuration: ""
+[23.661s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib/android_controll_test/connecter_node
+[23.678s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib/android_controll_test/connecter_node" to ""
+[23.679s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/ament_index/resource_index/package_run_dependencies/android_controll_test
+[23.679s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/ament_index/resource_index/parent_prefix_path/android_controll_test
+[23.683s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.sh
+[23.683s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.dsv
+[23.684s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/environment/path.sh
+[23.684s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/environment/path.dsv
+[23.685s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/local_setup.bash
+[23.685s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/local_setup.sh
+[23.688s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/local_setup.zsh
+[23.689s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/local_setup.dsv
+[23.689s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.dsv
+[23.690s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/ament_index/resource_index/packages/android_controll_test
+[23.690s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig.cmake
+[23.692s] -- Up-to-date: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig-version.cmake
+[23.693s] -- Installing: /home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.xml
+[23.702s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test

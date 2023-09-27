@@ -1,0 +1,8 @@
+setup.py
+cpp_server_client/__init__.py
+cpp_server_client.egg-info/PKG-INFO
+cpp_server_client.egg-info/SOURCES.txt
+cpp_server_client.egg-info/dependency_links.txt
+cpp_server_client.egg-info/top_level.txt
+cpp_server_client/srv/__init__.py
+cpp_server_client/srv/_practice_srv.py

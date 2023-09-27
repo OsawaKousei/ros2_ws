@@ -1,0 +1,35 @@
+[0.247s] Invoking command in '/home/osawakousei/ros2_ws/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j8 -l8
+[0.624s] [  3%] Built target android_controll_test__cpp
+[0.672s] [ 12%] Built target android_controll_test__rosidl_generator_c
+[0.794s] [ 12%] Built target ament_cmake_python_copy_android_controll_test
+[1.042s] [ 21%] Built target android_controll_test__rosidl_typesupport_cpp
+[1.137s] [ 30%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[1.142s] [ 39%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[1.183s] [ 48%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[1.186s] [ 57%] Built target android_controll_test__rosidl_typesupport_c
+[1.208s] [ 66%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[1.297s] [35m[1mConsolidate compiler generated dependencies of target connecter_node[0m
+[1.523s] [ 66%] Built target android_controll_test
+[1.734s] [ 69%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[1.863s] [ 72%] Built target android_controll_test__py
+[2.100s] [ 78%] Built target android_controll_test__rosidl_generator_py
+[2.394s] [ 84%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[2.416s] [ 90%] Built target android_controll_test__rosidl_typesupport_c__pyext
+[2.476s] [ 96%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[2.675s] running egg_info
+[2.677s] writing android_controll_test.egg-info/PKG-INFO
+[2.678s] writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+[2.679s] writing top-level names to android_controll_test.egg-info/top_level.txt
+[2.687s] reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[2.689s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[2.799s] [ 96%] Built target ament_cmake_python_build_android_controll_test_egg
+[9.559s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_test_msgs[m[K’ has not been declared
+[9.559s]    13 | using namespace [01;31m[Kcustom_test_msgs[m[K::srv;
+[9.559s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.560s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a namespace-name
+[9.560s]    13 | using namespace custom_test_msgs::[01;31m[Ksrv[m[K;
+[9.560s]       |                                   [01;31m[K^~~[m[K
+[16.692s] gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+[16.694s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/connecter_node.dir/all] エラー 2
+[16.695s] gmake: *** [Makefile:146: all] エラー 2
+[16.707s] Invoked command in '/home/osawakousei/ros2_ws/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j8 -l8

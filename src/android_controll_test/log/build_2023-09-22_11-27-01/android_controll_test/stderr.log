@@ -1,0 +1,8 @@
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In constructor ‘[01m[KConnecterNode::ConnecterNode()[m[K’:
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   19 |     while (![01;31m[Kclient[m[K->wait_for_service(1s)) {  // wait_for_serviceはServiceが存在するか検索 (1sでタイムアウト)してる。
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Kclient_[m[K
+gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/connecter_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

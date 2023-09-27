@@ -1,0 +1,110 @@
+[1.873s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.874s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff2c70d5330>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff2c70d4dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff2c70d4dc0>>)
+[2.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.088s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/osawakousei/ros2_ws/src/custom_message_unity'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.132s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'custom_message_unity'
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/osawakousei/ros2_ws/install
+[2.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/osawakousei/ros2_ws/src/android_controll_test/install
+[2.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_server_client/install
+[2.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install
+[2.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/test_package/install
+[2.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/osawakousei/ros2_ws/uros_ws/install
+[2.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/custom_test_msgs/install
+[2.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[2.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_args' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_target' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_clean_cache' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_clean_first' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_force_configure' from command line to 'False'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'ament_cmake_args' from command line to 'None'
+[2.533s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'catkin_cmake_args' from command line to 'None'
+[2.534s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.534s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message_unity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/custom_message_unity', 'symlink_install': False, 'test_result_base': None}
+[2.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.544s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/custom_message_unity' with build type 'ament_cmake'
+[2.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/custom_message_unity'
+[2.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity
+[6.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity
+[6.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
+[6.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
+[6.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity
+[6.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message_unity)
+[6.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity' for CMake module files
+[7.081s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity' for CMake config files
+[7.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'cmake_prefix_path')
+[7.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.ps1'
+[7.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.dsv'
+[7.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.sh'
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/bin'
+[7.096s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/pkgconfig/custom_message_unity.pc'
+[7.097s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/python3.10/site-packages'
+[7.097s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/bin'
+[7.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.ps1'
+[7.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.dsv'
+[7.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.sh'
+[7.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.bash'
+[7.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.zsh'
+[7.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/colcon-core/packages/custom_message_unity)
+[7.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message_unity)
+[7.270s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity' for CMake module files
+[7.271s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity' for CMake config files
+[7.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'cmake_prefix_path')
+[7.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.ps1'
+[7.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.dsv'
+[7.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.sh'
+[7.280s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/bin'
+[7.280s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/pkgconfig/custom_message_unity.pc'
+[7.281s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/python3.10/site-packages'
+[7.281s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/bin'
+[7.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.ps1'
+[7.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.dsv'
+[7.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.sh'
+[7.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.bash'
+[7.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.zsh'
+[7.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/colcon-core/packages/custom_message_unity)
+[7.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.294s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.294s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.431s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/local_setup.ps1'
+[7.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/custom_message_unity/install/_local_setup_util_ps1.py'
+[7.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/setup.ps1'
+[7.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/local_setup.sh'
+[7.464s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/custom_message_unity/install/_local_setup_util_sh.py'
+[7.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/setup.sh'
+[7.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/local_setup.bash'
+[7.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/setup.bash'
+[7.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/local_setup.zsh'
+[7.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/custom_message_unity/install/setup.zsh'

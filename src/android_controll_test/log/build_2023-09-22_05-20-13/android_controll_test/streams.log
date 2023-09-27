@@ -1,0 +1,33 @@
+[0.076s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[0.278s] [  3%] Built target android_controll_test__cpp
+[0.288s] [  6%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[0.288s] [ 15%] Built target android_controll_test__rosidl_generator_c
+[0.313s] [ 15%] Built target ament_cmake_python_copy_android_controll_test
+[0.356s] [ 24%] Built target android_controll_test__rosidl_typesupport_cpp
+[0.365s] [ 33%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[0.367s] [ 42%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[0.368s] [ 51%] Built target android_controll_test__rosidl_typesupport_c
+[0.370s] [ 60%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[0.385s] [ 69%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[0.437s] [ 69%] Built target android_controll_test
+[0.494s] [ 72%] Built target android_controll_test__py
+[0.573s] [ 78%] Built target android_controll_test__rosidl_generator_py
+[0.640s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/String.h: そのようなファイルやディレクトリはありません
+[0.640s]     4 | #include [01;31m[K<std_msgs/std_msgs/msg/String.h>[m[K
+[0.640s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.641s] compilation terminated.
+[0.643s] gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+[0.644s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/connecter_node.dir/all] エラー 2
+[0.644s] gmake[1]: *** 未完了のジョブを待っています....
+[0.661s] [ 84%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[0.665s] [ 90%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[0.667s] [ 96%] Built target android_controll_test__rosidl_typesupport_c__pyext
+[1.087s] running egg_info
+[1.089s] writing android_controll_test.egg-info/PKG-INFO
+[1.091s] writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+[1.092s] writing top-level names to android_controll_test.egg-info/top_level.txt
+[1.099s] reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[1.102s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[1.182s] [ 96%] Built target ament_cmake_python_build_android_controll_test_egg
+[1.185s] gmake: *** [Makefile:146: all] エラー 2
+[1.192s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8

@@ -1,0 +1,34 @@
+[0.072s] Invoking command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8
+[0.267s] [  8%] Built target cpp_server_client__rosidl_generator_c
+[0.282s] [ 11%] Built target cpp_server_client__cpp
+[0.322s] [ 11%] Built target ament_cmake_python_copy_cpp_server_client
+[0.346s] [ 20%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[0.373s] [ 28%] Built target cpp_server_client__rosidl_typesupport_c
+[0.380s] [ 37%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[0.387s] [ 45%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[0.387s] [ 54%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[0.391s] [ 62%] Built target cpp_server_client__rosidl_typesupport_cpp
+[0.480s] [ 62%] Built target cpp_server_client
+[0.488s] [ 65%] [32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o[0m
+[0.497s] [ 71%] Built target practice_client_node
+[0.543s] [ 74%] Built target cpp_server_client__py
+[0.612s] [ 80%] Built target cpp_server_client__rosidl_generator_py
+[0.689s] [ 85%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+[0.700s] [ 91%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[0.723s] [ 97%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+[1.210s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+[1.210s]     9 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.210s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.213s] compilation terminated.
+[1.216s] running egg_info
+[1.218s] gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] エラー 1
+[1.219s] writing cpp_server_client.egg-info/PKG-INFO
+[1.223s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] エラー 2
+[1.223s] gmake[1]: *** 未完了のジョブを待っています....
+[1.223s] writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+[1.224s] writing top-level names to cpp_server_client.egg-info/top_level.txt
+[1.225s] reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[1.227s] writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[1.302s] [ 97%] Built target ament_cmake_python_build_cpp_server_client_egg
+[1.305s] gmake: *** [Makefile:146: all] エラー 2
+[1.310s] Invoked command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8

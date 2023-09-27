@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.003279] (cpp_server_client) JobQueued: {'identifier': 'cpp_server_client', 'dependencies': OrderedDict()}
+[0.003998] (cpp_server_client) JobStarted: {'identifier': 'cpp_server_client'}
+[0.057191] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'cmake'}
+[0.060302] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'build'}
+[0.062845] (cpp_server_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', '--', '-j8', '-l8'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1267'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1222,unix/kousei-ubuntu:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01323759_1a45_4835_b214_93d3fcc2c6f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.30HMB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[0.096370] (-) TimerEvent: {}
+[0.197191] (-) TimerEvent: {}
+[0.283363] (cpp_server_client) StdoutLine: {'line': b'[  2%] Built target cpp_server_client__cpp\n'}
+[0.284168] (cpp_server_client) StdoutLine: {'line': b'[ 11%] Built target cpp_server_client__rosidl_generator_c\n'}
+[0.297422] (-) TimerEvent: {}
+[0.383886] (cpp_server_client) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_cpp_server_client\n'}
+[0.397566] (-) TimerEvent: {}
+[0.412741] (cpp_server_client) StdoutLine: {'line': b'[ 20%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp\n'}
+[0.413217] (cpp_server_client) StdoutLine: {'line': b'[ 28%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c\n'}
+[0.439754] (cpp_server_client) StdoutLine: {'line': b'[ 37%] Built target cpp_server_client__rosidl_typesupport_c\n'}
+[0.444752] (cpp_server_client) StdoutLine: {'line': b'[ 45%] Built target cpp_server_client__rosidl_typesupport_introspection_c\n'}
+[0.480779] (cpp_server_client) StdoutLine: {'line': b'[ 54%] Built target cpp_server_client__rosidl_typesupport_cpp\n'}
+[0.497678] (-) TimerEvent: {}
+[0.513805] (cpp_server_client) StdoutLine: {'line': b'[ 62%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp\n'}
+[0.587808] (cpp_server_client) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o\x1b[0m\n'}
+[0.597913] (-) TimerEvent: {}
+[0.603448] (cpp_server_client) StdoutLine: {'line': b'[ 71%] Built target practice_client_node\n'}
+[0.644606] (cpp_server_client) StdoutLine: {'line': b'[ 71%] Built target cpp_server_client\n'}
+[0.698130] (-) TimerEvent: {}
+[0.741505] (cpp_server_client) StdoutLine: {'line': b'[ 74%] Built target cpp_server_client__py\n'}
+[0.798286] (-) TimerEvent: {}
+[0.848326] (cpp_server_client) StdoutLine: {'line': b'[ 80%] Built target cpp_server_client__rosidl_generator_py\n'}
+[0.898465] (-) TimerEvent: {}
+[0.945222] (cpp_server_client) StdoutLine: {'line': b'[ 85%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext\n'}
+[0.993668] (cpp_server_client) StdoutLine: {'line': b'[ 91%] Built target cpp_server_client__rosidl_typesupport_c__pyext\n'}
+[0.998691] (-) TimerEvent: {}
+[1.024871] (cpp_server_client) StdoutLine: {'line': b'[ 97%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.098855] (-) TimerEvent: {}
+[1.199774] (-) TimerEvent: {}
+[1.300514] (-) TimerEvent: {}
+[1.371562] (cpp_server_client) StdoutLine: {'line': b'running egg_info\n'}
+[1.372644] (cpp_server_client) StdoutLine: {'line': b'writing cpp_server_client.egg-info/PKG-INFO\n'}
+[1.373341] (cpp_server_client) StdoutLine: {'line': b'writing dependency_links to cpp_server_client.egg-info/dependency_links.txt\n'}
+[1.374027] (cpp_server_client) StdoutLine: {'line': b'writing top-level names to cpp_server_client.egg-info/top_level.txt\n'}
+[1.379063] (cpp_server_client) StdoutLine: {'line': b"reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[1.381034] (cpp_server_client) StdoutLine: {'line': b"writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[1.400720] (-) TimerEvent: {}
+[1.464776] (cpp_server_client) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cpp_server_client_egg\n'}
+[1.500918] (-) TimerEvent: {}
+[1.601720] (-) TimerEvent: {}
+[1.702543] (-) TimerEvent: {}
+[1.803281] (-) TimerEvent: {}
+[1.904092] (-) TimerEvent: {}
+[2.005039] (-) TimerEvent: {}
+[2.105988] (-) TimerEvent: {}
+[2.206887] (-) TimerEvent: {}
+[2.307707] (-) TimerEvent: {}
+[2.408441] (-) TimerEvent: {}
+[2.509247] (-) TimerEvent: {}
+[2.610109] (-) TimerEvent: {}
+[2.710899] (-) TimerEvent: {}
+[2.811697] (-) TimerEvent: {}
+[2.912523] (-) TimerEvent: {}
+[3.013335] (-) TimerEvent: {}
+[3.114290] (-) TimerEvent: {}
+[3.215214] (-) TimerEvent: {}
+[3.316048] (-) TimerEvent: {}
+[3.416878] (-) TimerEvent: {}
+[3.517548] (-) TimerEvent: {}
+[3.618298] (-) TimerEvent: {}
+[3.719107] (-) TimerEvent: {}
+[3.819912] (-) TimerEvent: {}
+[3.920720] (-) TimerEvent: {}
+[4.021554] (-) TimerEvent: {}
+[4.122402] (-) TimerEvent: {}
+[4.223216] (-) TimerEvent: {}
+[4.324153] (-) TimerEvent: {}
+[4.425049] (-) TimerEvent: {}
+[4.526006] (-) TimerEvent: {}
+[4.626818] (-) TimerEvent: {}
+[4.727762] (-) TimerEvent: {}
+[4.828712] (-) TimerEvent: {}
+[4.929671] (-) TimerEvent: {}
+[5.030551] (-) TimerEvent: {}
+[5.131565] (-) TimerEvent: {}
+[5.232582] (-) TimerEvent: {}
+[5.333448] (-) TimerEvent: {}
+[5.434436] (-) TimerEvent: {}
+[5.535341] (-) TimerEvent: {}
+[5.636276] (-) TimerEvent: {}
+[5.737086] (-) TimerEvent: {}
+[5.838042] (-) TimerEvent: {}
+[5.939052] (-) TimerEvent: {}
+[6.039929] (-) TimerEvent: {}
+[6.140898] (-) TimerEvent: {}
+[6.241907] (-) TimerEvent: {}
+[6.342885] (-) TimerEvent: {}
+[6.443780] (-) TimerEvent: {}
+[6.544561] (-) TimerEvent: {}
+[6.645501] (-) TimerEvent: {}
+[6.746484] (-) TimerEvent: {}
+[6.847369] (-) TimerEvent: {}
+[6.948270] (-) TimerEvent: {}
+[7.049491] (-) TimerEvent: {}
+[7.150423] (-) TimerEvent: {}
+[7.251493] (-) TimerEvent: {}
+[7.352544] (-) TimerEvent: {}
+[7.453601] (-) TimerEvent: {}
+[7.554635] (-) TimerEvent: {}
+[7.655789] (-) TimerEvent: {}
+[7.756860] (-) TimerEvent: {}
+[7.857876] (-) TimerEvent: {}
+[7.958898] (-) TimerEvent: {}
+[8.059920] (-) TimerEvent: {}
+[8.160770] (-) TimerEvent: {}
+[8.261782] (-) TimerEvent: {}
+[8.362868] (-) TimerEvent: {}
+[8.463788] (-) TimerEvent: {}
+[8.564670] (-) TimerEvent: {}
+[8.665848] (-) TimerEvent: {}
+[8.766962] (-) TimerEvent: {}
+[8.868109] (-) TimerEvent: {}
+[8.969002] (-) TimerEvent: {}
+[9.070039] (-) TimerEvent: {}
+[9.171088] (-) TimerEvent: {}
+[9.272047] (-) TimerEvent: {}
+[9.372929] (-) TimerEvent: {}
+[9.473912] (-) TimerEvent: {}
+[9.574837] (-) TimerEvent: {}
+[9.675726] (-) TimerEvent: {}
+[9.776683] (-) TimerEvent: {}
+[9.877679] (-) TimerEvent: {}
+[9.978688] (-) TimerEvent: {}
+[10.079797] (-) TimerEvent: {}
+[10.180710] (-) TimerEvent: {}
+[10.281727] (-) TimerEvent: {}
+[10.382681] (-) TimerEvent: {}
+[10.483571] (-) TimerEvent: {}
+[10.584331] (-) TimerEvent: {}
+[10.685515] (-) TimerEvent: {}
+[10.786383] (-) TimerEvent: {}
+[10.887458] (-) TimerEvent: {}
+[10.988419] (-) TimerEvent: {}
+[11.089577] (-) TimerEvent: {}
+[11.190473] (-) TimerEvent: {}
+[11.256389] (cpp_server_client) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable practice_server_node\x1b[0m\n'}
+[11.290784] (-) TimerEvent: {}
+[11.391653] (-) TimerEvent: {}
+[11.492534] (-) TimerEvent: {}
+[11.593335] (-) TimerEvent: {}
+[11.694440] (-) TimerEvent: {}
+[11.791848] (cpp_server_client) StdoutLine: {'line': b'[100%] Built target practice_server_node\n'}
+[11.794621] (-) TimerEvent: {}
+[11.843283] (cpp_server_client) CommandEnded: {'returncode': 0}
+[11.895044] (-) TimerEvent: {}
+[11.995908] (-) TimerEvent: {}
+[12.096804] (-) TimerEvent: {}
+[12.197742] (-) TimerEvent: {}
+[12.298585] (-) TimerEvent: {}
+[12.399520] (-) TimerEvent: {}
+[12.467984] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'install'}
+[12.499917] (-) TimerEvent: {}
+[12.507502] (cpp_server_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1267'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1222,unix/kousei-ubuntu:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01323759_1a45_4835_b214_93d3fcc2c6f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.30HMB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[12.542497] (cpp_server_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.543291] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/ament_index/resource_index/rosidl_interfaces/cpp_server_client\n'}
+[12.548025] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.549029] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.549382] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/practice_srv.h\n'}
+[12.549692] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.549922] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__struct.h\n'}
+[12.550141] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__functions.c\n'}
+[12.550629] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__functions.h\n'}
+[12.551009] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.h\n'}
+[12.551312] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg\n'}
+[12.551894] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.552747] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/library_path.sh\n'}
+[12.553795] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/library_path.dsv\n'}
+[12.554354] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_c.so\n'}
+[12.554758] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.555101] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.555371] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.555885] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[12.556220] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg\n'}
+[12.556457] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.556684] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so\n'}
+[12.556925] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.557820] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.559414] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.559947] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__traits.hpp\n'}
+[12.560671] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__struct.hpp\n'}
+[12.561022] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__builder.hpp\n'}
+[12.562211] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/practice_srv.hpp\n'}
+[12.562776] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.563824] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.564089] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.564843] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.565118] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/dds_fastrtps\n'}
+[12.565344] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg\n'}
+[12.565665] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.566233] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.566522] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.566978] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.567582] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.568362] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.c\n'}
+[12.569148] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_introspection_c.h\n'}
+[12.569805] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg\n'}
+[12.573142] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.574300] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so\n'}
+[12.574741] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_c.so\n'}
+[12.575051] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client\n'}
+[12.575386] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv\n'}
+[12.575667] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail\n'}
+[12.575914] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.576168] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/include/cpp_server_client/cpp_server_client/srv/detail/practice_srv__type_support.cpp\n'}
+[12.576453] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so\n'}
+[12.576711] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_typesupport_cpp.so\n'}
+[12.576974] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/pythonpath.sh\n'}
+[12.577259] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/pythonpath.dsv\n'}
+[12.577647] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info\n'}
+[12.577925] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.578212] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.578532] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.578789] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.579063] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client\n'}
+[12.579291] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.579510] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_c.c\n'}
+[12.579759] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv\n'}
+[12.579984] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/_practice_srv.py\n'}
+[12.580206] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/__init__.py\n'}
+[12.580426] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv/_practice_srv_s.c\n'}
+[12.580653] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/libcpp_server_client__rosidl_generator_py.so\n'}
+[12.580876] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.581139] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.581428] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/__init__.py\n'}
+[12.581733] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.581968] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.600204] (-) TimerEvent: {}
+[12.697955] (cpp_server_client) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client'...\n"}
+[12.698452] (cpp_server_client) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/srv'...\n"}
+[12.700426] (-) TimerEvent: {}
+[12.710118] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.711625] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.713592] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.715539] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/libcpp_server_client__rosidl_generator_py.so\n'}
+[12.716426] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv.idl\n'}
+[12.717452] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv.srv\n'}
+[12.717757] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv_Request.msg\n'}
+[12.718056] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/srv/PracticeSrv_Response.msg\n'}
+[12.718595] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/cpp_server_client/practice_server_node\n'}
+[12.723313] (cpp_server_client) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/cpp_server_client/practice_server_node" to ""\n'}
+[12.724545] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib/cpp_server_client/practice_client_node\n'}
+[12.725778] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/ament_index/resource_index/package_run_dependencies/cpp_server_client\n'}
+[12.726743] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/ament_index/resource_index/parent_prefix_path/cpp_server_client\n'}
+[12.728175] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/ament_prefix_path.sh\n'}
+[12.728922] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/ament_prefix_path.dsv\n'}
+[12.729221] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/path.sh\n'}
+[12.729900] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/environment/path.dsv\n'}
+[12.730195] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/local_setup.bash\n'}
+[12.731168] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/local_setup.sh\n'}
+[12.731825] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/local_setup.zsh\n'}
+[12.732453] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/local_setup.dsv\n'}
+[12.732974] (cpp_server_client) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/package.dsv\n'}
+[12.733551] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/ament_index/resource_index/packages/cpp_server_client\n'}
+[12.734192] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake\n'}
+[12.735082] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.735967] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.737451] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.739168] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake\n'}
+[12.739819] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.741018] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.741372] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.741731] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.742022] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake\n'}
+[12.742286] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.742545] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.742792] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.743055] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake\n'}
+[12.743371] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.743660] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake\n'}
+[12.745160] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.746612] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake-extras.cmake\n'}
+[12.748743] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.750854] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.751407] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.751663] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.751914] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.753604] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.755270] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_clientConfig.cmake\n'}
+[12.755862] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/cmake/cpp_server_clientConfig-version.cmake\n'}
+[12.756486] (cpp_server_client) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/share/cpp_server_client/package.xml\n'}
+[12.757038] (cpp_server_client) CommandEnded: {'returncode': 0}
+[12.805523] (-) TimerEvent: {}
+[12.906175] (-) TimerEvent: {}
+[13.007087] (-) TimerEvent: {}
+[13.107742] (-) TimerEvent: {}
+[13.208754] (-) TimerEvent: {}
+[13.309816] (-) TimerEvent: {}
+[13.412920] (-) TimerEvent: {}
+[13.467398] (cpp_server_client) JobEnded: {'identifier': 'cpp_server_client', 'rc': 0}
+[13.471724] (-) EventReactorShutdown: {}

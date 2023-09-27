@@ -1,0 +1,6 @@
+{
+  "package_name": "android_controll_test",
+  "non_idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/android_controll_test:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "cpp_server_client",
+  "non_idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/cpp_server_client:srv/PracticeSrv.srv"
+  ]
+}

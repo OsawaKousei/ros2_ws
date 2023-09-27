@@ -1,0 +1,11 @@
+[0.068s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target connecter_node[0m
+[0.367s] [ 50%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[1.386s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kandroid_controll_test/srv/add_three_ints.hpp: そのようなファイルやディレクトリはありません
+[1.386s]     9 | #include [01;31m[K"android_controll_test/srv/add_three_ints.hpp"[m[K
+[1.386s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.386s] compilation terminated.
+[1.394s] gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+[1.396s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/connecter_node.dir/all] エラー 2
+[1.396s] gmake: *** [Makefile:146: all] エラー 2
+[1.406s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8

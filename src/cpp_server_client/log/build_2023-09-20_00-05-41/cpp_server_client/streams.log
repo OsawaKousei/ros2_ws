@@ -1,0 +1,124 @@
+[0.042s] Invoking command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8
+[0.125s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.503s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.812s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.523s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.547s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.262s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.651s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.731s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.732s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.958s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.961s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_c;/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_py
+[3.961s] -- Configured cppcheck exclude dirs and/or files: 
+[3.983s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.026s] -- Added test 'lint_cmake' to check CMake code style
+[4.048s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.219s] -- Added test 'uncrustify' to check C / C++ code style
+[4.219s] -- Configured uncrustify additional arguments: 
+[4.241s] -- Added test 'xmllint' to check XML markup files
+[4.251s] -- Configuring done
+[4.401s] -- Generating done
+[4.422s] -- Build files have been written to: /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client
+[4.534s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.580s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.620s] [  5%] Built target ament_cmake_python_copy_cpp_server_client
+[5.285s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_generator_c[0m
+[5.336s] [  8%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_c.dir/rosidl_generator_c/cpp_server_client/srv/detail/practice_srv__functions.c.o[0m
+[5.354s] [  8%] Built target cpp_server_client__cpp
+[5.404s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.404s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.406s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.417s] running egg_info
+[5.419s] writing cpp_server_client.egg-info/PKG-INFO
+[5.420s] writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+[5.421s] writing top-level names to cpp_server_client.egg-info/top_level.txt
+[5.427s] reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[5.430s] writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[5.510s] [ 17%] Built target ament_cmake_python_build_cpp_server_client_egg
+[5.528s] [ 20%] [32m[1mLinking C shared library libcpp_server_client__rosidl_generator_c.so[0m
+[5.674s] [ 20%] Built target cpp_server_client__rosidl_generator_c
+[5.723s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.723s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.724s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.060s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_cpp[0m
+[6.123s] [ 31%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_server_client/srv/practice_srv__type_support.cpp.o[0m
+[6.130s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_cpp[0m
+[6.191s] [ 34%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_server_client/srv/detail/practice_srv__type_support.cpp.o[0m
+[6.247s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_cpp[0m
+[6.315s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_server_client/srv/detail/dds_fastrtps/practice_srv__type_support.cpp.o[0m
+[6.397s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_c[0m
+[6.448s] [ 40%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_server_client/srv/practice_srv__type_support.cpp.o[0m
+[6.461s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_c[0m
+[6.477s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_c[0m
+[6.518s] [ 42%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_server_client/srv/detail/practice_srv__type_support.c.o[0m
+[6.541s] [ 45%] [32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_server_client/srv/detail/practice_srv__type_support_c.cpp.o[0m
+[6.588s] [ 48%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_c.so[0m
+[6.661s] [ 51%] [32m[1mLinking C shared library libcpp_server_client__rosidl_typesupport_introspection_c.so[0m
+[6.755s] [ 51%] Built target cpp_server_client__rosidl_typesupport_c
+[6.805s] [ 51%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[6.990s] [ 54%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_cpp.so[0m
+[7.158s] [ 54%] Built target cpp_server_client__rosidl_typesupport_cpp
+[7.214s] [35m[1mConsolidate compiler generated dependencies of target practice_server_node[0m
+[7.216s] [35m[1mConsolidate compiler generated dependencies of target practice_client_node[0m
+[7.298s] [ 57%] [32mBuilding CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o[0m
+[7.303s] [ 60%] [32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o[0m
+[7.600s] [ 62%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.601s] [ 65%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_c.so[0m
+[7.617s] [ 68%] [32m[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_introspection_cpp.so[0m
+[7.780s] [ 68%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[7.875s] [ 68%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[7.890s] [ 68%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[7.978s] [ 68%] Built target cpp_server_client
+[8.069s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.041s] [ 71%] Built target cpp_server_client__py
+[9.087s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_generator_py[0m
+[9.144s] [ 74%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_py.dir/rosidl_generator_py/cpp_server_client/srv/_practice_srv_s.c.o[0m
+[9.481s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/libcpp_server_client__rosidl_generator_py.so[0m
+[9.645s] [ 77%] Built target cpp_server_client__rosidl_generator_py
+[9.694s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.696s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_c__pyext[0m
+[9.703s] [35m[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_c__pyext[0m
+[9.751s] [ 80%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.757s] [ 82%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.766s] [ 85%] [32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_c.c.o[0m
+[10.108s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.112s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.150s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.255s] [ 94%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+[10.262s] [ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+[10.298s] [ 94%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[14.558s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:[m[K In function ‘[01m[Kvoid accumulate_sum_callback(std::shared_ptr<cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> > >, std::shared_ptr<cpp_server_client::srv::PracticeSrv_Response_<std::allocator<void> > >)[m[K’:
+[14.558s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+[14.558s]    12 |     response->cumulative_sum = std::accumulate(request->[01;31m[Knum_vector[m[K.begin(), request->num_vector.end(), (long)0);
+[14.559s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[14.559s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+[14.560s]    12 |     response->cumulative_sum = std::accumulate(request->num_vector.begin(), request->[01;31m[Knum_vector[m[K.end(), (long)0);
+[14.560s]       |                                                                                      [01;31m[K^~~~~~~~~~[m[K
+[14.560s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+[14.561s]    15 |     std::for_each(request->[01;31m[Knum_vector[m[K.begin(), request->num_vector.end(), [](const auto& tmp){
+[14.561s]       |                            [01;31m[K^~~~~~~~~~[m[K
+[14.561s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+[14.562s]    15 |     std::for_each(request->num_vector.begin(), request->[01;31m[Knum_vector[m[K.end(), [](const auto& tmp){
+[14.562s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[14.819s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.819s] [01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:29:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+[14.820s]    29 |     std::transform(input_vec.begin(), input_vec.end(), std::back_inserter(request->[01;31m[Knum_vector[m[K),
+[14.820s]       |                                                                                    [01;31m[K^~~~~~~~~~[m[K
+[16.302s] gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] エラー 1
+[16.303s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] エラー 2
+[16.303s] gmake[1]: *** 未完了のジョブを待っています....
+[16.555s] gmake[2]: *** [CMakeFiles/practice_client_node.dir/build.make:76: CMakeFiles/practice_client_node.dir/src/client_node.cpp.o] エラー 1
+[16.556s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/practice_client_node.dir/all] エラー 2
+[16.557s] gmake: *** [Makefile:146: all] エラー 2
+[16.566s] Invoked command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8

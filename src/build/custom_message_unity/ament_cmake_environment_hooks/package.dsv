@@ -1,0 +1,4 @@
+source;share/custom_message_unity/local_setup.bash
+source;share/custom_message_unity/local_setup.dsv
+source;share/custom_message_unity/local_setup.sh
+source;share/custom_message_unity/local_setup.zsh

@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.001350] (cpp_server_client) JobQueued: {'identifier': 'cpp_server_client', 'dependencies': OrderedDict()}
+[0.001566] (cpp_server_client) JobStarted: {'identifier': 'cpp_server_client'}
+[0.097430] (-) TimerEvent: {}
+[0.103646] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'cmake'}
+[0.118280] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'build'}
+[0.120748] (cpp_server_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', '--', '-j8', '-l8'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1267'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1222,unix/kousei-ubuntu:/tmp/.ICE-unix/1222'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01323759_1a45_4835_b214_93d3fcc2c6f5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.30HMB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[0.197688] (-) TimerEvent: {}
+[0.298529] (-) TimerEvent: {}
+[0.399802] (-) TimerEvent: {}
+[0.465725] (cpp_server_client) StdoutLine: {'line': b'[  8%] Built target cpp_server_client__rosidl_generator_c\n'}
+[0.479141] (cpp_server_client) StdoutLine: {'line': b'[ 11%] Built target cpp_server_client__cpp\n'}
+[0.499995] (-) TimerEvent: {}
+[0.541590] (cpp_server_client) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_cpp_server_client\n'}
+[0.600237] (-) TimerEvent: {}
+[0.612585] (cpp_server_client) StdoutLine: {'line': b'[ 20%] Built target cpp_server_client__rosidl_typesupport_introspection_c\n'}
+[0.620021] (cpp_server_client) StdoutLine: {'line': b'[ 28%] Built target cpp_server_client__rosidl_typesupport_cpp\n'}
+[0.635430] (cpp_server_client) StdoutLine: {'line': b'[ 40%] Built target cpp_server_client__rosidl_typesupport_c\n'}
+[0.636626] (cpp_server_client) StdoutLine: {'line': b'[ 45%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp\n'}
+[0.639796] (cpp_server_client) StdoutLine: {'line': b'[ 54%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c\n'}
+[0.648023] (cpp_server_client) StdoutLine: {'line': b'[ 62%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp\n'}
+[0.700388] (-) TimerEvent: {}
+[0.772557] (cpp_server_client) StdoutLine: {'line': b'[ 62%] Built target cpp_server_client\n'}
+[0.775455] (cpp_server_client) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o\x1b[0m\n'}
+[0.787045] (cpp_server_client) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o\x1b[0m\n'}
+[0.800559] (-) TimerEvent: {}
+[0.901344] (-) TimerEvent: {}
+[0.905993] (cpp_server_client) StdoutLine: {'line': b'[ 71%] Built target cpp_server_client__py\n'}
+[1.001530] (-) TimerEvent: {}
+[1.043136] (cpp_server_client) StdoutLine: {'line': b'[ 77%] Built target cpp_server_client__rosidl_generator_py\n'}
+[1.101740] (-) TimerEvent: {}
+[1.185367] (cpp_server_client) StdoutLine: {'line': b'[ 82%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.201920] (-) TimerEvent: {}
+[1.220077] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target cpp_server_client__rosidl_typesupport_c__pyext\n'}
+[1.220615] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext\n'}
+[1.302189] (-) TimerEvent: {}
+[1.403081] (-) TimerEvent: {}
+[1.503844] (-) TimerEvent: {}
+[1.584521] (cpp_server_client) StdoutLine: {'line': b'running egg_info\n'}
+[1.587447] (cpp_server_client) StdoutLine: {'line': b'writing cpp_server_client.egg-info/PKG-INFO\n'}
+[1.589246] (cpp_server_client) StdoutLine: {'line': b'writing dependency_links to cpp_server_client.egg-info/dependency_links.txt\n'}
+[1.591095] (cpp_server_client) StdoutLine: {'line': b'writing top-level names to cpp_server_client.egg-info/top_level.txt\n'}
+[1.598800] (cpp_server_client) StdoutLine: {'line': b"reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[1.604081] (-) TimerEvent: {}
+[1.607574] (cpp_server_client) StdoutLine: {'line': b"writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[1.690767] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_cpp_server_client_egg\n'}
+[1.704414] (-) TimerEvent: {}
+[1.730698] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd_msgs/std_msgs/msg/string.hpp: \xe3\x81\x9d\xe3\x81\xae\xe3\x82\x88\xe3\x81\x86\xe3\x81\xaa\xe3\x83\x95\xe3\x82\xa1\xe3\x82\xa4\xe3\x83\xab\xe3\x82\x84\xe3\x83\x87\xe3\x82\xa3\xe3\x83\xac\xe3\x82\xaf\xe3\x83\x88\xe3\x83\xaa\xe3\x81\xaf\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93\n'}
+[1.731144] (cpp_server_client) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K<std_msgs/std_msgs/msg/string.hpp>\x1b[m\x1b[K\n'}
+[1.731401] (cpp_server_client) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.731640] (cpp_server_client) StderrLine: {'line': b'compilation terminated.\n'}
+[1.740187] (cpp_server_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[1.740609] (cpp_server_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[1.740813] (cpp_server_client) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[1.804664] (-) TimerEvent: {}
+[1.905496] (-) TimerEvent: {}
+[2.006330] (-) TimerEvent: {}
+[2.107302] (-) TimerEvent: {}
+[2.208092] (-) TimerEvent: {}
+[2.309086] (-) TimerEvent: {}
+[2.410092] (-) TimerEvent: {}
+[2.511056] (-) TimerEvent: {}
+[2.612150] (-) TimerEvent: {}
+[2.712968] (-) TimerEvent: {}
+[2.813738] (-) TimerEvent: {}
+[2.914537] (-) TimerEvent: {}
+[3.015316] (-) TimerEvent: {}
+[3.116327] (-) TimerEvent: {}
+[3.217113] (-) TimerEvent: {}
+[3.317909] (-) TimerEvent: {}
+[3.418678] (-) TimerEvent: {}
+[3.519572] (-) TimerEvent: {}
+[3.620347] (-) TimerEvent: {}
+[3.721058] (-) TimerEvent: {}
+[3.821762] (-) TimerEvent: {}
+[3.922470] (-) TimerEvent: {}
+[4.023227] (-) TimerEvent: {}
+[4.123976] (-) TimerEvent: {}
+[4.224766] (-) TimerEvent: {}
+[4.325469] (-) TimerEvent: {}
+[4.426309] (-) TimerEvent: {}
+[4.527128] (-) TimerEvent: {}
+[4.628011] (-) TimerEvent: {}
+[4.728848] (-) TimerEvent: {}
+[4.832676] (-) TimerEvent: {}
+[4.933608] (-) TimerEvent: {}
+[5.034596] (-) TimerEvent: {}
+[5.135695] (-) TimerEvent: {}
+[5.236671] (-) TimerEvent: {}
+[5.337523] (-) TimerEvent: {}
+[5.438408] (-) TimerEvent: {}
+[5.539088] (-) TimerEvent: {}
+[5.639919] (-) TimerEvent: {}
+[5.740933] (-) TimerEvent: {}
+[5.841917] (-) TimerEvent: {}
+[5.942819] (-) TimerEvent: {}
+[6.043761] (-) TimerEvent: {}
+[6.144794] (-) TimerEvent: {}
+[6.246075] (-) TimerEvent: {}
+[6.347172] (-) TimerEvent: {}
+[6.448120] (-) TimerEvent: {}
+[6.549254] (-) TimerEvent: {}
+[6.650246] (-) TimerEvent: {}
+[6.751181] (-) TimerEvent: {}
+[6.852459] (-) TimerEvent: {}
+[6.953716] (-) TimerEvent: {}
+[7.054703] (-) TimerEvent: {}
+[7.155795] (-) TimerEvent: {}
+[7.256768] (-) TimerEvent: {}
+[7.357840] (-) TimerEvent: {}
+[7.458902] (-) TimerEvent: {}
+[7.559923] (-) TimerEvent: {}
+[7.661026] (-) TimerEvent: {}
+[7.762038] (-) TimerEvent: {}
+[7.862976] (-) TimerEvent: {}
+[7.964037] (-) TimerEvent: {}
+[8.065125] (-) TimerEvent: {}
+[8.166211] (-) TimerEvent: {}
+[8.267184] (-) TimerEvent: {}
+[8.368173] (-) TimerEvent: {}
+[8.469269] (-) TimerEvent: {}
+[8.570244] (-) TimerEvent: {}
+[8.671106] (-) TimerEvent: {}
+[8.771926] (-) TimerEvent: {}
+[8.873046] (-) TimerEvent: {}
+[8.974026] (-) TimerEvent: {}
+[9.074957] (-) TimerEvent: {}
+[9.175924] (-) TimerEvent: {}
+[9.276940] (-) TimerEvent: {}
+[9.377975] (-) TimerEvent: {}
+[9.479002] (-) TimerEvent: {}
+[9.580023] (-) TimerEvent: {}
+[9.681124] (-) TimerEvent: {}
+[9.781955] (-) TimerEvent: {}
+[9.883052] (-) TimerEvent: {}
+[9.984114] (-) TimerEvent: {}
+[10.085247] (-) TimerEvent: {}
+[10.186245] (-) TimerEvent: {}
+[10.287384] (-) TimerEvent: {}
+[10.388375] (-) TimerEvent: {}
+[10.489356] (-) TimerEvent: {}
+[10.590365] (-) TimerEvent: {}
+[10.691355] (-) TimerEvent: {}
+[10.792429] (-) TimerEvent: {}
+[10.893538] (-) TimerEvent: {}
+[10.994369] (-) TimerEvent: {}
+[11.095332] (-) TimerEvent: {}
+[11.196419] (-) TimerEvent: {}
+[11.297442] (-) TimerEvent: {}
+[11.398567] (-) TimerEvent: {}
+[11.499508] (-) TimerEvent: {}
+[11.600512] (-) TimerEvent: {}
+[11.701479] (-) TimerEvent: {}
+[11.802819] (-) TimerEvent: {}
+[11.903674] (-) TimerEvent: {}
+[12.004485] (-) TimerEvent: {}
+[12.105533] (-) TimerEvent: {}
+[12.206455] (-) TimerEvent: {}
+[12.307851] (-) TimerEvent: {}
+[12.408952] (-) TimerEvent: {}
+[12.510064] (-) TimerEvent: {}
+[12.611185] (-) TimerEvent: {}
+[12.712348] (-) TimerEvent: {}
+[12.813293] (-) TimerEvent: {}
+[12.914347] (-) TimerEvent: {}
+[13.015457] (-) TimerEvent: {}
+[13.116581] (-) TimerEvent: {}
+[13.217732] (-) TimerEvent: {}
+[13.318756] (-) TimerEvent: {}
+[13.419853] (-) TimerEvent: {}
+[13.520982] (-) TimerEvent: {}
+[13.621963] (-) TimerEvent: {}
+[13.722935] (-) TimerEvent: {}
+[13.823940] (-) TimerEvent: {}
+[13.925386] (-) TimerEvent: {}
+[14.026453] (-) TimerEvent: {}
+[14.127422] (-) TimerEvent: {}
+[14.228377] (-) TimerEvent: {}
+[14.329458] (-) TimerEvent: {}
+[14.430499] (-) TimerEvent: {}
+[14.531473] (-) TimerEvent: {}
+[14.632400] (-) TimerEvent: {}
+[14.733335] (-) TimerEvent: {}
+[14.834276] (-) TimerEvent: {}
+[14.937001] (-) TimerEvent: {}
+[15.038168] (-) TimerEvent: {}
+[15.139190] (-) TimerEvent: {}
+[15.240232] (-) TimerEvent: {}
+[15.341222] (-) TimerEvent: {}
+[15.442392] (-) TimerEvent: {}
+[15.543310] (-) TimerEvent: {}
+[15.644441] (-) TimerEvent: {}
+[15.745409] (-) TimerEvent: {}
+[15.846365] (-) TimerEvent: {}
+[15.947346] (-) TimerEvent: {}
+[16.048399] (-) TimerEvent: {}
+[16.149370] (-) TimerEvent: {}
+[16.250327] (-) TimerEvent: {}
+[16.351312] (-) TimerEvent: {}
+[16.452345] (-) TimerEvent: {}
+[16.553338] (-) TimerEvent: {}
+[16.654432] (-) TimerEvent: {}
+[16.755437] (-) TimerEvent: {}
+[16.856466] (-) TimerEvent: {}
+[16.957433] (-) TimerEvent: {}
+[17.058357] (-) TimerEvent: {}
+[17.159343] (-) TimerEvent: {}
+[17.260348] (-) TimerEvent: {}
+[17.361434] (-) TimerEvent: {}
+[17.462346] (-) TimerEvent: {}
+[17.563176] (-) TimerEvent: {}
+[17.664523] (-) TimerEvent: {}
+[17.765558] (-) TimerEvent: {}
+[17.866441] (-) TimerEvent: {}
+[17.900817] (cpp_server_client) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable practice_client_node\x1b[0m\n'}
+[17.966838] (-) TimerEvent: {}
+[18.067802] (-) TimerEvent: {}
+[18.168732] (-) TimerEvent: {}
+[18.269620] (-) TimerEvent: {}
+[18.370446] (-) TimerEvent: {}
+[18.472299] (-) TimerEvent: {}
+[18.573379] (-) TimerEvent: {}
+[18.586173] (cpp_server_client) StdoutLine: {'line': b'[ 97%] Built target practice_client_node\n'}
+[18.590210] (cpp_server_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[18.597658] (cpp_server_client) CommandEnded: {'returncode': 2}
+[18.673652] (-) TimerEvent: {}
+[18.774552] (-) TimerEvent: {}
+[18.875420] (-) TimerEvent: {}
+[18.976389] (-) TimerEvent: {}
+[19.077316] (-) TimerEvent: {}
+[19.178237] (-) TimerEvent: {}
+[19.279178] (-) TimerEvent: {}
+[19.297494] (cpp_server_client) JobEnded: {'identifier': 'cpp_server_client', 'rc': 2}
+[19.309421] (-) EventReactorShutdown: {}

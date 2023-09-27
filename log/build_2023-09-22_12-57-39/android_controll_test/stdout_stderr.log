@@ -1,0 +1,30 @@
+[  3%] Built target android_controll_test__cpp
+[ 12%] Built target android_controll_test__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_android_controll_test
+[ 27%] Built target android_controll_test__rosidl_typesupport_cpp
+[ 30%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[ 39%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[ 48%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[ 57%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target android_controll_test__rosidl_typesupport_c
+[ 69%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[ 69%] Built target android_controll_test
+[ 72%] Built target android_controll_test__py
+[ 78%] Built target android_controll_test__rosidl_generator_py
+[ 84%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[ 90%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target android_controll_test__rosidl_typesupport_c__pyext
+running egg_info
+writing android_controll_test.egg-info/PKG-INFO
+writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+writing top-level names to android_controll_test.egg-info/top_level.txt
+reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_android_controll_test_egg
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kcustom_test_msgs/srv/add_three_ints.hpp: そのようなファイルやディレクトリはありません
+    9 | #include [01;31m[K"custom_test_msgs/srv/add_three_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/connecter_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_server_client/srv/PracticeSrv.srv
+// generated code does not contain a copyright notice
+
+
+module cpp_server_client {
+  module srv {
+    struct PracticeSrv_Request {
+      @verbatim (language="comment", text=
+        "Request")
+      sequence<int64> num_vector;
+
+      int64 a;
+
+      int64 b;
+    };
+    struct PracticeSrv_Response {
+      @verbatim (language="comment", text=
+        "Response")
+      int64 cumulative_sum;
+    };
+  };
+};

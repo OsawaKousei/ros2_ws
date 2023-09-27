@@ -1,0 +1,19 @@
+{
+  "package_name": "android_controll_test",
+  "output_dir": "/home/osawakousei/ros2_ws/src/build/android_controll_test/rosidl_typesupport_fastrtps_cpp/android_controll_test",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/build/android_controll_test/rosidl_adapter/android_controll_test:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/osawakousei/ros2_ws/src/build/android_controll_test/rosidl_adapter/android_controll_test/srv/AddThreeInts.idl"
+  ]
+}

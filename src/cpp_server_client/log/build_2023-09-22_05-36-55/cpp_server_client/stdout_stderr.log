@@ -1,0 +1,34 @@
+[  8%] Built target cpp_server_client__rosidl_generator_c
+[ 11%] Built target cpp_server_client__cpp
+[ 11%] Built target ament_cmake_python_copy_cpp_server_client
+[ 20%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[ 28%] Built target cpp_server_client__rosidl_typesupport_cpp
+[ 40%] Built target cpp_server_client__rosidl_typesupport_c
+[ 45%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[ 54%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[ 62%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target cpp_server_client
+[ 65%] [32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o[0m
+[ 71%] Built target cpp_server_client__py
+[ 77%] Built target cpp_server_client__rosidl_generator_py
+[ 82%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing cpp_server_client.egg-info/PKG-INFO
+writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+writing top-level names to cpp_server_client.egg-info/top_level.txt
+reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_cpp_server_client_egg
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+    9 | #include [01;31m[K<std_msgs/std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+[ 97%] [32m[1mLinking CXX executable practice_client_node[0m
+[ 97%] Built target practice_client_node
+gmake: *** [Makefile:146: all] エラー 2

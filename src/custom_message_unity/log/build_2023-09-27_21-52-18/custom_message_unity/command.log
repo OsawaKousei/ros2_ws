@@ -1,0 +1,2 @@
+Invoking command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
+Invoked command in '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity -- -j8 -l8
