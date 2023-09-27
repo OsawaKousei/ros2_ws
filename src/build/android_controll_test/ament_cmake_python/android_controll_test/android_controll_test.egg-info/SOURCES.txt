@@ -1,0 +1,6 @@
+setup.py
+android_controll_test/__init__.py
+android_controll_test.egg-info/PKG-INFO
+android_controll_test.egg-info/SOURCES.txt
+android_controll_test.egg-info/dependency_links.txt
+android_controll_test.egg-info/top_level.txt

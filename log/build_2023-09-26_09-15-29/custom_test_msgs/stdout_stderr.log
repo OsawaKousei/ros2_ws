@@ -1,0 +1,33 @@
+[  3%] Built target custom_test_msgs__cpp
+[  6%] [32m[1mLinking C shared library libcustom_test_msgs__rosidl_generator_c.so[0m
+[  6%] Built target ament_cmake_python_copy_custom_test_msgs
+[  9%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_cpp.so[0m
+[ 12%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 19%] Built target custom_test_msgs__rosidl_generator_c
+[ 22%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 25%] [32m[1mLinking C shared library libcustom_test_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 32%] Built target custom_test_msgs__rosidl_typesupport_cpp
+[ 35%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 38%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_c.so[0m
+[ 45%] Built target custom_test_msgs__rosidl_typesupport_introspection_cpp
+[ 51%] Built target custom_test_msgs__rosidl_typesupport_introspection_c
+[ 58%] Built target custom_test_msgs__rosidl_typesupport_c
+[ 64%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_c
+[ 70%] Built target custom_test_msgs
+running egg_info
+writing custom_test_msgs.egg-info/PKG-INFO
+writing dependency_links to custom_test_msgs.egg-info/dependency_links.txt
+writing top-level names to custom_test_msgs.egg-info/top_level.txt
+reading manifest file 'custom_test_msgs.egg-info/SOURCES.txt'
+writing manifest file 'custom_test_msgs.egg-info/SOURCES.txt'
+[ 74%] Built target custom_test_msgs__py
+[ 74%] Built target ament_cmake_python_build_custom_test_msgs_egg
+[ 77%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/libcustom_test_msgs__rosidl_generator_py.so[0m
+[ 80%] Built target custom_test_msgs__rosidl_generator_py
+[ 83%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] Built target custom_test_msgs__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target custom_test_msgs__rosidl_typesupport_c__pyext

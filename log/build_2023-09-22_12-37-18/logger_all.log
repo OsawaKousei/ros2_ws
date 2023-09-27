@@ -1,0 +1,733 @@
+[0.833s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.833s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd27dc790c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd27dc78b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd27dc78b50>>)
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.894s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/osawakousei/ros2_ws'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/android_controll_test) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/android_controll_test' with type 'ros.ament_cmake' and name 'android_controll_test'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_server_client) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_server_client' with type 'ros.ament_cmake' and name 'cpp_server_client'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_topic_pubsub) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_topic_pubsub' with type 'ros.ament_cmake' and name 'cpp_topic_pubsub'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extension 'colcon_pkg'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extensions ['colcon_meta']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extension 'colcon_meta'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_test_msgs) by extension 'ros'
+[0.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_test_msgs' with type 'ros.ament_cmake' and name 'custom_test_msgs'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'colcon_pkg'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['colcon_meta']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'colcon_meta'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['ros']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ros'
+[0.969s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_package' with type 'ros.ament_cmake' and name 'test_package'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'ignore'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'ignore_ament_install'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'colcon_meta'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['ros']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'ros'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['cmake', 'python']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'cmake'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'python'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extensions ['python_setup_py']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws) by extension 'python_setup_py'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/build) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/build) ignored
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/install) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/install) ignored
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/log) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/log) ignored
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['colcon_pkg']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'colcon_pkg'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['colcon_meta']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'colcon_meta'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['ros']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'python'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extensions ['python_setup_py']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src) by extension 'python_setup_py'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extension 'ignore'
+[0.976s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extension 'colcon_pkg'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extensions ['colcon_meta']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extension 'colcon_meta'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extensions ['ros']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/micro_ros_setup) by extension 'ros'
+[0.979s] DEBUG:colcon.colcon_core.package_identification:Package 'uros_ws/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'ignore'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'ignore_ament_install'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['colcon_pkg']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'colcon_pkg'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['colcon_meta']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'colcon_meta'
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['ros']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['cmake', 'python']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'cmake'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'python'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extensions ['python_setup_py']
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros) by extension 'python_setup_py'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.987s] DEBUG:colcon.colcon_core.package_identification:Package 'uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(uros_ws/src/uros/micro_ros_msgs) by extension 'ros'
+[0.997s] DEBUG:colcon.colcon_core.package_identification:Package 'uros_ws/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.074s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/osawakousei/ros2_ws/install
+[1.076s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/osawakousei/ros2_ws/src/android_controll_test/install
+[1.078s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_server_client/install
+[1.080s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install
+[1.082s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/test_package/install
+[1.085s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/osawakousei/ros2_ws/uros_ws/install
+[1.090s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/custom_test_msgs/install
+[1.096s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[1.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.255s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_args' from command line to 'None'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target' from command line to 'None'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.256s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.257s] DEBUG:colcon.colcon_core.verb:Building package 'android_controll_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/android_controll_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/android_controll_test', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/android_controll_test', 'symlink_install': False, 'test_result_base': None}
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.260s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.260s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_server_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/cpp_server_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/cpp_server_client', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/cpp_server_client', 'symlink_install': False, 'test_result_base': None}
+[1.261s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.262s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.262s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub', 'symlink_install': False, 'test_result_base': None}
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_target' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.265s] DEBUG:colcon.colcon_core.verb:Building package 'custom_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/custom_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/custom_test_msgs', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/custom_test_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.270s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/uros_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.273s] DEBUG:colcon.colcon_core.verb:Building package 'test_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/test_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/test_package', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/test_package', 'symlink_install': False, 'test_result_base': None}
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.276s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[1.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[1.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro_ros_msgs'
+[1.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/android_controll_test' with build type 'ament_cmake'
+[1.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/android_controll_test'
+[1.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/cpp_server_client' with build type 'ament_cmake'
+[1.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/cpp_server_client'
+[1.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub' with build type 'ament_cmake'
+[1.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub'
+[1.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/custom_test_msgs' with build type 'ament_cmake'
+[1.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/custom_test_msgs'
+[1.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.480s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/uros_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[1.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/uros_ws/src/micro_ros_setup'
+[1.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/test_package' with build type 'ament_cmake'
+[1.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/test_package'
+[1.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_msgs -- -j8 -l8
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j8 -l8
+[1.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_server_client -- -j8 -l8
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_topic_pubsub -- -j8 -l8
+[1.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/custom_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/custom_test_msgs -- -j8 -l8
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_setup -- -j8 -l8
+[1.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/test_package -- -j8 -l8
+[1.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_setup -- -j8 -l8
+[1.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/test_package -- -j8 -l8
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_setup
+[2.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/test_package
+[2.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup' for CMake module files
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup' for CMake config files
+[3.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib'
+[3.044s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/bin'
+[3.044s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/bin'
+[3.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_setup
+[3.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_package)
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/test_package
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package' for CMake module files
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package' for CMake config files
+[3.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'cmake_prefix_path')
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.ps1'
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.dsv'
+[3.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.sh'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/bin'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/lib/pkgconfig/test_package.pc'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/lib/python3.10/site-packages'
+[3.171s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/bin'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.bash'
+[3.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.zsh'
+[3.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/test_package/share/colcon-core/packages/test_package)
+[3.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup' for CMake module files
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup' for CMake config files
+[3.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib'
+[3.481s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/bin'
+[3.481s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_setup/bin'
+[3.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_package)
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package' for CMake module files
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package' for CMake config files
+[3.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'cmake_prefix_path')
+[3.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.ps1'
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.dsv'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/test_package/share/test_package/hook/cmake_prefix_path.sh'
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/bin'
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/lib/pkgconfig/test_package.pc'
+[3.617s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/lib/python3.10/site-packages'
+[3.617s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/test_package/bin'
+[3.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.ps1'
+[3.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.dsv'
+[3.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.sh'
+[3.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.bash'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/test_package/share/test_package/package.zsh'
+[3.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/test_package/share/colcon-core/packages/test_package)
+[4.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_msgs -- -j8 -l8
+[4.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/custom_test_msgs -- -j8 -l8
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_server_client -- -j8 -l8
+[4.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_topic_pubsub -- -j8 -l8
+[5.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/custom_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/custom_test_msgs
+[5.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/cpp_server_client
+[5.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/cpp_topic_pubsub
+[5.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_test_msgs)
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs' for CMake module files
+[5.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/custom_test_msgs
+[5.446s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs' for CMake config files
+[5.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'cmake_prefix_path')
+[5.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.ps1'
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.dsv'
+[5.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.sh'
+[5.467s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib'
+[5.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'ld_library_path_lib')
+[5.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.ps1'
+[5.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.dsv'
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.sh'
+[5.495s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/bin'
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib/pkgconfig/custom_test_msgs.pc'
+[5.498s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib/python3.10/site-packages'
+[5.499s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/bin'
+[5.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.ps1'
+[5.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.dsv'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.sh'
+[5.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.bash'
+[5.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.zsh'
+[5.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/custom_test_msgs/share/colcon-core/packages/custom_test_msgs)
+[5.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub' for CMake module files
+[5.590s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub' for CMake config files
+[5.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/cpp_topic_pubsub
+[5.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[5.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[5.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib'
+[5.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[5.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[5.621s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/bin'
+[5.622s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[5.622s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[5.623s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/bin'
+[5.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[5.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[5.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[5.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[5.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[5.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[5.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_server_client)
+[5.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/cpp_server_client
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client' for CMake module files
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client' for CMake config files
+[5.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'cmake_prefix_path')
+[5.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.ps1'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.dsv'
+[5.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.sh'
+[5.666s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib'
+[5.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'ld_library_path_lib')
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.ps1'
+[5.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.dsv'
+[5.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.sh'
+[5.674s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/bin'
+[5.674s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib/pkgconfig/cpp_server_client.pc'
+[5.676s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib/python3.10/site-packages'
+[5.677s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/bin'
+[5.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.ps1'
+[5.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.dsv'
+[5.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.sh'
+[5.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.bash'
+[5.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.zsh'
+[5.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/cpp_server_client/share/colcon-core/packages/cpp_server_client)
+[5.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_msgs
+[5.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[5.940s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs' for CMake module files
+[5.953s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs' for CMake config files
+[5.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[5.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[5.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib'
+[5.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[5.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[5.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[6.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_msgs
+[6.003s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/bin'
+[6.003s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[6.004s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[6.005s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/bin'
+[6.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[6.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[6.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[6.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[6.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[6.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[6.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_test_msgs)
+[6.200s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs' for CMake module files
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs' for CMake config files
+[6.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'cmake_prefix_path')
+[6.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.ps1'
+[6.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.dsv'
+[6.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.sh'
+[6.222s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib'
+[6.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'ld_library_path_lib')
+[6.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.ps1'
+[6.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.dsv'
+[6.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.sh'
+[6.234s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/bin'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib/pkgconfig/custom_test_msgs.pc'
+[6.235s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/lib/python3.10/site-packages'
+[6.236s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/custom_test_msgs/bin'
+[6.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.ps1'
+[6.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.dsv'
+[6.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.sh'
+[6.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.bash'
+[6.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/package.zsh'
+[6.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/custom_test_msgs/share/colcon-core/packages/custom_test_msgs)
+[6.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[6.382s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub' for CMake module files
+[6.385s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub' for CMake config files
+[6.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[6.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[6.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[6.398s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib'
+[6.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[6.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/bin'
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[6.410s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/bin'
+[6.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[6.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[6.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[6.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[6.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_server_client)
+[6.442s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client' for CMake module files
+[6.445s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client' for CMake config files
+[6.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'cmake_prefix_path')
+[6.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.ps1'
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.dsv'
+[6.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.sh'
+[6.459s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib'
+[6.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'ld_library_path_lib')
+[6.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.ps1'
+[6.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.dsv'
+[6.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.sh'
+[6.470s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/bin'
+[6.470s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib/pkgconfig/cpp_server_client.pc'
+[6.471s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/lib/python3.10/site-packages'
+[6.471s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/cpp_server_client/bin'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.ps1'
+[6.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.dsv'
+[6.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.sh'
+[6.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.bash'
+[6.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/cpp_server_client/share/cpp_server_client/package.zsh'
+[6.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/cpp_server_client/share/colcon-core/packages/cpp_server_client)
+[6.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[7.004s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs' for CMake module files
+[7.006s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs' for CMake config files
+[7.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[7.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[7.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[7.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[7.018s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib'
+[7.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[7.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[7.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[7.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[7.027s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/bin'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[7.029s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_msgs/bin'
+[7.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[7.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[7.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[7.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[7.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[7.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[7.055s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/uros_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[7.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_agent -- -j8 -l8
+[7.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/micro_ros_agent -- -j8 -l8
+[7.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_agent
+[7.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[7.846s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent' for CMake module files
+[7.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/micro_ros_agent
+[7.850s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent' for CMake config files
+[7.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[7.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[7.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[7.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[7.860s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib'
+[7.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[7.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[7.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[7.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[7.870s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/bin'
+[7.870s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[7.871s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[7.872s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/bin'
+[7.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[7.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[7.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[7.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[7.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[7.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[8.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[8.192s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent' for CMake module files
+[8.194s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent' for CMake config files
+[8.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[8.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[8.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[8.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[8.205s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib'
+[8.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[8.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[8.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[8.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[8.213s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/bin'
+[8.214s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[8.214s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[8.215s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/micro_ros_agent/bin'
+[8.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[8.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[8.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[8.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[8.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[8.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[18.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j8 -l8
+[18.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(android_controll_test)
+[18.597s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test' for CMake module files
+[18.600s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test' for CMake config files
+[18.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'cmake_prefix_path')
+[18.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.ps1'
+[18.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.dsv'
+[18.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.sh'
+[18.610s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test/lib'
+[18.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'ld_library_path_lib')
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.ps1'
+[18.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.dsv'
+[18.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.sh'
+[18.619s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test/bin'
+[18.619s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test/lib/pkgconfig/android_controll_test.pc'
+[18.620s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test/lib/python3.10/site-packages'
+[18.621s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/install/android_controll_test/bin'
+[18.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.ps1'
+[18.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.dsv'
+[18.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.sh'
+[18.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.bash'
+[18.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.zsh'
+[18.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/install/android_controll_test/share/colcon-core/packages/android_controll_test)
+[18.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[18.646s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.692s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.745s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/install/local_setup.ps1'
+[18.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/install/_local_setup_util_ps1.py'
+[18.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/install/setup.ps1'
+[18.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/install/local_setup.sh'
+[18.775s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/install/_local_setup_util_sh.py'
+[18.778s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/install/setup.sh'
+[18.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/install/local_setup.bash'
+[18.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/install/setup.bash'
+[18.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/install/local_setup.zsh'
+[18.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/install/setup.zsh'

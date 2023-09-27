@@ -1,0 +1,6 @@
+{
+  "package_name": "cpp_topic_pubsub",
+  "non_idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/cpp_topic_pubsub:msg/PracticeMsg.msg"
+  ]
+}

@@ -1,0 +1,62 @@
+[0.055s] Invoking command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8
+[0.145s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.881s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.885s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.206s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.579s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.599s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.217s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.217s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[2.217s]   cpp_server_client --arguments-file
+[2.217s]   /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_adapter__arguments__cpp_server_client.json
+[2.218s]   --output-dir
+[2.218s]   /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_adapter/cpp_server_client
+[2.218s]   --output-file
+[2.218s]   /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_adapter/cpp_server_client.idls)
+[2.219s]   returned error code 1:
+[2.219s] 
+[2.219s]   Error processing 'int6 a' of 'cpp_server_client/PracticeSrv_Request':
+[2.219s]   ''int6' is an invalid message name.  It should have the pattern
+[2.219s]   '^[A-Z][A-Za-z0-9]*$''
+[2.219s] 
+[2.219s]   Traceback (most recent call last):
+[2.220s] 
+[2.220s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.220s]       return _run_code(code, main_globals, None,
+[2.220s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.220s]       exec(code, run_globals)
+[2.221s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.221s]       sys.exit(main())
+[2.221s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.221s]       abs_idl_file = convert_to_idl(
+[2.221s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[2.221s]       return convert_srv_to_idl(
+[2.222s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[2.222s]       srv = parse_service_string(package_name, input_file.stem, content)
+[2.222s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[2.222s]       request_message = parse_message_string(
+[2.222s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[2.222s]       Type(type_string, context_package_name=pkg_name),
+[2.223s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[2.223s]       super(Type, self).__init__(
+[2.223s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[2.223s]       raise InvalidResourceName(
+[2.223s] 
+[2.223s]   rosidl_adapter.parser.InvalidResourceName: 'int6' is an invalid message
+[2.224s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.224s] 
+[2.224s] Call Stack (most recent call first):
+[2.224s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.224s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.224s] 
+[2.224s] [0m
+[2.224s] -- Configuring incomplete, errors occurred!
+[2.225s] See also "/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/CMakeFiles/CMakeOutput.log".
+[2.237s] gmake: *** [Makefile:829: cmake_check_build_system] エラー 1
+[2.241s] Invoked command in '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client -- -j8 -l8

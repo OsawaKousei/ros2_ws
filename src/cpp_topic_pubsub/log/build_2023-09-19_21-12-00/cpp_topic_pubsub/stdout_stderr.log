@@ -1,0 +1,129 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_c;/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_cpp_topic_pubsub
+[  5%] Built target cpp_topic_pubsub__cpp
+[  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_c.dir/rosidl_generator_c/cpp_topic_pubsub/msg/detail/practice_msg__functions.c.o[0m
+running egg_info
+creating cpp_topic_pubsub.egg-info
+writing cpp_topic_pubsub.egg-info/PKG-INFO
+writing dependency_links to cpp_topic_pubsub.egg-info/dependency_links.txt
+writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt
+writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[ 17%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
+[ 20%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so[0m
+[ 20%] Built target cpp_topic_pubsub__rosidl_generator_c
+[ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_topic_pubsub/msg/detail/dds_fastrtps/practice_msg__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
+[ 51%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_c
+[ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
+[ 54%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so[0m
+[ 54%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp
+[ 60%] [32mBuilding CXX object CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp
+[ 68%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c
+[ 68%] Built target cpp_topic_pubsub
+[ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] Built target cpp_topic_pubsub__py
+[ 74%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_py.dir/rosidl_generator_py/cpp_topic_pubsub/msg/_practice_msg_s.c.o[0m
+[ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so[0m
+[ 77%] Built target cpp_topic_pubsub__rosidl_generator_py
+[ 80%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext
+[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:[m[K In lambda function:
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kname[m[K’
+   20 |             message.[01;31m[Kname[m[K = "PortCharlot";  // 6500円のウイスキー (実在)
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kprice[m[K’
+   21 |             message.[01;31m[Kprice[m[K = 6500;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:22:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kproduct_type[m[K’
+   22 |             message.[01;31m[Kproduct_type[m[K = cpp_topic_pubsub::msg::PracticeMsg::PRODUCT_TYPE_WHISKEY;
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:22:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPRODUCT_TYPE_WHISKEY[m[K’ is not a member of ‘[01m[Kcpp_topic_pubsub::msg::PracticeMsg[m[K’ {aka ‘[01m[Kcpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’}
+   22 |             message.product_type = cpp_topic_pubsub::msg::PracticeMsg::[01;31m[KPRODUCT_TYPE_WHISKEY[m[K;
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:7[m[K:
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:[m[K In lambda function:
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:15:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst PracticeMsg[m[K’ {aka ‘[01m[Kconst struct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kname[m[K’
+   15 |             RCLCPP_INFO(this->get_logger(), "product name: %s, price: %d", msg.[01;31m[Kname[m[K.c_str(), msg.price);
+      |                                                                                [01;31m[K^~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:15:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst PracticeMsg[m[K’ {aka ‘[01m[Kconst struct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kprice[m[K’
+   15 |             RCLCPP_INFO(this->get_logger(), "product name: %s, price: %d", msg.name.c_str(), msg.[01;31m[Kprice[m[K);
+      |                                                                                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/practice_publisher_node.dir/build.make:76: CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_publisher_node.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/practice_subscriber_node.dir/build.make:76: CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/practice_subscriber_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

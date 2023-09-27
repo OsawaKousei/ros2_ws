@@ -1,0 +1,24 @@
+[  8%] Built target cpp_server_client__rosidl_generator_c
+[ 11%] Built target cpp_server_client__cpp
+[ 11%] Built target ament_cmake_python_copy_cpp_server_client
+[ 20%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[ 28%] Built target cpp_server_client__rosidl_typesupport_c
+[ 37%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[ 45%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[ 54%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target cpp_server_client__rosidl_typesupport_cpp
+[ 62%] Built target cpp_server_client
+[ 65%] [32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o[0m
+[ 71%] Built target practice_client_node
+[ 74%] Built target cpp_server_client__py
+[ 80%] Built target cpp_server_client__rosidl_generator_py
+[ 85%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[ 97%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing cpp_server_client.egg-info/PKG-INFO
+writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+writing top-level names to cpp_server_client.egg-info/top_level.txt
+reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cpp_server_client_egg

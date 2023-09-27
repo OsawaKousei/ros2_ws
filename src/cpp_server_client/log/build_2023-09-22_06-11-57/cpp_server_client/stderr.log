@@ -1,0 +1,8 @@
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+    9 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

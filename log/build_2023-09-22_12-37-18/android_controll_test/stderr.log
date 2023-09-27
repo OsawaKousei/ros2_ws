@@ -1,0 +1,9 @@
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_test_msgs[m[K’ has not been declared
+   13 | using namespace [01;31m[Kcustom_test_msgs[m[K::srv;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a namespace-name
+   13 | using namespace custom_test_msgs::[01;31m[Ksrv[m[K;
+      |                                   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/connecter_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

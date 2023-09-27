@@ -1,0 +1,121 @@
+[0.062s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[0.264s] [  3%] Built target android_controll_test__cpp
+[0.271s] [  6%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[0.282s] [ 15%] Built target android_controll_test__rosidl_generator_c
+[0.312s] [ 15%] Built target ament_cmake_python_copy_android_controll_test
+[0.343s] [ 24%] Built target android_controll_test__rosidl_typesupport_cpp
+[0.349s] [ 33%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[0.359s] [ 42%] Built target android_controll_test__rosidl_typesupport_c
+[0.374s] [ 54%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[0.375s] [ 60%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[0.386s] [ 69%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[0.470s] [ 69%] Built target android_controll_test
+[0.560s] [ 72%] Built target android_controll_test__py
+[0.654s] [ 78%] Built target android_controll_test__rosidl_generator_py
+[0.748s] [ 84%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[0.751s] [ 90%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[0.755s] [ 96%] Built target android_controll_test__rosidl_typesupport_c__pyext
+[1.179s] running egg_info
+[1.182s] writing android_controll_test.egg-info/PKG-INFO
+[1.183s] writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+[1.184s] writing top-level names to android_controll_test.egg-info/top_level.txt
+[1.190s] reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[1.192s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[1.278s] [ 96%] Built target ament_cmake_python_build_android_controll_test_egg
+[14.204s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[14.204s]    20 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K.msg.String>::SharedPtr subscription_;
+[14.204s]       |                          [01;31m[K^~~~~~~~[m[K
+[14.204s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.205s]    20 |     rclcpp::Subscription<std_msgs.msg.String[01;31m[K>[m[K::SharedPtr subscription_;
+[14.205s]       |                                             [01;31m[K^[m[K
+[14.205s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[14.206s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[14.206s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[14.206s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[14.206s]    20 |     rclcpp::Subscription<std_msgs.msg.String>::[01;31m[KSharedPtr[m[K subscription_;
+[14.206s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[14.207s]       |                                                         [32m[K;[m[K
+[14.209s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:20:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[14.209s]    20 |     rclcpp::Subscription<std_msgs.msg.String>::SharedPtr [01;31m[Ksubscription_[m[K;
+[14.209s]       |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[14.210s]       |                                                          [32m[Krmw_subscription_t[m[K
+[14.216s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In constructor ‘[01m[KConnecterNode::ConnecterNode()[m[K’:
+[14.216s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:10:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[14.217s]    10 |         auto topic_callback = [this](const [01;31m[Kstd_msgs[m[K.msg.String &msg) -> void {
+[14.217s]       |                                            [01;31m[K^~~~~~~~[m[K
+[14.217s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[14.217s]    13 |         }[01;31m[K;[m[K  // topicにメッセージが送られてきた時に呼び出されるcallback
+[14.217s]       |          [01;31m[K^[m[K
+[14.218s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:10:37:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[14.218s]    10 |         auto topic_callback = [this][01;36m[K([m[Kconst std_msgs.msg.String &msg) -> void {
+[14.218s]       |                                     [01;36m[K^[m[K
+[14.218s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In lambda function:
+[14.219s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:13:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[14.219s]    13 |         }[01;31m[K;[m[K  // topicにメッセージが送られてきた時に呼び出されるcallback
+[14.219s]       |          [01;31m[K^[m[K
+[14.231s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In constructor ‘[01m[KConnecterNode::ConnecterNode()[m[K’:
+[14.232s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[14.232s]    15 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs.msg.String>
+[14.232s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[14.232s]       |         [32m[Krmw_subscription_t[m[K
+[14.245s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:15:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[14.246s]    15 |         subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K.msg.String>
+[14.246s]       |                                                   [01;31m[K^~~~~~~~[m[K
+[14.246s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:16:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KConnecterNode::create_subscription<<expression error> >(const char [17], int, ConnecterNode::ConnecterNode()::<lambda(int)>&)[m[K’
+[14.246s]    15 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs.msg.String>[m[K
+[14.246s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.247s]    16 | [01;31m[K                ("hello_from_Unity", 10, topic_callback)[m[K;  // topicをsubscribeする為の設定
+[14.247s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.250s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[14.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.251s]                  from [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:4[m[K:
+[14.252s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[14.253s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[14.253s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[14.253s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.253s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:16:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.254s]    15 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs.msg.String>[m[K
+[14.254s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.254s]    16 | [01;31m[K                ("hello_from_Unity", 10, topic_callback)[m[K;  // topicをsubscribeする為の設定
+[14.254s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.255s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.257s]                  from [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:4[m[K:
+[14.257s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.258s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[14.258s]    25 |     [01;31m[KRCLCPP_INFO[m[K("initialize connecter node ...");
+[14.258s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[14.258s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.258s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.259s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.259s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.259s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.259s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.261s]                  from [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:4[m[K:
+[14.261s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("initialize connecter node ...")[m[K’, which is of non-class type ‘[01m[Kconst char [30][m[K’
+[14.261s]    25 |     [01;31m[KRCLCPP_INFO[m[K("initialize connecter node ...");
+[14.261s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[14.262s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("initialize connecter node ...")[m[K’, which is of non-class type ‘[01m[Kconst char [30][m[K’
+[14.262s]    25 |     [01;31m[KRCLCPP_INFO[m[K("initialize connecter node ...");
+[14.262s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[14.263s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[14.263s]    25 |     [01;31m[KRCLCPP_INFO[m[K("initialize connecter node ...");
+[14.263s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[16.219s] gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+[16.219s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/connecter_node.dir/all] エラー 2
+[16.220s] gmake: *** [Makefile:146: all] エラー 2
+[16.226s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8

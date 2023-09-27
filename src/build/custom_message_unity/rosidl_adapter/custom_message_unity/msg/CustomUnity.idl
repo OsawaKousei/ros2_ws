@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_message_unity/msg/CustomUnity.msg
+// generated code does not contain a copyright notice
+
+
+module custom_message_unity {
+  module msg {
+    struct CustomUnity {
+      double f1;
+
+      double f2;
+
+      double f3;
+    };
+  };
+};

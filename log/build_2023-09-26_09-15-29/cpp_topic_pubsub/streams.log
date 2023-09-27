@@ -1,0 +1,82 @@
+[0.163s] Invoking command in '/home/osawakousei/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_topic_pubsub -- -j8 -l8
+[0.304s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.408s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.638s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.656s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.696s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.907s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.158s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.165s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.365s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.393s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.338s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.941s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.023s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.024s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.024s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.566s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.567s] -- Configured cppcheck include dirs: 
+[6.568s] -- Configured cppcheck exclude dirs and/or files: 
+[6.590s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.635s] -- Added test 'lint_cmake' to check CMake code style
+[6.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.816s] -- Added test 'uncrustify' to check C / C++ code style
+[6.817s] -- Configured uncrustify additional arguments: 
+[6.843s] -- Added test 'xmllint' to check XML markup files
+[6.905s] -- Configuring done
+[7.419s] -- Generating done
+[7.439s] -- Build files have been written to: /home/osawakousei/ros2_ws/build/cpp_topic_pubsub
+[7.563s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_generator_c[0m
+[7.611s] [  2%] Built target cpp_topic_pubsub__cpp
+[7.619s] [  5%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so[0m
+[7.666s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp[0m
+[7.666s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_cpp[0m
+[7.671s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp[0m
+[7.681s] [  5%] Built target ament_cmake_python_copy_cpp_topic_pubsub
+[7.724s] [ 11%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.725s] [ 11%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so[0m
+[7.732s] [ 14%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so[0m
+[7.776s] [ 20%] Built target cpp_topic_pubsub__rosidl_generator_c
+[7.832s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_introspection_c[0m
+[7.836s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c[0m
+[7.862s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_c[0m
+[7.891s] [ 22%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
+[7.906s] [ 25%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
+[7.919s] [ 31%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp
+[7.925s] [ 34%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
+[7.986s] [35m[1mConsolidate compiler generated dependencies of target practice_publisher_node[0m
+[7.996s] [35m[1mConsolidate compiler generated dependencies of target practice_subscriber_node[0m
+[8.004s] [ 40%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp
+[8.013s] [ 45%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp
+[8.046s] [ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
+[8.071s] [ 54%] [32m[1mLinking CXX executable practice_publisher_node[0m
+[8.081s] [ 57%] [32m[1mLinking CXX executable practice_subscriber_node[0m
+[8.121s] [ 62%] Built target cpp_topic_pubsub__rosidl_typesupport_c
+[8.190s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c
+[8.293s] [ 68%] Built target cpp_topic_pubsub
+[8.402s] [ 71%] Built target cpp_topic_pubsub__py
+[8.511s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_generator_py[0m
+[8.572s] [ 74%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so[0m
+[8.666s] running egg_info
+[8.668s] writing cpp_topic_pubsub.egg-info/PKG-INFO
+[8.669s] writing dependency_links to cpp_topic_pubsub.egg-info/dependency_links.txt
+[8.669s] writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt
+[8.676s] reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[8.679s] writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[8.728s] [ 77%] Built target practice_publisher_node
+[8.754s] [ 80%] Built target cpp_topic_pubsub__rosidl_generator_py
+[8.755s] [ 80%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
+[8.863s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_c__pyext[0m
+[8.863s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.864s] [35m[1mConsolidate compiler generated dependencies of target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext[0m
+[8.917s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.918s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.927s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.064s] [ 91%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext
+[9.080s] [ 97%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[9.080s] [ 97%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext
+[9.260s] [100%] Built target practice_subscriber_node

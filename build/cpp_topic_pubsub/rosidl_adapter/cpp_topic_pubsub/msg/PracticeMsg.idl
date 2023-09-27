@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cpp_topic_pubsub/msg/PracticeMsg.msg
+// generated code does not contain a copyright notice
+
+
+module cpp_topic_pubsub {
+  module msg {
+    module PracticeMsg_Constants {
+      const uint8 PRODUCT_TYPE_GIN = 0;
+      const uint8 PRODUCT_TYPE_WHISKEY = 1;
+      const uint8 PRODUCT_TYPE_VODKA = 2;
+    };
+    struct PracticeMsg {
+      string name;
+
+      uint8 product_type;
+
+      uint32 price;
+    };
+  };
+};

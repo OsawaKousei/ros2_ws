@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.003040] (cpp_topic_pubsub) JobQueued: {'identifier': 'cpp_topic_pubsub', 'dependencies': OrderedDict()}
+[0.003140] (cpp_topic_pubsub) JobStarted: {'identifier': 'cpp_topic_pubsub'}
+[0.051845] (cpp_topic_pubsub) JobProgress: {'identifier': 'cpp_topic_pubsub', 'progress': 'cmake'}
+[0.054671] (cpp_topic_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/polygon_plugins/lib:/home/osawakousei/ros2_ws/install/more_interfaces/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/action_tutorials_cpp/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1353,unix/kousei-ubuntu:/tmp/.ICE-unix/1353'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8f18555f_4730_4ae5_afa5_e8baab730663'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QOECB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/install/polygon_plugins:/home/osawakousei/ros2_ws/install/polygon_base:/home/osawakousei/ros2_ws/install/more_interfaces:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_srvcli:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/cpp_pubsub:/home/osawakousei/ros2_ws/install/cpp_parameters:/home/osawakousei/ros2_ws/install/bag_recorder_nodes:/home/osawakousei/ros2_ws/install/action_tutorials_cpp:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/install/polygon_plugins:/home/osawakousei/ros2_ws/install/polygon_base:/home/osawakousei/ros2_ws/install/more_interfaces:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_srvcli:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/cpp_pubsub:/home/osawakousei/ros2_ws/install/cpp_parameters:/home/osawakousei/ros2_ws/install/bag_recorder_nodes:/home/osawakousei/ros2_ws/install/action_tutorials_cpp:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[0.099454] (-) TimerEvent: {}
+[0.103964] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199846] (-) TimerEvent: {}
+[0.300854] (-) TimerEvent: {}
+[0.401840] (-) TimerEvent: {}
+[0.502792] (-) TimerEvent: {}
+[0.552048] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.603167] (-) TimerEvent: {}
+[0.629205] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.634824] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.652899] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.683705] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.703457] (-) TimerEvent: {}
+[0.727218] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803849] (-) TimerEvent: {}
+[0.889215] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.893709] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.903972] (-) TimerEvent: {}
+[1.004832] (-) TimerEvent: {}
+[1.105763] (-) TimerEvent: {}
+[1.206775] (-) TimerEvent: {}
+[1.223641] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.307076] (-) TimerEvent: {}
+[1.408078] (-) TimerEvent: {}
+[1.508980] (-) TimerEvent: {}
+[1.609844] (-) TimerEvent: {}
+[1.653290] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.676145] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.712601] (-) TimerEvent: {}
+[1.813414] (-) TimerEvent: {}
+[1.914021] (-) TimerEvent: {}
+[2.016124] (-) TimerEvent: {}
+[2.120249] (-) TimerEvent: {}
+[2.222301] (-) TimerEvent: {}
+[2.323197] (-) TimerEvent: {}
+[2.424994] (-) TimerEvent: {}
+[2.525763] (-) TimerEvent: {}
+[2.551808] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.626063] (-) TimerEvent: {}
+[2.732826] (-) TimerEvent: {}
+[2.836431] (-) TimerEvent: {}
+[2.966322] (-) TimerEvent: {}
+[3.078888] (-) TimerEvent: {}
+[3.179866] (-) TimerEvent: {}
+[3.320821] (-) TimerEvent: {}
+[3.422255] (-) TimerEvent: {}
+[3.523121] (-) TimerEvent: {}
+[3.601183] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.624464] (-) TimerEvent: {}
+[3.726068] (-) TimerEvent: {}
+[3.827628] (-) TimerEvent: {}
+[3.928553] (-) TimerEvent: {}
+[3.980819] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.028948] (-) TimerEvent: {}
+[4.117153] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.131571] (-) TimerEvent: {}
+[4.135110] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.225231] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.225916] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.226153] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.226325] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.232120] (-) TimerEvent: {}
+[4.284307] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.343531] (-) TimerEvent: {}
+[4.444879] (-) TimerEvent: {}
+[4.519056] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.519948] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_c;/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub/rosidl_generator_py\n'}
+[4.520264] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.529757] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.546208] (-) TimerEvent: {}
+[4.546910] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.552631] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.602665] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.603103] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.609164] (cpp_topic_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.646550] (-) TimerEvent: {}
+[4.672377] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.746962] (-) TimerEvent: {}
+[4.791571] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[4.800340] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub\n'}
+[4.824909] (cpp_topic_pubsub) CommandEnded: {'returncode': 0}
+[4.830913] (cpp_topic_pubsub) JobProgress: {'identifier': 'cpp_topic_pubsub', 'progress': 'build'}
+[4.831228] (cpp_topic_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/polygon_plugins/lib:/home/osawakousei/ros2_ws/install/more_interfaces/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/install/action_tutorials_cpp/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1353,unix/kousei-ubuntu:/tmp/.ICE-unix/1353'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8f18555f_4730_4ae5_afa5_e8baab730663'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QOECB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/install/polygon_plugins:/home/osawakousei/ros2_ws/install/polygon_base:/home/osawakousei/ros2_ws/install/more_interfaces:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_srvcli:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/cpp_pubsub:/home/osawakousei/ros2_ws/install/cpp_parameters:/home/osawakousei/ros2_ws/install/bag_recorder_nodes:/home/osawakousei/ros2_ws/install/action_tutorials_cpp:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/install/polygon_plugins:/home/osawakousei/ros2_ws/install/polygon_base:/home/osawakousei/ros2_ws/install/more_interfaces:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_srvcli:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/cpp_pubsub:/home/osawakousei/ros2_ws/install/cpp_parameters:/home/osawakousei/ros2_ws/install/bag_recorder_nodes:/home/osawakousei/ros2_ws/install/action_tutorials_cpp:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[4.847167] (-) TimerEvent: {}
+[4.947836] (-) TimerEvent: {}
+[4.977894] (cpp_topic_pubsub) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.019407] (cpp_topic_pubsub) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.045337] (cpp_topic_pubsub) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_cpp_topic_pubsub\n'}
+[5.048012] (-) TimerEvent: {}
+[5.149046] (-) TimerEvent: {}
+[5.257009] (-) TimerEvent: {}
+[5.362150] (-) TimerEvent: {}
+[5.463103] (-) TimerEvent: {}
+[5.567473] (-) TimerEvent: {}
+[5.668170] (-) TimerEvent: {}
+[5.687722] (cpp_topic_pubsub) StdoutLine: {'line': b'[  5%] Built target cpp_topic_pubsub__cpp\n'}
+[5.737681] (cpp_topic_pubsub) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.738153] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.738608] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.768331] (-) TimerEvent: {}
+[5.789696] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_c.dir/rosidl_generator_c/cpp_topic_pubsub/msg/detail/practice_msg__functions.c.o\x1b[0m\n'}
+[5.865780] (cpp_topic_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.867624] (cpp_topic_pubsub) StdoutLine: {'line': b'creating cpp_topic_pubsub.egg-info\n'}
+[5.868351] (cpp_topic_pubsub) StdoutLine: {'line': b'writing cpp_topic_pubsub.egg-info/PKG-INFO\n'}
+[5.868965] (-) TimerEvent: {}
+[5.869687] (cpp_topic_pubsub) StdoutLine: {'line': b'writing dependency_links to cpp_topic_pubsub.egg-info/dependency_links.txt\n'}
+[5.870270] (cpp_topic_pubsub) StdoutLine: {'line': b'writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt\n'}
+[5.870563] (cpp_topic_pubsub) StdoutLine: {'line': b"writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'\n"}
+[5.876183] (cpp_topic_pubsub) StdoutLine: {'line': b"reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'\n"}
+[5.877832] (cpp_topic_pubsub) StdoutLine: {'line': b"writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'\n"}
+[5.968167] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg\n'}
+[5.969046] (-) TimerEvent: {}
+[6.002568] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so\x1b[0m\n'}
+[6.069237] (-) TimerEvent: {}
+[6.164685] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 20%] Built target cpp_topic_pubsub__rosidl_generator_c\n'}
+[6.172713] (-) TimerEvent: {}
+[6.209403] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.210205] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.216664] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.272887] (-) TimerEvent: {}
+[6.386293] (-) TimerEvent: {}
+[6.467930] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o\x1b[0m\n'}
+[6.486778] (-) TimerEvent: {}
+[6.529294] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp.o\x1b[0m\n'}
+[6.534154] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_topic_pubsub/msg/detail/dds_fastrtps/practice_msg__type_support.cpp.o\x1b[0m\n'}
+[6.594494] (-) TimerEvent: {}
+[6.695306] (-) TimerEvent: {}
+[6.796546] (-) TimerEvent: {}
+[6.897260] (-) TimerEvent: {}
+[6.955783] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o\x1b[0m\n'}
+[6.997526] (-) TimerEvent: {}
+[7.003310] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o\x1b[0m\n'}
+[7.020028] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o\x1b[0m\n'}
+[7.085962] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.097897] (-) TimerEvent: {}
+[7.151861] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.198142] (-) TimerEvent: {}
+[7.271007] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_c\n'}
+[7.291441] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c\n'}
+[7.298398] (-) TimerEvent: {}
+[7.398646] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.399140] (-) TimerEvent: {}
+[7.499711] (-) TimerEvent: {}
+[7.600864] (-) TimerEvent: {}
+[7.624865] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 54%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp\n'}
+[7.701042] (-) TimerEvent: {}
+[7.725970] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[7.726481] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[7.792163] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.804357] (-) TimerEvent: {}
+[7.843691] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.904534] (-) TimerEvent: {}
+[7.964516] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 65%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp\n'}
+[8.004742] (-) TimerEvent: {}
+[8.091068] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.105486] (-) TimerEvent: {}
+[8.116376] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp\n'}
+[8.209145] (-) TimerEvent: {}
+[8.310015] (-) TimerEvent: {}
+[8.382704] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c\n'}
+[8.413693] (-) TimerEvent: {}
+[8.488144] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 68%] Built target cpp_topic_pubsub\n'}
+[8.514464] (-) TimerEvent: {}
+[8.583578] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.616553] (-) TimerEvent: {}
+[8.717546] (-) TimerEvent: {}
+[8.818753] (-) TimerEvent: {}
+[8.923322] (-) TimerEvent: {}
+[9.025552] (-) TimerEvent: {}
+[9.131333] (-) TimerEvent: {}
+[9.232586] (-) TimerEvent: {}
+[9.333304] (-) TimerEvent: {}
+[9.384800] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 71%] Built target cpp_topic_pubsub__py\n'}
+[9.435595] (-) TimerEvent: {}
+[9.502118] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_py.dir/rosidl_generator_py/cpp_topic_pubsub/msg/_practice_msg_s.c.o\x1b[0m\n'}
+[9.537192] (-) TimerEvent: {}
+[9.638186] (-) TimerEvent: {}
+[9.755518] (-) TimerEvent: {}
+[9.857522] (-) TimerEvent: {}
+[9.958914] (-) TimerEvent: {}
+[10.024167] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so\x1b[0m\n'}
+[10.059419] (-) TimerEvent: {}
+[10.171186] (-) TimerEvent: {}
+[10.266650] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 77%] Built target cpp_topic_pubsub__rosidl_generator_py\n'}
+[10.272903] (-) TimerEvent: {}
+[10.373789] (-) TimerEvent: {}
+[10.378790] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.379275] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.396941] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.474023] (-) TimerEvent: {}
+[10.577069] (-) TimerEvent: {}
+[10.680941] (-) TimerEvent: {}
+[10.781815] (-) TimerEvent: {}
+[10.804032] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.814659] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.816028] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.882883] (-) TimerEvent: {}
+[10.962929] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext\n'}
+[10.970386] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.976766] (cpp_topic_pubsub) StdoutLine: {'line': b'[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext\n'}
+[10.983346] (-) TimerEvent: {}
+[11.085972] (-) TimerEvent: {}
+[11.187200] (-) TimerEvent: {}
+[11.288212] (-) TimerEvent: {}
+[11.407552] (-) TimerEvent: {}
+[11.508872] (-) TimerEvent: {}
+[11.610524] (-) TimerEvent: {}
+[11.711197] (-) TimerEvent: {}
+[11.812356] (-) TimerEvent: {}
+[11.914260] (-) TimerEvent: {}
+[12.016075] (-) TimerEvent: {}
+[12.116782] (-) TimerEvent: {}
+[12.220518] (-) TimerEvent: {}
+[12.321353] (-) TimerEvent: {}
+[12.422193] (-) TimerEvent: {}
+[12.524820] (-) TimerEvent: {}
+[12.626441] (-) TimerEvent: {}
+[12.727446] (-) TimerEvent: {}
+[12.830752] (-) TimerEvent: {}
+[12.933247] (-) TimerEvent: {}
+[13.035538] (-) TimerEvent: {}
+[13.136196] (-) TimerEvent: {}
+[13.238192] (-) TimerEvent: {}
+[13.339049] (-) TimerEvent: {}
+[13.440715] (-) TimerEvent: {}
+[13.543249] (-) TimerEvent: {}
+[13.652271] (-) TimerEvent: {}
+[13.763506] (-) TimerEvent: {}
+[13.864288] (-) TimerEvent: {}
+[13.970388] (-) TimerEvent: {}
+[14.074321] (-) TimerEvent: {}
+[14.189788] (-) TimerEvent: {}
+[14.291600] (-) TimerEvent: {}
+[14.392351] (-) TimerEvent: {}
+[14.494461] (-) TimerEvent: {}
+[14.597203] (-) TimerEvent: {}
+[14.702423] (-) TimerEvent: {}
+[14.803296] (-) TimerEvent: {}
+[14.904218] (-) TimerEvent: {}
+[15.006877] (-) TimerEvent: {}
+[15.114849] (-) TimerEvent: {}
+[15.215645] (-) TimerEvent: {}
+[15.316746] (-) TimerEvent: {}
+[15.426289] (-) TimerEvent: {}
+[15.527375] (-) TimerEvent: {}
+[15.634452] (-) TimerEvent: {}
+[15.640258] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[15.642267] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:20:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.642537] (cpp_topic_pubsub) StderrLine: {'line': b'   20 |             message.\x1b[01;31m\x1b[Kname\x1b[m\x1b[K = "PortCharlot";  // 6500\xe5\x86\x86\xe3\x81\xae\xe3\x82\xa6\xe3\x82\xa4\xe3\x82\xb9\xe3\x82\xad\xe3\x83\xbc (\xe5\xae\x9f\xe5\x9c\xa8)\n'}
+[15.642764] (cpp_topic_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.642978] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:21:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kprice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.643193] (cpp_topic_pubsub) StderrLine: {'line': b'   21 |             message.\x1b[01;31m\x1b[Kprice\x1b[m\x1b[K = 6500;\n'}
+[15.643404] (cpp_topic_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[15.643609] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:22:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kproduct_type\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.643820] (cpp_topic_pubsub) StderrLine: {'line': b'   22 |             message.\x1b[01;31m\x1b[Kproduct_type\x1b[m\x1b[K = cpp_topic_pubsub::msg::PracticeMsg::PRODUCT_TYPE_WHISKEY;\n'}
+[15.644441] (cpp_topic_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.644699] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/publisher_node.cpp:22:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPRODUCT_TYPE_WHISKEY\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcpp_topic_pubsub::msg::PracticeMsg\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[15.644949] (cpp_topic_pubsub) StderrLine: {'line': b'   22 |             message.product_type = cpp_topic_pubsub::msg::PracticeMsg::\x1b[01;31m\x1b[KPRODUCT_TYPE_WHISKEY\x1b[m\x1b[K;\n'}
+[15.645166] (cpp_topic_pubsub) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.645375] (cpp_topic_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[15.645581] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.645785] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.645996] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.646204] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.646407] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.646612] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.646820] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.647026] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.647231] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.647435] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.647640] (cpp_topic_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:7\x1b[m\x1b[K:\n'}
+[15.647851] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[15.648125] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:15:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst PracticeMsg\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.648364] (cpp_topic_pubsub) StderrLine: {'line': b'   15 |             RCLCPP_INFO(this->get_logger(), "product name: %s, price: %d", msg.\x1b[01;31m\x1b[Kname\x1b[m\x1b[K.c_str(), msg.price);\n'}
+[15.648576] (cpp_topic_pubsub) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[15.648879] (cpp_topic_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/src/subscriber_node.cpp:15:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst PracticeMsg\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct cpp_topic_pubsub::msg::PracticeMsg_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kprice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.649114] (cpp_topic_pubsub) StderrLine: {'line': b'   15 |             RCLCPP_INFO(this->get_logger(), "product name: %s, price: %d", msg.name.c_str(), msg.\x1b[01;31m\x1b[Kprice\x1b[m\x1b[K);\n'}
+[15.649327] (cpp_topic_pubsub) StderrLine: {'line': b'      |                                                                                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[15.736457] (-) TimerEvent: {}
+[15.837268] (-) TimerEvent: {}
+[15.938288] (-) TimerEvent: {}
+[16.041390] (-) TimerEvent: {}
+[16.146556] (-) TimerEvent: {}
+[16.248614] (-) TimerEvent: {}
+[16.354996] (-) TimerEvent: {}
+[16.461682] (-) TimerEvent: {}
+[16.562657] (-) TimerEvent: {}
+[16.667362] (-) TimerEvent: {}
+[16.768337] (-) TimerEvent: {}
+[16.870174] (-) TimerEvent: {}
+[16.971688] (-) TimerEvent: {}
+[17.073362] (-) TimerEvent: {}
+[17.184957] (-) TimerEvent: {}
+[17.289499] (-) TimerEvent: {}
+[17.390302] (-) TimerEvent: {}
+[17.497844] (-) TimerEvent: {}
+[17.616813] (-) TimerEvent: {}
+[17.720254] (-) TimerEvent: {}
+[17.821022] (-) TimerEvent: {}
+[17.934835] (-) TimerEvent: {}
+[17.991587] (cpp_topic_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/practice_publisher_node.dir/build.make:76: CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[17.992545] (cpp_topic_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_publisher_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[17.992829] (cpp_topic_pubsub) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[18.036288] (-) TimerEvent: {}
+[18.147057] (-) TimerEvent: {}
+[18.248778] (-) TimerEvent: {}
+[18.356119] (-) TimerEvent: {}
+[18.457720] (-) TimerEvent: {}
+[18.559688] (-) TimerEvent: {}
+[18.661153] (-) TimerEvent: {}
+[18.765534] (-) TimerEvent: {}
+[18.866681] (-) TimerEvent: {}
+[18.972433] (-) TimerEvent: {}
+[19.075362] (-) TimerEvent: {}
+[19.178145] (-) TimerEvent: {}
+[19.280614] (-) TimerEvent: {}
+[19.383449] (-) TimerEvent: {}
+[19.496461] (-) TimerEvent: {}
+[19.598319] (-) TimerEvent: {}
+[19.699818] (-) TimerEvent: {}
+[19.802356] (-) TimerEvent: {}
+[19.909508] (-) TimerEvent: {}
+[20.013863] (-) TimerEvent: {}
+[20.116604] (-) TimerEvent: {}
+[20.218723] (-) TimerEvent: {}
+[20.320895] (-) TimerEvent: {}
+[20.429915] (-) TimerEvent: {}
+[20.530764] (-) TimerEvent: {}
+[20.631774] (-) TimerEvent: {}
+[20.735246] (-) TimerEvent: {}
+[20.837228] (-) TimerEvent: {}
+[20.942405] (-) TimerEvent: {}
+[21.043380] (-) TimerEvent: {}
+[21.144731] (-) TimerEvent: {}
+[21.246343] (-) TimerEvent: {}
+[21.347845] (-) TimerEvent: {}
+[21.460389] (-) TimerEvent: {}
+[21.565813] (-) TimerEvent: {}
+[21.667036] (-) TimerEvent: {}
+[21.768630] (-) TimerEvent: {}
+[21.870468] (-) TimerEvent: {}
+[21.988239] (-) TimerEvent: {}
+[22.051540] (cpp_topic_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/practice_subscriber_node.dir/build.make:76: CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[22.052449] (cpp_topic_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/practice_subscriber_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[22.053195] (cpp_topic_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[22.062199] (cpp_topic_pubsub) CommandEnded: {'returncode': 2}
+[22.089003] (-) TimerEvent: {}
+[22.189771] (-) TimerEvent: {}
+[22.290328] (-) TimerEvent: {}
+[22.391481] (-) TimerEvent: {}
+[22.492441] (-) TimerEvent: {}
+[22.593792] (-) TimerEvent: {}
+[22.666997] (cpp_topic_pubsub) JobEnded: {'identifier': 'cpp_topic_pubsub', 'rc': 2}
+[22.678922] (-) EventReactorShutdown: {}

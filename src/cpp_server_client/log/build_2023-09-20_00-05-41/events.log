@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (cpp_server_client) JobQueued: {'identifier': 'cpp_server_client', 'dependencies': OrderedDict()}
+[0.000656] (cpp_server_client) JobStarted: {'identifier': 'cpp_server_client'}
+[0.034027] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'cmake'}
+[0.035999] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'build'}
+[0.038137] (cpp_server_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', '--', '-j8', '-l8'], 'cwd': '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src/cpp_server_client/srv'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1387'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1353,unix/kousei-ubuntu:/tmp/.ICE-unix/1353'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf928bde_e7ac_4cf9_bc75_23725602397a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QOECB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.235'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.096472] (-) TimerEvent: {}
+[0.125076] (cpp_server_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.196857] (-) TimerEvent: {}
+[0.297627] (-) TimerEvent: {}
+[0.398509] (-) TimerEvent: {}
+[0.499195] (-) TimerEvent: {}
+[0.503524] (cpp_server_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.576280] (cpp_server_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.583189] (cpp_server_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.598275] (cpp_server_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.599482] (-) TimerEvent: {}
+[0.626326] (cpp_server_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.668239] (cpp_server_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699638] (-) TimerEvent: {}
+[0.800254] (-) TimerEvent: {}
+[0.812784] (cpp_server_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.816807] (cpp_server_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900599] (-) TimerEvent: {}
+[1.001408] (-) TimerEvent: {}
+[1.102358] (cpp_server_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102728] (-) TimerEvent: {}
+[1.203542] (-) TimerEvent: {}
+[1.304407] (-) TimerEvent: {}
+[1.405536] (-) TimerEvent: {}
+[1.506538] (-) TimerEvent: {}
+[1.523702] (cpp_server_client) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.547309] (cpp_server_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.606724] (-) TimerEvent: {}
+[1.707656] (-) TimerEvent: {}
+[1.808673] (-) TimerEvent: {}
+[1.909605] (-) TimerEvent: {}
+[2.010527] (-) TimerEvent: {}
+[2.111341] (-) TimerEvent: {}
+[2.212407] (-) TimerEvent: {}
+[2.262267] (cpp_server_client) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.312889] (-) TimerEvent: {}
+[2.413836] (-) TimerEvent: {}
+[2.515087] (-) TimerEvent: {}
+[2.616590] (-) TimerEvent: {}
+[2.717355] (-) TimerEvent: {}
+[2.818275] (-) TimerEvent: {}
+[2.919219] (-) TimerEvent: {}
+[3.020157] (-) TimerEvent: {}
+[3.120976] (-) TimerEvent: {}
+[3.204856] (cpp_server_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.221410] (-) TimerEvent: {}
+[3.322322] (-) TimerEvent: {}
+[3.423171] (-) TimerEvent: {}
+[3.524068] (-) TimerEvent: {}
+[3.578981] (cpp_server_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.624529] (-) TimerEvent: {}
+[3.651300] (cpp_server_client) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.724897] (-) TimerEvent: {}
+[3.731564] (cpp_server_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.731995] (cpp_server_client) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.732225] (cpp_server_client) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.825364] (-) TimerEvent: {}
+[3.926597] (-) TimerEvent: {}
+[3.958651] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.960906] (cpp_server_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_c;/home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client/rosidl_generator_py\n'}
+[3.961351] (cpp_server_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.983766] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.026617] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.027018] (-) TimerEvent: {}
+[4.048380] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.127383] (-) TimerEvent: {}
+[4.219157] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.219696] (cpp_server_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.227763] (-) TimerEvent: {}
+[4.240944] (cpp_server_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.251542] (cpp_server_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.328136] (-) TimerEvent: {}
+[4.400872] (cpp_server_client) StdoutLine: {'line': b'-- Generating done\n'}
+[4.422017] (cpp_server_client) StdoutLine: {'line': b'-- Build files have been written to: /home/osawakousei/ros2_ws/src/cpp_server_client/build/cpp_server_client\n'}
+[4.428413] (-) TimerEvent: {}
+[4.529279] (-) TimerEvent: {}
+[4.534252] (cpp_server_client) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.579919] (cpp_server_client) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.620300] (cpp_server_client) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_cpp_server_client\n'}
+[4.629573] (-) TimerEvent: {}
+[4.730303] (-) TimerEvent: {}
+[4.830975] (-) TimerEvent: {}
+[4.931801] (-) TimerEvent: {}
+[5.032635] (-) TimerEvent: {}
+[5.133476] (-) TimerEvent: {}
+[5.234182] (-) TimerEvent: {}
+[5.285691] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_generator_c\x1b[0m\n'}
+[5.334359] (-) TimerEvent: {}
+[5.336487] (cpp_server_client) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_c.dir/rosidl_generator_c/cpp_server_client/srv/detail/practice_srv__functions.c.o\x1b[0m\n'}
+[5.354488] (cpp_server_client) StdoutLine: {'line': b'[  8%] Built target cpp_server_client__cpp\n'}
+[5.404032] (cpp_server_client) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.404661] (cpp_server_client) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.406095] (cpp_server_client) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.417056] (cpp_server_client) StdoutLine: {'line': b'running egg_info\n'}
+[5.418938] (cpp_server_client) StdoutLine: {'line': b'writing cpp_server_client.egg-info/PKG-INFO\n'}
+[5.420030] (cpp_server_client) StdoutLine: {'line': b'writing dependency_links to cpp_server_client.egg-info/dependency_links.txt\n'}
+[5.421162] (cpp_server_client) StdoutLine: {'line': b'writing top-level names to cpp_server_client.egg-info/top_level.txt\n'}
+[5.427678] (cpp_server_client) StdoutLine: {'line': b"reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[5.430035] (cpp_server_client) StdoutLine: {'line': b"writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'\n"}
+[5.434664] (-) TimerEvent: {}
+[5.510433] (cpp_server_client) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_cpp_server_client_egg\n'}
+[5.528231] (cpp_server_client) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcpp_server_client__rosidl_generator_c.so\x1b[0m\n'}
+[5.534952] (-) TimerEvent: {}
+[5.635633] (-) TimerEvent: {}
+[5.674378] (cpp_server_client) StdoutLine: {'line': b'[ 20%] Built target cpp_server_client__rosidl_generator_c\n'}
+[5.723099] (cpp_server_client) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.723857] (cpp_server_client) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.724155] (cpp_server_client) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.735917] (-) TimerEvent: {}
+[5.836691] (-) TimerEvent: {}
+[5.937423] (-) TimerEvent: {}
+[6.038189] (-) TimerEvent: {}
+[6.060841] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.123073] (cpp_server_client) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_server_client/srv/practice_srv__type_support.cpp.o\x1b[0m\n'}
+[6.130434] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.138366] (-) TimerEvent: {}
+[6.191239] (cpp_server_client) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_server_client/srv/detail/practice_srv__type_support.cpp.o\x1b[0m\n'}
+[6.238557] (-) TimerEvent: {}
+[6.247549] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.315211] (cpp_server_client) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_server_client/srv/detail/dds_fastrtps/practice_srv__type_support.cpp.o\x1b[0m\n'}
+[6.338837] (-) TimerEvent: {}
+[6.397454] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_c\x1b[0m\n'}
+[6.439041] (-) TimerEvent: {}
+[6.448531] (cpp_server_client) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_server_client/srv/practice_srv__type_support.cpp.o\x1b[0m\n'}
+[6.461466] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.476850] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.518708] (cpp_server_client) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_server_client/srv/detail/practice_srv__type_support.c.o\x1b[0m\n'}
+[6.539248] (-) TimerEvent: {}
+[6.541592] (cpp_server_client) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_server_client/srv/detail/practice_srv__type_support_c.cpp.o\x1b[0m\n'}
+[6.588378] (cpp_server_client) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.639509] (-) TimerEvent: {}
+[6.661845] (cpp_server_client) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcpp_server_client__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.739776] (-) TimerEvent: {}
+[6.754892] (cpp_server_client) StdoutLine: {'line': b'[ 51%] Built target cpp_server_client__rosidl_typesupport_c\n'}
+[6.805137] (cpp_server_client) StdoutLine: {'line': b'[ 51%] Built target cpp_server_client__rosidl_typesupport_introspection_c\n'}
+[6.840028] (-) TimerEvent: {}
+[6.941136] (-) TimerEvent: {}
+[6.990519] (cpp_server_client) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.041341] (-) TimerEvent: {}
+[7.142270] (-) TimerEvent: {}
+[7.158535] (cpp_server_client) StdoutLine: {'line': b'[ 54%] Built target cpp_server_client__rosidl_typesupport_cpp\n'}
+[7.214244] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target practice_server_node\x1b[0m\n'}
+[7.216760] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target practice_client_node\x1b[0m\n'}
+[7.242511] (-) TimerEvent: {}
+[7.297975] (cpp_server_client) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/practice_client_node.dir/src/client_node.cpp.o\x1b[0m\n'}
+[7.303757] (cpp_server_client) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/practice_server_node.dir/src/server_node.cpp.o\x1b[0m\n'}
+[7.342798] (-) TimerEvent: {}
+[7.443627] (-) TimerEvent: {}
+[7.544364] (-) TimerEvent: {}
+[7.600409] (cpp_server_client) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.601533] (cpp_server_client) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.617100] (cpp_server_client) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_server_client__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.644591] (-) TimerEvent: {}
+[7.745340] (-) TimerEvent: {}
+[7.779950] (cpp_server_client) StdoutLine: {'line': b'[ 68%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp\n'}
+[7.845496] (-) TimerEvent: {}
+[7.875231] (cpp_server_client) StdoutLine: {'line': b'[ 68%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp\n'}
+[7.890246] (cpp_server_client) StdoutLine: {'line': b'[ 68%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c\n'}
+[7.945686] (-) TimerEvent: {}
+[7.978633] (cpp_server_client) StdoutLine: {'line': b'[ 68%] Built target cpp_server_client\n'}
+[8.045906] (-) TimerEvent: {}
+[8.069426] (cpp_server_client) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.146076] (-) TimerEvent: {}
+[8.246813] (-) TimerEvent: {}
+[8.347698] (-) TimerEvent: {}
+[8.448930] (-) TimerEvent: {}
+[8.549809] (-) TimerEvent: {}
+[8.650537] (-) TimerEvent: {}
+[8.751257] (-) TimerEvent: {}
+[8.851968] (-) TimerEvent: {}
+[8.952715] (-) TimerEvent: {}
+[9.040907] (cpp_server_client) StdoutLine: {'line': b'[ 71%] Built target cpp_server_client__py\n'}
+[9.052985] (-) TimerEvent: {}
+[9.087435] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_generator_py\x1b[0m\n'}
+[9.144537] (cpp_server_client) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_generator_py.dir/rosidl_generator_py/cpp_server_client/srv/_practice_srv_s.c.o\x1b[0m\n'}
+[9.153258] (-) TimerEvent: {}
+[9.254053] (-) TimerEvent: {}
+[9.354884] (-) TimerEvent: {}
+[9.455723] (-) TimerEvent: {}
+[9.481139] (cpp_server_client) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_server_client/libcpp_server_client__rosidl_generator_py.so\x1b[0m\n'}
+[9.556013] (-) TimerEvent: {}
+[9.645703] (cpp_server_client) StdoutLine: {'line': b'[ 77%] Built target cpp_server_client__rosidl_generator_py\n'}
+[9.656291] (-) TimerEvent: {}
+[9.693848] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.696707] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.703623] (cpp_server_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_server_client__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.751753] (cpp_server_client) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.756624] (-) TimerEvent: {}
+[9.757361] (cpp_server_client) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.766281] (cpp_server_client) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/cpp_server_client__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_server_client/_cpp_server_client_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.856839] (-) TimerEvent: {}
+[9.957748] (-) TimerEvent: {}
+[10.058519] (-) TimerEvent: {}
+[10.108048] (cpp_server_client) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.112802] (cpp_server_client) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.150312] (cpp_server_client) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.158702] (-) TimerEvent: {}
+[10.255596] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.258999] (-) TimerEvent: {}
+[10.261924] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext\n'}
+[10.298079] (cpp_server_client) StdoutLine: {'line': b'[ 94%] Built target cpp_server_client__rosidl_typesupport_c__pyext\n'}
+[10.359345] (-) TimerEvent: {}
+[10.460187] (-) TimerEvent: {}
+[10.561068] (-) TimerEvent: {}
+[10.661926] (-) TimerEvent: {}
+[10.762772] (-) TimerEvent: {}
+[10.863549] (-) TimerEvent: {}
+[10.964323] (-) TimerEvent: {}
+[11.066692] (-) TimerEvent: {}
+[11.167484] (-) TimerEvent: {}
+[11.268266] (-) TimerEvent: {}
+[11.369135] (-) TimerEvent: {}
+[11.469917] (-) TimerEvent: {}
+[11.570673] (-) TimerEvent: {}
+[11.676776] (-) TimerEvent: {}
+[11.777626] (-) TimerEvent: {}
+[11.878432] (-) TimerEvent: {}
+[11.979232] (-) TimerEvent: {}
+[12.080056] (-) TimerEvent: {}
+[12.180998] (-) TimerEvent: {}
+[12.281801] (-) TimerEvent: {}
+[12.382773] (-) TimerEvent: {}
+[12.483580] (-) TimerEvent: {}
+[12.584439] (-) TimerEvent: {}
+[12.685422] (-) TimerEvent: {}
+[12.786227] (-) TimerEvent: {}
+[12.887031] (-) TimerEvent: {}
+[12.987812] (-) TimerEvent: {}
+[13.088931] (-) TimerEvent: {}
+[13.189712] (-) TimerEvent: {}
+[13.290464] (-) TimerEvent: {}
+[13.391274] (-) TimerEvent: {}
+[13.492069] (-) TimerEvent: {}
+[13.592832] (-) TimerEvent: {}
+[13.693690] (-) TimerEvent: {}
+[13.794528] (-) TimerEvent: {}
+[13.895298] (-) TimerEvent: {}
+[13.996223] (-) TimerEvent: {}
+[14.097017] (-) TimerEvent: {}
+[14.197788] (-) TimerEvent: {}
+[14.298579] (-) TimerEvent: {}
+[14.399387] (-) TimerEvent: {}
+[14.500156] (-) TimerEvent: {}
+[14.557593] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid accumulate_sum_callback(std::shared_ptr<cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> > >, std::shared_ptr<cpp_server_client::srv::PracticeSrv_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.558444] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.558735] (cpp_server_client) StderrLine: {'line': b'   12 |     response->cumulative_sum = std::accumulate(request->\x1b[01;31m\x1b[Knum_vector\x1b[m\x1b[K.begin(), request->num_vector.end(), (long)0);\n'}
+[14.559063] (cpp_server_client) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.559562] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.560248] (cpp_server_client) StderrLine: {'line': b'   12 |     response->cumulative_sum = std::accumulate(request->num_vector.begin(), request->\x1b[01;31m\x1b[Knum_vector\x1b[m\x1b[K.end(), (long)0);\n'}
+[14.560719] (cpp_server_client) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.560970] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.561226] (cpp_server_client) StderrLine: {'line': b'   15 |     std::for_each(request->\x1b[01;31m\x1b[Knum_vector\x1b[m\x1b[K.begin(), request->num_vector.end(), [](const auto& tmp){\n'}
+[14.561668] (cpp_server_client) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.561912] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.562171] (cpp_server_client) StderrLine: {'line': b'   15 |     std::for_each(request->num_vector.begin(), request->\x1b[01;31m\x1b[Knum_vector\x1b[m\x1b[K.end(), [](const auto& tmp){\n'}
+[14.562395] (cpp_server_client) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.600433] (-) TimerEvent: {}
+[14.701258] (-) TimerEvent: {}
+[14.802036] (-) TimerEvent: {}
+[14.819351] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.819806] (cpp_server_client) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:29:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knum_vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.820094] (cpp_server_client) StderrLine: {'line': b'   29 |     std::transform(input_vec.begin(), input_vec.end(), std::back_inserter(request->\x1b[01;31m\x1b[Knum_vector\x1b[m\x1b[K),\n'}
+[14.820316] (cpp_server_client) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.902388] (-) TimerEvent: {}
+[15.003333] (-) TimerEvent: {}
+[15.104128] (-) TimerEvent: {}
+[15.204934] (-) TimerEvent: {}
+[15.305779] (-) TimerEvent: {}
+[15.406655] (-) TimerEvent: {}
+[15.507471] (-) TimerEvent: {}
+[15.608309] (-) TimerEvent: {}
+[15.709097] (-) TimerEvent: {}
+[15.809878] (-) TimerEvent: {}
+[15.910721] (-) TimerEvent: {}
+[16.011558] (-) TimerEvent: {}
+[16.112388] (-) TimerEvent: {}
+[16.213250] (-) TimerEvent: {}
+[16.302264] (cpp_server_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[16.303343] (cpp_server_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[16.303689] (cpp_server_client) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[16.313519] (-) TimerEvent: {}
+[16.414263] (-) TimerEvent: {}
+[16.515061] (-) TimerEvent: {}
+[16.555028] (cpp_server_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/practice_client_node.dir/build.make:76: CMakeFiles/practice_client_node.dir/src/client_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[16.556588] (cpp_server_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/practice_client_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[16.557132] (cpp_server_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[16.566496] (cpp_server_client) CommandEnded: {'returncode': 2}
+[16.615335] (-) TimerEvent: {}
+[16.716245] (-) TimerEvent: {}
+[16.817064] (-) TimerEvent: {}
+[16.917955] (-) TimerEvent: {}
+[17.018839] (-) TimerEvent: {}
+[17.120094] (-) TimerEvent: {}
+[17.149638] (cpp_server_client) JobEnded: {'identifier': 'cpp_server_client', 'rc': 2}
+[17.154218] (-) EventReactorShutdown: {}

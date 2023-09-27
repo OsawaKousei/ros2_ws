@@ -1,0 +1,35 @@
+[0.071s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8
+[0.164s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.622s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.709s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.723s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.005s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.010s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.403s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.882s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.909s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.552s] -- Configured cppcheck include dirs: 
+[2.552s] -- Configured cppcheck exclude dirs and/or files: 
+[2.603s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.704s] -- Added test 'lint_cmake' to check CMake code style
+[2.755s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.156s] -- Added test 'uncrustify' to check C / C++ code style
+[3.157s] -- Configured uncrustify additional arguments: 
+[3.209s] -- Added test 'xmllint' to check XML markup files
+[3.212s] -- Configuring done
+[3.251s] -- Generating done
+[3.259s] -- Build files have been written to: /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test
+[3.388s] [35m[1mConsolidate compiler generated dependencies of target connecter_node[0m
+[3.484s] [ 50%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[3.876s] [01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msg/msg/string.hpp: そのようなファイルやディレクトリはありません
+[3.876s]     4 | #include [01;31m[K<std_msg/msg/string.hpp>[m[K
+[3.877s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.877s] compilation terminated.
+[3.881s] gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+[3.882s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/connecter_node.dir/all] エラー 2
+[3.883s] gmake: *** [Makefile:146: all] エラー 2
+[3.890s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test -- -j8 -l8

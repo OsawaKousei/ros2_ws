@@ -1,0 +1,116 @@
+[0.733s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.733s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1b3a4cc700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1b3ac57340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1b3ac57340>>)
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.809s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'cpp_topic_pubsub'
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.907s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/osawakousei/ros2_ws/install
+[0.909s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install
+[0.912s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/test_package/install
+[0.914s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/osawakousei/ros2_ws/uros_ws/install
+[0.916s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/install
+[0.923s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.082s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.083s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.083s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub', 'symlink_install': False, 'test_result_base': None}
+[1.085s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.095s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub' with build type 'ament_cmake'
+[1.095s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub'
+[1.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub -- -j8 -l8
+[32.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub -- -j8 -l8
+[32.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub
+[32.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[32.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/build/cpp_topic_pubsub
+[32.958s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub' for CMake module files
+[32.961s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub' for CMake config files
+[32.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[32.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[32.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[32.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[32.973s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib'
+[32.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[32.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[32.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[32.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[32.981s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/bin'
+[32.981s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[32.982s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[32.982s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/bin'
+[32.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[32.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[32.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[32.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[32.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[32.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[33.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[33.572s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub' for CMake module files
+[33.575s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub' for CMake config files
+[33.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[33.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[33.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[33.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[33.585s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib'
+[33.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[33.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[33.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[33.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[33.594s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/bin'
+[33.594s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[33.595s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[33.596s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/bin'
+[33.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[33.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[33.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[33.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[33.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[33.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[33.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.612s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.629s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.668s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/local_setup.ps1'
+[33.673s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/_local_setup_util_ps1.py'
+[33.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/setup.ps1'
+[33.734s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/local_setup.sh'
+[33.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/_local_setup_util_sh.py'
+[33.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/setup.sh'
+[33.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/local_setup.bash'
+[33.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/setup.bash'
+[33.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/local_setup.zsh'
+[33.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/setup.zsh'

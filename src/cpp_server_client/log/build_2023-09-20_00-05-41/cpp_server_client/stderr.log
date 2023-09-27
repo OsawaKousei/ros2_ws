@@ -1,0 +1,23 @@
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:[m[K In function ‘[01m[Kvoid accumulate_sum_callback(std::shared_ptr<cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> > >, std::shared_ptr<cpp_server_client::srv::PracticeSrv_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+   12 |     response->cumulative_sum = std::accumulate(request->[01;31m[Knum_vector[m[K.begin(), request->num_vector.end(), (long)0);
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:12:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+   12 |     response->cumulative_sum = std::accumulate(request->num_vector.begin(), request->[01;31m[Knum_vector[m[K.end(), (long)0);
+      |                                                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+   15 |     std::for_each(request->[01;31m[Knum_vector[m[K.begin(), request->num_vector.end(), [](const auto& tmp){
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/server_node.cpp:15:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+   15 |     std::for_each(request->num_vector.begin(), request->[01;31m[Knum_vector[m[K.end(), [](const auto& tmp){
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/osawakousei/ros2_ws/src/cpp_server_client/src/client_node.cpp:29:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cpp_server_client::srv::PracticeSrv_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum_vector[m[K’
+   29 |     std::transform(input_vec.begin(), input_vec.end(), std::back_inserter(request->[01;31m[Knum_vector[m[K),
+      |                                                                                    [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/practice_server_node.dir/build.make:76: CMakeFiles/practice_server_node.dir/src/server_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/practice_server_node.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/practice_client_node.dir/build.make:76: CMakeFiles/practice_client_node.dir/src/client_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/practice_client_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

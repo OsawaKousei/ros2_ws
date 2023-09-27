@@ -1,0 +1,25 @@
+[0.178s] Invoking command in '/home/osawakousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/cpp_server_client -- -j8 -l8
+[0.444s] [  2%] Built target cpp_server_client__cpp
+[0.619s] [ 11%] Built target cpp_server_client__rosidl_generator_c
+[0.848s] [ 11%] Built target ament_cmake_python_copy_cpp_server_client
+[0.926s] [ 20%] Built target cpp_server_client__rosidl_typesupport_cpp
+[0.937s] [ 28%] Built target cpp_server_client__rosidl_typesupport_introspection_cpp
+[0.945s] [ 37%] Built target cpp_server_client__rosidl_typesupport_fastrtps_cpp
+[0.981s] [ 45%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c
+[1.084s] [ 54%] Built target cpp_server_client__rosidl_typesupport_c
+[1.087s] [ 62%] Built target cpp_server_client__rosidl_typesupport_introspection_c
+[1.259s] [ 68%] Built target practice_server_node
+[1.336s] [ 74%] Built target practice_client_node
+[1.369s] [ 74%] Built target cpp_server_client
+[1.559s] [ 77%] Built target cpp_server_client__py
+[1.778s] [ 82%] Built target cpp_server_client__rosidl_generator_py
+[1.962s] [ 88%] Built target cpp_server_client__rosidl_typesupport_fastrtps_c__pyext
+[2.004s] [ 94%] Built target cpp_server_client__rosidl_typesupport_introspection_c__pyext
+[2.011s] [100%] Built target cpp_server_client__rosidl_typesupport_c__pyext
+[2.273s] running egg_info
+[2.275s] writing cpp_server_client.egg-info/PKG-INFO
+[2.276s] writing dependency_links to cpp_server_client.egg-info/dependency_links.txt
+[2.277s] writing top-level names to cpp_server_client.egg-info/top_level.txt
+[2.285s] reading manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[2.289s] writing manifest file 'cpp_server_client.egg-info/SOURCES.txt'
+[2.368s] [100%] Built target ament_cmake_python_build_cpp_server_client_egg
