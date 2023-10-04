@@ -1,0 +1,530 @@
+[0.000000] (-) TimerEvent: {}
+[0.032754] (custom_message_unity) JobQueued: {'identifier': 'custom_message_unity', 'dependencies': OrderedDict()}
+[0.032931] (custom_message_unity) JobStarted: {'identifier': 'custom_message_unity'}
+[0.120332] (-) TimerEvent: {}
+[0.236023] (-) TimerEvent: {}
+[0.341425] (-) TimerEvent: {}
+[0.461853] (-) TimerEvent: {}
+[0.566398] (-) TimerEvent: {}
+[0.617441] (custom_message_unity) JobProgress: {'identifier': 'custom_message_unity', 'progress': 'cmake'}
+[0.622578] (custom_message_unity) JobProgress: {'identifier': 'custom_message_unity', 'progress': 'build'}
+[0.622826] (custom_message_unity) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity', '--', '-j12', '-l12'], 'cwd': '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1376,unix/kousei-ubuntu:/tmp/.ICE-unix/1376'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5612d0fd_1109_4c8b_ab7b_0cf5f9697609'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4NU1B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[0.666989] (-) TimerEvent: {}
+[0.767856] (-) TimerEvent: {}
+[0.814897] (custom_message_unity) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.869549] (-) TimerEvent: {}
+[0.971148] (-) TimerEvent: {}
+[1.072677] (-) TimerEvent: {}
+[1.173763] (-) TimerEvent: {}
+[1.274750] (-) TimerEvent: {}
+[1.375550] (-) TimerEvent: {}
+[1.476557] (-) TimerEvent: {}
+[1.534766] (custom_message_unity) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.576849] (-) TimerEvent: {}
+[1.677930] (-) TimerEvent: {}
+[1.741133] (custom_message_unity) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.757253] (custom_message_unity) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.778768] (-) TimerEvent: {}
+[1.806606] (custom_message_unity) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.879155] (-) TimerEvent: {}
+[1.881446] (custom_message_unity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.963560] (custom_message_unity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.979353] (-) TimerEvent: {}
+[2.080154] (-) TimerEvent: {}
+[2.181088] (-) TimerEvent: {}
+[2.234412] (custom_message_unity) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.251363] (custom_message_unity) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.283163] (-) TimerEvent: {}
+[2.384165] (-) TimerEvent: {}
+[2.485098] (-) TimerEvent: {}
+[2.586627] (-) TimerEvent: {}
+[2.690691] (-) TimerEvent: {}
+[2.782871] (custom_message_unity) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.791017] (-) TimerEvent: {}
+[2.892518] (-) TimerEvent: {}
+[2.993840] (-) TimerEvent: {}
+[3.095563] (-) TimerEvent: {}
+[3.196364] (-) TimerEvent: {}
+[3.298457] (-) TimerEvent: {}
+[3.399342] (-) TimerEvent: {}
+[3.442223] (custom_message_unity) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[3.460598] (custom_message_unity) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.499670] (-) TimerEvent: {}
+[3.523936] (custom_message_unity) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.600072] (-) TimerEvent: {}
+[3.700765] (-) TimerEvent: {}
+[3.801557] (-) TimerEvent: {}
+[3.904348] (-) TimerEvent: {}
+[4.008117] (-) TimerEvent: {}
+[4.112447] (-) TimerEvent: {}
+[4.215734] (-) TimerEvent: {}
+[4.318406] (-) TimerEvent: {}
+[4.421320] (-) TimerEvent: {}
+[4.524070] (-) TimerEvent: {}
+[4.595846] (custom_message_unity) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.624302] (-) TimerEvent: {}
+[4.730845] (-) TimerEvent: {}
+[4.841532] (-) TimerEvent: {}
+[4.942464] (-) TimerEvent: {}
+[5.043368] (-) TimerEvent: {}
+[5.144765] (-) TimerEvent: {}
+[5.246743] (-) TimerEvent: {}
+[5.354440] (-) TimerEvent: {}
+[5.462453] (-) TimerEvent: {}
+[5.564560] (-) TimerEvent: {}
+[5.666116] (-) TimerEvent: {}
+[5.767375] (-) TimerEvent: {}
+[5.868118] (-) TimerEvent: {}
+[5.898770] (custom_message_unity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.968465] (-) TimerEvent: {}
+[6.070609] (-) TimerEvent: {}
+[6.171600] (-) TimerEvent: {}
+[6.272408] (-) TimerEvent: {}
+[6.373283] (-) TimerEvent: {}
+[6.393043] (custom_message_unity) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.455540] (custom_message_unity) StdoutLine: {'line': b'-- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)\n'}
+[6.467739] (custom_message_unity) StdoutLine: {'line': b'-- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)\n'}
+[6.473512] (-) TimerEvent: {}
+[6.574851] (-) TimerEvent: {}
+[6.675650] (-) TimerEvent: {}
+[6.776882] (-) TimerEvent: {}
+[6.877834] (-) TimerEvent: {}
+[6.978798] (-) TimerEvent: {}
+[7.079866] (-) TimerEvent: {}
+[7.180751] (-) TimerEvent: {}
+[7.281743] (-) TimerEvent: {}
+[7.382803] (-) TimerEvent: {}
+[7.483976] (-) TimerEvent: {}
+[7.584827] (-) TimerEvent: {}
+[7.685825] (-) TimerEvent: {}
+[7.786855] (-) TimerEvent: {}
+[7.829870] (custom_message_unity) StdoutLine: {'line': b'-- Found DotNetCore: /usr/bin/dotnet  \n'}
+[7.830689] (custom_message_unity) StdoutLine: {'line': b'-- Found .NET Core: 6.0.122\n'}
+[7.831370] (custom_message_unity) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[7.831706] (custom_message_unity) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[7.832244] (custom_message_unity) StdoutLine: {'line': b'-- Using Runtime: linux-x64\n'}
+[7.847893] (custom_message_unity) StdoutLine: {'line': b'-- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)\n'}
+[7.887213] (-) TimerEvent: {}
+[7.988188] (-) TimerEvent: {}
+[7.996520] (custom_message_unity) StdoutLine: {'line': b'-- Generating C# code for ROS interfaces /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_cs/custom_message_unity/msg/custom_unity.cs and \n'}
+[7.996851] (custom_message_unity) StdoutLine: {'line': b'-- Adding custom target\n'}
+[7.998070] (custom_message_unity) StderrLine: {'line': b'\x1b[0mLink libraries: custom_message_unity__rosidl_typesupport_c\x1b[0m\n'}
+[8.005450] (custom_message_unity) StderrLine: {'line': b'\x1b[0mLink libraries: custom_message_unity__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.012391] (custom_message_unity) StderrLine: {'line': b'\x1b[0mLink libraries: custom_message_unity__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.017879] (custom_message_unity) StderrLine: {'line': b'\x1b[0mInstall targets\x1b[0m\n'}
+[8.092902] (-) TimerEvent: {}
+[8.115664] (custom_message_unity) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.193192] (-) TimerEvent: {}
+[8.199272] (custom_message_unity) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.199626] (custom_message_unity) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.199851] (custom_message_unity) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.293667] (-) TimerEvent: {}
+[8.394664] (-) TimerEvent: {}
+[8.477765] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.478195] (custom_message_unity) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_c;/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_cs;/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/rosidl_generator_py\n'}
+[8.478664] (custom_message_unity) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.495217] (-) TimerEvent: {}
+[8.501088] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.528021] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.542671] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[8.595460] (-) TimerEvent: {}
+[8.675686] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.676104] (custom_message_unity) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.696024] (-) TimerEvent: {}
+[8.743624] (custom_message_unity) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.796293] (-) TimerEvent: {}
+[8.807489] (custom_message_unity) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.901092] (-) TimerEvent: {}
+[8.995817] (custom_message_unity) StdoutLine: {'line': b'-- Generating done\n'}
+[9.001238] (-) TimerEvent: {}
+[9.012057] (custom_message_unity) StdoutLine: {'line': b'-- Build files have been written to: /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity\n'}
+[9.102723] (-) TimerEvent: {}
+[9.117571] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_generator_c\x1b[0m\n'}
+[9.165790] (custom_message_unity) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C# code for ROS interfaces\x1b[0m\n'}
+[9.166902] (custom_message_unity) StdoutLine: {'line': b'[  4%] Built target custom_message_unity__cpp\n'}
+[9.174029] (custom_message_unity) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking C shared library libcustom_message_unity__rosidl_generator_c.so\x1b[0m\n'}
+[9.203156] (-) TimerEvent: {}
+[9.208954] (custom_message_unity) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_message_unity\n'}
+[9.220648] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.221863] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.230924] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.289817] (custom_message_unity) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.293637] (custom_message_unity) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.302149] (custom_message_unity) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.303671] (-) TimerEvent: {}
+[9.404521] (-) TimerEvent: {}
+[9.472444] (custom_message_unity) StdoutLine: {'line': b'[ 17%] Built target custom_message_unity__rosidl_generator_c\n'}
+[9.505951] (custom_message_unity) StdoutLine: {'line': b'[ 22%] Built target custom_message_unity__rosidl_typesupport_cpp\n'}
+[9.506625] (-) TimerEvent: {}
+[9.506994] (custom_message_unity) StdoutLine: {'line': b'[ 26%] Built target custom_message_unity__rosidl_typesupport_introspection_cpp\n'}
+[9.530497] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.540444] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.541016] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_c\x1b[0m\n'}
+[9.598363] (custom_message_unity) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libcustom_message_unity__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.598876] (custom_message_unity) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.600060] (custom_message_unity) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.606872] (-) TimerEvent: {}
+[9.610236] (custom_message_unity) StdoutLine: {'line': b'[ 37%] Built target custom_message_unity__rosidl_typesupport_fastrtps_cpp\n'}
+[9.707134] (-) TimerEvent: {}
+[9.743130] (custom_message_unity) StdoutLine: {'line': b'[ 42%] Built target custom_message_unity__rosidl_typesupport_introspection_c\n'}
+[9.779211] (custom_message_unity) StdoutLine: {'line': b'[ 46%] Built target custom_message_unity__rosidl_typesupport_c\n'}
+[9.810577] (-) TimerEvent: {}
+[9.834851] (custom_message_unity) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C# code for ROS interfaces\x1b[0m\n'}
+[9.835466] (custom_message_unity) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C# code for ROS interfaces\x1b[0m\n'}
+[9.880189] (custom_message_unity) StdoutLine: {'line': b'[ 55%] Built target custom_message_unity__rosidl_typesupport_fastrtps_c\n'}
+[9.910733] (-) TimerEvent: {}
+[9.989946] (custom_message_unity) StdoutLine: {'line': b'[ 55%] Built target custom_message_unity\n'}
+[10.010917] (-) TimerEvent: {}
+[10.058605] (custom_message_unity) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.059706] (custom_message_unity) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity_s.c.o\x1b[0m\n'}
+[10.111082] (-) TimerEvent: {}
+[10.126565] (custom_message_unity) StdoutLine: {'line': b'[ 62%] Built target custom_message_unity__py\n'}
+[10.134539] (custom_message_unity) StdoutLine: {'line': b'[ 62%] Built target custom_message_unity__cs\n'}
+[10.163891] (custom_message_unity) StdoutLine: {'line': b'running egg_info\n'}
+[10.167572] (custom_message_unity) StdoutLine: {'line': b'writing custom_message_unity.egg-info/PKG-INFO\n'}
+[10.168142] (custom_message_unity) StdoutLine: {'line': b'writing dependency_links to custom_message_unity.egg-info/dependency_links.txt\n'}
+[10.168805] (custom_message_unity) StdoutLine: {'line': b'writing top-level names to custom_message_unity.egg-info/top_level.txt\n'}
+[10.175360] (custom_message_unity) StdoutLine: {'line': b"reading manifest file 'custom_message_unity.egg-info/SOURCES.txt'\n"}
+[10.177252] (custom_message_unity) StdoutLine: {'line': b"writing manifest file 'custom_message_unity.egg-info/SOURCES.txt'\n"}
+[10.186867] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_generator_py\x1b[0m\n'}
+[10.211579] (-) TimerEvent: {}
+[10.249353] (custom_message_unity) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore custom_message_unity_assembly_dotnetcore.csproj;          /usr/bin/dotnet build custom_message_unity_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/custom_message_unity_assembly\x1b[0m\n'}
+[10.259305] (custom_message_unity) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message_unity/libcustom_message_unity__rosidl_generator_py.so\x1b[0m\n'}
+[10.274495] (custom_message_unity) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_custom_message_unity_egg\n'}
+[10.311943] (-) TimerEvent: {}
+[10.412594] (-) TimerEvent: {}
+[10.443763] (custom_message_unity) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/custom_message_unity/msg/libcustom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c_native.so\x1b[0m\n'}
+[10.445921] (custom_message_unity) StdoutLine: {'line': b'cmake version 3.22.1\n'}
+[10.446430] (custom_message_unity) StdoutLine: {'line': b'\n'}
+[10.446749] (custom_message_unity) StdoutLine: {'line': b'CMake suite maintained and supported by Kitware (kitware.com/cmake).\n'}
+[10.454916] (custom_message_unity) StdoutLine: {'line': b'[ 71%] Built target custom_message_unity__rosidl_generator_py\n'}
+[10.512611] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.513143] (-) TimerEvent: {}
+[10.513479] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.513781] (custom_message_unity) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_message_unity__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.582566] (custom_message_unity) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.583116] (custom_message_unity) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.592205] (custom_message_unity) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.613364] (-) TimerEvent: {}
+[10.616128] (custom_message_unity) StdoutLine: {'line': b'[ 80%] Built target custom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c\n'}
+[10.715970] (-) TimerEvent: {}
+[10.730223] (custom_message_unity) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity_s.c.o\x1b[0m\n'}
+[10.730863] (custom_message_unity) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.749481] (custom_message_unity) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.752530] (custom_message_unity) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_message_unity_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/custom_message_unity/msg/custom_unity_s.c.o\x1b[0m\n'}
+[10.792737] (custom_message_unity) StdoutLine: {'line': b'[ 91%] Built target custom_message_unity__rosidl_typesupport_c__pyext\n'}
+[10.793379] (custom_message_unity) StdoutLine: {'line': b'[ 93%] Built target custom_message_unity__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.795959] (custom_message_unity) StdoutLine: {'line': b'[ 95%] Built target custom_message_unity__rosidl_typesupport_introspection_c__pyext\n'}
+[10.816264] (-) TimerEvent: {}
+[10.880209] (custom_message_unity) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/custom_message_unity/msg/libcustom_message_unity_custom_unity__rosidl_typesupport_introspection_c_native.so\x1b[0m\n'}
+[10.900428] (custom_message_unity) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/custom_message_unity/msg/libcustom_message_unity_custom_unity__rosidl_typesupport_c_native.so\x1b[0m\n'}
+[10.916486] (-) TimerEvent: {}
+[11.017860] (-) TimerEvent: {}
+[11.019534] (custom_message_unity) StdoutLine: {'line': b'[100%] Built target custom_message_unity_custom_unity__rosidl_typesupport_introspection_c\n'}
+[11.041741] (custom_message_unity) StdoutLine: {'line': b'[100%] Built target custom_message_unity_custom_unity__rosidl_typesupport_c\n'}
+[11.120834] (-) TimerEvent: {}
+[11.221605] (-) TimerEvent: {}
+[11.322756] (-) TimerEvent: {}
+[11.423734] (-) TimerEvent: {}
+[11.524644] (-) TimerEvent: {}
+[11.625522] (-) TimerEvent: {}
+[11.727901] (-) TimerEvent: {}
+[11.829785] (-) TimerEvent: {}
+[11.932435] (-) TimerEvent: {}
+[12.042813] (-) TimerEvent: {}
+[12.144290] (-) TimerEvent: {}
+[12.245174] (-) TimerEvent: {}
+[12.345904] (-) TimerEvent: {}
+[12.448189] (-) TimerEvent: {}
+[12.548877] (-) TimerEvent: {}
+[12.649560] (-) TimerEvent: {}
+[12.750521] (-) TimerEvent: {}
+[12.851431] (-) TimerEvent: {}
+[12.952485] (-) TimerEvent: {}
+[13.053544] (-) TimerEvent: {}
+[13.154473] (-) TimerEvent: {}
+[13.255204] (-) TimerEvent: {}
+[13.355977] (-) TimerEvent: {}
+[13.456718] (-) TimerEvent: {}
+[13.558583] (-) TimerEvent: {}
+[13.659748] (-) TimerEvent: {}
+[13.760954] (-) TimerEvent: {}
+[13.862033] (-) TimerEvent: {}
+[13.962885] (-) TimerEvent: {}
+[14.063851] (-) TimerEvent: {}
+[14.165117] (-) TimerEvent: {}
+[14.243998] (custom_message_unity) StdoutLine: {'line': b'\x1b[?1h\x1b=  Determining projects to restore...\n'}
+[14.265393] (-) TimerEvent: {}
+[14.366423] (-) TimerEvent: {}
+[14.467515] (-) TimerEvent: {}
+[14.568510] (-) TimerEvent: {}
+[14.669415] (-) TimerEvent: {}
+[14.770608] (-) TimerEvent: {}
+[14.872643] (-) TimerEvent: {}
+[14.973699] (-) TimerEvent: {}
+[15.074434] (-) TimerEvent: {}
+[15.175826] (-) TimerEvent: {}
+[15.279378] (-) TimerEvent: {}
+[15.352338] (custom_message_unity) StdoutLine: {'line': b'  Restored /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/custom_message_unity_assembly/custom_message_unity_assembly_dotnetcore.csproj (in 548 ms).\n'}
+[15.381981] (-) TimerEvent: {}
+[15.489213] (-) TimerEvent: {}
+[15.591145] (-) TimerEvent: {}
+[15.697165] (-) TimerEvent: {}
+[15.802531] (-) TimerEvent: {}
+[15.906751] (-) TimerEvent: {}
+[16.008503] (-) TimerEvent: {}
+[16.111438] (-) TimerEvent: {}
+[16.212336] (-) TimerEvent: {}
+[16.321081] (-) TimerEvent: {}
+[16.423403] (-) TimerEvent: {}
+[16.458087] (custom_message_unity) StdoutLine: {'line': b'\x1b[?1h\x1b=.NET \xe5\x90\x91\xe3\x81\x91 Microsoft (R) Build Engine \xe3\x83\x90\xe3\x83\xbc\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\xb3 17.0.1+b177f8fa7\n'}
+[16.458884] (custom_message_unity) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation.All rights reserved.\n'}
+[16.459279] (custom_message_unity) StdoutLine: {'line': b'\n'}
+[16.528659] (-) TimerEvent: {}
+[16.629916] (-) TimerEvent: {}
+[16.738809] (-) TimerEvent: {}
+[16.840294] (-) TimerEvent: {}
+[16.941976] (-) TimerEvent: {}
+[17.043772] (-) TimerEvent: {}
+[17.144612] (-) TimerEvent: {}
+[17.245457] (-) TimerEvent: {}
+[17.346350] (-) TimerEvent: {}
+[17.450683] (-) TimerEvent: {}
+[17.553033] (-) TimerEvent: {}
+[17.656214] (-) TimerEvent: {}
+[17.768666] (-) TimerEvent: {}
+[17.872533] (-) TimerEvent: {}
+[17.975891] (-) TimerEvent: {}
+[18.084120] (-) TimerEvent: {}
+[18.184890] (-) TimerEvent: {}
+[18.286081] (-) TimerEvent: {}
+[18.386981] (-) TimerEvent: {}
+[18.444829] (custom_message_unity) StdoutLine: {'line': b'  Determining projects to restore...\n'}
+[18.487389] (-) TimerEvent: {}
+[18.588569] (-) TimerEvent: {}
+[18.690430] (-) TimerEvent: {}
+[18.791781] (-) TimerEvent: {}
+[18.893271] (-) TimerEvent: {}
+[18.994152] (-) TimerEvent: {}
+[19.104558] (-) TimerEvent: {}
+[19.205528] (-) TimerEvent: {}
+[19.252559] (custom_message_unity) StdoutLine: {'line': b'  All projects are up-to-date for restore.\n'}
+[19.305861] (-) TimerEvent: {}
+[19.407531] (-) TimerEvent: {}
+[19.508923] (-) TimerEvent: {}
+[19.610003] (-) TimerEvent: {}
+[19.714978] (-) TimerEvent: {}
+[19.816223] (-) TimerEvent: {}
+[19.917227] (-) TimerEvent: {}
+[20.018216] (-) TimerEvent: {}
+[20.119594] (-) TimerEvent: {}
+[20.220494] (-) TimerEvent: {}
+[20.321696] (-) TimerEvent: {}
+[20.422745] (-) TimerEvent: {}
+[20.523892] (-) TimerEvent: {}
+[20.624873] (-) TimerEvent: {}
+[20.725932] (-) TimerEvent: {}
+[20.826893] (-) TimerEvent: {}
+[20.928234] (-) TimerEvent: {}
+[21.029201] (-) TimerEvent: {}
+[21.130179] (-) TimerEvent: {}
+[21.231051] (-) TimerEvent: {}
+[21.332220] (-) TimerEvent: {}
+[21.432939] (-) TimerEvent: {}
+[21.534135] (-) TimerEvent: {}
+[21.634954] (-) TimerEvent: {}
+[21.737696] (-) TimerEvent: {}
+[21.838713] (-) TimerEvent: {}
+[21.942380] (-) TimerEvent: {}
+[22.043408] (-) TimerEvent: {}
+[22.144405] (-) TimerEvent: {}
+[22.250968] (-) TimerEvent: {}
+[22.351878] (-) TimerEvent: {}
+[22.452878] (-) TimerEvent: {}
+[22.555761] (-) TimerEvent: {}
+[22.656766] (-) TimerEvent: {}
+[22.758347] (-) TimerEvent: {}
+[22.859289] (-) TimerEvent: {}
+[22.961651] (-) TimerEvent: {}
+[23.063115] (-) TimerEvent: {}
+[23.164260] (-) TimerEvent: {}
+[23.273128] (-) TimerEvent: {}
+[23.373995] (-) TimerEvent: {}
+[23.475551] (-) TimerEvent: {}
+[23.581671] (-) TimerEvent: {}
+[23.614722] (custom_message_unity) StdoutLine: {'line': b'  custom_message_unity_assembly_dotnetcore -> /home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/netstandard2.0/custom_message_unity_assembly.dll\n'}
+[23.638546] (custom_message_unity) StdoutLine: {'line': b'\x1b[39;49m\x1b[92m\n'}
+[23.639075] (custom_message_unity) StdoutLine: {'line': b'\xe3\x83\x93\xe3\x83\xab\xe3\x83\x89\xe3\x81\xab\xe6\x88\x90\xe5\x8a\x9f\xe3\x81\x97\xe3\x81\xbe\xe3\x81\x97\xe3\x81\x9f\xe3\x80\x82\n'}
+[23.639334] (custom_message_unity) StdoutLine: {'line': b'\x1b[39;49m    0 \xe5\x80\x8b\xe3\x81\xae\xe8\xad\xa6\xe5\x91\x8a\n'}
+[23.639567] (custom_message_unity) StdoutLine: {'line': b'\x1b[39;49m    0 \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc\n'}
+[23.639795] (custom_message_unity) StdoutLine: {'line': b'\x1b[39;49m\n'}
+[23.640016] (custom_message_unity) StdoutLine: {'line': b'\xe7\xb5\x8c\xe9\x81\x8e\xe6\x99\x82\xe9\x96\x93 00:00:06.52\n'}
+[23.682049] (-) TimerEvent: {}
+[23.712890] (custom_message_unity) StdoutLine: {'line': b'[100%] Built target custom_message_unity_assembly\n'}
+[23.758622] (custom_message_unity) CommandEnded: {'returncode': 0}
+[23.792174] (-) TimerEvent: {}
+[23.895355] (-) TimerEvent: {}
+[23.998773] (-) TimerEvent: {}
+[24.099575] (-) TimerEvent: {}
+[24.201383] (-) TimerEvent: {}
+[24.302653] (-) TimerEvent: {}
+[24.403692] (-) TimerEvent: {}
+[24.462441] (custom_message_unity) JobProgress: {'identifier': 'custom_message_unity', 'progress': 'install'}
+[24.498101] (custom_message_unity) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity'], 'cwd': '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1438'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1376,unix/kousei-ubuntu:/tmp/.ICE-unix/1376'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5612d0fd_1109_4c8b_ab7b_0cf5f9697609'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4NU1B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[24.506565] (-) TimerEvent: {}
+[24.549242] (custom_message_unity) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.549699] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/rosidl_interfaces/custom_message_unity\n'}
+[24.549932] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.550147] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.550478] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.550736] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.550958] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__struct.h\n'}
+[24.551168] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.h\n'}
+[24.551374] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__functions.c\n'}
+[24.551578] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__functions.h\n'}
+[24.551784] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/custom_unity.h\n'}
+[24.551989] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/library_path.sh\n'}
+[24.552193] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/library_path.dsv\n'}
+[24.552399] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so\n'}
+[24.554384] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so" to ""\n'}
+[24.554762] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.555030] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.555833] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.556478] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h\n'}
+[24.557132] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.557641] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so\n'}
+[24.557896] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.558454] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.559030] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.559280] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/custom_unity.hpp\n'}
+[24.559508] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.559725] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__builder.hpp\n'}
+[24.559934] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__struct.hpp\n'}
+[24.560144] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__traits.hpp\n'}
+[24.560400] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.560830] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.561274] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.561544] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.561863] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.562115] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/dds_fastrtps\n'}
+[24.562549] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.562808] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.563023] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.563236] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.563459] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.563690] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.563903] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h\n'}
+[24.564115] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.c\n'}
+[24.564339] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so\n'}
+[24.564582] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.564907] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so\n'}
+[24.565126] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so" to ""\n'}
+[24.565336] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity\n'}
+[24.565543] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg\n'}
+[24.565751] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail\n'}
+[24.565961] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.566183] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.cpp\n'}
+[24.566442] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so\n'}
+[24.566668] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.566887] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so\n'}
+[24.567112] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so" to ""\n'}
+[24.567317] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_c_native.so\n'}
+[24.568653] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_c_native.so" to ""\n'}
+[24.568997] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_introspection_c_native.so\n'}
+[24.569726] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_introspection_c_native.so" to ""\n'}
+[24.570110] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c_native.so\n'}
+[24.570492] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity_custom_unity__rosidl_typesupport_fastrtps_c_native.so" to ""\n'}
+[24.570753] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/dotnet\n'}
+[24.570968] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/dotnet/custom_message_unity_assembly.dll\n'}
+[24.571326] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/dotnet/ros2cs_common.dll\n'}
+[24.571618] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/dotnet/custom_message_unity_assembly.deps.json\n'}
+[24.572250] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/pythonpath.sh\n'}
+[24.572499] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/pythonpath.dsv\n'}
+[24.572716] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info\n'}
+[24.572934] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.573146] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.573366] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.573593] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.573809] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity\n'}
+[24.574018] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.574227] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.574898] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.575236] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_c.c\n'}
+[24.575470] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.575683] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/__init__.py\n'}
+[24.575890] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/libcustom_message_unity__rosidl_generator_py.so\n'}
+[24.576095] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg\n'}
+[24.576299] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/_custom_unity_s.c\n'}
+[24.576503] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/_custom_unity.py\n'}
+[24.576715] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/__init__.py\n'}
+[24.576919] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.607910] (-) TimerEvent: {}
+[24.710888] (custom_message_unity) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity'...\n"}
+[24.711306] (-) TimerEvent: {}
+[24.711651] (custom_message_unity) StdoutLine: {'line': b"Compiling '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/__init__.py'...\n"}
+[24.711937] (custom_message_unity) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg'...\n"}
+[24.715893] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.719135] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.719536] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.720397] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.723448] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.725520] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.725838] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so\n'}
+[24.726769] (custom_message_unity) StdoutLine: {'line': b'-- Set runtime path of "/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so" to ""\n'}
+[24.727051] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/msg/CustomUnity.idl\n'}
+[24.727297] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/msg/CustomUnity.msg\n'}
+[24.727507] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/package_run_dependencies/custom_message_unity\n'}
+[24.727731] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/parent_prefix_path/custom_message_unity\n'}
+[24.728773] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.sh\n'}
+[24.729048] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.dsv\n'}
+[24.729260] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/path.sh\n'}
+[24.729467] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/environment/path.dsv\n'}
+[24.730095] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.bash\n'}
+[24.730466] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.sh\n'}
+[24.731098] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.zsh\n'}
+[24.731342] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/local_setup.dsv\n'}
+[24.731553] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.dsv\n'}
+[24.731760] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/ament_index/resource_index/packages/custom_message_unity\n'}
+[24.731966] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cExport.cmake\n'}
+[24.732680] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.732929] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.733149] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.733358] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cppExport.cmake\n'}
+[24.733566] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.733771] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.734557] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.735253] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.735507] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cExport.cmake\n'}
+[24.735725] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.735966] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.736186] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.736397] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cppExport.cmake\n'}
+[24.736606] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.737500] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_pyExport.cmake\n'}
+[24.737793] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.738012] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake-extras.cmake\n'}
+[24.738223] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.738594] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.738817] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.739130] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.739349] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.739583] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.739801] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_assemblies-extras.cmake\n'}
+[24.740923] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig.cmake\n'}
+[24.741261] (custom_message_unity) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig-version.cmake\n'}
+[24.741492] (custom_message_unity) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/share/custom_message_unity/package.xml\n'}
+[24.746606] (custom_message_unity) CommandEnded: {'returncode': 0}
+[24.813144] (-) TimerEvent: {}
+[24.915784] (-) TimerEvent: {}
+[25.018608] (-) TimerEvent: {}
+[25.123167] (-) TimerEvent: {}
+[25.224913] (-) TimerEvent: {}
+[25.327478] (-) TimerEvent: {}
+[25.430652] (-) TimerEvent: {}
+[25.532119] (-) TimerEvent: {}
+[25.632963] (-) TimerEvent: {}
+[25.734688] (-) TimerEvent: {}
+[25.839830] (-) TimerEvent: {}
+[25.950938] (-) TimerEvent: {}
+[25.959964] (custom_message_unity) JobEnded: {'identifier': 'custom_message_unity', 'rc': 0}
+[25.963360] (-) EventReactorShutdown: {}

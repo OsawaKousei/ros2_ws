@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gxgl2AZTMu4b4jcOHjAHjmUNQopsQSjLl2MuLu8uxdqN9uw1QNQc9tf8cI0LZjKYbchvreza5cjudu3Cpe0bIQ==",
+  "success": true,
+  "projectFilePath": "/home/osawakousei/ros2_ws/build/custom_test_msgs/custom_test_msgs_assembly/custom_test_msgs_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/osawakousei/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/osawakousei/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

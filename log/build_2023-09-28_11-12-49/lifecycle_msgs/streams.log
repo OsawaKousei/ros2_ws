@@ -1,0 +1,56 @@
+[0.112s] Invoking command in '/home/osawakousei/ros2_ws/build/lifecycle_msgs': AMENT_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble PYTHONPATH=/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/lifecycle_msgs
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.732s] -- The CXX compiler identification is GNU 11.4.0
+[0.759s] -- Detecting C compiler ABI info
+[1.095s] -- Detecting C compiler ABI info - done
+[1.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.120s] -- Detecting C compile features
+[1.124s] -- Detecting C compile features - done
+[1.134s] -- Detecting CXX compiler ABI info
+[1.547s] -- Detecting CXX compiler ABI info - done
+[1.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.557s] -- Detecting CXX compile features
+[1.559s] -- Detecting CXX compile features - done
+[1.575s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.246s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.673s] -- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.773s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.091s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.324s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.394s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.414s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.433s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.454s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.023s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+[6.027s] -- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[6.927s] -- Found DotNetCore: /usr/bin/dotnet  
+[6.928s] -- Found .NET Core: 6.0.122
+[6.928s] -- Using Framework: netstandard2.0
+[6.928s] -- Using Framework: netstandard2.0
+[6.929s] -- Using Runtime: linux-x64
+[6.964s] [31mCMake Error at /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/cmake/rosidl_generator_cs_generate_interfaces.cmake:21 (find_package):
+[6.964s]   By not providing "Findros2cs_common.cmake" in CMAKE_MODULE_PATH this
+[6.965s]   project has asked CMake to find a package configuration file provided by
+[6.966s]   "ros2cs_common", but CMake did not find one.
+[6.967s] 
+[6.967s]   Could not find a package configuration file provided by "ros2cs_common"
+[6.968s]   with any of the following names:
+[6.968s] 
+[6.970s]     ros2cs_commonConfig.cmake
+[6.970s]     ros2cs_common-config.cmake
+[6.971s] 
+[6.971s]   Add the installation prefix of "ros2cs_common" to CMAKE_PREFIX_PATH or set
+[6.972s]   "ros2cs_common_DIR" to a directory containing one of the above files.  If
+[6.973s]   "ros2cs_common" provides a separate development package or SDK, be sure it
+[6.973s]   has been installed.
+[6.974s] Call Stack (most recent call first):
+[6.975s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[6.975s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[6.976s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[6.977s] 
+[6.977s] [0m
+[6.978s] -- Configuring incomplete, errors occurred!
+[6.980s] See also "/home/osawakousei/ros2_ws/build/lifecycle_msgs/CMakeFiles/CMakeOutput.log".

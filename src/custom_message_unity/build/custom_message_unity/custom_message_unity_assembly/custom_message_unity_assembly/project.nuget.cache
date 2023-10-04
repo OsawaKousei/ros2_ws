@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QX8L8qJSUCx51jktJmuYPIS+DMPkXc0lRK+P3Df10sQH9IMMgPOyK4NS3VNj/b7e/97qrdyVE4IJqhIq+pe21A==",
+  "success": true,
+  "projectFilePath": "/home/osawakousei/ros2_ws/src/custom_message_unity/build/custom_message_unity/custom_message_unity_assembly/custom_message_unity_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/osawakousei/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/osawakousei/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

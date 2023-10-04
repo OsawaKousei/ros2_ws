@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

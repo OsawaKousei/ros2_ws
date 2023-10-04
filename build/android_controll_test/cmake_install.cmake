@@ -240,6 +240,79 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so"
+         OLD_RPATH "/home/osawakousei/ros2_ws/build/android_controll_test:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so"
+         OLD_RPATH "/home/osawakousei/ros2_ws/build/android_controll_test:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so"
+         OLD_RPATH "/home/osawakousei/ros2_ws/build/android_controll_test:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dotnet" TYPE DIRECTORY FILES "/home/osawakousei/ros2_ws/build/android_controll_test//netstandard2.0//")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/android_controll_test/environment" TYPE FILE FILES "/home/osawakousei/ros2_ws/build/android_controll_test/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
@@ -633,6 +706,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/android_controll_test/cmake" TYPE FILE FILES "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/android_controll_test/cmake" TYPE FILE FILES "/home/osawakousei/ros2_ws/build/android_controll_test/ament_cmake_export_assemblies/ament_cmake_export_assemblies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

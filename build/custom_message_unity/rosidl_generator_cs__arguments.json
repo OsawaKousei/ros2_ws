@@ -1,0 +1,22 @@
+{
+  "package_name": "custom_message_unity",
+  "output_dir": "/home/osawakousei/ros2_ws/build/custom_message_unity/rosidl_generator_cs/custom_message_unity",
+  "template_dir": "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource",
+  "idl_tuples": [
+    "/home/osawakousei/ros2_ws/build/custom_message_unity/rosidl_adapter/custom_message_unity:msg/CustomUnity.idl"
+  ],
+  "target_dependencies": [
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages/rosidl_generator_cs/__init__.py",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.cs.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.cs.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.cs.em",
+    "/home/osawakousei/ros2_ws/build/custom_message_unity/rosidl_adapter/custom_message_unity/msg/CustomUnity.idl"
+  ]
+}

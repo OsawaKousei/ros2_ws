@@ -1,0 +1,43 @@
+[0.267s] Invoking command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/external/build_tools/dotnet_cmake_module -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/dotnet_cmake_module
+[0.600s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.545s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.448s] -- Configuring done
+[2.458s] -- Generating done
+[2.461s] -- Build files have been written to: /home/osawakousei/ros2_ws/build/dotnet_cmake_module
+[2.474s] Invoked command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/external/build_tools/dotnet_cmake_module -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/dotnet_cmake_module
+[2.478s] Invoking command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/dotnet_cmake_module -- -j8 -l8
+[2.640s] Invoked command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/dotnet_cmake_module -- -j8 -l8
+[2.803s] Invoking command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/dotnet_cmake_module
+[2.834s] -- Install configuration: ""
+[2.835s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/ament_index/resource_index/package_run_dependencies/dotnet_cmake_module
+[2.835s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/ament_index/resource_index/parent_prefix_path/dotnet_cmake_module
+[2.836s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/environment/ament_prefix_path.sh
+[2.837s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/environment/ament_prefix_path.dsv
+[2.838s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/environment/path.sh
+[2.839s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/environment/path.dsv
+[2.840s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/local_setup.bash
+[2.841s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/local_setup.sh
+[2.842s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/local_setup.zsh
+[2.843s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/local_setup.dsv
+[2.843s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/package.dsv
+[2.844s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/ament_index/resource_index/packages/dotnet_cmake_module
+[2.845s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/dotnet_cmake_module-extras.cmake
+[2.845s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/dotnet_cmake_moduleConfig.cmake
+[2.845s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/dotnet_cmake_moduleConfig-version.cmake
+[2.845s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/package.xml
+[2.846s] -- Up-to-date: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake
+[2.847s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules
+[2.849s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindDotNETExtra.cmake
+[2.851s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet
+[2.853s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/packages.config.in
+[2.855s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/UseCSharpProjectBuilder.cmake
+[2.856s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/FindMono.cmake
+[2.858s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/entry_point.unix.in
+[2.860s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/FindDotNetCore.cmake
+[2.862s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/dotnetcore.csproj.in
+[2.865s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/entry_point.windows.in
+[2.866s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/Directory.Build.props.in
+[2.869s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/msbuild.csproj.in
+[2.874s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/FindCSBuild.cmake
+[2.877s] -- Installing: /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
+[2.894s] Invoked command in '/home/osawakousei/ros2_ws/build/dotnet_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/dotnet_cmake_module

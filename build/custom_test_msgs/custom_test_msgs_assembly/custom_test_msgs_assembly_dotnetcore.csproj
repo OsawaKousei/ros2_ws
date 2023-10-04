@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+   <TargetFramework>netstandard2.0</TargetFramework>
+   <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+   <OutputType>library</OutputType>
+   <OutputPath>/home/osawakousei/ros2_ws/build/custom_test_msgs/</OutputPath>
+   <AssemblyName>custom_test_msgs_assembly</AssemblyName>
+   <Configuration>Release</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="/home/osawakousei/ros2_ws/build/custom_test_msgs/rosidl_generator_cs/custom_test_msgs/srv/add_three_ints.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="/home/osawakousei/ros2_ws/install/ros2cs_common/lib/dotnet/ros2cs_common.dll" />
+  </ItemGroup>
+
+   <ItemGroup>
+    
+  </ItemGroup>
+
+  <PropertyGroup>
+     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+</Project>

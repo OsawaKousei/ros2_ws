@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="$(MSBuildProjectName.Contains('dotnetcore'))">
+    <BaseIntermediateOutputPath>custom_message_unity_assembly\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

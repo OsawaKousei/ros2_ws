@@ -1,0 +1,7 @@
+setup.py
+rosidl_generator_cs/__init__.py
+rosidl_generator_cs/generate_cs_impl.py
+rosidl_generator_cs.egg-info/PKG-INFO
+rosidl_generator_cs.egg-info/SOURCES.txt
+rosidl_generator_cs.egg-info/dependency_links.txt
+rosidl_generator_cs.egg-info/top_level.txt

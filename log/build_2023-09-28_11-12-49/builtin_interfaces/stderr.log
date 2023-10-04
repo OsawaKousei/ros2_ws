@@ -1,0 +1,21 @@
+[31mCMake Error at /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/cmake/rosidl_generator_cs_generate_interfaces.cmake:21 (find_package):
+  By not providing "Findros2cs_common.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ros2cs_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ros2cs_common"
+  with any of the following names:
+
+    ros2cs_commonConfig.cmake
+    ros2cs_common-config.cmake
+
+  Add the installation prefix of "ros2cs_common" to CMAKE_PREFIX_PATH or set
+  "ros2cs_common_DIR" to a directory containing one of the above files.  If
+  "ros2cs_common" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:16 (rosidl_generate_interfaces)
+
+[0m

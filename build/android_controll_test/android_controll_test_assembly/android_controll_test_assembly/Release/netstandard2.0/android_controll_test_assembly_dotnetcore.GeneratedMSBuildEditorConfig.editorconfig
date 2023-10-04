@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = android_controll_test_assembly_dotnetcore
+build_property.ProjectDir = /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly/

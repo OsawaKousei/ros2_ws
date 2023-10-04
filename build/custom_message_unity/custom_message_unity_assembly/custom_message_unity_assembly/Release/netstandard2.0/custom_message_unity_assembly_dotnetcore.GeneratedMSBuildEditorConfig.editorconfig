@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = custom_message_unity_assembly_dotnetcore
+build_property.ProjectDir = /home/osawakousei/ros2_ws/build/custom_message_unity/custom_message_unity_assembly/

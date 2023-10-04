@@ -10,10 +10,8 @@ find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-find_package(rclcpp REQUIRED)  
-find_package(std_msgs REQUIRED)  
-find_package(rosidl_default_generators REQUIRED)  # msgを作るのに必要
-
+find_package(ament_cmake_auto REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,8 +25,10 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-set(msg_files "msg/CustomUnity.msg") # msgファイルの場所を指定  
-rosidl_generate_interfaces(${PROJECT_NAME} ${msg_files}) # メッセージを作成  
-ament_export_dependencies(rosidl_default_runtime) # 実行時の依存関係を設定
+ament_auto_find_build_dependencies()
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/CustomUnity.msg"
+)
 
 ament_package()
+

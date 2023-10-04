@@ -1,0 +1,57 @@
+[0.242s] Invoking command in '/home/osawakousei/ros2_ws/build/builtin_interfaces': AMENT_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble PYTHONPATH=/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/builtin_interfaces
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.817s] -- The CXX compiler identification is GNU 11.4.0
+[0.859s] -- Detecting C compiler ABI info
+[1.256s] -- Detecting C compiler ABI info - done
+[1.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.295s] -- Detecting C compile features
+[1.296s] -- Detecting C compile features - done
+[1.304s] -- Detecting CXX compiler ABI info
+[1.660s] -- Detecting CXX compiler ABI info - done
+[1.686s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.687s] -- Detecting CXX compile features
+[1.689s] -- Detecting CXX compile features - done
+[1.710s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.423s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.864s] -- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.961s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.510s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.441s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[4.462s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[4.482s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[4.503s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.061s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+[6.064s] -- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[7.025s] -- Found DotNetCore: /usr/bin/dotnet  
+[7.025s] -- Found .NET Core: 6.0.122
+[7.025s] -- Using Framework: netstandard2.0
+[7.025s] -- Using Framework: netstandard2.0
+[7.026s] -- Using Runtime: linux-x64
+[7.062s] [31mCMake Error at /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/cmake/rosidl_generator_cs_generate_interfaces.cmake:21 (find_package):
+[7.062s]   By not providing "Findros2cs_common.cmake" in CMAKE_MODULE_PATH this
+[7.063s]   project has asked CMake to find a package configuration file provided by
+[7.064s]   "ros2cs_common", but CMake did not find one.
+[7.064s] 
+[7.065s]   Could not find a package configuration file provided by "ros2cs_common"
+[7.065s]   with any of the following names:
+[7.065s] 
+[7.065s]     ros2cs_commonConfig.cmake
+[7.065s]     ros2cs_common-config.cmake
+[7.066s] 
+[7.066s]   Add the installation prefix of "ros2cs_common" to CMAKE_PREFIX_PATH or set
+[7.066s]   "ros2cs_common_DIR" to a directory containing one of the above files.  If
+[7.066s]   "ros2cs_common" provides a separate development package or SDK, be sure it
+[7.066s]   has been installed.
+[7.067s] Call Stack (most recent call first):
+[7.067s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[7.067s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[7.067s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[7.067s] 
+[7.068s] [0m
+[7.069s] -- Configuring incomplete, errors occurred!
+[7.069s] See also "/home/osawakousei/ros2_ws/build/builtin_interfaces/CMakeFiles/CMakeOutput.log".
+[7.096s] Invoked command in '/home/osawakousei/ros2_ws/build/builtin_interfaces' returned '1': AMENT_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble PYTHONPATH=/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/osawakousei/ros2_ws/ros2cs/src/ros2/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/install/builtin_interfaces
