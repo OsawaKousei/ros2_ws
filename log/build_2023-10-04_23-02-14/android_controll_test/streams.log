@@ -1,0 +1,369 @@
+[1.574s] Invoking command in '/home/osawakousei/ros2_ws/build/android_controll_test': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j12 -l12
+[1.962s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.218s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.445s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.471s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.523s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.009s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.019s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.221s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.251s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.350s] -- Found custom_test_msgs: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)
+[6.477s] -- Found custom_message_unity: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)
+[6.600s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.735s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.723s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+[12.727s] -- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[14.164s] -- Found .NET Core: 6.0.122
+[14.165s] -- Using Framework: netstandard2.0
+[14.165s] -- Using Framework: netstandard2.0
+[14.166s] -- Using Runtime: linux-x64
+[14.170s] -- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)
+[14.321s] -- Generating C# code for ROS interfaces /home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/msg/custom_unity.cs and /home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+[14.322s] -- Adding custom target
+[14.327s] [0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[14.350s] [0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[14.370s] [0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[14.391s] [0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[14.410s] [0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[14.431s] [0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[14.450s] [0mInstall targets[0m
+[14.677s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[14.892s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.893s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.893s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[16.405s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.410s] -- Configured cppcheck include dirs: 
+[16.410s] -- Configured cppcheck exclude dirs and/or files: 
+[16.569s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.889s] -- Added test 'lint_cmake' to check CMake code style
+[17.047s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.336s] -- Added test 'uncrustify' to check C / C++ code style
+[18.336s] -- Configured uncrustify additional arguments: 
+[18.483s] -- Added test 'xmllint' to check XML markup files
+[18.530s] -- Configuring done
+[19.353s] -- Generating done
+[19.403s] -- Build files have been written to: /home/osawakousei/ros2_ws/build/android_controll_test
+[19.856s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.073s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.077s] [  4%] [34m[1mGenerating C# code for ROS interfaces[0m
+[20.285s] [  4%] Built target ament_cmake_python_copy_android_controll_test
+[21.913s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_generator_c[0m
+[22.170s] [  4%] Built target android_controll_test__cpp
+[22.329s] [  5%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/msg/detail/custom_unity__functions.c.o[0m
+[22.331s] [  7%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/srv/detail/add_three_ints__functions.c.o[0m
+[22.418s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.461s] [  8%] Built target android_controll_test__cs
+[22.492s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.493s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[23.012s] running egg_info
+[23.013s] writing android_controll_test.egg-info/PKG-INFO
+[23.014s] writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+[23.015s] writing top-level names to android_controll_test.egg-info/top_level.txt
+[23.026s] reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[23.027s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[23.111s] [ 13%] [34m[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore android_controll_test_assembly_dotnetcore.csproj;          /usr/bin/dotnet build android_controll_test_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly[0m
+[23.298s] [ 13%] Built target ament_cmake_python_build_android_controll_test_egg
+[23.339s] [ 14%] [32m[1mLinking C shared library libandroid_controll_test__rosidl_generator_c.so[0m
+[23.943s] cmake version 3.22.1
+[23.943s] 
+[23.944s] CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[24.064s] [ 14%] Built target android_controll_test__rosidl_generator_c
+[24.090s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_cpp[0m
+[24.187s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_fastrtps_cpp[0m
+[24.275s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[24.292s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_introspection_cpp[0m
+[24.325s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.335s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.414s] [ 20%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/msg/custom_unity__type_support.cpp.o[0m
+[24.472s] [ 22%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/srv/add_three_ints__type_support.cpp.o[0m
+[24.606s] [ 23%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o[0m
+[24.662s] [ 25%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[24.713s] [ 26%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/msg/detail/custom_unity__type_support.cpp.o[0m
+[24.797s] [ 27%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/srv/detail/add_three_ints__type_support.cpp.o[0m
+[26.771s] [?1h=[35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_c[0m
+[26.824s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[26.948s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_introspection_c[0m
+[27.179s] [ 29%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/msg/custom_unity__type_support.cpp.o[0m
+[27.217s] [ 30%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/srv/add_three_ints__type_support.cpp.o[0m
+[27.537s] [ 32%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/msg/detail/custom_unity__type_support_c.cpp.o[0m
+[27.545s] [ 33%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/msg/detail/custom_unity__type_support.c.o[0m
+[27.570s] [ 35%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/srv/detail/add_three_ints__type_support.c.o[0m
+[28.176s] [ 36%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[28.400s] [ 38%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_cpp.so[0m
+[28.401s] [ 39%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_c.so[0m
+[28.790s] [ 41%] [32m[1mLinking C shared library libandroid_controll_test__rosidl_typesupport_introspection_c.so[0m
+[29.622s] [ 41%] Built target android_controll_test__rosidl_typesupport_c
+[29.702s] [ 41%] Built target android_controll_test__rosidl_typesupport_cpp
+[29.832s] [ 41%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[30.013s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test_srv_add_three_ints__rosidl_typesupport_c[0m
+[30.057s] [ 42%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_introspection_cpp.so[0m
+[30.110s] [35m[1mConsolidate compiler generated dependencies of target connecter_node[0m
+[30.163s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c[0m
+[30.298s] [ 44%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.387s] [ 45%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c.o[0m
+[30.448s] [ 47%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o[0m
+[30.492s] [ 48%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o[0m
+[30.512s] [ 50%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c.o[0m
+[30.602s] [ 51%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.739s] [ 52%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.043s] [ 54%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[31.289s] [ 55%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o[0m
+[31.534s] [ 57%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so[0m
+[31.539s] [ 58%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o[0m
+[31.566s] [ 58%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[31.570s] [ 60%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_c_native.so[0m
+[32.113s] [ 60%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[32.447s] [ 61%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_c
+[32.457s] [ 63%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so[0m
+[32.591s] [ 64%] Built target android_controll_test_custom_unity__rosidl_typesupport_c
+[32.709s]   Determining projects to restore...
+[32.710s] [ 66%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_introspection_c_native.so[0m
+[33.041s] [ 67%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_c.so[0m
+[33.110s] [ 69%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c
+[33.396s] [ 70%] Built target android_controll_test_custom_unity__rosidl_typesupport_introspection_c
+[33.591s]   All projects are up-to-date for restore.
+[33.825s] [ 70%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[34.000s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c[0m
+[34.153s] [ 72%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o[0m
+[34.165s] [ 73%] [32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.234s] [ 73%] Built target android_controll_test
+[34.251s] [ 75%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o[0m
+[34.289s] [ 76%] [32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.666s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.822s] [ 79%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_fastrtps_c_native.so[0m
+[34.909s] [ 80%] [32m[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so[0m
+[35.006s] [?1h=.NET 向け Microsoft (R) Build Engine バージョン 17.0.1+b177f8fa7
+[35.007s] Copyright (C) Microsoft Corporation.All rights reserved.
+[35.007s] 
+[35.317s] [ 82%] Built target android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c
+[35.458s] [ 83%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c
+[36.571s] [ 83%] Built target android_controll_test__py
+[36.787s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_generator_py[0m
+[37.054s] [ 85%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_py.dir/rosidl_generator_py/android_controll_test/msg/_custom_unity_s.c.o[0m
+[37.082s] [ 86%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_py.dir/rosidl_generator_py/android_controll_test/srv/_add_three_ints_s.c.o[0m
+[38.293s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/libandroid_controll_test__rosidl_generator_py.so[0m
+[38.337s]   Determining projects to restore...
+[38.946s] [ 88%] Built target android_controll_test__rosidl_generator_py
+[39.175s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_fastrtps_c__pyext[0m
+[39.185s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_introspection_c__pyext[0m
+[39.203s] [35m[1mConsolidate compiler generated dependencies of target android_controll_test__rosidl_typesupport_c__pyext[0m
+[39.431s]   All projects are up-to-date for restore.
+[39.496s] [ 89%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.498s] [ 91%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.553s] [ 92%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_c.c.o[0m
+[40.988s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[41.000s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[41.299s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[41.754s] [ 97%] Built target android_controll_test__rosidl_typesupport_c__pyext
+[41.893s] [ 97%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[42.116s] [ 97%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[42.774s]   android_controll_test_assembly_dotnetcore -> /home/osawakousei/ros2_ws/build/android_controll_test/netstandard2.0/android_controll_test_assembly.dll
+[42.847s] [39;49m[92m
+[42.849s] ビルドに成功しました。
+[42.849s] [39;49m    0 個の警告
+[42.850s] [39;49m    0 エラー
+[42.854s] [39;49m
+[42.855s] 経過時間 00:00:07.07
+[43.127s] [ 98%] Built target android_controll_test_assembly
+[73.257s] [100%] [32m[1mLinking CXX executable connecter_node[0m
+[77.061s] [100%] Built target connecter_node
+[77.233s] Invoked command in '/home/osawakousei/ros2_ws/build/android_controll_test' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/android_controll_test -- -j12 -l12
+[81.214s] Invoking command in '/home/osawakousei/ros2_ws/build/android_controll_test': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/android_controll_test
+[81.345s] -- Install configuration: ""
+[81.345s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/ament_index/resource_index/rosidl_interfaces/android_controll_test
+[81.348s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.349s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.350s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.350s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.h
+[81.352s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__functions.c
+[81.354s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__struct.h
+[81.356s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__functions.h
+[81.358s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/add_three_ints.h
+[81.361s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.362s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_generator_c__visibility_control.h
+[81.363s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.364s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__struct.h
+[81.366s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.h
+[81.367s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__functions.c
+[81.369s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__functions.h
+[81.371s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/custom_unity.h
+[81.374s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/library_path.sh
+[81.375s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/library_path.dsv
+[81.382s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_c.so
+[81.394s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_c.so" to ""
+[81.396s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.397s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.398s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.399s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[81.399s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.401s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.402s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+[81.403s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[81.409s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_c.so
+[81.422s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_c.so" to ""
+[81.423s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.425s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.425s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.426s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__traits.hpp
+[81.427s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__struct.hpp
+[81.429s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__builder.hpp
+[81.431s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/add_three_ints.hpp
+[81.433s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.434s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/custom_unity.hpp
+[81.436s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.437s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__builder.hpp
+[81.438s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__struct.hpp
+[81.440s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__traits.hpp
+[81.443s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.443s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.445s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.445s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[81.448s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/dds_fastrtps
+[81.449s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.451s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[81.452s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.454s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+[81.454s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/dds_fastrtps
+[81.458s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so
+[81.472s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so" to ""
+[81.474s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.477s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.478s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.478s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.c
+[81.480s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[81.481s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.482s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[81.482s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.483s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+[81.484s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.c
+[81.491s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_c.so
+[81.503s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_c.so" to ""
+[81.510s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_c.so
+[81.519s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_c.so" to ""
+[81.520s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[81.520s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[81.521s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[81.522s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.cpp
+[81.524s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[81.526s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[81.527s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[81.529s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+[81.530s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.cpp
+[81.537s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_cpp.so
+[81.549s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_cpp.so" to ""
+[81.554s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_cpp.so
+[81.567s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_cpp.so" to ""
+[81.567s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_c_native.so
+[81.580s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_c_native.so" to ""
+[81.582s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_introspection_c_native.so
+[81.592s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_introspection_c_native.so" to ""
+[81.593s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_fastrtps_c_native.so
+[81.605s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_custom_unity__rosidl_typesupport_fastrtps_c_native.so" to ""
+[81.611s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so
+[81.624s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so" to ""
+[81.630s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so
+[81.644s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so" to ""
+[81.649s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so
+[81.667s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so" to ""
+[81.668s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet
+[81.671s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/android_controll_test_assembly.deps.json
+[81.672s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/ros2cs_common.dll
+[81.673s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/android_controll_test_assembly.dll
+[81.680s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet
+[81.683s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/android_controll_test_assembly.deps.json
+[81.684s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/ros2cs_common.dll
+[81.685s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/lib/dotnet/android_controll_test_assembly.dll
+[81.686s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/pythonpath.sh
+[81.687s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/pythonpath.dsv
+[81.691s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info
+[81.692s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/top_level.txt
+[81.697s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/SOURCES.txt
+[81.699s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/dependency_links.txt
+[81.704s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/PKG-INFO
+[81.707s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test
+[81.710s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv
+[81.714s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints.py
+[81.714s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/__init__.py
+[81.715s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints_s.c
+[81.718s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[81.721s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_c.c
+[81.724s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/libandroid_controll_test__rosidl_generator_py.so
+[81.727s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c
+[81.732s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[81.734s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/__init__.py
+[81.737s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c
+[81.739s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[81.743s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg
+[81.745s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity_s.c
+[81.749s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity.py
+[81.751s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/__init__.py
+[82.099s] Listing '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test'...
+[82.099s] Compiling '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/__init__.py'...
+[82.100s] Listing '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg'...
+[82.101s] Compiling '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/__init__.py'...
+[82.102s] Compiling '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity.py'...
+[82.103s] Listing '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv'...
+[82.103s] Compiling '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/__init__.py'...
+[82.104s] Compiling '/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints.py'...
+[82.119s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[82.131s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[82.139s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[82.150s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[82.155s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[82.168s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[82.174s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_py.so
+[82.190s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_py.so" to ""
+[82.191s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/msg/CustomUnity.idl
+[82.195s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts.idl
+[82.195s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/msg/CustomUnity.msg
+[82.198s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts.srv
+[82.199s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts_Request.msg
+[82.200s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts_Response.msg
+[82.206s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/lib/android_controll_test/connecter_node
+[82.306s] -- Set runtime path of "/home/osawakousei/ros2_ws/install/android_controll_test/lib/android_controll_test/connecter_node" to ""
+[82.307s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/ament_index/resource_index/package_run_dependencies/android_controll_test
+[82.310s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/ament_index/resource_index/parent_prefix_path/android_controll_test
+[82.311s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.sh
+[82.312s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.dsv
+[82.314s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/path.sh
+[82.315s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/environment/path.dsv
+[82.318s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.bash
+[82.318s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.sh
+[82.319s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.zsh
+[82.320s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.dsv
+[82.321s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.dsv
+[82.324s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/ament_index/resource_index/packages/android_controll_test
+[82.325s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cExport.cmake
+[82.326s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cExport-noconfig.cmake
+[82.327s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cExport.cmake
+[82.328s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[82.330s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cppExport.cmake
+[82.332s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cppExport.cmake
+[82.333s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[82.335s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cExport.cmake
+[82.336s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[82.336s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cExport.cmake
+[82.337s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cExport-noconfig.cmake
+[82.339s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cppExport.cmake
+[82.340s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[82.341s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cppExport.cmake
+[82.342s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cppExport-noconfig.cmake
+[82.343s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_pyExport.cmake
+[82.343s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_pyExport-noconfig.cmake
+[82.344s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake-extras.cmake
+[82.345s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.347s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_libraries-extras.cmake
+[82.348s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_targets-extras.cmake
+[82.349s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[82.350s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.351s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[82.352s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_assemblies-extras.cmake
+[82.353s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig.cmake
+[82.354s] -- Up-to-date: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig-version.cmake
+[82.354s] -- Installing: /home/osawakousei/ros2_ws/install/android_controll_test/share/android_controll_test/package.xml
+[82.373s] Invoked command in '/home/osawakousei/ros2_ws/build/android_controll_test' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/android_controll_test

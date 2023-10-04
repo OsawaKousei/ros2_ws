@@ -1,0 +1,81 @@
+[1.387s] Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test
+[2.814s] -- The C compiler identification is GNU 11.4.0
+[4.218s] -- The CXX compiler identification is GNU 11.4.0
+[4.322s] -- Detecting C compiler ABI info
+[5.411s] -- Detecting C compiler ABI info - done
+[5.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.444s] -- Detecting C compile features
+[5.448s] -- Detecting C compile features - done
+[5.472s] -- Detecting CXX compiler ABI info
+[6.649s] -- Detecting CXX compiler ABI info - done
+[6.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.679s] -- Detecting CXX compile features
+[6.682s] -- Detecting CXX compile features - done
+[6.790s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.633s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.338s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[11.391s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.525s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.735s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.562s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.657s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.396s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.682s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.464s] -- Looking for pthread.h
+[17.715s] -- Looking for pthread.h - found
+[17.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.860s] -- Found Threads: TRUE  
+[20.200s] -- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[20.419s] -- Found custom_test_msgs: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)
+[20.554s] -- Found custom_message_unity: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)
+[20.741s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.480s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[26.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.989s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+[28.040s] -- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[29.423s] -- Found DotNetCore: /usr/bin/dotnet  
+[29.426s] -- Found .NET Core: 6.0.122
+[29.426s] -- Using Framework: netstandard2.0
+[29.427s] -- Using Framework: netstandard2.0
+[29.427s] -- Using Runtime: linux-x64
+[29.472s] -- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)
+[29.993s] -- Generating C# code for ROS interfaces  and /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+[29.994s] -- Adding custom target
+[30.000s] [0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[30.022s] [0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[30.043s] [0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[30.063s] [0mInstall targets[0m
+[30.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[30.396s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[30.667s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[30.668s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[30.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[30.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[30.874s] -- Found PythonExtra: .so  
+[32.244s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[32.244s]   add_custom_target cannot create target "android_controll_test" because
+[32.245s]   another target with the same name already exists.  The existing target is a
+[32.246s]   custom target created in source directory
+[32.247s]   "/home/osawakousei/ros2_ws/src/android_controll_test".  See documentation
+[32.247s]   for policy CMP0002 for more details.
+[32.248s] Call Stack (most recent call first):
+[32.249s]   CMakeLists.txt:36 (rosidl_generate_interfaces)
+[32.249s] 
+[32.250s] [0m
+[32.562s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.566s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_c;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_py
+[32.566s] -- Configured cppcheck exclude dirs and/or files: 
+[32.613s] -- Added test 'flake8' to check Python code syntax and style conventions
+[32.693s] -- Added test 'lint_cmake' to check CMake code style
+[32.740s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[33.026s] -- Added test 'uncrustify' to check C / C++ code style
+[33.028s] -- Configured uncrustify additional arguments: 
+[33.078s] -- Added test 'xmllint' to check XML markup files
+[33.166s] -- Configuring incomplete, errors occurred!
+[33.167s] See also "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/CMakeFiles/CMakeOutput.log".
+[33.270s] Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test

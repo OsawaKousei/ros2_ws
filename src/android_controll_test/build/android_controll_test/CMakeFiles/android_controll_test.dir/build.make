@@ -66,6 +66,7 @@ include CMakeFiles/android_controll_test.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/android_controll_test.dir/progress.make
 
+CMakeFiles/android_controll_test: ../../msg/CustomUnity.msg
 CMakeFiles/android_controll_test: ../../srv/AddThreeInts.srv
 CMakeFiles/android_controll_test: rosidl_cmake/srv/AddThreeInts_Request.msg
 CMakeFiles/android_controll_test: rosidl_cmake/srv/AddThreeInts_Response.msg

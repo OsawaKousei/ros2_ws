@@ -1,0 +1,88 @@
+[7.519s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.519s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff9a80a4b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff9a80a46d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff9a80a46d0>>)
+[7.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.867s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/osawakousei/ros2_ws/src/android_controll_test'
+[7.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.941s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'android_controll_test'
+[7.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.708s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.845s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[8.855s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[8.981s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/osawakousei/ros2_ws/install
+[9.098s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/custom_message_unity/install
+[9.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/android_controll_test/install
+[9.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_server_client/install
+[9.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install
+[9.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/test_package/install
+[9.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/osawakousei/ros2_ws/uros_ws/install
+[9.809s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/osawakousei/ros2_ws/src/custom_test_msgs/install
+[9.942s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[9.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_args' from command line to 'None'
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target' from command line to 'None'
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_cache' from command line to 'False'
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_first' from command line to 'False'
+[10.508s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_force_configure' from command line to 'False'
+[10.509s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'ament_cmake_args' from command line to 'None'
+[10.509s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_cmake_args' from command line to 'None'
+[10.509s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.509s] DEBUG:colcon.colcon_core.verb:Building package 'android_controll_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test', 'merge_install': False, 'path': '/home/osawakousei/ros2_ws/src/android_controll_test', 'symlink_install': False, 'test_result_base': None}
+[10.576s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osawakousei/ros2_ws/src/android_controll_test' with build type 'ament_cmake'
+[10.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osawakousei/ros2_ws/src/android_controll_test'
+[10.745s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test
+[24.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test
+[25.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(android_controll_test)
+[25.285s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test' for CMake module files
+[25.289s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test' for CMake config files
+[25.292s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/bin'
+[25.292s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib/pkgconfig/android_controll_test.pc'
+[25.293s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib/python3.10/site-packages'
+[25.294s] Level 1:colcon.colcon_core.environment:checking '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/bin'
+[25.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.ps1'
+[25.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.dsv'
+[25.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.sh'
+[25.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.bash'
+[25.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/android_controll_test/package.zsh'
+[25.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/share/colcon-core/packages/android_controll_test)
+[25.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[25.438s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.593s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.691s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/android_controll_test/install/local_setup.ps1'
+[25.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/android_controll_test/install/_local_setup_util_ps1.py'
+[25.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/android_controll_test/install/setup.ps1'
+[25.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/android_controll_test/install/local_setup.sh'
+[25.962s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osawakousei/ros2_ws/src/android_controll_test/install/_local_setup_util_sh.py'
+[25.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/android_controll_test/install/setup.sh'
+[26.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/android_controll_test/install/local_setup.bash'
+[26.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/android_controll_test/install/setup.bash'
+[26.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osawakousei/ros2_ws/src/android_controll_test/install/local_setup.zsh'
+[26.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osawakousei/ros2_ws/src/android_controll_test/install/setup.zsh'

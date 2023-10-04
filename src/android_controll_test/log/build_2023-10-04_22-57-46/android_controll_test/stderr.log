@@ -1,0 +1,15 @@
+[0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[0mInstall targets[0m
+[01m[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kcustom_message_unity/msg/CustomUnity.hpp: そのようなファイルやディレクトリはありません
+   10 | #include [01;31m[K"custom_message_unity/msg/CustomUnity.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:826: CMakeFiles/connecter_node.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

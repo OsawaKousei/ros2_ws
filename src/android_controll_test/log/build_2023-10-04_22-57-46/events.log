@@ -1,0 +1,664 @@
+[0.000000] (-) TimerEvent: {}
+[0.000840] (android_controll_test) JobQueued: {'identifier': 'android_controll_test', 'dependencies': OrderedDict()}
+[0.001235] (android_controll_test) JobStarted: {'identifier': 'android_controll_test'}
+[0.094761] (-) TimerEvent: {}
+[0.197738] (-) TimerEvent: {}
+[0.300134] (-) TimerEvent: {}
+[0.403272] (-) TimerEvent: {}
+[0.505033] (-) TimerEvent: {}
+[0.609059] (-) TimerEvent: {}
+[0.711275] (-) TimerEvent: {}
+[0.814557] (-) TimerEvent: {}
+[0.916800] (-) TimerEvent: {}
+[1.020277] (-) TimerEvent: {}
+[1.122945] (-) TimerEvent: {}
+[1.224671] (-) TimerEvent: {}
+[1.328954] (-) TimerEvent: {}
+[1.432315] (-) TimerEvent: {}
+[1.435298] (android_controll_test) JobProgress: {'identifier': 'android_controll_test', 'progress': 'cmake'}
+[1.441078] (android_controll_test) Command: {'cmd': ['/usr/bin/cmake', '/home/osawakousei/ros2_ws/src/android_controll_test', '-DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test'], 'cwd': '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src/android_controll_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1367,unix/kousei-ubuntu:/tmp/.ICE-unix/1367'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e43ff38_f7f1_4f84_ad6b_632f74d7405e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TV35B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[1.533236] (-) TimerEvent: {}
+[1.624801] (android_controll_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.634233] (-) TimerEvent: {}
+[1.735697] (-) TimerEvent: {}
+[1.837530] (-) TimerEvent: {}
+[1.939482] (-) TimerEvent: {}
+[2.041010] (-) TimerEvent: {}
+[2.142854] (-) TimerEvent: {}
+[2.244420] (-) TimerEvent: {}
+[2.346420] (-) TimerEvent: {}
+[2.448233] (-) TimerEvent: {}
+[2.550340] (-) TimerEvent: {}
+[2.651984] (-) TimerEvent: {}
+[2.753710] (-) TimerEvent: {}
+[2.855876] (-) TimerEvent: {}
+[2.869416] (android_controll_test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.956623] (-) TimerEvent: {}
+[3.058638] (-) TimerEvent: {}
+[3.117556] (android_controll_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.142236] (android_controll_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.159234] (-) TimerEvent: {}
+[3.194715] (android_controll_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.259970] (-) TimerEvent: {}
+[3.293406] (android_controll_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.360748] (-) TimerEvent: {}
+[3.428247] (android_controll_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.461567] (-) TimerEvent: {}
+[3.563404] (-) TimerEvent: {}
+[3.664901] (-) TimerEvent: {}
+[3.766489] (-) TimerEvent: {}
+[3.852431] (android_controll_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.867237] (-) TimerEvent: {}
+[3.869311] (android_controll_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.967929] (-) TimerEvent: {}
+[4.070037] (-) TimerEvent: {}
+[4.171986] (-) TimerEvent: {}
+[4.274249] (-) TimerEvent: {}
+[4.375943] (-) TimerEvent: {}
+[4.477619] (-) TimerEvent: {}
+[4.579512] (-) TimerEvent: {}
+[4.681186] (-) TimerEvent: {}
+[4.783849] (-) TimerEvent: {}
+[4.886077] (-) TimerEvent: {}
+[4.987697] (-) TimerEvent: {}
+[5.051796] (android_controll_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.088418] (-) TimerEvent: {}
+[5.190442] (-) TimerEvent: {}
+[5.292016] (-) TimerEvent: {}
+[5.393591] (-) TimerEvent: {}
+[5.495518] (-) TimerEvent: {}
+[5.597200] (-) TimerEvent: {}
+[5.699092] (-) TimerEvent: {}
+[5.800794] (-) TimerEvent: {}
+[5.902730] (-) TimerEvent: {}
+[6.004521] (-) TimerEvent: {}
+[6.013322] (android_controll_test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)\n'}
+[6.105302] (-) TimerEvent: {}
+[6.110937] (android_controll_test) StdoutLine: {'line': b'-- Found custom_test_msgs: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)\n'}
+[6.206249] (-) TimerEvent: {}
+[6.215606] (android_controll_test) StdoutLine: {'line': b'-- Found custom_message_unity: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)\n'}
+[6.306989] (-) TimerEvent: {}
+[6.327857] (android_controll_test) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.407846] (-) TimerEvent: {}
+[6.510205] (-) TimerEvent: {}
+[6.612116] (-) TimerEvent: {}
+[6.714169] (-) TimerEvent: {}
+[6.816115] (-) TimerEvent: {}
+[6.918072] (-) TimerEvent: {}
+[7.019434] (-) TimerEvent: {}
+[7.121069] (-) TimerEvent: {}
+[7.222963] (-) TimerEvent: {}
+[7.324500] (-) TimerEvent: {}
+[7.426262] (-) TimerEvent: {}
+[7.528021] (-) TimerEvent: {}
+[7.629556] (-) TimerEvent: {}
+[7.731271] (-) TimerEvent: {}
+[7.832623] (-) TimerEvent: {}
+[7.934157] (-) TimerEvent: {}
+[8.035638] (-) TimerEvent: {}
+[8.137461] (-) TimerEvent: {}
+[8.239454] (-) TimerEvent: {}
+[8.330025] (android_controll_test) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.340172] (-) TimerEvent: {}
+[8.442120] (-) TimerEvent: {}
+[8.543817] (-) TimerEvent: {}
+[8.645368] (-) TimerEvent: {}
+[8.747292] (-) TimerEvent: {}
+[8.848812] (-) TimerEvent: {}
+[8.950476] (-) TimerEvent: {}
+[9.052028] (-) TimerEvent: {}
+[9.153657] (-) TimerEvent: {}
+[9.255475] (-) TimerEvent: {}
+[9.356970] (-) TimerEvent: {}
+[9.458376] (-) TimerEvent: {}
+[9.560213] (-) TimerEvent: {}
+[9.662133] (-) TimerEvent: {}
+[9.763815] (-) TimerEvent: {}
+[9.866362] (-) TimerEvent: {}
+[9.968709] (-) TimerEvent: {}
+[10.070317] (-) TimerEvent: {}
+[10.171848] (-) TimerEvent: {}
+[10.273620] (-) TimerEvent: {}
+[10.375794] (-) TimerEvent: {}
+[10.478041] (-) TimerEvent: {}
+[10.579755] (-) TimerEvent: {}
+[10.681664] (-) TimerEvent: {}
+[10.783340] (-) TimerEvent: {}
+[10.887021] (-) TimerEvent: {}
+[10.988560] (-) TimerEvent: {}
+[11.059035] (android_controll_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.089286] (-) TimerEvent: {}
+[11.190949] (-) TimerEvent: {}
+[11.292485] (-) TimerEvent: {}
+[11.394123] (-) TimerEvent: {}
+[11.495717] (-) TimerEvent: {}
+[11.597375] (-) TimerEvent: {}
+[11.699360] (-) TimerEvent: {}
+[11.801197] (-) TimerEvent: {}
+[11.903089] (-) TimerEvent: {}
+[12.004861] (-) TimerEvent: {}
+[12.106744] (-) TimerEvent: {}
+[12.124507] (android_controll_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.142926] (android_controll_test) StdoutLine: {'line': b'-- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)\n'}
+[12.147136] (android_controll_test) StdoutLine: {'line': b'-- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)\n'}
+[12.207453] (-) TimerEvent: {}
+[12.309224] (-) TimerEvent: {}
+[12.411489] (-) TimerEvent: {}
+[12.513227] (-) TimerEvent: {}
+[12.615238] (-) TimerEvent: {}
+[12.717098] (-) TimerEvent: {}
+[12.818939] (-) TimerEvent: {}
+[12.920558] (-) TimerEvent: {}
+[13.022860] (-) TimerEvent: {}
+[13.124648] (-) TimerEvent: {}
+[13.226304] (-) TimerEvent: {}
+[13.327691] (-) TimerEvent: {}
+[13.429361] (-) TimerEvent: {}
+[13.495862] (android_controll_test) StdoutLine: {'line': b'-- Found .NET Core: 6.0.122\n'}
+[13.496812] (android_controll_test) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[13.497390] (android_controll_test) StdoutLine: {'line': b'-- Using Framework: netstandard2.0\n'}
+[13.498329] (android_controll_test) StdoutLine: {'line': b'-- Using Runtime: linux-x64\n'}
+[13.501471] (android_controll_test) StdoutLine: {'line': b'-- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)\n'}
+[13.530212] (-) TimerEvent: {}
+[13.631763] (-) TimerEvent: {}
+[13.633585] (android_controll_test) StdoutLine: {'line': b'-- Generating C# code for ROS interfaces /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs/android_controll_test/msg/custom_unity.cs and /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs\n'}
+[13.634621] (android_controll_test) StdoutLine: {'line': b'-- Adding custom target\n'}
+[13.638619] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_c\x1b[0m\n'}
+[13.658750] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.679659] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.698611] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_c\x1b[0m\n'}
+[13.718138] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.732633] (-) TimerEvent: {}
+[13.737070] (android_controll_test) StderrLine: {'line': b'\x1b[0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.753982] (android_controll_test) StderrLine: {'line': b'\x1b[0mInstall targets\x1b[0m\n'}
+[13.833348] (-) TimerEvent: {}
+[13.935451] (-) TimerEvent: {}
+[13.978175] (android_controll_test) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[14.036318] (-) TimerEvent: {}
+[14.138277] (-) TimerEvent: {}
+[14.186603] (android_controll_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.187520] (android_controll_test) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[14.188164] (android_controll_test) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[14.239005] (-) TimerEvent: {}
+[14.340550] (-) TimerEvent: {}
+[14.442217] (-) TimerEvent: {}
+[14.543678] (-) TimerEvent: {}
+[14.645361] (-) TimerEvent: {}
+[14.747291] (-) TimerEvent: {}
+[14.773618] (android_controll_test) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.777225] (android_controll_test) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_c;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs;/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_py\n'}
+[14.778421] (android_controll_test) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.824629] (android_controll_test) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.848001] (-) TimerEvent: {}
+[14.917116] (android_controll_test) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.949009] (-) TimerEvent: {}
+[14.962551] (android_controll_test) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.049704] (-) TimerEvent: {}
+[15.151551] (-) TimerEvent: {}
+[15.253461] (-) TimerEvent: {}
+[15.325357] (android_controll_test) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.326635] (android_controll_test) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.354337] (-) TimerEvent: {}
+[15.371871] (android_controll_test) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.426401] (android_controll_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.455103] (-) TimerEvent: {}
+[15.556750] (-) TimerEvent: {}
+[15.658217] (-) TimerEvent: {}
+[15.759513] (-) TimerEvent: {}
+[15.860937] (-) TimerEvent: {}
+[15.962746] (-) TimerEvent: {}
+[16.064140] (-) TimerEvent: {}
+[16.103162] (android_controll_test) StdoutLine: {'line': b'-- Generating done\n'}
+[16.136563] (android_controll_test) StdoutLine: {'line': b'-- Build files have been written to: /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test\n'}
+[16.164886] (-) TimerEvent: {}
+[16.190167] (android_controll_test) CommandEnded: {'returncode': 0}
+[16.206421] (android_controll_test) JobProgress: {'identifier': 'android_controll_test', 'progress': 'build'}
+[16.209691] (android_controll_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test', '--', '-j12', '-l12'], 'cwd': '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src/android_controll_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1367,unix/kousei-ubuntu:/tmp/.ICE-unix/1367'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e43ff38_f7f1_4f84_ad6b_632f74d7405e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TV35B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/custom_test_msgs:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[16.266920] (-) TimerEvent: {}
+[16.368839] (-) TimerEvent: {}
+[16.470554] (-) TimerEvent: {}
+[16.572064] (-) TimerEvent: {}
+[16.673682] (-) TimerEvent: {}
+[16.775807] (-) TimerEvent: {}
+[16.879438] (-) TimerEvent: {}
+[16.943297] (android_controll_test) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.979955] (-) TimerEvent: {}
+[17.085614] (-) TimerEvent: {}
+[17.133813] (android_controll_test) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.174793] (android_controll_test) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C# code for ROS interfaces\x1b[0m\n'}
+[17.189441] (-) TimerEvent: {}
+[17.290683] (android_controll_test) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_android_controll_test\n'}
+[17.291569] (-) TimerEvent: {}
+[17.392898] (-) TimerEvent: {}
+[17.495036] (-) TimerEvent: {}
+[17.596716] (-) TimerEvent: {}
+[17.698323] (-) TimerEvent: {}
+[17.799885] (-) TimerEvent: {}
+[17.904454] (-) TimerEvent: {}
+[18.006187] (-) TimerEvent: {}
+[18.113120] (-) TimerEvent: {}
+[18.214861] (-) TimerEvent: {}
+[18.316504] (-) TimerEvent: {}
+[18.438315] (-) TimerEvent: {}
+[18.540001] (-) TimerEvent: {}
+[18.650792] (-) TimerEvent: {}
+[18.754787] (-) TimerEvent: {}
+[18.863916] (-) TimerEvent: {}
+[18.965987] (-) TimerEvent: {}
+[19.067423] (-) TimerEvent: {}
+[19.104243] (android_controll_test) StdoutLine: {'line': b'[  4%] Built target android_controll_test__cpp\n'}
+[19.183991] (-) TimerEvent: {}
+[19.285449] (-) TimerEvent: {}
+[19.332676] (android_controll_test) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/msg/detail/custom_unity__functions.c.o\x1b[0m\n'}
+[19.341453] (android_controll_test) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[19.360254] (android_controll_test) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.388471] (android_controll_test) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.389230] (-) TimerEvent: {}
+[19.397386] (android_controll_test) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.406635] (android_controll_test) StdoutLine: {'line': b'[ 11%] Built target android_controll_test__cs\n'}
+[19.489750] (-) TimerEvent: {}
+[19.591840] (-) TimerEvent: {}
+[19.705260] (-) TimerEvent: {}
+[19.813536] (-) TimerEvent: {}
+[19.928325] (-) TimerEvent: {}
+[19.990963] (android_controll_test) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore android_controll_test_assembly_dotnetcore.csproj;          /usr/bin/dotnet build android_controll_test_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/android_controll_test_assembly\x1b[0m\n'}
+[20.032042] (-) TimerEvent: {}
+[20.060896] (android_controll_test) StdoutLine: {'line': b'running egg_info\n'}
+[20.065577] (android_controll_test) StdoutLine: {'line': b'creating android_controll_test.egg-info\n'}
+[20.070021] (android_controll_test) StdoutLine: {'line': b'writing android_controll_test.egg-info/PKG-INFO\n'}
+[20.070757] (android_controll_test) StdoutLine: {'line': b'writing dependency_links to android_controll_test.egg-info/dependency_links.txt\n'}
+[20.073510] (android_controll_test) StdoutLine: {'line': b'writing top-level names to android_controll_test.egg-info/top_level.txt\n'}
+[20.074412] (android_controll_test) StdoutLine: {'line': b"writing manifest file 'android_controll_test.egg-info/SOURCES.txt'\n"}
+[20.107436] (android_controll_test) StdoutLine: {'line': b"reading manifest file 'android_controll_test.egg-info/SOURCES.txt'\n"}
+[20.109129] (android_controll_test) StdoutLine: {'line': b"writing manifest file 'android_controll_test.egg-info/SOURCES.txt'\n"}
+[20.132861] (-) TimerEvent: {}
+[20.236136] (-) TimerEvent: {}
+[20.268790] (android_controll_test) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libandroid_controll_test__rosidl_generator_c.so\x1b[0m\n'}
+[20.336817] (-) TimerEvent: {}
+[20.370412] (android_controll_test) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_build_android_controll_test_egg\n'}
+[20.439365] (-) TimerEvent: {}
+[20.543599] (-) TimerEvent: {}
+[20.649136] (-) TimerEvent: {}
+[20.751210] (-) TimerEvent: {}
+[20.774891] (android_controll_test) StdoutLine: {'line': b'cmake version 3.22.1\n'}
+[20.775783] (android_controll_test) StdoutLine: {'line': b'\n'}
+[20.776399] (android_controll_test) StdoutLine: {'line': b'CMake suite maintained and supported by Kitware (kitware.com/cmake).\n'}
+[20.851735] (-) TimerEvent: {}
+[20.953057] (-) TimerEvent: {}
+[21.054727] (-) TimerEvent: {}
+[21.114118] (android_controll_test) StdoutLine: {'line': b'[ 14%] Built target android_controll_test__rosidl_generator_c\n'}
+[21.155513] (-) TimerEvent: {}
+[21.256909] (-) TimerEvent: {}
+[21.358585] (-) TimerEvent: {}
+[21.417281] (android_controll_test) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[21.418487] (android_controll_test) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/msg/custom_unity__type_support.cpp.o\x1b[0m\n'}
+[21.419138] (android_controll_test) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[21.419739] (android_controll_test) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.459098] (-) TimerEvent: {}
+[21.528999] (android_controll_test) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.563428] (-) TimerEvent: {}
+[21.572717] (android_controll_test) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/msg/detail/custom_unity__type_support.cpp.o\x1b[0m\n'}
+[21.638233] (android_controll_test) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o\x1b[0m\n'}
+[21.639159] (android_controll_test) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[21.663981] (-) TimerEvent: {}
+[21.675112] (android_controll_test) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[21.764499] (-) TimerEvent: {}
+[21.867530] (-) TimerEvent: {}
+[21.969000] (-) TimerEvent: {}
+[22.071593] (-) TimerEvent: {}
+[22.174148] (-) TimerEvent: {}
+[22.276885] (-) TimerEvent: {}
+[22.378426] (-) TimerEvent: {}
+[22.479723] (-) TimerEvent: {}
+[22.581098] (-) TimerEvent: {}
+[22.695007] (-) TimerEvent: {}
+[22.796330] (-) TimerEvent: {}
+[22.898493] (-) TimerEvent: {}
+[23.001034] (-) TimerEvent: {}
+[23.102569] (-) TimerEvent: {}
+[23.206611] (-) TimerEvent: {}
+[23.313424] (-) TimerEvent: {}
+[23.419074] (-) TimerEvent: {}
+[23.520740] (-) TimerEvent: {}
+[23.622770] (-) TimerEvent: {}
+[23.729753] (-) TimerEvent: {}
+[23.833014] (-) TimerEvent: {}
+[23.934892] (-) TimerEvent: {}
+[24.082419] (-) TimerEvent: {}
+[24.183845] (-) TimerEvent: {}
+[24.285198] (-) TimerEvent: {}
+[24.331863] (android_controll_test) StdoutLine: {'line': b'\x1b[?1h\x1b=[ 31%] \x1b[32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/msg/detail/custom_unity__type_support.c.o\x1b[0m\n'}
+[24.335063] (android_controll_test) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[24.385739] (-) TimerEvent: {}
+[24.456475] (android_controll_test) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/msg/custom_unity__type_support.cpp.o\x1b[0m\n'}
+[24.494261] (-) TimerEvent: {}
+[24.500799] (android_controll_test) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[24.610501] (-) TimerEvent: {}
+[24.714272] (-) TimerEvent: {}
+[24.789259] (android_controll_test) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/msg/detail/custom_unity__type_support_c.cpp.o\x1b[0m\n'}
+[24.814845] (-) TimerEvent: {}
+[24.930834] (-) TimerEvent: {}
+[25.032294] (-) TimerEvent: {}
+[25.136435] (-) TimerEvent: {}
+[25.237968] (-) TimerEvent: {}
+[25.339182] (-) TimerEvent: {}
+[25.362543] (android_controll_test) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[25.447037] (-) TimerEvent: {}
+[25.479641] (android_controll_test) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.547605] (-) TimerEvent: {}
+[25.629291] (android_controll_test) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[25.648130] (-) TimerEvent: {}
+[25.701553] (android_controll_test) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libandroid_controll_test__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[25.756253] (-) TimerEvent: {}
+[25.862658] (-) TimerEvent: {}
+[25.964035] (-) TimerEvent: {}
+[26.065529] (-) TimerEvent: {}
+[26.212820] (-) TimerEvent: {}
+[26.314239] (-) TimerEvent: {}
+[26.415471] (-) TimerEvent: {}
+[26.518071] (-) TimerEvent: {}
+[26.538652] (android_controll_test) StdoutLine: {'line': b'[ 41%] Built target android_controll_test__rosidl_typesupport_c\n'}
+[26.558269] (android_controll_test) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[26.618595] (-) TimerEvent: {}
+[26.728780] (-) TimerEvent: {}
+[26.790860] (android_controll_test) StdoutLine: {'line': b'[ 43%] Built target android_controll_test__rosidl_typesupport_introspection_c\n'}
+[26.835722] (-) TimerEvent: {}
+[26.858854] (android_controll_test) StdoutLine: {'line': b'[ 43%] Built target android_controll_test__rosidl_typesupport_cpp\n'}
+[26.936310] (-) TimerEvent: {}
+[27.070537] (android_controll_test) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[27.071556] (-) TimerEvent: {}
+[27.188867] (-) TimerEvent: {}
+[27.195649] (android_controll_test) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.220926] (android_controll_test) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o\x1b[0m\n'}
+[27.289464] (-) TimerEvent: {}
+[27.307298] (android_controll_test) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o\x1b[0m\n'}
+[27.402969] (-) TimerEvent: {}
+[27.452428] (android_controll_test) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.453307] (android_controll_test) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.514977] (-) TimerEvent: {}
+[27.529263] (android_controll_test) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.579116] (android_controll_test) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o\x1b[0m\n'}
+[27.627343] (-) TimerEvent: {}
+[27.729520] (-) TimerEvent: {}
+[27.832024] (-) TimerEvent: {}
+[27.872910] (android_controll_test) StdoutLine: {'line': b'[ 55%] Built target android_controll_test__rosidl_typesupport_introspection_cpp\n'}
+[27.932733] (-) TimerEvent: {}
+[28.063611] (-) TimerEvent: {}
+[28.145051] (android_controll_test) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o\x1b[0m\n'}
+[28.146542] (android_controll_test) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o\x1b[0m\n'}
+[28.164129] (-) TimerEvent: {}
+[28.266363] (-) TimerEvent: {}
+[28.354157] (android_controll_test) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_c_native.so\x1b[0m\n'}
+[28.379666] (android_controll_test) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_c_native.so\x1b[0m\n'}
+[28.380545] (-) TimerEvent: {}
+[28.495790] (-) TimerEvent: {}
+[28.607055] (-) TimerEvent: {}
+[28.708736] (-) TimerEvent: {}
+[28.814252] (android_controll_test) StdoutLine: {'line': b'[ 61%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp\n'}
+[28.815099] (-) TimerEvent: {}
+[28.916210] (-) TimerEvent: {}
+[28.974530] (android_controll_test) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so\x1b[0m\n'}
+[29.013658] (android_controll_test) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_introspection_c_native.so\x1b[0m\n'}
+[29.016690] (-) TimerEvent: {}
+[29.118222] (-) TimerEvent: {}
+[29.219516] (-) TimerEvent: {}
+[29.230771] (android_controll_test) StdoutLine: {'line': b'[ 65%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_c\n'}
+[29.273162] (android_controll_test) StdoutLine: {'line': b'[ 67%] Built target android_controll_test_custom_unity__rosidl_typesupport_c\n'}
+[29.320098] (-) TimerEvent: {}
+[29.421309] (-) TimerEvent: {}
+[29.522944] (-) TimerEvent: {}
+[29.541342] (android_controll_test) StdoutLine: {'line': b'[ 68%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c\n'}
+[29.596929] (android_controll_test) StdoutLine: {'line': b'[ 70%] Built target android_controll_test_custom_unity__rosidl_typesupport_introspection_c\n'}
+[29.620413] (android_controll_test) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[29.624273] (-) TimerEvent: {}
+[29.725270] (-) TimerEvent: {}
+[29.826987] (-) TimerEvent: {}
+[29.928560] (-) TimerEvent: {}
+[30.030193] (-) TimerEvent: {}
+[30.131502] (-) TimerEvent: {}
+[30.232997] (-) TimerEvent: {}
+[30.334631] (-) TimerEvent: {}
+[30.436442] (-) TimerEvent: {}
+[30.538322] (-) TimerEvent: {}
+[30.563563] (android_controll_test) StdoutLine: {'line': b'[ 71%] Built target android_controll_test__rosidl_typesupport_fastrtps_c\n'}
+[30.638866] (-) TimerEvent: {}
+[30.740184] (-) TimerEvent: {}
+[30.843814] (-) TimerEvent: {}
+[30.958156] (-) TimerEvent: {}
+[31.068700] (-) TimerEvent: {}
+[31.073320] (android_controll_test) StdoutLine: {'line': b'[ 71%] Built target android_controll_test\n'}
+[31.074447] (android_controll_test) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[31.078855] (android_controll_test) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c.o\x1b[0m\n'}
+[31.088475] (android_controll_test) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[31.099469] (android_controll_test) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c.o\x1b[0m\n'}
+[31.169221] (-) TimerEvent: {}
+[31.270690] (-) TimerEvent: {}
+[31.290596] (android_controll_test) StdoutLine: {'line': b'  Determining projects to restore...\n'}
+[31.376769] (-) TimerEvent: {}
+[31.478556] (-) TimerEvent: {}
+[31.586302] (-) TimerEvent: {}
+[31.628999] (android_controll_test) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[31.690547] (-) TimerEvent: {}
+[31.804878] (-) TimerEvent: {}
+[31.906272] (-) TimerEvent: {}
+[31.908083] (android_controll_test) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/msg/libandroid_controll_test_custom_unity__rosidl_typesupport_fastrtps_c_native.so\x1b[0m\n'}
+[31.913421] (android_controll_test) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_cs/android_controll_test/srv/libandroid_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so\x1b[0m\n'}
+[32.006863] (-) TimerEvent: {}
+[32.109537] (-) TimerEvent: {}
+[32.211259] (-) TimerEvent: {}
+[32.312622] (-) TimerEvent: {}
+[32.415484] (-) TimerEvent: {}
+[32.507834] (android_controll_test) StdoutLine: {'line': b'[ 83%] Built target android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c\n'}
+[32.516407] (-) TimerEvent: {}
+[32.560462] (android_controll_test) StdoutLine: {'line': b'[ 85%] Built target android_controll_test_srv_add_three_ints__rosidl_typesupport_fastrtps_c\n'}
+[32.617036] (-) TimerEvent: {}
+[32.718620] (-) TimerEvent: {}
+[32.820111] (-) TimerEvent: {}
+[32.922339] (-) TimerEvent: {}
+[33.024012] (-) TimerEvent: {}
+[33.125584] (-) TimerEvent: {}
+[33.227409] (-) TimerEvent: {}
+[33.289091] (android_controll_test) StdoutLine: {'line': b'  Restored /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/android_controll_test_assembly/android_controll_test_assembly_dotnetcore.csproj (in 849 ms).\n'}
+[33.329272] (-) TimerEvent: {}
+[33.430829] (-) TimerEvent: {}
+[33.532408] (-) TimerEvent: {}
+[33.634221] (-) TimerEvent: {}
+[33.663654] (android_controll_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/osawakousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcustom_message_unity/msg/CustomUnity.hpp: \xe3\x81\x9d\xe3\x81\xae\xe3\x82\x88\xe3\x81\x86\xe3\x81\xaa\xe3\x83\x95\xe3\x82\xa1\xe3\x82\xa4\xe3\x83\xab\xe3\x82\x84\xe3\x83\x87\xe3\x82\xa3\xe3\x83\xac\xe3\x82\xaf\xe3\x83\x88\xe3\x83\xaa\xe3\x81\xaf\xe3\x81\x82\xe3\x82\x8a\xe3\x81\xbe\xe3\x81\x9b\xe3\x82\x93\n'}
+[33.664694] (android_controll_test) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"custom_message_unity/msg/CustomUnity.hpp"\x1b[m\x1b[K\n'}
+[33.665380] (android_controll_test) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[33.666272] (android_controll_test) StderrLine: {'line': b'compilation terminated.\n'}
+[33.677345] (android_controll_test) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/connecter_node.dir/build.make:76: CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[33.680389] (android_controll_test) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:826: CMakeFiles/connecter_node.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[33.681140] (android_controll_test) StderrLine: {'line': b'gmake[1]: *** \xe6\x9c\xaa\xe5\xae\x8c\xe4\xba\x86\xe3\x81\xae\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\x96\xe3\x82\x92\xe5\xbe\x85\xe3\x81\xa3\xe3\x81\xa6\xe3\x81\x84\xe3\x81\xbe\xe3\x81\x99....\n'}
+[33.735146] (-) TimerEvent: {}
+[33.794865] (android_controll_test) StdoutLine: {'line': b'[ 85%] Built target android_controll_test__py\n'}
+[33.835912] (-) TimerEvent: {}
+[33.937601] (-) TimerEvent: {}
+[34.039460] (-) TimerEvent: {}
+[34.141094] (-) TimerEvent: {}
+[34.243041] (-) TimerEvent: {}
+[34.344883] (-) TimerEvent: {}
+[34.446625] (-) TimerEvent: {}
+[34.548318] (-) TimerEvent: {}
+[34.650194] (-) TimerEvent: {}
+[34.752136] (-) TimerEvent: {}
+[34.854114] (-) TimerEvent: {}
+[34.964400] (-) TimerEvent: {}
+[35.083157] (-) TimerEvent: {}
+[35.113651] (android_controll_test) StdoutLine: {'line': b'\x1b[?1h\x1b=.NET \xe5\x90\x91\xe3\x81\x91 Microsoft (R) Build Engine \xe3\x83\x90\xe3\x83\xbc\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\xb3 17.0.1+b177f8fa7\n'}
+[35.116506] (android_controll_test) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation.All rights reserved.\n'}
+[35.117160] (android_controll_test) StdoutLine: {'line': b'\n'}
+[35.183693] (-) TimerEvent: {}
+[35.285246] (-) TimerEvent: {}
+[35.387114] (-) TimerEvent: {}
+[35.488625] (-) TimerEvent: {}
+[35.590848] (-) TimerEvent: {}
+[35.692383] (-) TimerEvent: {}
+[35.794196] (-) TimerEvent: {}
+[35.895678] (-) TimerEvent: {}
+[35.997301] (-) TimerEvent: {}
+[36.100342] (-) TimerEvent: {}
+[36.201731] (-) TimerEvent: {}
+[36.303317] (-) TimerEvent: {}
+[36.405217] (-) TimerEvent: {}
+[36.507631] (-) TimerEvent: {}
+[36.609321] (-) TimerEvent: {}
+[36.711242] (-) TimerEvent: {}
+[36.814690] (-) TimerEvent: {}
+[36.916150] (-) TimerEvent: {}
+[37.018077] (-) TimerEvent: {}
+[37.120150] (-) TimerEvent: {}
+[37.221458] (-) TimerEvent: {}
+[37.322962] (-) TimerEvent: {}
+[37.424302] (-) TimerEvent: {}
+[37.526003] (-) TimerEvent: {}
+[37.628746] (-) TimerEvent: {}
+[37.732145] (-) TimerEvent: {}
+[37.833583] (-) TimerEvent: {}
+[37.935039] (-) TimerEvent: {}
+[38.036141] (-) TimerEvent: {}
+[38.137471] (-) TimerEvent: {}
+[38.171224] (android_controll_test) StdoutLine: {'line': b'  Determining projects to restore...\n'}
+[38.238188] (-) TimerEvent: {}
+[38.339481] (-) TimerEvent: {}
+[38.442993] (-) TimerEvent: {}
+[38.545623] (-) TimerEvent: {}
+[38.648201] (-) TimerEvent: {}
+[38.754203] (-) TimerEvent: {}
+[38.856028] (-) TimerEvent: {}
+[38.958602] (-) TimerEvent: {}
+[39.060623] (-) TimerEvent: {}
+[39.162075] (-) TimerEvent: {}
+[39.263729] (-) TimerEvent: {}
+[39.365318] (-) TimerEvent: {}
+[39.431832] (android_controll_test) StdoutLine: {'line': b'  All projects are up-to-date for restore.\n'}
+[39.466344] (-) TimerEvent: {}
+[39.568386] (-) TimerEvent: {}
+[39.672069] (-) TimerEvent: {}
+[39.773627] (-) TimerEvent: {}
+[39.875217] (-) TimerEvent: {}
+[39.977089] (-) TimerEvent: {}
+[40.079219] (-) TimerEvent: {}
+[40.180884] (-) TimerEvent: {}
+[40.282694] (-) TimerEvent: {}
+[40.384287] (-) TimerEvent: {}
+[40.486162] (-) TimerEvent: {}
+[40.588027] (-) TimerEvent: {}
+[40.689515] (-) TimerEvent: {}
+[40.791269] (-) TimerEvent: {}
+[40.892748] (-) TimerEvent: {}
+[40.994743] (-) TimerEvent: {}
+[41.097161] (-) TimerEvent: {}
+[41.199131] (-) TimerEvent: {}
+[41.300689] (-) TimerEvent: {}
+[41.402502] (-) TimerEvent: {}
+[41.504048] (-) TimerEvent: {}
+[41.606418] (-) TimerEvent: {}
+[41.707847] (-) TimerEvent: {}
+[41.809327] (-) TimerEvent: {}
+[41.911243] (-) TimerEvent: {}
+[42.013524] (-) TimerEvent: {}
+[42.115222] (-) TimerEvent: {}
+[42.216836] (-) TimerEvent: {}
+[42.318552] (-) TimerEvent: {}
+[42.420186] (-) TimerEvent: {}
+[42.522188] (-) TimerEvent: {}
+[42.623580] (-) TimerEvent: {}
+[42.725143] (-) TimerEvent: {}
+[42.826979] (-) TimerEvent: {}
+[42.928654] (-) TimerEvent: {}
+[43.031873] (-) TimerEvent: {}
+[43.134163] (-) TimerEvent: {}
+[43.235727] (-) TimerEvent: {}
+[43.337380] (-) TimerEvent: {}
+[43.439206] (-) TimerEvent: {}
+[43.540847] (-) TimerEvent: {}
+[43.643001] (-) TimerEvent: {}
+[43.744533] (-) TimerEvent: {}
+[43.846693] (-) TimerEvent: {}
+[43.948257] (-) TimerEvent: {}
+[44.050403] (-) TimerEvent: {}
+[44.152425] (-) TimerEvent: {}
+[44.254200] (-) TimerEvent: {}
+[44.355677] (-) TimerEvent: {}
+[44.457209] (-) TimerEvent: {}
+[44.558928] (-) TimerEvent: {}
+[44.660332] (-) TimerEvent: {}
+[44.764048] (-) TimerEvent: {}
+[44.866205] (-) TimerEvent: {}
+[44.967860] (-) TimerEvent: {}
+[45.069414] (-) TimerEvent: {}
+[45.171268] (-) TimerEvent: {}
+[45.272757] (-) TimerEvent: {}
+[45.374482] (-) TimerEvent: {}
+[45.476035] (-) TimerEvent: {}
+[45.578172] (-) TimerEvent: {}
+[45.680793] (-) TimerEvent: {}
+[45.782835] (-) TimerEvent: {}
+[45.884360] (-) TimerEvent: {}
+[45.986249] (-) TimerEvent: {}
+[46.088111] (-) TimerEvent: {}
+[46.191504] (-) TimerEvent: {}
+[46.294279] (-) TimerEvent: {}
+[46.395901] (-) TimerEvent: {}
+[46.497568] (-) TimerEvent: {}
+[46.599645] (-) TimerEvent: {}
+[46.701409] (-) TimerEvent: {}
+[46.795367] (android_controll_test) StdoutLine: {'line': b'  android_controll_test_assembly_dotnetcore -> /home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/netstandard2.0/android_controll_test_assembly.dll\n'}
+[46.814475] (-) TimerEvent: {}
+[46.834429] (android_controll_test) StdoutLine: {'line': b'\x1b[39;49m\x1b[92m\n'}
+[46.836724] (android_controll_test) StdoutLine: {'line': b'\xe3\x83\x93\xe3\x83\xab\xe3\x83\x89\xe3\x81\xab\xe6\x88\x90\xe5\x8a\x9f\xe3\x81\x97\xe3\x81\xbe\xe3\x81\x97\xe3\x81\x9f\xe3\x80\x82\n'}
+[46.837342] (android_controll_test) StdoutLine: {'line': b'\x1b[39;49m    0 \xe5\x80\x8b\xe3\x81\xae\xe8\xad\xa6\xe5\x91\x8a\n'}
+[46.838145] (android_controll_test) StdoutLine: {'line': b'\x1b[39;49m    0 \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc\n'}
+[46.838743] (android_controll_test) StdoutLine: {'line': b'\x1b[39;49m\n'}
+[46.839312] (android_controll_test) StdoutLine: {'line': b'\xe7\xb5\x8c\xe9\x81\x8e\xe6\x99\x82\xe9\x96\x93 00:00:10.87\n'}
+[46.915590] (-) TimerEvent: {}
+[47.017040] (-) TimerEvent: {}
+[47.043326] (android_controll_test) StdoutLine: {'line': b'[ 85%] Built target android_controll_test_assembly\n'}
+[47.050306] (android_controll_test) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[47.073175] (android_controll_test) CommandEnded: {'returncode': 2}
+[47.117726] (-) TimerEvent: {}
+[47.219476] (-) TimerEvent: {}
+[47.321075] (-) TimerEvent: {}
+[47.422959] (-) TimerEvent: {}
+[47.524465] (-) TimerEvent: {}
+[47.627143] (-) TimerEvent: {}
+[47.728639] (-) TimerEvent: {}
+[47.830623] (-) TimerEvent: {}
+[47.932170] (-) TimerEvent: {}
+[48.033705] (-) TimerEvent: {}
+[48.135496] (-) TimerEvent: {}
+[48.237136] (-) TimerEvent: {}
+[48.338869] (-) TimerEvent: {}
+[48.440416] (-) TimerEvent: {}
+[48.542170] (-) TimerEvent: {}
+[48.643825] (-) TimerEvent: {}
+[48.745528] (-) TimerEvent: {}
+[48.847368] (-) TimerEvent: {}
+[48.950177] (-) TimerEvent: {}
+[49.051690] (-) TimerEvent: {}
+[49.154296] (-) TimerEvent: {}
+[49.256205] (-) TimerEvent: {}
+[49.359029] (-) TimerEvent: {}
+[49.461187] (-) TimerEvent: {}
+[49.564164] (-) TimerEvent: {}
+[49.666056] (-) TimerEvent: {}
+[49.767986] (-) TimerEvent: {}
+[49.870156] (-) TimerEvent: {}
+[49.971890] (-) TimerEvent: {}
+[50.074005] (-) TimerEvent: {}
+[50.175634] (-) TimerEvent: {}
+[50.277283] (-) TimerEvent: {}
+[50.379078] (-) TimerEvent: {}
+[50.480959] (-) TimerEvent: {}
+[50.582815] (-) TimerEvent: {}
+[50.684585] (-) TimerEvent: {}
+[50.786309] (-) TimerEvent: {}
+[50.888248] (-) TimerEvent: {}
+[50.990542] (-) TimerEvent: {}
+[51.093372] (-) TimerEvent: {}
+[51.194715] (-) TimerEvent: {}
+[51.302226] (-) TimerEvent: {}
+[51.405082] (-) TimerEvent: {}
+[51.432659] (android_controll_test) JobEnded: {'identifier': 'android_controll_test', 'rc': 2}
+[51.440702] (-) EventReactorShutdown: {}

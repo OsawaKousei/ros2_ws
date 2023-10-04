@@ -28,8 +28,8 @@ _colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/uros_ws
 _colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/test_package/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/cpp_server_client/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/android_controll_test/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/custom_message_unity/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/osawakousei/ros2_ws/src/android_controll_test/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

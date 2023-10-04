@@ -66,16 +66,69 @@ include CMakeFiles/android_controll_test_assembly.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/android_controll_test_assembly.dir/progress.make
 
-CMakeFiles/android_controll_test_assembly:
+CMakeFiles/android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "/usr/bin/cmake;-version;/usr/bin/dotnet restore android_controll_test_assembly_dotnetcore.csproj;          /usr/bin/dotnet build android_controll_test_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly"
-	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/cmake -DCSHARP_TARGET_FRAMEWORK="netstandard2.0" -DCSHARP_BUILDER_OUTPUT_TYPE="library" -DCSHARP_BUILDER_OUTPUT_PATH="/home/osawakousei/ros2_ws/build/android_controll_test/" -DCSHARP_PLATFORM="x64" -DCSHARP_BUILDER_OUTPUT_NAME="android_controll_test_assembly" -DCSHARP_CONFIGURE="Release" -DCSHARP_BUILDER_ADDITIONAL_REFERENCES="<Reference Include=\"/home/osawakousei/ros2_ws/install/ros2cs_common/lib/dotnet/ros2cs_common.dll\" />" -DCSHARP_BUILDER_SOURCES="<Compile Include=\"/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs\" />" -DCSHARP_TARGET_FRAMEWORK_VERSION="2.0" -DCSHARP_PACKAGE_REFERENCES="" -DMSBUILD_TOOLSET="12.0" -DCSHARP_IMPORTS="" -DCONFIG_INPUT_FILE="/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/dotnetcore.csproj.in" -DCONFIG_OUTPUT_FILE="/home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly/android_controll_test_assembly_dotnetcore.csproj" -P /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
+	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/cmake -DCSHARP_TARGET_FRAMEWORK="netstandard2.0" -DCSHARP_BUILDER_OUTPUT_TYPE="library" -DCSHARP_BUILDER_OUTPUT_PATH="/home/osawakousei/ros2_ws/build/android_controll_test/" -DCSHARP_PLATFORM="x64" -DCSHARP_BUILDER_OUTPUT_NAME="android_controll_test_assembly" -DCSHARP_CONFIGURE="Release" -DCSHARP_BUILDER_ADDITIONAL_REFERENCES="<Reference Include=\"/home/osawakousei/ros2_ws/install/ros2cs_common/lib/dotnet/ros2cs_common.dll\" />" -DCSHARP_BUILDER_SOURCES="<Compile Include=\"/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/msg/custom_unity.cs\" /> <Compile Include=\"/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs\" />" -DCSHARP_TARGET_FRAMEWORK_VERSION="2.0" -DCSHARP_PACKAGE_REFERENCES="" -DMSBUILD_TOOLSET="12.0" -DCSHARP_IMPORTS="" -DCONFIG_INPUT_FILE="/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/dotnetcore.csproj.in" -DCONFIG_OUTPUT_FILE="/home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly/android_controll_test_assembly_dotnetcore.csproj" -P /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
 	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/cmake -DCSHARP_PACKAGE_REFERENCES="" -DCONFIG_INPUT_FILE="/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/packages.config.in" -DCONFIG_OUTPUT_FILE="/home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly/packages.config" -P /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
 	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/cmake -DCSHARP_BUILDER_OUTPUT_NAME="android_controll_test_assembly" -DCONFIG_INPUT_FILE="/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/Modules/dotnet/Directory.Build.props.in" -DCONFIG_OUTPUT_FILE="/home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly/Directory.Build.props" -P /home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake/ConfigureFile.cmake
 	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/cmake -version
 	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/dotnet restore android_controll_test_assembly_dotnetcore.csproj
 	cd /home/osawakousei/ros2_ws/build/android_controll_test/android_controll_test_assembly && /usr/bin/dotnet build android_controll_test_assembly_dotnetcore.csproj -c=Release
 
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages/rosidl_generator_cs/__init__.py
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: rosidl_adapter/android_controll_test/msg/CustomUnity.idl
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C# code for ROS interfaces"
+	/usr/bin/python3.10 /home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs --generator-arguments-file /home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs__arguments.json --typesupport-impls "rosidl_typesupport_c;rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c" --cs-build-tool DotNetCore
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c
+
 android_controll_test_assembly: CMakeFiles/android_controll_test_assembly
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c
+android_controll_test_assembly: rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c
 android_controll_test_assembly: CMakeFiles/android_controll_test_assembly.dir/build.make
 .PHONY : android_controll_test_assembly
 

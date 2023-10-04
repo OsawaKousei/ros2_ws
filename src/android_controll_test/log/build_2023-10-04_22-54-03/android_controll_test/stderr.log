@@ -1,0 +1,12 @@
+[0mLink libraries: android_controll_test__rosidl_typesupport_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_introspection_c[0m
+[0mLink libraries: android_controll_test__rosidl_typesupport_fastrtps_c[0m
+[0mInstall targets[0m
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/CustomUnity.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/osawakousei/ros2_ws/src/android_controll_test'
+Call Stack (most recent call first):
+  CMakeLists.txt:36 (rosidl_generate_interfaces)
+
+[0m

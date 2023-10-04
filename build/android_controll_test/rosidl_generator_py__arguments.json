@@ -3,6 +3,7 @@
   "output_dir": "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_py/android_controll_test",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
+    "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:msg/CustomUnity.idl",
     "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:srv/AddThreeInts.idl"
   ],
   "target_dependencies": [
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test/msg/CustomUnity.idl",
     "/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test/srv/AddThreeInts.idl"
   ]
 }

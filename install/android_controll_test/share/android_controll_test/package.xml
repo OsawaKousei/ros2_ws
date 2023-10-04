@@ -12,6 +12,7 @@
   <depend>rclcpp</depend>  
   <depend>std_msgs</depend>
   <depend>custom_test_msgs</depend>
+  <depend>custom_message_unity</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

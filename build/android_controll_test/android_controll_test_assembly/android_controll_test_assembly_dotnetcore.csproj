@@ -13,7 +13,7 @@
     <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs" />
+    <Compile Include="/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/msg/custom_unity.cs" /> <Compile Include="/home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="/home/osawakousei/ros2_ws/install/ros2cs_common/lib/dotnet/ros2cs_common.dll" />

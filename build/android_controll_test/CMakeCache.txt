@@ -301,7 +301,7 @@ SITE:STRING=kousei-ubuntu
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/osawakousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
@@ -457,6 +457,15 @@ android_controll_test__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STA
 android_controll_test__rosidl_typesupport_introspection_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;
 
 //Dependencies for the target
+android_controll_test_custom_unity__rosidl_typesupport_c_LIB_DEPENDS:STATIC=general;android_controll_test__rosidl_typesupport_c;general;-Wl,--no-undefined;general;android_controll_test__rosidl_generator_c;general;android_controll_test__rosidl_typesupport_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
+
+//Dependencies for the target
+android_controll_test_custom_unity__rosidl_typesupport_fastrtps_c_LIB_DEPENDS:STATIC=general;android_controll_test__rosidl_typesupport_fastrtps_c;general;-Wl,--no-undefined;general;android_controll_test__rosidl_generator_c;general;android_controll_test__rosidl_typesupport_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
+
+//Dependencies for the target
+android_controll_test_custom_unity__rosidl_typesupport_introspection_c_LIB_DEPENDS:STATIC=general;android_controll_test__rosidl_typesupport_introspection_c;general;-Wl,--no-undefined;general;android_controll_test__rosidl_generator_c;general;android_controll_test__rosidl_typesupport_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
+
+//Dependencies for the target
 android_controll_test_srv_add_three_ints__rosidl_typesupport_c_LIB_DEPENDS:STATIC=general;android_controll_test__rosidl_typesupport_c;general;-Wl,--no-undefined;general;android_controll_test__rosidl_generator_c;general;android_controll_test__rosidl_typesupport_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
 
 //Dependencies for the target
@@ -467,6 +476,9 @@ android_controll_test_srv_add_three_ints__rosidl_typesupport_introspection_c_LIB
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for custom_message_unity.
+custom_message_unity_DIR:PATH=/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake
 
 //The directory containing a CMake configuration file for custom_test_msgs.
 custom_test_msgs_DIR:PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake

@@ -66,40 +66,66 @@ include CMakeFiles/android_controll_test__cs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/android_controll_test__cs.dir/progress.make
 
+CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c
+CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c
+CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c
+CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c
 CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
 CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c
 CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c
 CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c
 CMakeFiles/android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c
 
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages/rosidl_generator_cs/__init__.py
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl_typesupport.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.cs.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg_typesupport.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.cs.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv_typesupport.c.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.cs.em
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages/rosidl_generator_cs/__init__.py
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv_typesupport.c.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: /home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.cs.em
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: rosidl_adapter/android_controll_test/msg/CustomUnity.idl
+rosidl_generator_cs/android_controll_test/msg/custom_unity.cs: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C# code for ROS interfaces"
 	/usr/bin/python3.10 /home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs --generator-arguments-file /home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_cs__arguments.json --typesupport-impls "rosidl_typesupport_c;rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c" --cs-build-tool DotNetCore
 
-rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c
+
+rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+
+rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints_s.c
 
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c
 
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c
 
-rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
+rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c
 
 android_controll_test__cs: CMakeFiles/android_controll_test__cs
+android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.cs
+android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_c.c
+android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c
+android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c
+android_controll_test__cs: rosidl_generator_cs/android_controll_test/msg/custom_unity_s.c
 android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.cs
 android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_c.c
 android_controll_test__cs: rosidl_generator_cs/android_controll_test/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c

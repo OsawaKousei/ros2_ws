@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jrco45kfT7u6GyTNPAmye3gdFYm3HPUGFolk9pjZ4ejkFBAHP4DiFdVMnDcGWm7LzZnu9LJLA8LNdzqcpj45NA==",
+  "success": true,
+  "projectFilePath": "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/android_controll_test_assembly/android_controll_test_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/osawakousei/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/osawakousei/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

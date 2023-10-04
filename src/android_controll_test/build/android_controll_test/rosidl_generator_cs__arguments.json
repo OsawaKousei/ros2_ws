@@ -1,0 +1,24 @@
+{
+  "package_name": "android_controll_test",
+  "output_dir": "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_generator_cs/android_controll_test",
+  "template_dir": "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource",
+  "idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_adapter/android_controll_test:msg/CustomUnity.idl",
+    "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_adapter/android_controll_test:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/lib/rosidl_generator_cs/rosidl_generator_cs",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages/rosidl_generator_cs/__init__.py",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/idl.cs.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/msg.cs.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv_typesupport.c.em",
+    "/home/osawakousei/ros2_ws/install/rosidl_generator_cs/share/rosidl_generator_cs/resource/srv.cs.em",
+    "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_adapter/android_controll_test/msg/CustomUnity.idl",
+    "/home/osawakousei/ros2_ws/src/android_controll_test/build/android_controll_test/rosidl_adapter/android_controll_test/srv/AddThreeInts.idl"
+  ]
+}

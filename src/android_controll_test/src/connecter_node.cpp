@@ -7,9 +7,11 @@
 #include <cinttypes>
 #include <string>
 #include "custom_test_msgs/srv/add_three_ints.hpp"
+#include "custom_message_unity/msg/custom_unity.hpp"
 
 using namespace std::chrono_literals;
 using namespace custom_test_msgs::srv;
+using namespace custom_message_unity::msg;
 
 class ConnecterNode : public rclcpp::Node {
 public:
