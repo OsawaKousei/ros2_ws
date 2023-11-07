@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/custom_test_msgs': /usr/bin/cmake /root/ros2_ws/src/custom_test_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_test_msgs
+Invoked command in '/root/ros2_ws/build/custom_test_msgs' returned '1': /usr/bin/cmake /root/ros2_ws/src/custom_test_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_test_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/custom_message_unity': /usr/bin/cmake /root/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_message_unity
+Invoked command in '/root/ros2_ws/build/custom_message_unity' returned '1': /usr/bin/cmake /root/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_message_unity

@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/test_package': /usr/bin/cmake /root/ros2_ws/src/test_package -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/test_package
+Invoked command in '/root/ros2_ws/build/test_package' returned '1': /usr/bin/cmake /root/ros2_ws/src/test_package -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/test_package

@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.002011] (cpp_server_client) JobQueued: {'identifier': 'cpp_server_client', 'dependencies': OrderedDict()}
+[0.002094] (cpp_topic_pubsub) JobQueued: {'identifier': 'cpp_topic_pubsub', 'dependencies': OrderedDict()}
+[0.002115] (custom_message_unity) JobQueued: {'identifier': 'custom_message_unity', 'dependencies': OrderedDict()}
+[0.002131] (custom_test_msgs) JobQueued: {'identifier': 'custom_test_msgs', 'dependencies': OrderedDict()}
+[0.002146] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.002188] (android_controll_test) JobQueued: {'identifier': 'android_controll_test', 'dependencies': OrderedDict([('custom_message_unity', '/root/ros2_ws/install/custom_message_unity'), ('custom_test_msgs', '/root/ros2_ws/install/custom_test_msgs')])}
+[0.002237] (custom_message_unity) JobStarted: {'identifier': 'custom_message_unity'}
+[0.019367] (custom_test_msgs) JobStarted: {'identifier': 'custom_test_msgs'}
+[0.032776] (cpp_server_client) JobStarted: {'identifier': 'cpp_server_client'}
+[0.047175] (cpp_topic_pubsub) JobStarted: {'identifier': 'cpp_topic_pubsub'}
+[0.064702] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.082596] (custom_message_unity) JobProgress: {'identifier': 'custom_message_unity', 'progress': 'cmake'}
+[0.082924] (custom_message_unity) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/custom_message_unity', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_message_unity'], 'cwd': '/root/ros2_ws/build/custom_message_unity', 'env': OrderedDict([('WORK_DIR', '/root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('GTK_IM_MODULE', 'xim'), ('_', '/usr/bin/colcon'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('DefalutIMModule', 'fcitx'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/ros2_ws/build/custom_message_unity'), ('LC_ALL', 'ja_JP.UTF-8'), ('TZ', 'Asia/Tokyo'), ('COLCON', '1')]), 'shell': False}
+[0.086217] (custom_test_msgs) JobProgress: {'identifier': 'custom_test_msgs', 'progress': 'cmake'}
+[0.086247] (custom_test_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/custom_test_msgs', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_test_msgs'], 'cwd': '/root/ros2_ws/build/custom_test_msgs', 'env': OrderedDict([('WORK_DIR', '/root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('GTK_IM_MODULE', 'xim'), ('_', '/usr/bin/colcon'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('DefalutIMModule', 'fcitx'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/ros2_ws/build/custom_test_msgs'), ('LC_ALL', 'ja_JP.UTF-8'), ('TZ', 'Asia/Tokyo'), ('COLCON', '1')]), 'shell': False}
+[0.088349] (cpp_server_client) JobProgress: {'identifier': 'cpp_server_client', 'progress': 'cmake'}
+[0.088378] (cpp_server_client) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/cpp_server_client', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpp_server_client'], 'cwd': '/root/ros2_ws/build/cpp_server_client', 'env': OrderedDict([('WORK_DIR', '/root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('GTK_IM_MODULE', 'xim'), ('_', '/usr/bin/colcon'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('DefalutIMModule', 'fcitx'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/ros2_ws/build/cpp_server_client'), ('LC_ALL', 'ja_JP.UTF-8'), ('TZ', 'Asia/Tokyo'), ('COLCON', '1')]), 'shell': False}
+[0.092094] (cpp_topic_pubsub) JobProgress: {'identifier': 'cpp_topic_pubsub', 'progress': 'cmake'}
+[0.092213] (cpp_topic_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/cpp_topic_pubsub', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpp_topic_pubsub'], 'cwd': '/root/ros2_ws/build/cpp_topic_pubsub', 'env': OrderedDict([('WORK_DIR', '/root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('GTK_IM_MODULE', 'xim'), ('_', '/usr/bin/colcon'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('DefalutIMModule', 'fcitx'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/ros2_ws/build/cpp_topic_pubsub'), ('LC_ALL', 'ja_JP.UTF-8'), ('TZ', 'Asia/Tokyo'), ('COLCON', '1')]), 'shell': False}
+[0.095099] (test_package) JobProgress: {'identifier': 'test_package', 'progress': 'cmake'}
+[0.095704] (test_package) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/test_package', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/test_package'], 'cwd': '/root/ros2_ws/build/test_package', 'env': OrderedDict([('WORK_DIR', '/root'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('GTK_IM_MODULE', 'xim'), ('_', '/usr/bin/colcon'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('DefalutIMModule', 'fcitx'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/ros2_ws/build/test_package'), ('LC_ALL', 'ja_JP.UTF-8'), ('TZ', 'Asia/Tokyo'), ('COLCON', '1')]), 'shell': False}
+[0.101138] (-) TimerEvent: {}
+[0.149046] (custom_message_unity) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.149712] (custom_test_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.150194] (cpp_server_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.150352] (test_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.150488] (cpp_topic_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.197028] (cpp_server_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.197582] (custom_test_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.198955] (test_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199103] (custom_message_unity) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.201364] (-) TimerEvent: {}
+[0.204239] (cpp_server_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.204453] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.205579] (custom_message_unity) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.206790] (cpp_topic_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.208010] (test_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.212980] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.257414] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.257931] (cpp_server_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260081] (custom_message_unity) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.263711] (custom_test_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.263929] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.264473] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.264637] (cpp_server_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.264803] (cpp_server_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265320] (cpp_server_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.265957] (test_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266697] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.268587] (custom_message_unity) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.268781] (cpp_server_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.268889] (custom_message_unity) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.268989] (custom_message_unity) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.270651] (custom_message_unity) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.270844] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.272946] (test_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.273134] (test_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.273596] (test_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.276083] (test_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.277126] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.277623] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.277731] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.280724] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.301616] (-) TimerEvent: {}
+[0.334906] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.335916] (cpp_server_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.341453] (custom_test_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.341974] (custom_message_unity) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.342094] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.342190] (custom_test_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.343683] (cpp_server_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.344021] (cpp_server_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.344355] (cpp_server_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.344916] (test_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.346993] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.347827] (custom_message_unity) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.348334] (custom_message_unity) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.348831] (custom_message_unity) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.352880] (custom_test_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.353108] (custom_test_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.353273] (custom_test_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.353373] (custom_test_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.354120] (custom_test_msgs) StderrLine: {'line': b'\n'}
+[0.354180] (custom_test_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.354840] (custom_test_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.354949] (custom_test_msgs) StderrLine: {'line': b'\n'}
+[0.355071] (custom_test_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.359842] (custom_test_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.360535] (custom_test_msgs) StderrLine: {'line': b'\n'}
+[0.360696] (custom_test_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.360919] (custom_test_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.361069] (custom_test_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.361247] (custom_test_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.361437] (custom_test_msgs) StderrLine: {'line': b'\n'}
+[0.362555] (custom_test_msgs) StderrLine: {'line': b'\n'}
+[0.362841] (custom_test_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.363129] (custom_test_msgs) StdoutLine: {'line': b'See also "/root/ros2_ws/build/custom_test_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.363375] (cpp_server_client) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.365702] (cpp_server_client) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.365829] (cpp_server_client) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.365916] (cpp_server_client) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.366032] (cpp_server_client) StderrLine: {'line': b'\n'}
+[0.369156] (cpp_server_client) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.369402] (cpp_server_client) StderrLine: {'line': b'  any of the following names:\n'}
+[0.369578] (cpp_server_client) StderrLine: {'line': b'\n'}
+[0.369693] (cpp_server_client) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.371049] (cpp_server_client) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.371192] (cpp_server_client) StderrLine: {'line': b'\n'}
+[0.371320] (cpp_server_client) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.371448] (cpp_server_client) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.371575] (cpp_server_client) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.371701] (cpp_server_client) StderrLine: {'line': b'  has been installed.\n'}
+[0.371826] (cpp_server_client) StderrLine: {'line': b'\n'}
+[0.371952] (cpp_server_client) StderrLine: {'line': b'\n'}
+[0.372078] (cpp_server_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.372207] (cpp_server_client) StdoutLine: {'line': b'See also "/root/ros2_ws/build/cpp_server_client/CMakeFiles/CMakeOutput.log".\n'}
+[0.372336] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.372468] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372597] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372725] (test_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.372864] (test_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.372998] (custom_test_msgs) CommandEnded: {'returncode': 1}
+[0.373276] (test_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.373420] (custom_message_unity) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.374209] (custom_message_unity) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.374355] (custom_message_unity) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.374482] (custom_message_unity) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.374610] (custom_message_unity) StderrLine: {'line': b'\n'}
+[0.374737] (custom_message_unity) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.374916] (custom_message_unity) StderrLine: {'line': b'  any of the following names:\n'}
+[0.375043] (custom_message_unity) StderrLine: {'line': b'\n'}
+[0.375169] (custom_message_unity) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.375294] (custom_message_unity) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.375421] (custom_message_unity) StderrLine: {'line': b'\n'}
+[0.375546] (custom_message_unity) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.375672] (custom_message_unity) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.375799] (custom_message_unity) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.376018] (custom_message_unity) StderrLine: {'line': b'  has been installed.\n'}
+[0.376154] (custom_message_unity) StderrLine: {'line': b'\n'}
+[0.376282] (custom_message_unity) StderrLine: {'line': b'\n'}
+[0.376408] (custom_message_unity) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.376537] (custom_message_unity) StdoutLine: {'line': b'See also "/root/ros2_ws/build/custom_message_unity/CMakeFiles/CMakeOutput.log".\n'}
+[0.376666] (cpp_server_client) CommandEnded: {'returncode': 1}
+[0.376921] (custom_message_unity) CommandEnded: {'returncode': 1}
+[0.377123] (cpp_topic_pubsub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.377273] (cpp_topic_pubsub) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.377400] (cpp_topic_pubsub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.377527] (cpp_topic_pubsub) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.377654] (cpp_topic_pubsub) StderrLine: {'line': b'\n'}
+[0.377780] (cpp_topic_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.377928] (cpp_topic_pubsub) StderrLine: {'line': b'  any of the following names:\n'}
+[0.378056] (cpp_topic_pubsub) StderrLine: {'line': b'\n'}
+[0.378184] (cpp_topic_pubsub) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.378312] (cpp_topic_pubsub) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.378441] (cpp_topic_pubsub) StderrLine: {'line': b'\n'}
+[0.378570] (cpp_topic_pubsub) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.378701] (cpp_topic_pubsub) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.378835] (cpp_topic_pubsub) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.378967] (cpp_topic_pubsub) StderrLine: {'line': b'  has been installed.\n'}
+[0.379099] (cpp_topic_pubsub) StderrLine: {'line': b'\n'}
+[0.379229] (cpp_topic_pubsub) StderrLine: {'line': b'\n'}
+[0.379360] (test_package) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.379793] (test_package) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.380034] (test_package) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.381028] (test_package) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.381161] (test_package) StderrLine: {'line': b'\n'}
+[0.381287] (test_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.381413] (test_package) StderrLine: {'line': b'  any of the following names:\n'}
+[0.381539] (test_package) StderrLine: {'line': b'\n'}
+[0.381663] (test_package) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.381788] (test_package) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.381917] (test_package) StderrLine: {'line': b'\n'}
+[0.382044] (test_package) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.382171] (test_package) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.382297] (test_package) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.382424] (test_package) StderrLine: {'line': b'  has been installed.\n'}
+[0.382551] (test_package) StderrLine: {'line': b'\n'}
+[0.382677] (test_package) StderrLine: {'line': b'\n'}
+[0.382813] (cpp_topic_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.382947] (cpp_topic_pubsub) StdoutLine: {'line': b'See also "/root/ros2_ws/build/cpp_topic_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[0.383076] (test_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.383360] (test_package) StdoutLine: {'line': b'See also "/root/ros2_ws/build/test_package/CMakeFiles/CMakeOutput.log".\n'}
+[0.400716] (custom_test_msgs) JobEnded: {'identifier': 'custom_test_msgs', 'rc': 1}
+[0.402161] (-) TimerEvent: {}
+[0.402224] (test_package) CommandEnded: {'returncode': 1}
+[0.403931] (cpp_topic_pubsub) CommandEnded: {'returncode': 1}
+[0.405767] (cpp_server_client) JobEnded: {'identifier': 'cpp_server_client', 'rc': 'SIGINT'}
+[0.407743] (custom_message_unity) JobEnded: {'identifier': 'custom_message_unity', 'rc': 'SIGINT'}
+[0.408138] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 'SIGINT'}
+[0.408474] (cpp_topic_pubsub) JobEnded: {'identifier': 'cpp_topic_pubsub', 'rc': 'SIGINT'}
+[0.418309] (android_controll_test) JobSkipped: {'identifier': 'android_controll_test'}
+[0.418378] (-) EventReactorShutdown: {}
