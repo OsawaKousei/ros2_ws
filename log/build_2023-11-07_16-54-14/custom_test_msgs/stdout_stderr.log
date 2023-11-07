@@ -53,33 +53,33 @@ reading manifest file 'custom_test_msgs.egg-info/SOURCES.txt'
 writing manifest file 'custom_test_msgs.egg-info/SOURCES.txt'
 [  6%] Built target ament_cmake_python_build_custom_test_msgs_egg
 [  6%] Built target custom_test_msgs__cpp
-[  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
-[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
-[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
-[ 19%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_test_msgs/srv/detail/add_three_ints__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_test_msgs/srv/detail/add_three_ints__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
 [ 22%] [32m[1mLinking C shared library libcustom_test_msgs__rosidl_generator_c.so[0m
 [ 22%] Built target custom_test_msgs__rosidl_generator_c
-[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
-[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
-[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
 [ 35%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_test_msgs/srv/add_three_ints__type_support.cpp.o[0m
 [ 38%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_test_msgs/srv/detail/add_three_ints__type_support.cpp.o[0m
 [ 41%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_test_msgs/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
 [ 45%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_test_msgs/srv/add_three_ints__type_support.cpp.o[0m
-[ 48%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_test_msgs/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_c.so[0m
 [ 51%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_test_msgs/srv/detail/add_three_ints__type_support.c.o[0m
-[ 54%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_c.so[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/custom_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_test_msgs/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[ 54%] Built target custom_test_msgs__rosidl_typesupport_c
 [ 58%] [32m[1mLinking C shared library libcustom_test_msgs__rosidl_typesupport_introspection_c.so[0m
-[ 58%] Built target custom_test_msgs__rosidl_typesupport_c
 [ 58%] Built target custom_test_msgs__rosidl_typesupport_introspection_c
 [ 61%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_cpp.so[0m
 [ 61%] Built target custom_test_msgs__rosidl_typesupport_cpp
-[ 64%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 64%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 64%] Built target custom_test_msgs__rosidl_typesupport_introspection_cpp
 [ 67%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
-[ 70%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_introspection_cpp.so[0m
-[ 70%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_c
+[ 70%] [32m[1mLinking CXX shared library libcustom_test_msgs__rosidl_typesupport_fastrtps_c.so[0m
 [ 70%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_cpp
-[ 70%] Built target custom_test_msgs__rosidl_typesupport_introspection_cpp
+[ 70%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_c
 [ 70%] Built target custom_test_msgs
 [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
 [ 74%] Built target custom_test_msgs__py
@@ -89,11 +89,11 @@ writing manifest file 'custom_test_msgs.egg-info/SOURCES.txt'
 [ 83%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_test_msgs/_custom_test_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
 [ 87%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_test_msgs/_custom_test_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
 [ 90%] [32mBuilding C object CMakeFiles/custom_test_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_test_msgs/_custom_test_msgs_s.ep.rosidl_typesupport_c.c.o[0m
-[ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
-[ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
 [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_test_msgs/custom_test_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
-[100%] Built target custom_test_msgs__rosidl_typesupport_c__pyext
 [100%] Built target custom_test_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target custom_test_msgs__rosidl_typesupport_c__pyext
 [100%] Built target custom_test_msgs__rosidl_typesupport_introspection_c__pyext
 -- Install configuration: ""
 -- Installing: /root/ros2_ws/install/custom_test_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_test_msgs

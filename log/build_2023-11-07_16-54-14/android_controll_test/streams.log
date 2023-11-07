@@ -1,0 +1,299 @@
+[0.094s] Invoking command in '/root/ros2_ws/build/android_controll_test': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/android_controll_test
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.513s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.733s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.870s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.930s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.938s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.954s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.982s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.133s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.138s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.320s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.364s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.464s] -- Looking for pthread.h
+[1.573s] -- Looking for pthread.h - found
+[1.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.672s] -- Found Threads: TRUE  
+[2.014s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.025s] -- Found custom_test_msgs: 0.0.0 (/root/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)
+[2.041s] -- Found custom_message_unity: 0.0.0 (/root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)
+[2.058s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.410s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.920s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.922s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.956s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.956s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.957s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.957s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.980s] -- Found PythonExtra: .so  
+[3.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.059s] -- Configured cppcheck include dirs: 
+[3.059s] -- Configured cppcheck exclude dirs and/or files: 
+[3.064s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.079s] -- Added test 'lint_cmake' to check CMake code style
+[3.084s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.124s] -- Added test 'uncrustify' to check C / C++ code style
+[3.124s] -- Configured uncrustify additional arguments: 
+[3.129s] -- Added test 'xmllint' to check XML markup files
+[3.133s] -- Configuring done
+[3.173s] -- Generating done
+[3.177s] -- Build files have been written to: /root/ros2_ws/build/android_controll_test
+[3.194s] Invoked command in '/root/ros2_ws/build/android_controll_test' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/android_controll_test -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/android_controll_test
+[3.195s] Invoking command in '/root/ros2_ws/build/android_controll_test': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/android_controll_test -- -j16 -l16
+[3.245s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.252s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.266s] [  4%] Built target ament_cmake_python_copy_android_controll_test
+[3.527s] running egg_info
+[3.528s] creating android_controll_test.egg-info
+[3.528s] writing android_controll_test.egg-info/PKG-INFO
+[3.528s] writing dependency_links to android_controll_test.egg-info/dependency_links.txt
+[3.529s] writing top-level names to android_controll_test.egg-info/top_level.txt
+[3.529s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[3.532s] reading manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[3.533s] writing manifest file 'android_controll_test.egg-info/SOURCES.txt'
+[3.568s] [  4%] Built target ament_cmake_python_build_android_controll_test_egg
+[3.642s] [  4%] Built target android_controll_test__cpp
+[3.650s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.651s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.652s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.700s] [ 14%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/srv/detail/add_three_ints__functions.c.o[0m
+[3.701s] [ 17%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_c.dir/rosidl_generator_c/android_controll_test/msg/detail/custom_unity__functions.c.o[0m
+[3.767s] [ 19%] [32m[1mLinking C shared library libandroid_controll_test__rosidl_generator_c.so[0m
+[3.814s] [ 19%] Built target android_controll_test__rosidl_generator_c
+[3.825s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.825s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.826s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.000s] [ 29%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/msg/custom_unity__type_support.cpp.o[0m
+[4.001s] [ 31%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/android_controll_test/srv/add_three_ints__type_support.cpp.o[0m
+[4.027s] [ 34%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/msg/detail/custom_unity__type_support.cpp.o[0m
+[4.027s] [ 36%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/android_controll_test/srv/detail/add_three_ints__type_support.cpp.o[0m
+[4.069s] [ 41%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[4.070s] [ 41%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/android_controll_test/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o[0m
+[4.202s] [ 46%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/srv/detail/add_three_ints__type_support.c.o[0m
+[4.202s] [ 46%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/android_controll_test/msg/detail/custom_unity__type_support.c.o[0m
+[4.207s] [ 48%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/srv/add_three_ints__type_support.cpp.o[0m
+[4.207s] [ 51%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/android_controll_test/msg/custom_unity__type_support.cpp.o[0m
+[4.275s] [ 53%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/msg/detail/custom_unity__type_support_c.cpp.o[0m
+[4.275s] [ 56%] [32mBuilding CXX object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/android_controll_test/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.279s] [ 58%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_c.so[0m
+[4.279s] [ 60%] [32m[1mLinking C shared library libandroid_controll_test__rosidl_typesupport_introspection_c.so[0m
+[4.320s] [ 60%] Built target android_controll_test__rosidl_typesupport_introspection_c
+[4.344s] [ 60%] Built target android_controll_test__rosidl_typesupport_c
+[4.391s] [ 63%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_cpp.so[0m
+[4.440s] [ 63%] Built target android_controll_test__rosidl_typesupport_cpp
+[4.469s] [ 65%] [32mBuilding CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o[0m
+[4.578s] [ 68%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_introspection_cpp.so[0m
+[4.638s] [ 68%] Built target android_controll_test__rosidl_typesupport_introspection_cpp
+[4.671s] [ 70%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.717s] [ 73%] [32m[1mLinking CXX shared library libandroid_controll_test__rosidl_typesupport_fastrtps_c.so[0m
+[4.752s] [ 73%] Built target android_controll_test__rosidl_typesupport_fastrtps_cpp
+[4.787s] [ 73%] Built target android_controll_test__rosidl_typesupport_fastrtps_c
+[4.804s] [ 73%] Built target android_controll_test
+[4.821s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.388s] [ 75%] Built target android_controll_test__py
+[5.408s] [ 80%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_py.dir/rosidl_generator_py/android_controll_test/srv/_add_three_ints_s.c.o[0m
+[5.408s] [ 80%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_generator_py.dir/rosidl_generator_py/android_controll_test/msg/_custom_unity_s.c.o[0m
+[5.518s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/libandroid_controll_test__rosidl_generator_py.so[0m
+[5.555s] [ 82%] Built target android_controll_test__rosidl_generator_py
+[5.575s] [ 85%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.575s] [ 87%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.582s] [ 90%] [32mBuilding C object CMakeFiles/android_controll_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_c.c.o[0m
+[5.686s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.689s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.724s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.724s] [ 97%] Built target android_controll_test__rosidl_typesupport_fastrtps_c__pyext
+[5.736s] [ 97%] Built target android_controll_test__rosidl_typesupport_c__pyext
+[5.761s] [ 97%] Built target android_controll_test__rosidl_typesupport_introspection_c__pyext
+[13.366s] [100%] [32m[1mLinking CXX executable connecter_node[0m
+[13.746s] [100%] Built target connecter_node
+[13.798s] Invoked command in '/root/ros2_ws/build/android_controll_test' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/android_controll_test -- -j16 -l16
+[13.876s] Invoking command in '/root/ros2_ws/build/android_controll_test': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/android_controll_test
+[13.882s] -- Install configuration: ""
+[13.884s] -- Installing: /root/ros2_ws/install/android_controll_test/share/ament_index/resource_index/rosidl_interfaces/android_controll_test
+[13.884s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.885s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.886s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_generator_c__visibility_control.h
+[13.886s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/custom_unity.h
+[13.887s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.887s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.h
+[13.887s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__functions.h
+[13.887s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__struct.h
+[13.888s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__functions.c
+[13.888s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.h
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__functions.h
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__struct.h
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__functions.c
+[13.889s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/add_three_ints.h
+[13.890s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/library_path.sh
+[13.890s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/library_path.dsv
+[13.890s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_c.so
+[13.891s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_c.so" to ""
+[13.891s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.892s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.892s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.892s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+[13.892s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.892s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.893s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.893s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[13.893s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_c.so
+[13.893s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_c.so" to ""
+[13.894s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.894s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.894s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/custom_unity.hpp
+[13.895s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.895s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__struct.hpp
+[13.895s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__traits.hpp
+[13.895s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__builder.hpp
+[13.895s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.895s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/add_three_ints.hpp
+[13.896s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.896s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__traits.hpp
+[13.897s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__struct.hpp
+[13.897s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__builder.hpp
+[13.897s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.897s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.898s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.898s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+[13.898s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/dds_fastrtps
+[13.899s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.900s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.900s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.900s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[13.901s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/dds_fastrtps
+[13.901s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so
+[13.901s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.902s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.902s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.902s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.902s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.902s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+[13.902s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.c
+[13.903s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.903s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.903s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.c
+[13.903s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[13.903s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_c.so
+[13.903s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_c.so" to ""
+[13.904s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_c.so
+[13.904s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_c.so" to ""
+[13.904s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test
+[13.904s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg
+[13.904s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail
+[13.905s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+[13.905s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/msg/detail/custom_unity__type_support.cpp
+[13.905s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv
+[13.906s] -- Up-to-date: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/include/android_controll_test/android_controll_test/srv/detail/add_three_ints__type_support.cpp
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_cpp.so
+[13.906s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_introspection_cpp.so" to ""
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_cpp.so
+[13.906s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_typesupport_cpp.so" to ""
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/pythonpath.sh
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/pythonpath.dsv
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/top_level.txt
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test-0.0.0-py3.10.egg-info/PKG-INFO
+[13.906s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_c.c
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity.py
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity_s.c
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/__init__.py
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/libandroid_controll_test__rosidl_generator_py.so
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/__init__.py
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints.py
+[13.907s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/__init__.py
+[13.908s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints_s.c
+[13.944s] Listing '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test'...
+[13.944s] Compiling '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/__init__.py'...
+[13.944s] Listing '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg'...
+[13.944s] Compiling '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/__init__.py'...
+[13.944s] Compiling '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/msg/_custom_unity.py'...
+[13.944s] Listing '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv'...
+[13.944s] Compiling '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/__init__.py'...
+[13.944s] Compiling '/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/srv/_add_three_ints.py'...
+[13.949s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.949s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.949s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.949s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.950s] -- Installing: /root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.950s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages/android_controll_test/android_controll_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.950s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_py.so
+[13.950s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/libandroid_controll_test__rosidl_generator_py.so" to ""
+[13.950s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/msg/CustomUnity.idl
+[13.951s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts.idl
+[13.951s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/msg/CustomUnity.msg
+[13.951s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts.srv
+[13.951s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts_Request.msg
+[13.951s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/srv/AddThreeInts_Response.msg
+[13.952s] -- Installing: /root/ros2_ws/install/android_controll_test/lib/android_controll_test/connecter_node
+[13.955s] -- Set runtime path of "/root/ros2_ws/install/android_controll_test/lib/android_controll_test/connecter_node" to ""
+[13.955s] -- Installing: /root/ros2_ws/install/android_controll_test/share/ament_index/resource_index/package_run_dependencies/android_controll_test
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/ament_index/resource_index/parent_prefix_path/android_controll_test
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.sh
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/ament_prefix_path.dsv
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/path.sh
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/environment/path.dsv
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.bash
+[13.956s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.sh
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.zsh
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/local_setup.dsv
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/package.dsv
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/ament_index/resource_index/packages/android_controll_test
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cExport.cmake
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cExport-noconfig.cmake
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cExport.cmake
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.957s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_cppExport.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cExport.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cExport.cmake
+[13.958s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cExport-noconfig.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cppExport.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cppExport.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_test__rosidl_typesupport_cppExport-noconfig.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_pyExport.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/export_android_controll_test__rosidl_generator_pyExport-noconfig.cmake
+[13.959s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_libraries-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_targets-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig.cmake
+[13.960s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/cmake/android_controll_testConfig-version.cmake
+[13.961s] -- Installing: /root/ros2_ws/install/android_controll_test/share/android_controll_test/package.xml
+[13.963s] Invoked command in '/root/ros2_ws/build/android_controll_test' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_test_msgs:/root/ros2_ws/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/custom_test_msgs/lib:/root/ros2_ws/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/android_controll_test

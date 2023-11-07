@@ -63,34 +63,34 @@ writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt
 writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
 reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
 writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
-[  5%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
+[  5%] Built target cpp_topic_pubsub__cpp
 [  8%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_c.dir/rosidl_generator_c/cpp_topic_pubsub/msg/detail/practice_msg__functions.c.o[0m
-[  8%] Built target cpp_topic_pubsub__cpp
-[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
-[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
 [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
 [ 20%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so[0m
 [ 20%] Built target cpp_topic_pubsub__rosidl_generator_c
-[ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
-[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
 [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
 [ 31%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
 [ 34%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp.o[0m
 [ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_topic_pubsub/msg/detail/dds_fastrtps/practice_msg__type_support.cpp.o[0m
-[ 40%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o[0m
-[ 42%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
-[ 45%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
-[ 45%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
-[ 48%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
-[ 51%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o[0m
+[ 51%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
+[ 51%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
+[ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
 [ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_c
 [ 54%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so[0m
 [ 54%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp
-[ 57%] [32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o[0m
 [ 60%] [32mBuilding CXX object CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o[0m
 [ 62%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so[0m
-[ 65%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
-[ 68%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
 [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp
 [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp
 [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c
@@ -100,15 +100,15 @@ writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
 [ 74%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_py.dir/rosidl_generator_py/cpp_topic_pubsub/msg/_practice_msg_s.c.o[0m
 [ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so[0m
 [ 77%] Built target cpp_topic_pubsub__rosidl_generator_py
-[ 80%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
 [ 82%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c.o[0m
-[ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
 [ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
 [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
 [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
 [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext
-[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
 [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
 [ 97%] [32m[1mLinking CXX executable practice_publisher_node[0m
 [ 97%] Built target practice_publisher_node
 [100%] [32m[1mLinking CXX executable practice_subscriber_node[0m
