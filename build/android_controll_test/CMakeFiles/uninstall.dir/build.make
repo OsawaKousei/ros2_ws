@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/android_controll_test
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/android_controll_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/android_controll_test
+CMAKE_BINARY_DIR = /root/ros2_ws/build/android_controll_test
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/android_controll_test /root/ros2_ws/src/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

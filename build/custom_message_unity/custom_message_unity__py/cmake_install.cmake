@@ -1,8 +1,8 @@
-# Install script for directory: /home/osawakousei/ros2_ws/build/custom_message_unity/custom_message_unity__py
+# Install script for directory: /root/ros2_ws/build/custom_message_unity/custom_message_unity__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/osawakousei/ros2_ws/install/custom_message_unity")
+  set(CMAKE_INSTALL_PREFIX "/root/ros2_ws/install/custom_message_unity")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

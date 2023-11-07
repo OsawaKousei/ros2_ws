@@ -1,0 +1,233 @@
+[0.230s] Invoking command in '/root/ros2_ws/build/custom_message_unity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_message_unity
+[0.526s] -- The C compiler identification is GNU 11.4.0
+[0.711s] -- The CXX compiler identification is GNU 11.4.0
+[0.727s] -- Detecting C compiler ABI info
+[0.793s] -- Detecting C compiler ABI info - done
+[0.799s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.800s] -- Detecting C compile features
+[0.802s] -- Detecting C compile features - done
+[0.808s] -- Detecting CXX compiler ABI info
+[0.884s] -- Detecting CXX compiler ABI info - done
+[0.891s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.891s] -- Detecting CXX compile features
+[0.892s] -- Detecting CXX compile features - done
+[0.900s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.196s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.201s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.220s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.328s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.588s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.045s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.071s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.071s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.071s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.090s] -- Found PythonExtra: .so  
+[2.164s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.164s] -- Configured cppcheck include dirs: 
+[2.164s] -- Configured cppcheck exclude dirs and/or files: 
+[2.170s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.179s] -- Added test 'lint_cmake' to check CMake code style
+[2.185s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.224s] -- Added test 'uncrustify' to check C / C++ code style
+[2.224s] -- Configured uncrustify additional arguments: 
+[2.230s] -- Added test 'xmllint' to check XML markup files
+[2.246s] -- Configuring done
+[2.277s] -- Generating done
+[2.279s] -- Build files have been written to: /root/ros2_ws/build/custom_message_unity
+[2.291s] Invoked command in '/root/ros2_ws/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/custom_message_unity -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_message_unity
+[2.293s] Invoking command in '/root/ros2_ws/build/custom_message_unity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_message_unity -- -j16 -l16
+[2.324s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.334s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.342s] [  6%] Built target ament_cmake_python_copy_custom_message_unity
+[2.660s] running egg_info
+[2.662s] creating custom_message_unity.egg-info
+[2.662s] writing custom_message_unity.egg-info/PKG-INFO
+[2.662s] writing dependency_links to custom_message_unity.egg-info/dependency_links.txt
+[2.662s] writing top-level names to custom_message_unity.egg-info/top_level.txt
+[2.662s] writing manifest file 'custom_message_unity.egg-info/SOURCES.txt'
+[2.666s] reading manifest file 'custom_message_unity.egg-info/SOURCES.txt'
+[2.667s] writing manifest file 'custom_message_unity.egg-info/SOURCES.txt'
+[2.699s] [  6%] Built target ament_cmake_python_build_custom_message_unity_egg
+[2.735s] [  6%] Built target custom_message_unity__cpp
+[2.743s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.745s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.746s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.747s] [ 19%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_generator_c.dir/rosidl_generator_c/custom_message_unity/msg/detail/custom_unity__functions.c.o[0m
+[2.850s] [ 22%] [32m[1mLinking C shared library libcustom_message_unity__rosidl_generator_c.so[0m
+[2.903s] [ 22%] Built target custom_message_unity__rosidl_generator_c
+[2.915s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.917s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.919s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.096s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_message_unity__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message_unity/msg/custom_unity__type_support.cpp.o[0m
+[3.136s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_message_unity__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message_unity/msg/detail/custom_unity__type_support.cpp.o[0m
+[3.165s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_message_unity__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message_unity/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o[0m
+[3.324s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_message_unity__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message_unity/msg/custom_unity__type_support.cpp.o[0m
+[3.367s] [ 48%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message_unity/msg/detail/custom_unity__type_support.c.o[0m
+[3.381s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_message_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message_unity/msg/detail/custom_unity__type_support_c.cpp.o[0m
+[3.386s] [ 54%] [32m[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_c.so[0m
+[3.421s] [ 58%] [32m[1mLinking C shared library libcustom_message_unity__rosidl_typesupport_introspection_c.so[0m
+[3.451s] [ 58%] Built target custom_message_unity__rosidl_typesupport_c
+[3.526s] [ 58%] Built target custom_message_unity__rosidl_typesupport_introspection_c
+[3.751s] [ 61%] [32m[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_cpp.so[0m
+[3.839s] [ 61%] Built target custom_message_unity__rosidl_typesupport_cpp
+[3.942s] [ 64%] [32m[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_introspection_cpp.so[0m
+[4.013s] [ 64%] Built target custom_message_unity__rosidl_typesupport_introspection_cpp
+[4.114s] [ 67%] [32m[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.189s] [ 70%] [32m[1mLinking CXX shared library libcustom_message_unity__rosidl_typesupport_fastrtps_c.so[0m
+[4.285s] [ 70%] Built target custom_message_unity__rosidl_typesupport_fastrtps_cpp
+[4.419s] [ 70%] Built target custom_message_unity__rosidl_typesupport_fastrtps_c
+[4.447s] [ 70%] Built target custom_message_unity
+[4.473s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.077s] [ 74%] Built target custom_message_unity__py
+[5.115s] [ 77%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_generator_py.dir/rosidl_generator_py/custom_message_unity/msg/_custom_unity_s.c.o[0m
+[5.378s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_message_unity/libcustom_message_unity__rosidl_generator_py.so[0m
+[5.427s] [ 80%] Built target custom_message_unity__rosidl_generator_py
+[5.456s] [ 83%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.458s] [ 87%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.467s] [ 90%] [32mBuilding C object CMakeFiles/custom_message_unity__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_c.c.o[0m
+[5.622s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.636s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.677s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.686s] [100%] Built target custom_message_unity__rosidl_typesupport_introspection_c__pyext
+[5.697s] [100%] Built target custom_message_unity__rosidl_typesupport_fastrtps_c__pyext
+[5.726s] [100%] Built target custom_message_unity__rosidl_typesupport_c__pyext
+[5.751s] Invoked command in '/root/ros2_ws/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_message_unity -- -j16 -l16
+[5.870s] Invoking command in '/root/ros2_ws/build/custom_message_unity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_message_unity
+[5.885s] -- Install configuration: ""
+[5.886s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/ament_index/resource_index/rosidl_interfaces/custom_message_unity
+[5.887s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.889s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.890s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_generator_c__visibility_control.h
+[5.891s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/custom_unity.h
+[5.892s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.893s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.h
+[5.894s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__functions.h
+[5.894s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__struct.h
+[5.895s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__functions.c
+[5.896s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/library_path.sh
+[5.896s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/library_path.dsv
+[5.897s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so
+[5.897s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so" to ""
+[5.897s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.898s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.898s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.898s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+[5.901s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.901s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so
+[5.901s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so" to ""
+[5.902s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.902s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.902s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.902s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.903s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+[5.903s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.c
+[5.903s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so
+[5.903s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so" to ""
+[5.905s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so
+[5.906s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so" to ""
+[5.907s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.907s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.907s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/custom_unity.hpp
+[5.907s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.907s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__struct.hpp
+[5.908s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__traits.hpp
+[5.908s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__builder.hpp
+[5.909s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.909s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.909s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.910s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+[5.910s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/dds_fastrtps
+[5.910s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.910s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so
+[5.910s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.911s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity
+[5.911s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg
+[5.911s] -- Up-to-date: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail
+[5.911s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+[5.911s] -- Installing: /root/ros2_ws/install/custom_message_unity/include/custom_message_unity/custom_message_unity/msg/detail/custom_unity__type_support.cpp
+[5.911s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so
+[5.912s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so" to ""
+[5.912s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so
+[5.912s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so" to ""
+[5.912s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/pythonpath.sh
+[5.912s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/pythonpath.dsv
+[5.912s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/top_level.txt
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity-0.0.0-py3.10.egg-info/PKG-INFO
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/_custom_unity.py
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/_custom_unity_s.c
+[5.916s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/__init__.py
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_c.c
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/libcustom_message_unity__rosidl_generator_py.so
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/_custom_message_unity_s.ep.rosidl_typesupport_introspection_c.c
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/__init__.py
+[5.917s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.951s] Listing '/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity'...
+[5.951s] Compiling '/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/__init__.py'...
+[5.951s] Listing '/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg'...
+[5.952s] Compiling '/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/__init__.py'...
+[5.952s] Compiling '/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/msg/_custom_unity.py'...
+[5.961s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.964s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.965s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.970s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.970s] -- Installing: /root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.971s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages/custom_message_unity/custom_message_unity_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.973s] -- Installing: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so
+[5.973s] -- Set runtime path of "/root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so" to ""
+[5.973s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/msg/CustomUnity.idl
+[5.975s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/msg/CustomUnity.msg
+[5.976s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/ament_index/resource_index/package_run_dependencies/custom_message_unity
+[5.976s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/ament_index/resource_index/parent_prefix_path/custom_message_unity
+[5.977s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.sh
+[5.978s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/ament_prefix_path.dsv
+[5.978s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/path.sh
+[5.979s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/environment/path.dsv
+[5.980s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/local_setup.bash
+[5.980s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/local_setup.sh
+[5.981s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/local_setup.zsh
+[5.982s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/local_setup.dsv
+[5.983s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/package.dsv
+[5.984s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/ament_index/resource_index/packages/custom_message_unity
+[5.984s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cExport.cmake
+[5.985s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cExport-noconfig.cmake
+[5.986s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cExport.cmake
+[6.002s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.004s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cExport.cmake
+[6.004s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.005s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cExport.cmake
+[6.005s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cExport-noconfig.cmake
+[6.005s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_cppExport.cmake
+[6.007s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.007s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.008s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cppExport.cmake
+[6.008s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.009s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cppExport.cmake
+[6.009s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unity__rosidl_typesupport_cppExport-noconfig.cmake
+[6.011s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_pyExport.cmake
+[6.012s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/export_custom_message_unity__rosidl_generator_pyExport-noconfig.cmake
+[6.014s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake-extras.cmake
+[6.021s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.022s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_libraries-extras.cmake
+[6.024s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_targets-extras.cmake
+[6.024s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.024s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.026s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.027s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig.cmake
+[6.028s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake/custom_message_unityConfig-version.cmake
+[6.028s] -- Installing: /root/ros2_ws/install/custom_message_unity/share/custom_message_unity/package.xml
+[6.125s] Invoked command in '/root/ros2_ws/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_message_unity

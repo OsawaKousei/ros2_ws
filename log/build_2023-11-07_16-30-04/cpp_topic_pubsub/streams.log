@@ -1,0 +1,255 @@
+[0.107s] Invoking command in '/root/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpp_topic_pubsub
+[0.390s] -- The C compiler identification is GNU 11.4.0
+[0.578s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting C compiler ABI info
+[0.659s] -- Detecting C compiler ABI info - done
+[0.664s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.665s] -- Detecting C compile features
+[0.666s] -- Detecting C compile features - done
+[0.671s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.761s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.764s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.937s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.061s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.127s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.131s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.279s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.297s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.420s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.513s] -- Looking for pthread.h
+[1.582s] -- Looking for pthread.h - found
+[1.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.652s] -- Found Threads: TRUE  
+[1.843s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.851s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.091s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.605s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.606s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.631s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.631s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.631s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.657s] -- Found PythonExtra: .so  
+[2.754s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.755s] -- Configured cppcheck include dirs: 
+[2.755s] -- Configured cppcheck exclude dirs and/or files: 
+[2.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.780s] -- Added test 'lint_cmake' to check CMake code style
+[2.791s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.856s] -- Added test 'uncrustify' to check C / C++ code style
+[2.856s] -- Configured uncrustify additional arguments: 
+[2.865s] -- Added test 'xmllint' to check XML markup files
+[2.873s] -- Configuring done
+[2.954s] -- Generating done
+[2.959s] -- Build files have been written to: /root/ros2_ws/build/cpp_topic_pubsub
+[2.983s] Invoked command in '/root/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpp_topic_pubsub
+[2.984s] Invoking command in '/root/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cpp_topic_pubsub -- -j16 -l16
+[3.036s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.052s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.063s] [  5%] Built target ament_cmake_python_copy_cpp_topic_pubsub
+[3.479s] running egg_info
+[3.480s] creating cpp_topic_pubsub.egg-info
+[3.480s] writing cpp_topic_pubsub.egg-info/PKG-INFO
+[3.481s] writing dependency_links to cpp_topic_pubsub.egg-info/dependency_links.txt
+[3.481s] writing top-level names to cpp_topic_pubsub.egg-info/top_level.txt
+[3.482s] writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[3.487s] reading manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[3.488s] writing manifest file 'cpp_topic_pubsub.egg-info/SOURCES.txt'
+[3.539s] [  5%] Built target ament_cmake_python_build_cpp_topic_pubsub_egg
+[3.555s] [  8%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_c.dir/rosidl_generator_c/cpp_topic_pubsub/msg/detail/practice_msg__functions.c.o[0m
+[3.555s] [  8%] Built target cpp_topic_pubsub__cpp
+[3.568s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.568s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.568s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.652s] [ 20%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_generator_c.so[0m
+[3.730s] [ 20%] Built target cpp_topic_pubsub__rosidl_generator_c
+[3.745s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.746s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.747s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.082s] [ 31%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[4.148s] [ 34%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp.o[0m
+[4.261s] [ 37%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_topic_pubsub/msg/detail/dds_fastrtps/practice_msg__type_support.cpp.o[0m
+[4.268s] [ 40%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c.o[0m
+[4.318s] [ 42%] [32m[1mLinking C shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so[0m
+[4.323s] [ 45%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_topic_pubsub/msg/practice_msg__type_support.cpp.o[0m
+[4.362s] [ 45%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c
+[4.370s] [ 48%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_c.so[0m
+[4.383s] [ 51%] [32mBuilding CXX object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_topic_pubsub/msg/detail/practice_msg__type_support_c.cpp.o[0m
+[4.434s] [ 51%] Built target cpp_topic_pubsub__rosidl_typesupport_c
+[4.603s] [ 54%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_cpp.so[0m
+[4.663s] [ 54%] Built target cpp_topic_pubsub__rosidl_typesupport_cpp
+[4.686s] [ 57%] [32mBuilding CXX object CMakeFiles/practice_publisher_node.dir/src/publisher_node.cpp.o[0m
+[4.694s] [ 60%] [32mBuilding CXX object CMakeFiles/practice_subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[4.899s] [ 62%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so[0m
+[4.942s] [ 65%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so[0m
+[4.945s] [ 68%] [32m[1mLinking CXX shared library libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.033s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_cpp
+[5.072s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp
+[5.092s] [ 68%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c
+[5.120s] [ 68%] Built target cpp_topic_pubsub
+[5.144s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.653s] [ 71%] Built target cpp_topic_pubsub__py
+[5.682s] [ 74%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_generator_py.dir/rosidl_generator_py/cpp_topic_pubsub/msg/_practice_msg_s.c.o[0m
+[5.875s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so[0m
+[5.895s] [ 77%] Built target cpp_topic_pubsub__rosidl_generator_py
+[5.921s] [ 80%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.925s] [ 82%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c.o[0m
+[5.925s] [ 85%] [32mBuilding C object CMakeFiles/cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.064s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.085s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.098s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.118s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_c__pyext
+[6.138s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[6.145s] [ 94%] Built target cpp_topic_pubsub__rosidl_typesupport_introspection_c__pyext
+[11.192s] [ 97%] [32m[1mLinking CXX executable practice_publisher_node[0m
+[11.385s] [ 97%] Built target practice_publisher_node
+[15.431s] [100%] [32m[1mLinking CXX executable practice_subscriber_node[0m
+[15.764s] [100%] Built target practice_subscriber_node
+[15.774s] Invoked command in '/root/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/cpp_topic_pubsub -- -j16 -l16
+[15.827s] Invoking command in '/root/ros2_ws/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cpp_topic_pubsub
+[15.833s] -- Install configuration: ""
+[15.833s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_topic_pubsub
+[15.833s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.834s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.834s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_generator_c__visibility_control.h
+[15.835s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.835s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__functions.c
+[15.835s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__functions.h
+[15.835s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__struct.h
+[15.835s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.h
+[15.836s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/practice_msg.h
+[15.836s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/library_path.sh
+[15.836s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/library_path.dsv
+[15.836s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_c.so
+[15.837s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_c.so" to ""
+[15.837s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.837s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.837s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.837s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_fastrtps_c.h
+[15.837s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.837s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so
+[15.838s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_c.so" to ""
+[15.838s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.838s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.838s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.838s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__builder.hpp
+[15.838s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__traits.hpp
+[15.838s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__struct.hpp
+[15.839s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/practice_msg.hpp
+[15.839s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.839s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.839s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.839s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.839s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/dds_fastrtps
+[15.839s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.840s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[15.840s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.840s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.840s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.840s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.840s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.840s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.c
+[15.841s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_introspection_c.h
+[15.841s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so
+[15.841s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_c.so" to ""
+[15.841s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_c.so
+[15.841s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_c.so" to ""
+[15.841s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub
+[15.841s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg
+[15.841s] -- Up-to-date: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail
+[15.841s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/include/cpp_topic_pubsub/cpp_topic_pubsub/msg/detail/practice_msg__type_support.cpp
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so
+[15.842s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_introspection_cpp.so" to ""
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_cpp.so
+[15.842s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_typesupport_cpp.so" to ""
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/pythonpath.sh
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/pythonpath.dsv
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.842s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/top_level.txt
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub-0.0.0-py3.10.egg-info/PKG-INFO
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg.py
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/__init__.py
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg_s.c
+[15.843s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/libcpp_topic_pubsub__rosidl_generator_py.so
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/__init__.py
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/_cpp_topic_pubsub_s.ep.rosidl_typesupport_c.c
+[15.844s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.874s] Listing '/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub'...
+[15.875s] Compiling '/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/__init__.py'...
+[15.875s] Listing '/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg'...
+[15.875s] Compiling '/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/__init__.py'...
+[15.875s] Compiling '/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/msg/_practice_msg.py'...
+[15.880s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.880s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.880s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.880s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.881s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.881s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages/cpp_topic_pubsub/cpp_topic_pubsub_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.881s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_py.so
+[15.881s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/libcpp_topic_pubsub__rosidl_generator_py.so" to ""
+[15.881s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/msg/PracticeMsg.idl
+[15.881s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/msg/PracticeMsg.msg
+[15.882s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_publisher_node
+[15.882s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_publisher_node" to ""
+[15.883s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_subscriber_node
+[15.885s] -- Set runtime path of "/root/ros2_ws/install/cpp_topic_pubsub/lib/cpp_topic_pubsub/practice_subscriber_node" to ""
+[15.885s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_topic_pubsub
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_topic_pubsub
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/ament_prefix_path.sh
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/ament_prefix_path.dsv
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/path.sh
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/environment/path.dsv
+[15.886s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.bash
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.sh
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.zsh
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/local_setup.dsv
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/ament_index/resource_index/packages/cpp_topic_pubsub
+[15.887s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cExport.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cExport-noconfig.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cExport.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_cppExport.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.888s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[15.889s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.889s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cExport.cmake
+[15.889s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cExport-noconfig.cmake
+[15.889s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cppExport.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsub__rosidl_typesupport_cppExport-noconfig.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_pyExport.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/export_cpp_topic_pubsub__rosidl_generator_pyExport-noconfig.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake-extras.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[15.890s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsubConfig.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/cmake/cpp_topic_pubsubConfig-version.cmake
+[15.891s] -- Installing: /root/ros2_ws/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.xml
+[15.892s] Invoked command in '/root/ros2_ws/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/cpp_topic_pubsub

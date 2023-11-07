@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/custom_test_msgs
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/custom_test_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/custom_test_msgs
+CMAKE_BINARY_DIR = /root/ros2_ws/build/custom_test_msgs
 
 # Utility rule file for custom_test_msgs__cpp.
 
@@ -87,8 +87,8 @@ rosidl_generator_cpp/custom_test_msgs/srv/add_three_ints.hpp: /opt/ros/humble/sh
 rosidl_generator_cpp/custom_test_msgs/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/custom_test_msgs/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custom_test_msgs/srv/add_three_ints.hpp: rosidl_adapter/custom_test_msgs/srv/AddThreeInts.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/build/custom_test_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/osawakousei/ros2_ws/build/custom_test_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros2_ws/build/custom_test_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/ros2_ws/build/custom_test_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/custom_test_msgs/srv/detail/add_three_ints__builder.hpp: rosidl_generator_cpp/custom_test_msgs/srv/add_three_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_test_msgs/srv/detail/add_three_ints__builder.hpp
@@ -116,6 +116,6 @@ CMakeFiles/custom_test_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/custom_test_msgs__cpp.dir/clean
 
 CMakeFiles/custom_test_msgs__cpp.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/custom_test_msgs /home/osawakousei/ros2_ws/src/custom_test_msgs /home/osawakousei/ros2_ws/build/custom_test_msgs /home/osawakousei/ros2_ws/build/custom_test_msgs /home/osawakousei/ros2_ws/build/custom_test_msgs/CMakeFiles/custom_test_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/custom_test_msgs /root/ros2_ws/src/custom_test_msgs /root/ros2_ws/build/custom_test_msgs /root/ros2_ws/build/custom_test_msgs /root/ros2_ws/build/custom_test_msgs/CMakeFiles/custom_test_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_test_msgs__cpp.dir/depend
 

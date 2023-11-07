@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/custom_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/custom_test_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_test_msgs
+Invoked command in '/root/ros2_ws/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/custom_test_msgs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_test_msgs
+Invoking command in '/root/ros2_ws/build/custom_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_test_msgs -- -j16 -l16
+Invoked command in '/root/ros2_ws/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_test_msgs -- -j16 -l16
+Invoking command in '/root/ros2_ws/build/custom_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_test_msgs
+Invoked command in '/root/ros2_ws/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_test_msgs

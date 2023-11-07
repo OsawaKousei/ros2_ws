@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/cpp_server_client
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/cpp_server_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/cpp_server_client
+CMAKE_BINARY_DIR = /root/ros2_ws/build/cpp_server_client
 
 # Utility rule file for cpp_server_client.
 
@@ -66,7 +66,7 @@ include CMakeFiles/cpp_server_client.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/cpp_server_client.dir/progress.make
 
-CMakeFiles/cpp_server_client: /home/osawakousei/ros2_ws/src/cpp_server_client/srv/PracticeSrv.srv
+CMakeFiles/cpp_server_client: /root/ros2_ws/src/cpp_server_client/srv/PracticeSrv.srv
 CMakeFiles/cpp_server_client: rosidl_cmake/srv/PracticeSrv_Request.msg
 CMakeFiles/cpp_server_client: rosidl_cmake/srv/PracticeSrv_Response.msg
 
@@ -83,6 +83,6 @@ CMakeFiles/cpp_server_client.dir/clean:
 .PHONY : CMakeFiles/cpp_server_client.dir/clean
 
 CMakeFiles/cpp_server_client.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/cpp_server_client /home/osawakousei/ros2_ws/src/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/cpp_server_client /root/ros2_ws/src/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_server_client.dir/depend
 

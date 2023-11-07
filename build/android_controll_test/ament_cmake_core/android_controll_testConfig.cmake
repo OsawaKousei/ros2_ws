@@ -36,7 +36,7 @@ endif()
 set(android_controll_test_FOUND_AMENT_PACKAGE TRUE)
 
 # include all config extra files
-set(_extras "rosidl_cmake-extras.cmake;ament_cmake_export_include_directories-extras.cmake;ament_cmake_export_libraries-extras.cmake;ament_cmake_export_targets-extras.cmake;rosidl_cmake_export_typesupport_targets-extras.cmake;ament_cmake_export_dependencies-extras.cmake;rosidl_cmake_export_typesupport_libraries-extras.cmake;ament_cmake_export_assemblies-extras.cmake")
+set(_extras "rosidl_cmake-extras.cmake;ament_cmake_export_include_directories-extras.cmake;ament_cmake_export_libraries-extras.cmake;ament_cmake_export_targets-extras.cmake;rosidl_cmake_export_typesupport_targets-extras.cmake;ament_cmake_export_dependencies-extras.cmake;rosidl_cmake_export_typesupport_libraries-extras.cmake")
 foreach(_extra ${_extras})
   include("${android_controll_test_DIR}/${_extra}")
 endforeach()

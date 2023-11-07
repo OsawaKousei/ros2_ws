@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/test_package
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/test_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/test_package
+CMAKE_BINARY_DIR = /root/ros2_ws/build/test_package
 
 # Utility rule file for test_package_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/test_package_uninstall.dir/compiler_depend.make
 include CMakeFiles/test_package_uninstall.dir/progress.make
 
 CMakeFiles/test_package_uninstall:
-	/usr/bin/cmake -P /home/osawakousei/ros2_ws/build/test_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/ros2_ws/build/test_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 test_package_uninstall: CMakeFiles/test_package_uninstall
 test_package_uninstall: CMakeFiles/test_package_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/test_package_uninstall.dir/clean:
 .PHONY : CMakeFiles/test_package_uninstall.dir/clean
 
 CMakeFiles/test_package_uninstall.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/test_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/test_package /home/osawakousei/ros2_ws/src/test_package /home/osawakousei/ros2_ws/build/test_package /home/osawakousei/ros2_ws/build/test_package /home/osawakousei/ros2_ws/build/test_package/CMakeFiles/test_package_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/test_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/test_package /root/ros2_ws/src/test_package /root/ros2_ws/build/test_package /root/ros2_ws/build/test_package /root/ros2_ws/build/test_package/CMakeFiles/test_package_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_package_uninstall.dir/depend
 

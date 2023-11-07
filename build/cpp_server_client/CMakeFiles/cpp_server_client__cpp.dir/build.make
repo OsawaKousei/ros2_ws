@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/cpp_server_client
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/cpp_server_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/cpp_server_client
+CMAKE_BINARY_DIR = /root/ros2_ws/build/cpp_server_client
 
 # Utility rule file for cpp_server_client__cpp.
 
@@ -87,8 +87,8 @@ rosidl_generator_cpp/cpp_server_client/srv/practice_srv.hpp: /opt/ros/humble/sha
 rosidl_generator_cpp/cpp_server_client/srv/practice_srv.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/cpp_server_client/srv/practice_srv.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/cpp_server_client/srv/practice_srv.hpp: rosidl_adapter/cpp_server_client/srv/PracticeSrv.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/build/cpp_server_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/osawakousei/ros2_ws/build/cpp_server_client/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros2_ws/build/cpp_server_client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/ros2_ws/build/cpp_server_client/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/cpp_server_client/srv/detail/practice_srv__builder.hpp: rosidl_generator_cpp/cpp_server_client/srv/practice_srv.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cpp_server_client/srv/detail/practice_srv__builder.hpp
@@ -116,6 +116,6 @@ CMakeFiles/cpp_server_client__cpp.dir/clean:
 .PHONY : CMakeFiles/cpp_server_client__cpp.dir/clean
 
 CMakeFiles/cpp_server_client__cpp.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/cpp_server_client /home/osawakousei/ros2_ws/src/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client /home/osawakousei/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/cpp_server_client /root/ros2_ws/src/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_server_client__cpp.dir/depend
 

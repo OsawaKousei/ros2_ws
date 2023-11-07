@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/android_controll_test
+CMAKE_SOURCE_DIR = /root/ros2_ws/src/android_controll_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/build/android_controll_test
+CMAKE_BINARY_DIR = /root/ros2_ws/build/android_controll_test
 
 # Utility rule file for ament_cmake_python_copy_android_controll_test.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/compiler_de
 include CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_android_controll_test:
-	/usr/bin/cmake -E copy_directory /home/osawakousei/ros2_ws/build/android_controll_test/rosidl_generator_py/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test/ament_cmake_python/android_controll_test/android_controll_test
+	/usr/bin/cmake -E copy_directory /root/ros2_ws/build/android_controll_test/rosidl_generator_py/android_controll_test /root/ros2_ws/build/android_controll_test/ament_cmake_python/android_controll_test/android_controll_test
 
 ament_cmake_python_copy_android_controll_test: CMakeFiles/ament_cmake_python_copy_android_controll_test
 ament_cmake_python_copy_android_controll_test: CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/depend:
-	cd /home/osawakousei/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test /home/osawakousei/ros2_ws/build/android_controll_test/CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/android_controll_test /root/ros2_ws/src/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test/CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_android_controll_test.dir/depend
 
