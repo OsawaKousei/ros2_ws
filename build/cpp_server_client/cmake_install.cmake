@@ -1,8 +1,8 @@
-# Install script for directory: /root/ros2_ws/src/cpp_server_client
+# Install script for directory: /home/kousei/ros2_ws/src/cpp_server_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ros2_ws/install/cpp_server_client")
+  set(CMAKE_INSTALL_PREFIX "/home/kousei/ros2_ws/install/cpp_server_client")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +43,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/cpp_server_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/cpp_server_client")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_c/cpp_server_client/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_c/cpp_server_client/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,7 +55,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_generator_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_generator_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_c.so")
     file(RPATH_CHANGE
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_typesupport_fastrtps_c/cpp_server_client/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_typesupport_fastrtps_c/cpp_server_client/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -92,12 +92,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_fastrtps_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_fastrtps_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/humble/lib:/root/ros2_ws/build/cpp_server_client:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/kousei/ros2_ws/build/cpp_server_client:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_c.so")
@@ -109,11 +109,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_cpp/cpp_server_client/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_cpp/cpp_server_client/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_typesupport_fastrtps_cpp/cpp_server_client/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_typesupport_fastrtps_cpp/cpp_server_client/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,7 +123,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
@@ -140,7 +140,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_typesupport_introspection_c/cpp_server_client/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_typesupport_introspection_c/cpp_server_client/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,12 +150,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_introspection_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_introspection_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_c.so")
@@ -173,12 +173,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_c.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_c.so")
@@ -190,7 +190,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_typesupport_introspection_cpp/cpp_server_client/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpp_server_client/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_typesupport_introspection_cpp/cpp_server_client/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -200,7 +200,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_introspection_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_introspection_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
@@ -223,7 +223,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/libcpp_server_client__rosidl_typesupport_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
@@ -240,26 +240,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_python/cpp_server_client/cpp_server_client.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_python/cpp_server_client/cpp_server_client.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE DIRECTORY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE DIRECTORY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3.10" "-m" "compileall"
-        "/root/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client"
+        "/home/kousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages/cpp_server_client"
       )
 endif()
 
@@ -270,12 +270,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
@@ -293,12 +293,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
@@ -316,12 +316,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client:/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/cpp_server_client/cpp_server_client_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
@@ -339,12 +339,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_py.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/libcpp_server_client__rosidl_generator_py.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client/libcpp_server_client__rosidl_generator_py.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_py.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_py.so"
-         OLD_RPATH "/root/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/kousei/ros2_ws/build/cpp_server_client:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcpp_server_client__rosidl_generator_py.so")
@@ -356,19 +356,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_adapter/cpp_server_client/srv/PracticeSrv.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_adapter/cpp_server_client/srv/PracticeSrv.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/root/ros2_ws/src/cpp_server_client/srv/PracticeSrv.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/kousei/ros2_ws/src/cpp_server_client/srv/PracticeSrv.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_cmake/srv/PracticeSrv_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_cmake/srv/PracticeSrv_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_cmake/srv/PracticeSrv_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/srv" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_cmake/srv/PracticeSrv_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -378,12 +378,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_server_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client" TYPE EXECUTABLE FILES "/root/ros2_ws/build/cpp_server_client/practice_server_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client" TYPE EXECUTABLE FILES "/home/kousei/ros2_ws/build/cpp_server_client/practice_server_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_server_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_server_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_server_node"
-         OLD_RPATH "/opt/ros/humble/lib:/root/ros2_ws/build/cpp_server_client:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/kousei/ros2_ws/build/cpp_server_client:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_server_node")
@@ -398,12 +398,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_client_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client" TYPE EXECUTABLE FILES "/root/ros2_ws/build/cpp_server_client/practice_client_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client" TYPE EXECUTABLE FILES "/home/kousei/ros2_ws/build/cpp_server_client/practice_client_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_client_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_client_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_client_node"
-         OLD_RPATH "/opt/ros/humble/lib:/root/ros2_ws/build/cpp_server_client:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/kousei/ros2_ws/build/cpp_server_client:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_server_client/practice_client_node")
@@ -412,11 +412,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_server_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_server_client")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_server_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_server_client")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -424,7 +424,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -432,38 +432,38 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/environment" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/packages/cpp_server_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_index/share/ament_index/resource_index/packages/cpp_server_client")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -472,9 +472,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -482,7 +482,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -491,9 +491,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -501,7 +501,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -510,14 +510,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_cppExport.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -526,9 +526,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -536,7 +536,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -545,9 +545,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -555,7 +555,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -564,9 +564,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -574,7 +574,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -583,9 +583,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -593,7 +593,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -602,9 +602,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/cpp_server_client__rosidl_typesupport_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -612,7 +612,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake"
-         "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake")
+         "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -621,54 +621,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/Export/share/cpp_server_client/cmake/export_cpp_server_client__rosidl_generator_pyExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/root/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES "/home/kousei/ros2_ws/build/cpp_server_client/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client/cmake" TYPE FILE FILES
-    "/root/ros2_ws/build/cpp_server_client/ament_cmake_core/cpp_server_clientConfig.cmake"
-    "/root/ros2_ws/build/cpp_server_client/ament_cmake_core/cpp_server_clientConfig-version.cmake"
+    "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_core/cpp_server_clientConfig.cmake"
+    "/home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_core/cpp_server_clientConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/root/ros2_ws/src/cpp_server_client/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_server_client" TYPE FILE FILES "/home/kousei/ros2_ws/src/cpp_server_client/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ros2_ws/build/cpp_server_client/cpp_server_client__py/cmake_install.cmake")
+  include("/home/kousei/ros2_ws/build/cpp_server_client/cpp_server_client__py/cmake_install.cmake")
 
 endif()
 
@@ -680,5 +680,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/ros2_ws/build/cpp_server_client/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kousei/ros2_ws/build/cpp_server_client/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

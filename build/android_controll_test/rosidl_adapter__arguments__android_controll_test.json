@@ -1,7 +1,7 @@
 {
   "package_name": "android_controll_test",
   "non_idl_tuples": [
-    "/root/ros2_ws/src/android_controll_test:msg/CustomUnity.msg",
-    "/root/ros2_ws/src/android_controll_test:srv/AddThreeInts.srv"
+    "/home/kousei/ros2_ws/src/android_controll_test:msg/CustomUnity.msg",
+    "/home/kousei/ros2_ws/src/android_controll_test:srv/AddThreeInts.srv"
   ]
 }

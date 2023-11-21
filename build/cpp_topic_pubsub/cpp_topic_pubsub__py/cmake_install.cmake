@@ -1,8 +1,8 @@
-# Install script for directory: /root/ros2_ws/build/cpp_topic_pubsub/cpp_topic_pubsub__py
+# Install script for directory: /home/kousei/ros2_ws/build/cpp_topic_pubsub/cpp_topic_pubsub__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ros2_ws/install/cpp_topic_pubsub")
+  set(CMAKE_INSTALL_PREFIX "/home/kousei/ros2_ws/install/cpp_topic_pubsub")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/cpp_server_client
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/cpp_server_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/cpp_server_client
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/cpp_server_client
 
 # Utility rule file for cpp_server_client_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_server_client_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_server_client_uninstall.dir/progress.make
 
 CMakeFiles/cpp_server_client_uninstall:
-	/usr/bin/cmake -P /root/ros2_ws/build/cpp_server_client/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_server_client_uninstall: CMakeFiles/cpp_server_client_uninstall
 cpp_server_client_uninstall: CMakeFiles/cpp_server_client_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_server_client_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_server_client_uninstall.dir/clean
 
 CMakeFiles/cpp_server_client_uninstall.dir/depend:
-	cd /root/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/cpp_server_client /root/ros2_ws/src/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/cpp_server_client /home/kousei/ros2_ws/src/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/cpp_server_client_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_server_client_uninstall.dir/depend
 

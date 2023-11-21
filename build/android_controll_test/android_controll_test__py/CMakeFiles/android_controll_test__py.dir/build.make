@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/android_controll_test
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/android_controll_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/android_controll_test
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/android_controll_test
 
 # Utility rule file for android_controll_test__py.
 
@@ -91,8 +91,8 @@ rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typ
 rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/android_controll_test/msg/CustomUnity.idl
 rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /root/ros2_ws/build/android_controll_test/android_controll_test__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /root/ros2_ws/build/android_controll_test/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/kousei/ros2_ws/build/android_controll_test/android_controll_test__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kousei/ros2_ws/build/android_controll_test/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/android_controll_test/_android_controll_test_s.ep.rosidl_typesupport_introspection_c.c
@@ -136,10 +136,10 @@ android_controll_test__py/CMakeFiles/android_controll_test__py.dir/build: androi
 .PHONY : android_controll_test__py/CMakeFiles/android_controll_test__py.dir/build
 
 android_controll_test__py/CMakeFiles/android_controll_test__py.dir/clean:
-	cd /root/ros2_ws/build/android_controll_test/android_controll_test__py && $(CMAKE_COMMAND) -P CMakeFiles/android_controll_test__py.dir/cmake_clean.cmake
+	cd /home/kousei/ros2_ws/build/android_controll_test/android_controll_test__py && $(CMAKE_COMMAND) -P CMakeFiles/android_controll_test__py.dir/cmake_clean.cmake
 .PHONY : android_controll_test__py/CMakeFiles/android_controll_test__py.dir/clean
 
 android_controll_test__py/CMakeFiles/android_controll_test__py.dir/depend:
-	cd /root/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/android_controll_test /root/ros2_ws/build/android_controll_test/android_controll_test__py /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test/android_controll_test__py /root/ros2_ws/build/android_controll_test/android_controll_test__py/CMakeFiles/android_controll_test__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/android_controll_test /home/kousei/ros2_ws/build/android_controll_test/android_controll_test__py /home/kousei/ros2_ws/build/android_controll_test /home/kousei/ros2_ws/build/android_controll_test/android_controll_test__py /home/kousei/ros2_ws/build/android_controll_test/android_controll_test__py/CMakeFiles/android_controll_test__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : android_controll_test__py/CMakeFiles/android_controll_test__py.dir/depend
 

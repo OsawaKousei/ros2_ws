@@ -1,2 +1,2 @@
-/root/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:msg/CustomUnity.idl
-/root/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:srv/AddThreeInts.idl
+/home/kousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:msg/CustomUnity.idl
+/home/kousei/ros2_ws/build/android_controll_test/rosidl_adapter/android_controll_test:srv/AddThreeInts.idl

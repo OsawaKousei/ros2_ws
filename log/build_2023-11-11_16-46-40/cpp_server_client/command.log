@@ -1,0 +1,6 @@
+Invoking command in '/home/kousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kousei/ros2_ws/src/cpp_server_client -DCMAKE_INSTALL_PREFIX=/home/kousei/ros2_ws/install/cpp_server_client
+Invoked command in '/home/kousei/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kousei/ros2_ws/src/cpp_server_client -DCMAKE_INSTALL_PREFIX=/home/kousei/ros2_ws/install/cpp_server_client
+Invoking command in '/home/kousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/build/cpp_server_client -- -j16 -l16
+Invoked command in '/home/kousei/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/build/cpp_server_client -- -j16 -l16
+Invoking command in '/home/kousei/ros2_ws/build/cpp_server_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/build/cpp_server_client
+Invoked command in '/home/kousei/ros2_ws/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/build/cpp_server_client

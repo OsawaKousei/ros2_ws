@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/cpp_server_client
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/cpp_server_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/cpp_server_client
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/cpp_server_client
 
 # Utility rule file for ament_cmake_python_copy_cpp_server_client.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_cpp_server_client:
-	/usr/bin/cmake -E copy_directory /root/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client /root/ros2_ws/build/cpp_server_client/ament_cmake_python/cpp_server_client/cpp_server_client
+	/usr/bin/cmake -E copy_directory /home/kousei/ros2_ws/build/cpp_server_client/rosidl_generator_py/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client/ament_cmake_python/cpp_server_client/cpp_server_client
 
 ament_cmake_python_copy_cpp_server_client: CMakeFiles/ament_cmake_python_copy_cpp_server_client
 ament_cmake_python_copy_cpp_server_client: CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/depend:
-	cd /root/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/cpp_server_client /root/ros2_ws/src/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client /root/ros2_ws/build/cpp_server_client/CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/cpp_server_client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/cpp_server_client /home/kousei/ros2_ws/src/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client /home/kousei/ros2_ws/build/cpp_server_client/CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_cpp_server_client.dir/depend
 

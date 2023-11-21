@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/android_controll_test
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/android_controll_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/android_controll_test
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/android_controll_test
 
 # Include any dependencies generated for this target.
 include CMakeFiles/connecter_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/connecter_node.dir/progress.make
 include CMakeFiles/connecter_node.dir/flags.make
 
 CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o: CMakeFiles/connecter_node.dir/flags.make
-CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o: /root/ros2_ws/src/android_controll_test/src/connecter_node.cpp
+CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o: /home/kousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp
 CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o: CMakeFiles/connecter_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o -MF CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o.d -o CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o -c /root/ros2_ws/src/android_controll_test/src/connecter_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o -MF CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o.d -o CMakeFiles/connecter_node.dir/src/connecter_node.cpp.o -c /home/kousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp
 
 CMakeFiles/connecter_node.dir/src/connecter_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/connecter_node.dir/src/connecter_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros2_ws/src/android_controll_test/src/connecter_node.cpp > CMakeFiles/connecter_node.dir/src/connecter_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp > CMakeFiles/connecter_node.dir/src/connecter_node.cpp.i
 
 CMakeFiles/connecter_node.dir/src/connecter_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connecter_node.dir/src/connecter_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros2_ws/src/android_controll_test/src/connecter_node.cpp -o CMakeFiles/connecter_node.dir/src/connecter_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kousei/ros2_ws/src/android_controll_test/src/connecter_node.cpp -o CMakeFiles/connecter_node.dir/src/connecter_node.cpp.s
 
 # Object files for target connecter_node
 connecter_node_OBJECTS = \
@@ -99,18 +99,18 @@ connecter_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspectio
 connecter_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 connecter_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 connecter_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_fastrtps_c.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_introspection_c.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_fastrtps_cpp.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_introspection_cpp.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_cpp.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_generator_py.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_fastrtps_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_introspection_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_introspection_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_generator_py.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_fastrtps_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_introspection_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_cpp.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_py.so
 connecter_node: libandroid_controll_test__rosidl_typesupport_cpp.so
 connecter_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 connecter_node: /opt/ros/humble/lib/librcl.so
@@ -155,16 +155,16 @@ connecter_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 connecter_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 connecter_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 connecter_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_c.so
-connecter_node: /root/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_generator_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_typesupport_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_test_msgs/lib/libcustom_test_msgs__rosidl_generator_c.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 connecter_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 connecter_node: /opt/ros/humble/lib/librmw.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so
-connecter_node: /root/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_typesupport_c.so
+connecter_node: /home/kousei/ros2_ws/install/custom_message_unity/lib/libcustom_message_unity__rosidl_generator_c.so
 connecter_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 connecter_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
@@ -172,7 +172,7 @@ connecter_node: /opt/ros/humble/lib/librcpputils.so
 connecter_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 connecter_node: /opt/ros/humble/lib/librcutils.so
 connecter_node: CMakeFiles/connecter_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable connecter_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kousei/ros2_ws/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable connecter_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/connecter_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -184,6 +184,6 @@ CMakeFiles/connecter_node.dir/clean:
 .PHONY : CMakeFiles/connecter_node.dir/clean
 
 CMakeFiles/connecter_node.dir/depend:
-	cd /root/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/android_controll_test /root/ros2_ws/src/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test /root/ros2_ws/build/android_controll_test/CMakeFiles/connecter_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/android_controll_test /home/kousei/ros2_ws/src/android_controll_test /home/kousei/ros2_ws/build/android_controll_test /home/kousei/ros2_ws/build/android_controll_test /home/kousei/ros2_ws/build/android_controll_test/CMakeFiles/connecter_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/connecter_node.dir/depend
 

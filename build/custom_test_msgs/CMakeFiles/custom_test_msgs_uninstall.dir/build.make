@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/custom_test_msgs
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/custom_test_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/custom_test_msgs
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/custom_test_msgs
 
 # Utility rule file for custom_test_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/custom_test_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/custom_test_msgs_uninstall.dir/progress.make
 
 CMakeFiles/custom_test_msgs_uninstall:
-	/usr/bin/cmake -P /root/ros2_ws/build/custom_test_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/kousei/ros2_ws/build/custom_test_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 custom_test_msgs_uninstall: CMakeFiles/custom_test_msgs_uninstall
 custom_test_msgs_uninstall: CMakeFiles/custom_test_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/custom_test_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/custom_test_msgs_uninstall.dir/clean
 
 CMakeFiles/custom_test_msgs_uninstall.dir/depend:
-	cd /root/ros2_ws/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/custom_test_msgs /root/ros2_ws/src/custom_test_msgs /root/ros2_ws/build/custom_test_msgs /root/ros2_ws/build/custom_test_msgs /root/ros2_ws/build/custom_test_msgs/CMakeFiles/custom_test_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/custom_test_msgs /home/kousei/ros2_ws/src/custom_test_msgs /home/kousei/ros2_ws/build/custom_test_msgs /home/kousei/ros2_ws/build/custom_test_msgs /home/kousei/ros2_ws/build/custom_test_msgs/CMakeFiles/custom_test_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_test_msgs_uninstall.dir/depend
 

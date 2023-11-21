@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ros2_ws/src/cpp_topic_pubsub
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/cpp_topic_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ros2_ws/build/cpp_topic_pubsub
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/build/cpp_topic_pubsub
 
 # Utility rule file for cpp_topic_pubsub__cpp.
 
@@ -87,8 +87,8 @@ rosidl_generator_cpp/cpp_topic_pubsub/msg/practice_msg.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/cpp_topic_pubsub/msg/practice_msg.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/cpp_topic_pubsub/msg/practice_msg.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/cpp_topic_pubsub/msg/practice_msg.hpp: rosidl_adapter/cpp_topic_pubsub/msg/PracticeMsg.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros2_ws/build/cpp_topic_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/ros2_ws/build/cpp_topic_pubsub/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kousei/ros2_ws/build/cpp_topic_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kousei/ros2_ws/build/cpp_topic_pubsub/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/cpp_topic_pubsub/msg/detail/practice_msg__builder.hpp: rosidl_generator_cpp/cpp_topic_pubsub/msg/practice_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/cpp_topic_pubsub/msg/detail/practice_msg__builder.hpp
@@ -116,6 +116,6 @@ CMakeFiles/cpp_topic_pubsub__cpp.dir/clean:
 .PHONY : CMakeFiles/cpp_topic_pubsub__cpp.dir/clean
 
 CMakeFiles/cpp_topic_pubsub__cpp.dir/depend:
-	cd /root/ros2_ws/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros2_ws/src/cpp_topic_pubsub /root/ros2_ws/src/cpp_topic_pubsub /root/ros2_ws/build/cpp_topic_pubsub /root/ros2_ws/build/cpp_topic_pubsub /root/ros2_ws/build/cpp_topic_pubsub/CMakeFiles/cpp_topic_pubsub__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/cpp_topic_pubsub /home/kousei/ros2_ws/src/cpp_topic_pubsub /home/kousei/ros2_ws/build/cpp_topic_pubsub /home/kousei/ros2_ws/build/cpp_topic_pubsub /home/kousei/ros2_ws/build/cpp_topic_pubsub/CMakeFiles/cpp_topic_pubsub__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_topic_pubsub__cpp.dir/depend
 
