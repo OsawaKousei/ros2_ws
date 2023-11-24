@@ -62,7 +62,7 @@
     </model>
 
     <include>
-      <uri>model://my_box</uri>
+      <uri>model://my_field</uri>
       <pose>0 2 0 0 0 0</pose>
     </include>
 
