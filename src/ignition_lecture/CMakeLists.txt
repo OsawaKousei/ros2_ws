@@ -13,8 +13,6 @@ find_package(rosidl_default_generators REQUIRED)  # msgを作るのに必要
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/${PROJECT_NAME}.dsv.in")
-
 install(DIRECTORY
   launch
   worlds
