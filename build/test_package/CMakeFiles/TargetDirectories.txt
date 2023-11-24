@@ -1,9 +1,0 @@
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/uninstall.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/test_package_uninstall.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/test.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/edit_cache.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/rebuild_cache.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/list_install_components.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/install.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/install/local.dir
-/home/kousei/ros2_ws/build/test_package/CMakeFiles/install/strip.dir

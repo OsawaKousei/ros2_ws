@@ -1,9 +1,0 @@
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/uninstall.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/ignition_lecture_uninstall.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/test.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/edit_cache.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/rebuild_cache.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/list_install_components.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/install.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/install/local.dir
-/home/kousei/ros2_ws/src/build/ignition_lecture/CMakeFiles/install/strip.dir
