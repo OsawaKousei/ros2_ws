@@ -1,8 +1,8 @@
-# Install script for directory: /home/osawakousei/ros2_ws/src/build/android_controll_test/android_controll_test__py
+# Install script for directory: /home/kousei/ros2_ws/src/build/android_controll_test/android_controll_test__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/osawakousei/ros2_ws/src/install/android_controll_test")
+  set(CMAKE_INSTALL_PREFIX "/home/kousei/ros2_ws/src/install/android_controll_test")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/custom_test_msgs
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/custom_test_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/src/build/custom_test_msgs
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/src/build/custom_test_msgs
 
 # Utility rule file for ament_cmake_python_copy_custom_test_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_custom_test_msgs:
-	/usr/bin/cmake -E copy_directory /home/osawakousei/ros2_ws/src/build/custom_test_msgs/rosidl_generator_py/custom_test_msgs /home/osawakousei/ros2_ws/src/build/custom_test_msgs/ament_cmake_python/custom_test_msgs/custom_test_msgs
+	/usr/bin/cmake -E copy_directory /home/kousei/ros2_ws/src/build/custom_test_msgs/rosidl_generator_py/custom_test_msgs /home/kousei/ros2_ws/src/build/custom_test_msgs/ament_cmake_python/custom_test_msgs/custom_test_msgs
 
 ament_cmake_python_copy_custom_test_msgs: CMakeFiles/ament_cmake_python_copy_custom_test_msgs
 ament_cmake_python_copy_custom_test_msgs: CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/depend:
-	cd /home/osawakousei/ros2_ws/src/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/custom_test_msgs /home/osawakousei/ros2_ws/src/custom_test_msgs /home/osawakousei/ros2_ws/src/build/custom_test_msgs /home/osawakousei/ros2_ws/src/build/custom_test_msgs /home/osawakousei/ros2_ws/src/build/custom_test_msgs/CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/src/build/custom_test_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/custom_test_msgs /home/kousei/ros2_ws/src/custom_test_msgs /home/kousei/ros2_ws/src/build/custom_test_msgs /home/kousei/ros2_ws/src/build/custom_test_msgs /home/kousei/ros2_ws/src/build/custom_test_msgs/CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_custom_test_msgs.dir/depend
 

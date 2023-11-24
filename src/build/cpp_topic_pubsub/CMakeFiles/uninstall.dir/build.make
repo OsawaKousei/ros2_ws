@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/cpp_topic_pubsub
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/cpp_topic_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/src/build/cpp_topic_pubsub
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/src/build/cpp_topic_pubsub
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/osawakousei/ros2_ws/src/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/cpp_topic_pubsub /home/osawakousei/ros2_ws/src/cpp_topic_pubsub /home/osawakousei/ros2_ws/src/build/cpp_topic_pubsub /home/osawakousei/ros2_ws/src/build/cpp_topic_pubsub /home/osawakousei/ros2_ws/src/build/cpp_topic_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/src/build/cpp_topic_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/cpp_topic_pubsub /home/kousei/ros2_ws/src/cpp_topic_pubsub /home/kousei/ros2_ws/src/build/cpp_topic_pubsub /home/kousei/ros2_ws/src/build/cpp_topic_pubsub /home/kousei/ros2_ws/src/build/cpp_topic_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

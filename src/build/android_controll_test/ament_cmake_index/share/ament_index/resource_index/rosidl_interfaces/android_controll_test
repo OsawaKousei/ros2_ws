@@ -1,3 +1,5 @@
+msg/CustomUnity.idl
+msg/CustomUnity.msg
 srv/AddThreeInts.idl
 srv/AddThreeInts.srv
 srv/AddThreeInts_Request.msg

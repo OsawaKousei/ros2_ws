@@ -1,8 +1,8 @@
-# Install script for directory: /home/osawakousei/ros2_ws/src/build/cpp_server_client/cpp_server_client__py
+# Install script for directory: /home/kousei/ros2_ws/src/build/cpp_server_client/cpp_server_client__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/osawakousei/ros2_ws/src/install/cpp_server_client")
+  set(CMAKE_INSTALL_PREFIX "/home/kousei/ros2_ws/src/install/cpp_server_client")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

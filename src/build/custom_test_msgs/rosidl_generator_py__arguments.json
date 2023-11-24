@@ -1,9 +1,9 @@
 {
   "package_name": "custom_test_msgs",
-  "output_dir": "/home/osawakousei/ros2_ws/src/build/custom_test_msgs/rosidl_generator_py/custom_test_msgs",
+  "output_dir": "/home/kousei/ros2_ws/src/build/custom_test_msgs/rosidl_generator_py/custom_test_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/osawakousei/ros2_ws/src/build/custom_test_msgs/rosidl_adapter/custom_test_msgs:srv/AddThreeInts.idl"
+    "/home/kousei/ros2_ws/src/build/custom_test_msgs/rosidl_adapter/custom_test_msgs:srv/AddThreeInts.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/osawakousei/ros2_ws/src/build/custom_test_msgs/rosidl_adapter/custom_test_msgs/srv/AddThreeInts.idl"
+    "/home/kousei/ros2_ws/src/build/custom_test_msgs/rosidl_adapter/custom_test_msgs/srv/AddThreeInts.idl"
   ]
 }

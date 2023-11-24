@@ -1,9 +1,9 @@
 {
   "package_name": "cpp_server_client",
-  "output_dir": "/home/osawakousei/ros2_ws/src/build/cpp_server_client/rosidl_generator_c/cpp_server_client",
+  "output_dir": "/home/kousei/ros2_ws/src/build/cpp_server_client/rosidl_generator_c/cpp_server_client",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/osawakousei/ros2_ws/src/build/cpp_server_client/rosidl_adapter/cpp_server_client:srv/PracticeSrv.idl"
+    "/home/kousei/ros2_ws/src/build/cpp_server_client/rosidl_adapter/cpp_server_client:srv/PracticeSrv.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/osawakousei/ros2_ws/src/build/cpp_server_client/rosidl_adapter/cpp_server_client/srv/PracticeSrv.idl"
+    "/home/kousei/ros2_ws/src/build/cpp_server_client/rosidl_adapter/cpp_server_client/srv/PracticeSrv.idl"
   ]
 }

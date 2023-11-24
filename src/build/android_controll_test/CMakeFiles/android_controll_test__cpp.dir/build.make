@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/osawakousei/ros2_ws/src/android_controll_test
+CMAKE_SOURCE_DIR = /home/kousei/ros2_ws/src/android_controll_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/osawakousei/ros2_ws/src/build/android_controll_test
+CMAKE_BINARY_DIR = /home/kousei/ros2_ws/src/build/android_controll_test
 
 # Utility rule file for android_controll_test__cpp.
 
@@ -66,40 +66,61 @@ include CMakeFiles/android_controll_test__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/android_controll_test__cpp.dir/progress.make
 
+CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__builder.hpp
+CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__struct.hpp
+CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__traits.hpp
 CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
 CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__builder.hpp
 CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__struct.hpp
 CMakeFiles/android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__traits.hpp
 
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/osawakousei/ros2_ws/src/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/osawakousei/ros2_ws/src/build/android_controll_test/rosidl_generator_cpp__arguments.json
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: rosidl_adapter/android_controll_test/msg/CustomUnity.idl
+rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp: rosidl_adapter/android_controll_test/srv/AddThreeInts.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kousei/ros2_ws/src/build/android_controll_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kousei/ros2_ws/src/build/android_controll_test/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__builder.hpp: rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
+rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__builder.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__builder.hpp
+
+rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__struct.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__struct.hpp
+
+rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__traits.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__traits.hpp
+
+rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
+
+rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__builder.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__builder.hpp
 
-rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__struct.hpp: rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
+rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__struct.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__struct.hpp
 
-rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__traits.hpp: rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
+rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__traits.hpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__traits.hpp
 
 android_controll_test__cpp: CMakeFiles/android_controll_test__cpp
+android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/custom_unity.hpp
+android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__builder.hpp
+android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__struct.hpp
+android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/msg/detail/custom_unity__traits.hpp
 android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/add_three_ints.hpp
 android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__builder.hpp
 android_controll_test__cpp: rosidl_generator_cpp/android_controll_test/srv/detail/add_three_ints__struct.hpp
@@ -116,6 +137,6 @@ CMakeFiles/android_controll_test__cpp.dir/clean:
 .PHONY : CMakeFiles/android_controll_test__cpp.dir/clean
 
 CMakeFiles/android_controll_test__cpp.dir/depend:
-	cd /home/osawakousei/ros2_ws/src/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/src/android_controll_test /home/osawakousei/ros2_ws/src/build/android_controll_test /home/osawakousei/ros2_ws/src/build/android_controll_test /home/osawakousei/ros2_ws/src/build/android_controll_test/CMakeFiles/android_controll_test__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kousei/ros2_ws/src/build/android_controll_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kousei/ros2_ws/src/android_controll_test /home/kousei/ros2_ws/src/android_controll_test /home/kousei/ros2_ws/src/build/android_controll_test /home/kousei/ros2_ws/src/build/android_controll_test /home/kousei/ros2_ws/src/build/android_controll_test/CMakeFiles/android_controll_test__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/android_controll_test__cpp.dir/depend
 

@@ -147,6 +147,8 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Request(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -157,6 +159,7 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Request(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
@@ -164,6 +167,7 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Request(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
@@ -171,11 +175,25 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Request(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = custom_test_msgs__srv__AddThreeInts_Request;
+    is_plain =
+      (
+      offsetof(DataType, c) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static size_t _AddThreeInts_Request__max_serialized_size(char & bounds_info)
@@ -339,6 +357,8 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Response(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -349,11 +369,25 @@ size_t max_serialized_size_custom_test_msgs__srv__AddThreeInts_Response(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = custom_test_msgs__srv__AddThreeInts_Response;
+    is_plain =
+      (
+      offsetof(DataType, sum) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static size_t _AddThreeInts_Response__max_serialized_size(char & bounds_info)
