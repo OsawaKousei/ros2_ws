@@ -37,12 +37,12 @@
 
     <include>
       <uri>model://my_field</uri>
-      <pose>0 2 0 0 0 0</pose>
+      <pose relative_to='world'>0 0 0 0 0 0</pose>
     </include>
 
     <include>
       <uri>model://my_robo</uri>
-      <pose>0 2 0.5 0 0 0</pose>
+      <pose relative_to='world'>0.1 0.1 0.5 0 0 0</pose>
     </include>
 
   </world>

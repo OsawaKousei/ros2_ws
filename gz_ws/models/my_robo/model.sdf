@@ -1,8 +1,18 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="my_robo">
-    <static>true</static>
-    <link name="link">
+  <model name="my_robo" canonical_link='chassis'>
+    <link name="chassis">
+      <inertial> <!--inertial properties of the link mass, inertia matix-->
+          <mass>1.14395</mass>
+          <inertia>
+              <ixx>0.095329</ixx>
+              <ixy>0</ixy>
+              <ixz>0</ixz>
+              <iyy>0.381317</iyy>
+              <iyz>0</iyz>
+              <izz>0.476646</izz>
+          </inertia>
+      </inertial>
       <collision name="collision">
         <geometry>
           <mesh>
