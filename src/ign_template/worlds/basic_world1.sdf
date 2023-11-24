@@ -35,35 +35,14 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    <model name="ground_plane">
-      <static>true</static>
-      <pose>0 0 0 0 0 0</pose>
-      <link name="link">
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>20 20 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>20 20 0.1</size>
-            </box>
-          </geometry>
-          <material>
-            <ambient>0.8 0.8 0.8 1</ambient>
-            <diffuse>0.8 0.8 0.8 1</diffuse>
-            <specular>0.8 0.8 0.8 1</specular>
-          </material>
-        </visual>
-      </link>
-    </model>
-
     <include>
       <uri>model://my_field</uri>
       <pose>0 2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://my_robo</uri>
+      <pose>0 2 0.5 0 0 0</pose>
     </include>
 
   </world>
