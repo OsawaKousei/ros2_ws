@@ -1,0 +1,4 @@
+Invoking command in '/home/kousei/ros2_ws/src/build/ignition_lecture': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/ignition_lecture -- -j16 -l16
+Invoked command in '/home/kousei/ros2_ws/src/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/ignition_lecture -- -j16 -l16
+Invoking command in '/home/kousei/ros2_ws/src/build/ignition_lecture': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/ignition_lecture
+Invoked command in '/home/kousei/ros2_ws/src/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/ignition_lecture

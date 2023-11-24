@@ -1,0 +1,6 @@
+Invoking command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kousei/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/kousei/ros2_ws/src/install/cpp_topic_pubsub
+Invoked command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kousei/ros2_ws/src/cpp_topic_pubsub -DCMAKE_INSTALL_PREFIX=/home/kousei/ros2_ws/src/install/cpp_topic_pubsub
+Invoking command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_topic_pubsub -- -j16 -l16
+Invoked command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_topic_pubsub -- -j16 -l16
+Invoking command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_topic_pubsub
+Invoked command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_topic_pubsub

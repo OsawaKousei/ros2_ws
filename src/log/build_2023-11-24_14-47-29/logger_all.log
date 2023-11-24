@@ -1,0 +1,484 @@
+[0.432s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.432s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa017c9a860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa0180c2fe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa0180c2fe0>>)
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kousei/ros2_ws/src'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(android_controll_test) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'android_controll_test' with type 'ros.ament_cmake' and name 'android_controll_test'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_server_client) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_server_client' with type 'ros.ament_cmake' and name 'cpp_server_client'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_topic_pubsub) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_topic_pubsub' with type 'ros.ament_cmake' and name 'cpp_topic_pubsub'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_message_unity) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_message_unity' with type 'ros.ament_cmake' and name 'custom_message_unity'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(custom_test_msgs) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_test_msgs' with type 'ros.ament_cmake' and name 'custom_test_msgs'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(ignition_lecture) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'ignition_lecture' with type 'ros.ament_cmake' and name 'ignition_lecture'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/humble
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'cpp_server_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_server_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/cpp_server_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/cpp_server_client', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/cpp_server_client', 'symlink_install': False, 'test_result_base': None}
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'cpp_topic_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.574s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_topic_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/cpp_topic_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'custom_message_unity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'custom_message_unity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/custom_message_unity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/custom_message_unity', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/custom_message_unity', 'symlink_install': False, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'custom_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'custom_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/custom_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/custom_test_msgs', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/custom_test_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_target' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ignition_lecture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] DEBUG:colcon.colcon_core.verb:Building package 'ignition_lecture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/ignition_lecture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/ignition_lecture', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/ignition_lecture', 'symlink_install': False, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'android_controll_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'android_controll_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kousei/ros2_ws/src/build/android_controll_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kousei/ros2_ws/src/install/android_controll_test', 'merge_install': False, 'path': '/home/kousei/ros2_ws/src/android_controll_test', 'symlink_install': False, 'test_result_base': None}
+[0.604s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/custom_message_unity' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/custom_message_unity'
+[0.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.632s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/custom_test_msgs' with build type 'ament_cmake'
+[0.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/custom_test_msgs'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/cpp_server_client' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/cpp_server_client'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.673s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/cpp_topic_pubsub' with build type 'ament_cmake'
+[0.674s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/cpp_topic_pubsub'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.694s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/ignition_lecture' with build type 'ament_cmake'
+[0.694s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/ignition_lecture'
+[0.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/custom_message_unity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/custom_message_unity -- -j16 -l16
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/custom_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/custom_test_msgs -- -j16 -l16
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/cpp_server_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_server_client -- -j16 -l16
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_topic_pubsub -- -j16 -l16
+[0.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/ignition_lecture': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/ignition_lecture -- -j16 -l16
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/ignition_lecture -- -j16 -l16
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/ignition_lecture': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/ignition_lecture
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/custom_test_msgs -- -j16 -l16
+[0.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_topic_pubsub -- -j16 -l16
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ignition_lecture)
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/ignition_lecture' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/ignition_lecture
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture' for CMake module files
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture' for CMake config files
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition_lecture', 'cmake_prefix_path')
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.sh'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/bin'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/lib/pkgconfig/ignition_lecture.pc'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/lib/python3.10/site-packages'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/bin'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.sh'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.bash'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.zsh'
+[1.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/ignition_lecture/share/colcon-core/packages/ignition_lecture)
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/custom_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/custom_test_msgs
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_topic_pubsub
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/cpp_server_client -- -j16 -l16
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/custom_message_unity -- -j16 -l16
+[1.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ignition_lecture)
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture' for CMake module files
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture' for CMake config files
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition_lecture', 'cmake_prefix_path')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/hook/cmake_prefix_path.sh'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/bin'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/lib/pkgconfig/ignition_lecture.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/lib/python3.10/site-packages'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/ignition_lecture/bin'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/ignition_lecture/share/ignition_lecture/package.zsh'
+[1.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/ignition_lecture/share/colcon-core/packages/ignition_lecture)
+[1.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/cpp_server_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_server_client
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/custom_message_unity': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/custom_message_unity
+[1.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_test_msgs)
+[1.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/custom_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/custom_test_msgs
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs' for CMake module files
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs' for CMake config files
+[1.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'cmake_prefix_path')
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.sh'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib'
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'ld_library_path_lib')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/bin'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib/pkgconfig/custom_test_msgs.pc'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib/python3.10/site-packages'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/bin'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/custom_test_msgs/share/colcon-core/packages/custom_test_msgs)
+[1.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/cpp_topic_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_topic_pubsub
+[1.187s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub' for CMake module files
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib'
+[1.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/bin'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/bin'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[1.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[1.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_test_msgs)
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs' for CMake module files
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs' for CMake config files
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'cmake_prefix_path')
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.dsv'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/cmake_prefix_path.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib'
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_test_msgs', 'ld_library_path_lib')
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/hook/ld_library_path_lib.sh'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/bin'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib/pkgconfig/custom_test_msgs.pc'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/lib/python3.10/site-packages'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_test_msgs/bin'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.ps1'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.dsv'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.sh'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.bash'
+[1.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_test_msgs/share/custom_test_msgs/package.zsh'
+[1.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/custom_test_msgs/share/colcon-core/packages/custom_test_msgs)
+[1.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_server_client)
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/cpp_server_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/cpp_server_client
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client' for CMake module files
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'cmake_prefix_path')
+[1.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.ps1'
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.dsv'
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.sh'
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib'
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'ld_library_path_lib')
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.sh'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/bin'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib/pkgconfig/cpp_server_client.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/bin'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.sh'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.zsh'
+[1.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/cpp_server_client/share/colcon-core/packages/cpp_server_client)
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message_unity)
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/custom_message_unity' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/custom_message_unity
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity' for CMake module files
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity' for CMake config files
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'cmake_prefix_path')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib'
+[1.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'ld_library_path_lib')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib/pkgconfig/custom_message_unity.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib/python3.10/site-packages'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/bin'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.sh'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.bash'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.zsh'
+[1.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/custom_message_unity/share/colcon-core/packages/custom_message_unity)
+[1.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_topic_pubsub)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub' for CMake module files
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub' for CMake config files
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'cmake_prefix_path')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/cmake_prefix_path.sh'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib'
+[1.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_topic_pubsub', 'ld_library_path_lib')
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/hook/ld_library_path_lib.sh'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/bin'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib/pkgconfig/cpp_topic_pubsub.pc'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/lib/python3.10/site-packages'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/bin'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.bash'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/cpp_topic_pubsub/package.zsh'
+[1.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/cpp_topic_pubsub/share/colcon-core/packages/cpp_topic_pubsub)
+[1.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_server_client)
+[1.381s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client' for CMake module files
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client' for CMake config files
+[1.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'cmake_prefix_path')
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.dsv'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/cmake_prefix_path.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib'
+[1.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_server_client', 'ld_library_path_lib')
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/hook/ld_library_path_lib.sh'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/bin'
+[1.398s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib/pkgconfig/cpp_server_client.pc'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/lib/python3.10/site-packages'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/cpp_server_client/bin'
+[1.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.ps1'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.dsv'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.sh'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.bash'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/cpp_server_client/share/cpp_server_client/package.zsh'
+[1.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/cpp_server_client/share/colcon-core/packages/cpp_server_client)
+[1.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_message_unity)
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity' for CMake module files
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity' for CMake config files
+[1.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'cmake_prefix_path')
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.dsv'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib'
+[1.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_message_unity', 'ld_library_path_lib')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.ps1'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/hook/ld_library_path_lib.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/bin'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib/pkgconfig/custom_message_unity.pc'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/lib/python3.10/site-packages'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/custom_message_unity/bin'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.sh'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.bash'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/custom_message_unity/share/custom_message_unity/package.zsh'
+[1.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/custom_message_unity/share/colcon-core/packages/custom_message_unity)
+[1.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kousei/ros2_ws/src/android_controll_test' with build type 'ament_cmake'
+[1.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kousei/ros2_ws/src/android_controll_test'
+[1.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/android_controll_test': AMENT_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/lib:/home/kousei/ros2_ws/src/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/kousei/ros2_ws/src/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/android_controll_test -- -j16 -l16
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/android_controll_test' returned '0': AMENT_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/lib:/home/kousei/ros2_ws/src/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/kousei/ros2_ws/src/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kousei/ros2_ws/src/build/android_controll_test -- -j16 -l16
+[1.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kousei/ros2_ws/src/build/android_controll_test': AMENT_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/lib:/home/kousei/ros2_ws/src/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/kousei/ros2_ws/src/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/android_controll_test
+[1.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(android_controll_test)
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kousei/ros2_ws/src/build/android_controll_test' returned '0': AMENT_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs:/home/kousei/ros2_ws/src/install/custom_message_unity:/opt/ros/humble LD_LIBRARY_PATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/lib:/home/kousei/ros2_ws/src/install/custom_message_unity/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kousei/ros2_ws/src/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/kousei/ros2_ws/src/install/custom_message_unity/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kousei/ros2_ws/src/build/android_controll_test
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test' for CMake module files
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test' for CMake config files
+[1.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'cmake_prefix_path')
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.sh'
+[1.822s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib'
+[1.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'ld_library_path_lib')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.ps1'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.dsv'
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.sh'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib/pkgconfig/android_controll_test.pc'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib/python3.10/site-packages'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/bin'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.bash'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.zsh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/android_controll_test/share/colcon-core/packages/android_controll_test)
+[1.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(android_controll_test)
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test' for CMake module files
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test' for CMake config files
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'cmake_prefix_path')
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.dsv'
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/cmake_prefix_path.sh'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib'
+[1.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('android_controll_test', 'ld_library_path_lib')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.ps1'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/hook/ld_library_path_lib.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib/pkgconfig/android_controll_test.pc'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/lib/python3.10/site-packages'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/kousei/ros2_ws/src/install/android_controll_test/bin'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.dsv'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.sh'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.bash'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/kousei/ros2_ws/src/install/android_controll_test/share/android_controll_test/package.zsh'
+[1.917s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kousei/ros2_ws/src/install/android_controll_test/share/colcon-core/packages/android_controll_test)
+[1.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.917s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.917s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.936s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.946s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kousei/ros2_ws/src/install/local_setup.ps1'
+[1.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kousei/ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kousei/ros2_ws/src/install/setup.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kousei/ros2_ws/src/install/local_setup.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kousei/ros2_ws/src/install/_local_setup_util_sh.py'
+[1.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kousei/ros2_ws/src/install/setup.sh'
+[1.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kousei/ros2_ws/src/install/local_setup.bash'
+[1.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kousei/ros2_ws/src/install/setup.bash'
+[1.977s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kousei/ros2_ws/src/install/local_setup.zsh'
+[1.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kousei/ros2_ws/src/install/setup.zsh'
