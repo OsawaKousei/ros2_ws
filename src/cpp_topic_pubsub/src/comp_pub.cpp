@@ -14,7 +14,7 @@ class CompPub : public rclcpp::Node{
 //rclcpp::Nodeを継承してMinimalPubSubクラスを作成
     public:
     //コンストラクタ引数をNodeOptionsに変更
-    CompPub(const rclcpp::NodeOptions& options) : Node("minimal_pubsub", options){
+    CompPub(const rclcpp::NodeOptions& options) : Node("comp_pub", options){
     //Node関数をオーバーライド
         rclcpp::QoS qos(rclcpp::KeepLast(10));
         
