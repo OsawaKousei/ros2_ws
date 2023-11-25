@@ -3,14 +3,14 @@
   <model name="my_robo" canonical_link='chassis'>
     <link name="chassis">
       <inertial> <!--inertial properties of the link mass, inertia matix-->
-          <mass>1.14395</mass>
+          <mass>5</mass>
           <inertia>
-              <ixx>0.095329</ixx>
+              <ixx>0.010667</ixx>
               <ixy>0</ixy>
               <ixz>0</ixz>
-              <iyy>0.381317</iyy>
+              <iyy>0.020167</iyy>
               <iyz>0</iyz>
-              <izz>0.476646</izz>
+              <izz>0.030833</izz>
           </inertia>
       </inertial>
       <collision name="collision">
