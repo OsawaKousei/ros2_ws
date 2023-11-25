@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<sdf version="1.8"> <!--xmlとsdfのバージョン定義-->
+    <world name="WorldDemoOld"> <!--ワールドの内容は全てこのタグの中に-->
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size> <!--最大何秒ごとにシミュレートするか（小さいほど正確なシミュレーションになる）-->
+            <real_time_factor>1.0</real_time_factor> <!--現実時間との比率-->
+        </physics>
+        <plugin
+            filename="libignition-gazebo-physics-system.so"
+            name="ignition::gazebo::systems::Physics">
+        </plugin> <!--動力学のシミュレーションに必要-->
+        <plugin
+            filename="libignition-gazebo-user-commands-system.so"
+            name="ignition::gazebo::systems::UserCommands">
+        </plugin> <!--ユーザーコマンドを利用可能に-->
+        <plugin
+            filename="libignition-gazebo-scene-broadcaster-system.so"
+            name="ignition::gazebo::systems::SceneBroadcaster">
+        </plugin> <!--ワールドシーンの描画-->
+        <gui fullscreen="0">
+            <!-- 3D scene -->
+            <plugin filename="MinimalScene" name="3D View">
+                <gz-gui>
+                    <title>3D View</title>
+                    <property type="bool" key="showTitleBar">false</property> <!--trueなら<title>タグのタイトルを表示-->
+                    <property type="string" key="state">docked</property> <!--dockedまたはfloating-->
+                </gz-gui>
+                <engine>ogre2</engine> <!--ogreにすることもでき、そうすればVMwareでも動く？-->
+                <scene>scene</scene>
+                <ambient_light>0.4 0.4 0.4</ambient_light> <!--周囲の色-->
+                <background_color>0.8 0.8 0.8</background_color> <!--背景色-->
+                <camera_pose>-6 0 6 0 0.5 0</camera_pose> <!--XYZRPY-->
+                <camera_clip>
+                    <near>0.25</near>
+                    <far>25000</far>
+                </camera_clip>
+            </plugin>
+            <plugin filename="GzSceneManager" name="Scene Manager">
+                <gz-gui>
+                    <property key="resizable" type="bool">false</property>
+                    <property key="width" type="double">5</property>
+                    <property key="height" type="double">5</property>
+                    <property key="state" type="string">floating</property>
+                    <property key="showTitleBar" type="bool">false</property>
+                </gz-gui>
+            </plugin>
+            <!-- World control -->
+            <plugin filename="WorldControl" name="World control">
+                <ignition-gui>
+                    <title>World control</title>
+                    <property type="bool" key="showTitleBar">false</property>
+                    <property type="bool" key="resizable">false</property>
+                    <property type="double" key="height">72</property>
+                    <property type="double" key="width">121</property>
+                    <property type="double" key="z">1</property>
+                    <property type="string" key="state">floating</property>
+                    <anchors target="3D View">
+                        <line own="left" target="left"/>
+                        <line own="bottom" target="bottom"/>
+                    </anchors>
+                </ignition-gui>
+                <play_pause>true</play_pause> <!--再生・停止ボタンの表示-->
+                <step>true</step>
+                <start_paused>true</start_paused> <!--trueなら停止状態で開始-->
+                <service>/world/world_demo/control</service>
+                <stats_topic>/world/world_demo/stats</stats_topic> <!--ワールドの情報を公開するトピックを指定-->
+            </plugin>
+            <!-- World statistics -->
+            <plugin filename="WorldStats" name="World stats">
+                <ignition-gui>
+                    <title>World stats</title>
+                    <property type="bool" key="showTitleBar">false</property>
+                    <property type="bool" key="resizable">false</property>
+                    <property type="double" key="height">110</property>
+                    <property type="double" key="width">290</property>
+                    <property type="double" key="z">1</property>
+                    <property type="string" key="state">floating</property>
+                    <anchors target="3D View">
+                        <line own="right" target="right"/>
+                        <line own="bottom" target="bottom"/>
+                    </anchors>
+                </ignition-gui>
+                <sim_time>true</sim_time>
+                <real_time>true</real_time>
+                <real_time_factor>true</real_time_factor>
+                <iterations>true</iterations>
+                <topic>/world/world_demo/stats</topic> <!--statisticsを送信するトピックを指定-->
+            </plugin>
+            <!-- Entity tree -->
+            <plugin filename="EntityTree" name="Entity tree">
+            </plugin>
+        </gui>
+    </world>
+</sdf>

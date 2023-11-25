@@ -13,14 +13,14 @@
     </plugin>
     <link name="chassis">
       <inertial> <!--inertial properties of the link mass, inertia matix-->
-          <mass>39</mass>
+          <mass>100</mass>
           <inertia>
-              <ixx>2460000</ixx>
+              <ixx>100000</ixx>
               <ixy>0</ixy>
               <ixz>0</ixz>
-              <iyy>970000</iyy>
+              <iyy>100000</iyy>
               <iyz>0</iyz>
-              <izz>3350000</izz>
+              <izz>100000</izz>
           </inertia>
       </inertial>
       <collision name="collision">

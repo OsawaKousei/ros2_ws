@@ -1,0 +1,40 @@
+GUIの詳細
+https://github.com/gazebosim/gz-gui/
+
+GzScene3Dはfortlessから廃止され、MinimalSceneとGzSceneManagerがその代わりになる
+
+↓つまりどういうこと？
+state is the state of the plugin it can be docked in its place using docked or it can be floating.
+
+このチュートリアルの場合では
+ign topic -e -t /world/world_demo/stats
+で統計情報が見られる
+
+Unable to read attribute[fullscreen]：fullscreenにセットされた値がおかしいと出る
+
+
+↓への対処
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+
+    Disabled Wayland by uncommenting WaylandEnable=false in the /etc/gdm3/custom.conf
+    Add QT_QPA_PLATFORM=xcb in /etc/environment
+    Check whether you are on Wayland or Xorg using:
+    echo $XDG_SESSION_TYPE
+
+警告は消えた
+
+<gui>タグの挙動がおかしい問題：
+    anchorタグが機能していない？変なところにUIが配置される。削除しても挙動が変わらない
+    解決の見通しが立たないので、放棄
+    guiタグを書かなければ、既定の配置になるので、差し当たり問題ない
+
+stateをfloatingにすれば、画面右側に表示される
+UIの治安はこの方がいいが、topicを受信できない不具合を確認
+
+動かなかったコードはOldの方に保存
+
+ignition fuelsから作成済のモデルを追加できる、具体的な方法は以下
+https://gazebosim.org/docs/fortress/fuel_insert
+
+
+
