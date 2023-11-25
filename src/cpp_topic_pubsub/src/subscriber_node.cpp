@@ -11,7 +11,7 @@ public:
         auto topic_callback = [this](const std_msgs::msg::String &msg) -> void {
             //rclcppの標準出力
             //%sはchar(配列)型の変換指定子であることに注意
-            RCLCPP_INFO(this->get_logger(), "catch:%s\r\n", msg.data.c_str());
+            RCLCPP_INFO(this->get_logger(), "catch:%s", msg.data.c_str());
         }; 
 
         //subscliberの作成：第1引数の文字列はトピック名、第2引数の数値はQoS、第３引数にコールバック関数を指定

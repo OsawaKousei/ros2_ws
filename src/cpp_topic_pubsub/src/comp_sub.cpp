@@ -15,7 +15,7 @@ class CompSub : public rclcpp::Node{ //rclcpp::Nodeを継承してMinimalPubSub�
     CompSub(const rclcpp::NodeOptions& options) : Node("minimal_pubsub", options){ //Node関数をオーバーライド
         auto topic_callback = [this](const std_msgs::msg::String& msg) -> void{
             //普通にサブスクライバーのcallback関数
-            RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+            RCLCPP_INFO(this->get_logger(), "I heard:%s", msg.data.c_str());
         };
 
         rclcpp::QoS qos(rclcpp::KeepLast(10));

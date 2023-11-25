@@ -45,7 +45,7 @@ pubsub_node src/pubsub_node.cpp
 )
 
 #実行ファイルの生成
-ament_auto_add_executable(comp_test #実行ファイル名
+ament_auto_add_executable(comp_test_node #実行ファイル名
 src/comp_test.cpp #依存ファイル
 src/comp_pub.cpp
 src/comp_sub.cpp
