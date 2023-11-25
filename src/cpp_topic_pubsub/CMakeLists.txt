@@ -9,6 +9,18 @@ endif()
 find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()  # packageから自動でfind_packageしてくれる
 
+#ライブラリの生成
+ament_auto_add_library(comp_pub SHARED src/comp_pub.cpp)
+rclcpp_components_register_nodes(comp_pub "cpp_topic_pubsub::comp_pub")
+
+#ライブラリの生成
+ament_auto_add_library(comp_sub SHARED src/comp_sub.cpp)
+rclcpp_components_register_nodes(comp_sub "cpp_topic_pubsub::comp_sub")
+
+install(DIRECTORY
+  DESTINATION share/${PROJECT_NAME}/
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -30,6 +42,13 @@ subscriber_node src/subscriber_node.cpp
 )
 ament_auto_add_executable(
 pubsub_node src/pubsub_node.cpp
+)
+
+#実行ファイルの生成
+ament_auto_add_executable(comp_test #実行ファイル名
+src/comp_test.cpp #依存ファイル
+src/comp_pub.cpp
+src/comp_sub.cpp
 )
 
 #ライブラリのビルド
