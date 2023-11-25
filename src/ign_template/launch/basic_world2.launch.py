@@ -16,6 +16,7 @@ def generate_launch_description():
     # Configure ROS nodes for launch
 
     # Setup project paths
+    pkg_project_bringup = get_package_share_directory('ign_template')
     pkg_project_gazebo = get_package_share_directory('ign_template')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
 
@@ -30,6 +31,25 @@ def generate_launch_description():
         ])}.items(),
     )
 
+    rosnode1 =  Node(
+                package='ign_template',
+                executable='teleop_node',
+                output='screen'
+                )
+
+    # Bridge ROS topics and Gazebo messages for establishing communication
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        parameters=[{
+            'config_file': os.path.join(pkg_project_bringup, 'config', 'ros_gz_bridge.yaml'),
+            'qos_overrides./tf_static.publisher.durability': 'transient_local',
+        }],
+        output='screen'
+    )
+
     return LaunchDescription([
-        gz_sim
+        gz_sim,
+        bridge,
+        rosnode1
     ])
