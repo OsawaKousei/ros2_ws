@@ -1,26 +1,16 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="my_robo" canonical_link='chassis'>
-    <plugin
-        filename="libignition-gazebo-diff-drive-system.so"
-        name="ignition::gazebo::systems::DiffDrive">
-        <left_joint>left_wheel_joint</left_joint>
-        <right_joint>right_wheel_joint</right_joint>
-        <wheel_separation>1.2</wheel_separation>
-        <wheel_radius>0.4</wheel_radius>
-        <odom_publish_frequency>1</odom_publish_frequency>
-        <topic>cmd_vel</topic>
-    </plugin>
     <link name="chassis">
       <inertial> <!--inertial properties of the link mass, inertia matix-->
-          <mass>100</mass>
+          <mass>1.14395</mass>
           <inertia>
-              <ixx>100000</ixx>
+              <ixx>0.095329</ixx>
               <ixy>0</ixy>
               <ixz>0</ixz>
-              <iyy>100000</iyy>
+              <iyy>0.381317</iyy>
               <iyz>0</iyz>
-              <izz>100000</izz>
+              <izz>0.476646</izz>
           </inertia>
       </inertial>
       <collision name="collision">
@@ -183,5 +173,15 @@
         <parent>chassis</parent>
         <child>caster</child>
     </joint>
+    <plugin
+        filename="libignition-gazebo-diff-drive-system.so"
+        name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>left_wheel_joint</left_joint>
+        <right_joint>right_wheel_joint</right_joint>
+        <wheel_separation>1.2</wheel_separation>
+        <wheel_radius>0.4</wheel_radius>
+        <odom_publish_frequency>1</odom_publish_frequency>
+        <topic>cmd_vel</topic>
+    </plugin>
   </model>
 </sdf>
