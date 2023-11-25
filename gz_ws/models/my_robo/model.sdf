@@ -16,7 +16,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>1 1 1</scale>
             <uri>model://my_robo/meshes/2DRoboPrac.stl</uri>
           </mesh>
         </geometry>
@@ -32,7 +32,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>1 1 1</scale>
             <uri>model://my_robo/meshes/2DRoboPrac.dae</uri>
           </mesh>
         </geometry>
