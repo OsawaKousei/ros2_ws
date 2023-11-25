@@ -21,20 +21,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+#これはnodeごとに書く必要がある
 ament_auto_add_executable(
 publisher_node src/publisher_node.cpp
 )
 ament_auto_add_executable(
 subscriber_node src/subscriber_node.cpp
 )
-
-install(TARGETS
-subscriber_node
-DESTINATION lib/${PROJECT_NAME})
-
-install(TARGETS
-publisher_node
-DESTINATION lib/${PROJECT_NAME})
+ament_auto_add_executable(
+pubsub_node src/pubsub_node.cpp
+)
 
 #ライブラリのビルド
 ament_auto_package(INSTALL_TO_SHARE)
