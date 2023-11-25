@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "/usr/include/**"
+                "/usr/include/**",
+                "${workspaceFolder}/src/key_event_nodes/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

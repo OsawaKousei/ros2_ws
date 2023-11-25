@@ -33,7 +33,8 @@ public:
 
         subscription_ = this->create_subscription<std_msgs::msg::String>
                 ("feedBack_topic", 10, topic_callback);
-
+        
+        //キーボードの値取得用のsubscriber
         sub_ = this->create_subscription<key_event_msgs::msg::KeyEvent>(
         "key_hit_event",
         rclcpp::QoS(10),
@@ -52,6 +53,7 @@ int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
 
     rclcpp::executors::SingleThreadedExecutor exec;
+    //ライブラリから呼び出し
     auto node1 = std::make_shared<key_event::KeyHitEventNode>();
     exec.add_node(node1);
     auto node2 = std::make_shared<TeleopNode>();
