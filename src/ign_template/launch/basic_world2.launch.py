@@ -34,7 +34,8 @@ def generate_launch_description():
     rosnode1 =  Node(
                 package='ign_template',
                 executable='teleop_node',
-                output='screen'
+                output='screen',
+                prefix="xterm -e"
                 )
 
     # Bridge ROS topics and Gazebo messages for establishing communication

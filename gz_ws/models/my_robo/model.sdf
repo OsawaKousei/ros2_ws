@@ -3,15 +3,15 @@
   <model name="my_robo" canonical_link='chassis'>
     <link name="chassis">
       <inertial> <!--inertial properties of the link mass, inertia matix-->
-          <mass>1000</mass>
-          <inertia>
-              <ixx>10000</ixx>
-              <ixy>0</ixy>
-              <ixz>0</ixz>
-              <iyy>10000</iyy>
-              <iyz>0</iyz>
-              <izz>10000</izz>
-          </inertia>
+        <mass>1.14395</mass>
+        <inertia>
+            <ixx>0.095329</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.381317</iyy>
+            <iyz>0</iyz>
+            <izz>0.476646</izz>
+        </inertia>
       </inertial>
       <collision name="collision">
         <geometry>
@@ -54,7 +54,7 @@
       <visual name='visual'>
           <geometry>
               <cylinder>
-                  <radius>0.025</radius>
+                  <radius>0.035</radius>
                   <length>0.01</length>
               </cylinder>
           </geometry>
@@ -67,7 +67,7 @@
       <collision name='collision'>
           <geometry>
               <cylinder>
-                  <radius>0.025</radius>
+                  <radius>0.035</radius>
                   <length>0.01</length>
               </cylinder>
           </geometry>
@@ -89,7 +89,7 @@
       <visual name='visual'>
           <geometry>
               <cylinder>
-                  <radius>0.025</radius>
+                  <radius>0.035</radius>
                   <length>0.01</length>
               </cylinder>
           </geometry>
@@ -102,7 +102,7 @@
       <collision name='collision'>
           <geometry>
               <cylinder>
-                  <radius>0.025</radius>
+                  <radius>0.035</radius>
                   <length>0.01</length>
               </cylinder>
           </geometry>
@@ -128,7 +128,7 @@
         <visual name='visual'>
             <geometry>
                 <sphere>
-                    <radius>0.01</radius>
+                    <radius>0.02</radius>
                 </sphere>
             </geometry>
             <material>
@@ -140,7 +140,7 @@
         <collision name='collision'>
             <geometry>
                 <sphere>
-                    <radius>0.01</radius>
+                    <radius>0.02</radius>
                 </sphere>
             </geometry>
         </collision>
