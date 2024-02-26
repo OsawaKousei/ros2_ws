@@ -1,0 +1,27 @@
+pluginとは
+    プラグインとは、共有ライブラリとしてコンパイルされて、シミュレーションに挿入される一群のソースコードのこと
+    プラグインによって、ワールドやモデルなどのシミュレーションの様々な要素をコントロールできるようになる
+
+diff_driveプラグインはロボットを差動的に動かすことを実現する
+    トピックの送信
+    ign topic -t "/cmd_vel" -m ignition.msgs.Twist -p "linear: {x: 0.5}, angular: {z: 0.05}"
+    -t：トピックを指定
+    -m：メッセージの型を指定
+    -p ：トピックの内容
+
+    トピックとメッセージについての詳細
+    https://gazebosim.org/api/transport/9.0/tutorials.html
+
+    ※スタートボタンを押すのを忘れずに
+
+KeyPublisher：キーボードの値を読むプラグイン
+    /keyboard/keypress というトピックを送る
+    gazbeboのGUIから起動する
+
+    ign topic -e -t /keyboard/keypress トピックをサブスクライブ
+
+TriggeredPublisher ：指定されたトピックを受け取ったときに、別のトピックを送信するプラグイン
+    詳細は以下
+    https://github.com/gazebosim/gz-sim/blob/ign-gazebo2/tutorials/triggered_publisher.md
+
+

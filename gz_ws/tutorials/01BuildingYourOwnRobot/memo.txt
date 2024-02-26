@@ -1,0 +1,12 @@
+ツールバーからtrancerateアイコンを選択し、モデルをクリックするとモデルの軸を見れる
+赤：X、緑：Y、青：Z
+
+ワールドの立ち上げ
+ign gazebo building_robot.sdf
+
+
+慣性マトリックスの計算ができるらしいツール
+https://amesweb.info/inertia/mass-moment-of-inertia-calculator.aspx
+
+SDFの詳細
+http://sdformat.org/spec?ver=1.10&elem=model
