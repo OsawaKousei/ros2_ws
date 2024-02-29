@@ -79,11 +79,10 @@ public:
         timer_ = this->create_wall_timer(500ms, timer_callback); 
         //サブスクリプションの作成<メッセージ型>(topic名,qos,コールバック関数)
         subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>("scan", 10, topic_callback);
-        timer_ = this->create_wall_timer(500ms, timer_callback); 
     }
 private:
-    double min_angle = -1;
-    double max_angle = 1;
+    double min_angle = -0.785;
+    double max_angle = 0.785;
 
     sensor_msgs::msg::LaserScan message = sensor_msgs::msg::LaserScan();
 

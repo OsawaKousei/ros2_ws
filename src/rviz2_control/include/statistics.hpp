@@ -62,7 +62,7 @@ public:
 class LeastSquaresMethod : public BasicStatistics{
 
 public:
-    float x_var_threshold = 0.00004;
+    float x_var_threshold = 0.0001;
     //y = slope * x + intercept
     float slope(vector<float> &x, vector<float> &y, int N){
 
@@ -144,5 +144,34 @@ public:
             return cov*x_ave - x_var*y_ave;
         }
     }
-           
+
+    vector<float> predict(vector<float> &x , int N, float a, float b, float c){
+        vector<float> y;
+        for(int i = 0; i < N; i++){
+            y.push_back(-1.0*(a*x[i] + c)/b);
+        }
+        return y;
+    }
+
+    float coef_det(vector<float> &x, vector<float> &data,vector<float> &pred, int N){
+        float sum_var = 0.0;
+        float residuals_var = 0.0;
+        float y_ave = average(data, N);
+
+        for(int i = 0; i < N; i++){
+            sum_var += (data[i]-y_ave)*(data[i]-y_ave);
+            residuals_var += (data[i]-pred[i])*(data[i]-pred[i]);
+        }
+
+        return 1.0 - residuals_var/sum_var;
+    }
+       
 };
+
+float dist_line_point(float a, float b, float c, float x, float y){
+    return abs(a*x + b*y + c)/sqrt(a*a + b*b);
+}
+
+float signed_dist_line_point(float a, float b, float c, float x, float y){
+    return (a*x + b*y + c)/sqrt(a*a + b*b);
+}
