@@ -62,7 +62,8 @@ public:
 class LeastSquaresMethod : public BasicStatistics{
 
 public:
-    //傾きを計算 
+    float x_var_threshold = 0.00004;
+    //y = slope * x + intercept
     float slope(vector<float> &x, vector<float> &y, int N){
 
         float a = 0.0;
@@ -84,7 +85,6 @@ public:
         return a;
     }
 
-    //切片を計算
     float intercept(vector<float> &x, vector<float> &y, int N){
 
         float b = 0.0;
@@ -108,4 +108,41 @@ public:
 
         return b;
     }
+
+    //coef_x * x + coef_y * y + constant = 0
+    float coef_x(vector<float> &x, vector<float> &y, int N){
+        float x_var = variance(x, N);
+        
+        if(x_var <= x_var_threshold){
+            return 1;
+        }else{
+            float cov   = covariance(x, y, N);
+            return -1.0*cov;
+        }
+    }
+
+    float coef_y(vector<float> &x, vector<float> &y, int N){
+        float x_var = variance(x, N);
+        if(x_var <= x_var_threshold){
+            return 0.0;
+        }else{
+            return x_var;
+        }
+    }
+
+    float constant(vector<float> &x, vector<float> &y, int N){
+        float x_var = variance(x, N);
+        if(x_var <= x_var_threshold){
+            float x_ave = average(x, N);
+
+            return -1.0*x_ave;
+        }else{
+            float cov   = covariance(x, y, N);
+            float x_ave = average(x, N);
+            float y_ave = average(y, N);
+
+            return cov*x_ave - x_var*y_ave;
+        }
+    }
+           
 };

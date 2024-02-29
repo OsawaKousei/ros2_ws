@@ -32,8 +32,9 @@ public:
             }
 
             LeastSquaresMethod data1;
-            slope = data1.slope(x, y,msg.ranges.size());   
-            intercept = data1.intercept(x, y,msg.ranges.size());
+            coef_x = data1.coef_x(x, y, x.size());
+            coef_y = data1.coef_y(x, y, x.size());
+            constant = data1.constant(x, y, x.size());
          
             auto message = visualization_msgs::msg::Marker();
 
@@ -52,12 +53,12 @@ public:
             double range2 = msg.ranges[msg.ranges.size()-1];
 
             Coordinate::polar_to_xy(range1,angle1,edge1[0],edge1[1]);
-            start_point.x = (edge1[1]+(1/slope)*edge1[0]-intercept)/(slope+(1/slope));
-            start_point.y = start_point.x * slope + intercept;
+            start_point.x = (coef_y * coef_y * edge1[0] - coef_x * coef_y * edge1[1] - coef_x * constant) / (coef_x * coef_x + coef_y * coef_y);
+            start_point.y = (coef_x * coef_x * edge1[1] - coef_x * coef_y * edge1[0] - coef_y * constant) / (coef_x * coef_x + coef_y * coef_y);
 
             Coordinate::polar_to_xy(range2,angle2,edge2[0],edge2[1]);
-            end_point.x = (edge2[1]+(1/slope)*edge2[0]-intercept)/(slope+(1/slope));
-            end_point.y = end_point.x * slope + intercept;
+            end_point.x = (coef_y * coef_y * edge2[0] - coef_x * coef_y * edge2[1] - coef_x * constant) / (coef_x * coef_x + coef_y * coef_y);
+            end_point.y = (coef_x * coef_x * edge2[1] - coef_x * coef_y * edge2[0] - coef_y * constant) / (coef_x * coef_x + coef_y * coef_y);
             
             VizMaker::std_line_setter(&message, 
                                         start_point, 
@@ -80,8 +81,9 @@ private:
 
     double min_x = 0.0;
     double max_x = 0.0;
-    double slope = 0.0;
-    double intercept = 0.0;
+    double coef_x = 0.0;
+    double coef_y = 0.0;
+    double constant = 0.0;
 
     double edge1[2] {0,0};
     double edge2[2] = {0,0};
