@@ -122,8 +122,7 @@ public:
         
         auto timer_callback = [this]() -> void {
         }; 
-
-
+        
         //サブスクリプションの作成<メッセージ型>(topic名,qos,コールバック関数)
         subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>("filtered_scan", 10, topic_callback);
         timer_ = this->create_wall_timer(500ms, timer_callback); 
