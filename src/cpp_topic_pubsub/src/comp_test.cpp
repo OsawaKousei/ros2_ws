@@ -5,7 +5,7 @@
 
 int main(int argc, char * argv[])
 {
-    //標準出力stdoutのバッファリングを無効化する
+  //標準出力stdoutのバッファリングを無効化する
   setvbuf(stdout, NULL, _IONBF, BUFSIZ);
   rclcpp::init(argc, argv);
 

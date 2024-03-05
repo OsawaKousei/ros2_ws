@@ -1,0 +1,8 @@
+#request(goal)
+int64 goal
+---
+#result
+int64 result
+---
+#feedback
+int64 feedback

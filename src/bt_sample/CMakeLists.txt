@@ -10,16 +10,16 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()  # packageから自動でfind_packageしてくれる
 
 ament_auto_add_executable(
-server src/server.cpp
+server_bt src/server_bt.cpp
 )
 
 ament_auto_add_executable(
-  bt_node src/bt_node.cpp include/action_node.hpp include/ros_node.hpp
+  bt_node src/bt_node.cpp
 )
 
-ament_auto_add_executable(
-  action_bt_node src/action_bt_node.cpp include/action_action_node.hpp include/ros_node.hpp
-)
+# ament_auto_add_executable(
+#   action_bt_node src/action_bt_node.cpp include/action_action_node.hpp include/ros_node.hpp
+# )
 
 
 install(DIRECTORY
@@ -40,19 +40,20 @@ if(BUILD_TESTING)
 endif()
 
 ## msg/srv generation
-#file(GLOB ${PROJECT_NAME}_msg_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} msg/*)
+file(GLOB ${PROJECT_NAME}_msg_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} msg/*)
 file(GLOB ${PROJECT_NAME}_srv_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} srv/*)
+file(GLOB ${PROJECT_NAME}_action_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} action/*)
 rosidl_generate_interfaces(
         ${PROJECT_NAME}
-        #${${PROJECT_NAME}_msg_files}  # msg使わないならコメントアウト
+        ${${PROJECT_NAME}_msg_files}  # msg使わないならコメントアウト
         ${${PROJECT_NAME}_srv_files}  # srv使わないならコメントアウト
+        ${${PROJECT_NAME}_action_files}  # action使わないならコメントアウト
         DEPENDENCIES ${${PROJECT_NAME}_FOUND_BUILD_DEPENDS}
 )
 
 rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)
-target_link_libraries(server "${cpp_typesupport_target}")
+target_link_libraries(server_bt "${cpp_typesupport_target}")
 target_link_libraries(bt_node "${cpp_typesupport_target}")
-target_link_libraries(action_bt_node "${cpp_typesupport_target}")
 
 #ライブラリのビルド
 ament_auto_package(INSTALL_TO_SHARE)

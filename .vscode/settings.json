@@ -76,6 +76,10 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "regex": "cpp",
-        "laser_scan.hpp": "c"
+        "laser_scan.hpp": "c",
+        "strstream": "cpp",
+        "charconv": "cpp",
+        "shared_mutex": "cpp",
+        "cfenv": "cpp"
     }
 }
