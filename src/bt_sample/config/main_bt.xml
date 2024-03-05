@@ -4,7 +4,6 @@
     <Sequence>
       <client_test/>
       <action_client_test/>
-      <pubsub_test/>
     </Sequence>
   </BehaviorTree>
 
@@ -13,8 +12,6 @@
     <Action ID="action_client_test"
             editable="true"/>
     <Action ID="client_test"
-            editable="true"/>
-    <Action ID="pubsub_test"
             editable="true"/>
   </TreeNodesModel>
 

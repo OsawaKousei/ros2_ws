@@ -10,7 +10,6 @@ int main(int argc, char* argv[]){
   // action_node.hppで定義したActionNodeクラスを登録
   factory.registerNodeType<ClientTest>("client_test");
   factory.registerNodeType<ActionClientTest>("action_client_test");
-  factory.registerNodeType<PubSubTest>("pubsub_test");
 
   // main_bt.xmlのpathを取得して登録
   std::string package_path = ament_index_cpp::get_package_share_directory("bt_sample");
