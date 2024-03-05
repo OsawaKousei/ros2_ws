@@ -55,11 +55,9 @@ namespace MyActionNodes{
         // Running状態のときに実行される
         NodeStatus onRunning() override {
 
-            if(!initialized_frag){
-                initialized_frag = true;
-            }else{
-               
-            }
+            rclcpp::init(0, nullptr);
+            std::shared_ptr<TestActionClient> test_action_client = std::make_shared<TestActionClient>();
+            test_action_client.get()->execute(&res, test_action_client);
             
             return NodeStatus::SUCCESS;
         }
@@ -86,12 +84,6 @@ namespace MyActionNodes{
         
         // Running状態のときに実行される
         NodeStatus onRunning() override {
-
-            if(!initialized_frag){
-                initialized_frag = true;
-            }else{
-               
-            }
             
             return NodeStatus::SUCCESS;
         }

@@ -10,17 +10,16 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()  # packageから自動でfind_packageしてくれる
 
 ament_auto_add_executable(
+  bt_node src/bt_node.cpp
+)
+
+ament_auto_add_executable(
 server_bt src/server_bt.cpp
 )
 
 ament_auto_add_executable(
-  bt_node src/bt_node.cpp
+  action_server_bt src/action_server_bt.cpp
 )
-
-# ament_auto_add_executable(
-#   action_bt_node src/action_bt_node.cpp include/action_action_node.hpp include/ros_node.hpp
-# )
-
 
 install(DIRECTORY
   config
@@ -52,8 +51,9 @@ rosidl_generate_interfaces(
 )
 
 rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)
-target_link_libraries(server_bt "${cpp_typesupport_target}")
 target_link_libraries(bt_node "${cpp_typesupport_target}")
+target_link_libraries(server_bt "${cpp_typesupport_target}")
+target_link_libraries(action_server_bt "${cpp_typesupport_target}")
 
 #ライブラリのビルド
 ament_auto_package(INSTALL_TO_SHARE)
