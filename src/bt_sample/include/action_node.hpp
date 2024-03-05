@@ -5,6 +5,7 @@
 #include "bt_sample/srv/service_bt.hpp"
 #include "test_action_client.hpp"
 #include "test_client.hpp"
+#include "test_topic.hpp"
 
 using namespace BT;
 
@@ -73,26 +74,29 @@ namespace MyActionNodes{
         int res;
     };
 
-    class PubSubTest : public StatefulActionNode {
+    class TopicTest : public StatefulActionNode {
     public:
-        PubSubTest(const std::string& name) : StatefulActionNode(name,{}){ }
+        TopicTest(const std::string& name) : StatefulActionNode(name,{}){ }
 
         bool initialized_frag = false;
 
         // ノードが呼び出されると一度だけ実行される
         NodeStatus onStart() override {
-            std::cout << "call action pubsub test" << std::endl;
+            std::cout << "call topic test" << std::endl;
             return NodeStatus::RUNNING;
         }
         
         // Running状態のときに実行される
         NodeStatus onRunning() override {
-            
+            rclcpp::init(0, nullptr);
+            std::shared_ptr<TestTopic> topic_test = std::make_shared<TestTopic>();
+            topic_test.get()->execute(&res, topic_test);
+
             return NodeStatus::SUCCESS;
         }
 
         void onHalted() override {
-            std::cout << "interrupt action pubsub test" << std::endl;
+            std::cout << "interrupt action topic test" << std::endl;
         }
 
     private:

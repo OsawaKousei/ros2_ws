@@ -4,6 +4,7 @@
     <Sequence>
       <client_test/>
       <action_client_test/>
+      <topic_test/>
     </Sequence>
   </BehaviorTree>
 
@@ -13,6 +14,8 @@
             editable="true"/>
     <Action ID="client_test"
             editable="true"/>
+    <Action ID="topic_test"
+    editable="true"/>
   </TreeNodesModel>
 
 </root>

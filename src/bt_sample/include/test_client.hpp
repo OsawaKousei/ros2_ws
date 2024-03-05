@@ -3,7 +3,7 @@
 #include "bt_sample/srv/service_bt.hpp"
 
 using namespace std::chrono_literals;
-using msg = bt_sample::srv::ServiceBt;
+using srv = bt_sample::srv::ServiceBt;
 
 class TestClient : public rclcpp::Node{
     public:
@@ -11,7 +11,7 @@ class TestClient : public rclcpp::Node{
         TestClient(const rclcpp::NodeOptions & options = rclcpp::NodeOptions()) : Node("test_client",options){
                 using namespace std::placeholders;
 
-                this->client_ptr_ = this->create_client<msg>("server_bt");
+                this->client_ptr_ = this->create_client<srv>("server_bt");
 
                 if (!this->client_ptr_->wait_for_service()) {
                 RCLCPP_ERROR(this->get_logger(), "Service server not available after waiting");
@@ -22,7 +22,7 @@ class TestClient : public rclcpp::Node{
         void execute(int *result, std::shared_ptr<TestClient> test_client)
         {   
             // Requestを作成
-            auto request = std::make_shared<msg::Request>();
+            auto request = std::make_shared<srv::Request>();
 
             // Serviceを探索
             while(!client_ptr_->wait_for_service(1s)){
@@ -47,6 +47,6 @@ class TestClient : public rclcpp::Node{
         }
 
     private:
-        rclcpp::Client<msg>::SharedPtr client_ptr_;
+        rclcpp::Client<srv>::SharedPtr client_ptr_;
 };
 

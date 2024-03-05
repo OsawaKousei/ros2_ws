@@ -21,6 +21,10 @@ ament_auto_add_executable(
   action_server_bt src/action_server_bt.cpp
 )
 
+ament_auto_add_executable(
+  topic_bt src/topic_bt.cpp
+)
+
 install(DIRECTORY
   config
   DESTINATION share/${PROJECT_NAME}/
@@ -54,6 +58,7 @@ rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_type
 target_link_libraries(bt_node "${cpp_typesupport_target}")
 target_link_libraries(server_bt "${cpp_typesupport_target}")
 target_link_libraries(action_server_bt "${cpp_typesupport_target}")
+target_link_libraries(topic_bt "${cpp_typesupport_target}")
 
 #ライブラリのビルド
 ament_auto_package(INSTALL_TO_SHARE)
