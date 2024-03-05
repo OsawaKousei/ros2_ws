@@ -29,6 +29,14 @@ ament_auto_add_executable(
 simple_wall_detect_node src/simple_wall_detect_node.cpp
 )
 
+ament_auto_add_executable(
+simple_corner_detect_node src/simple_corner_detect_node.cpp
+)
+
+ament_auto_add_executable(
+dist_corner_node src/dist_corner_node.cpp
+)
+
 install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}/
 )

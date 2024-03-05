@@ -1,27 +1,30 @@
 #include "../include/action_node.hpp"
 #include "ament_index_cpp/get_package_share_directory.hpp"
+#include "iostream"
 
 using namespace MyActionNodes;
 using namespace BT;
 
-int main(int argc, char* argv[]){
-  rclcpp::init(argc, argv);
-  ros_node = std::make_shared<BTNode>();
+int main(int argc, char* argv[]){  
   BehaviorTreeFactory factory;
-  factory.registerNodeType<Counter>("Counter");
-  factory.registerNodeType<Display>("Display");
-  factory.registerNodeType<GetText>("GetText");
+  // action_node.hppで定義したActionNodeクラスを登録
+  factory.registerNodeType<ClientTest>("client_test");
+  factory.registerNodeType<ActionClientTest>("action_client_test");
+  factory.registerNodeType<PubSubTest>("pubsub_test");
+
+  // main_bt.xmlのpathを取得して登録
   std::string package_path = ament_index_cpp::get_package_share_directory("bt_sample");
   factory.registerBehaviorTreeFromFile(package_path + "/config/main_bt.xml");
-  BT::Tree tree = factory.createTree("MainBT");
-  printTreeRecursively(tree.rootNode());
-  NodeStatus status = NodeStatus::RUNNING;
 
-  while(status == NodeStatus::RUNNING && rclcpp::ok()){
-    rclcpp::spin_some(ros_node);
+  // main_bt.xml内のMainBTツリーを作成
+  BT::Tree tree = factory.createTree("Main_BT");
+
+  // Tree構造を表示
+  printTreeRecursively(tree.rootNode());
+  
+  NodeStatus status = NodeStatus::RUNNING;
+  while(status == NodeStatus::RUNNING){
     status = tree.tickOnce();
   }
-
-  rclcpp::shutdown();
   return 0;
 }

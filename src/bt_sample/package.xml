@@ -10,11 +10,16 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
-  <depend>std_msgs</depend>
   <depend>rosidl_default_generators</depend>
-  <depend>behaviortree_cpp</depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
   <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!--Behavior Treeのための依存関係-->
+  <depend>behaviortree_cpp</depend>
+
+  <!--action通信のための依存関係-->
+  <depend>action_msgs</depend>
+  <depend>rclcpp_action</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

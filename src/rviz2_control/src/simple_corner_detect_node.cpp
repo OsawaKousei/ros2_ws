@@ -17,31 +17,41 @@ using namespace std::chrono_literals;
 class ScanFilterNode : public rclcpp::Node {
 public:
     ScanFilterNode() : Node("scan_filter_node") {//nodeを作成
+
         //publishreの作成<メッセージ型>(topic名,qos)
-        publisher_ = this->create_publisher<visualization_msgs::msg::Marker>("simple_wall", 10);
+        corner_publisher = this->create_publisher<visualization_msgs::msg::Marker>("simple_corner", 10);
+        wall_publisher = this->create_publisher<visualization_msgs::msg::Marker>("simple_wall", 10);
 
         //
         auto topic_callback = [this](const sensor_msgs::msg::LaserScan &msg) -> void {
 
             vector<float> x;
             vector<float> y;
+            int N = msg.ranges.size();
 
-            for(int i = 0; i < msg.ranges.size(); i++){
-                x.push_back(msg.ranges[i] * cos(msg.angle_min + msg.angle_increment * i));
-                y.push_back(msg.ranges[i] * sin(msg.angle_min + msg.angle_increment * i));
+            for(int i = 0; i < N; i++){
+                    x.push_back(msg.ranges[i] * cos(msg.angle_min + msg.angle_increment * i));
+                    y.push_back(msg.ranges[i] * sin(msg.angle_min + msg.angle_increment * i));
             }
 
             LeastSquaresMethod data1;
             coef_x = data1.coef_x(x, y, x.size());
             coef_y = data1.coef_y(x, y, x.size());
             constant = data1.constant(x, y, x.size());
-         
-            auto message = visualization_msgs::msg::Marker();
 
-            message.header.frame_id = "base_link";
-            message.header.stamp = this->now();
-            message.ns = "simple_wall";
-            message.id = 10;
+            visualization_msgs::msg::Marker wall_message = visualization_msgs::msg::Marker();
+            visualization_msgs::msg::Marker corner_message = visualization_msgs::msg::Marker();
+
+            corner_message.header.frame_id = "base_link";
+            corner_message.header.stamp = this->now();
+            corner_message.ns = "simple_corner";
+            corner_message.id = 20;
+            VizMaker::std_cube_setter(&corner_message);
+         
+            wall_message.header.frame_id = "base_link";
+            wall_message.header.stamp = this->now();
+            wall_message.ns = "simple_wall";
+            wall_message.id = 10;
 
             //各端から最も近い近似直線上の点を表示する直線の端点とする
             geometry_msgs::msg::Point start_point;
@@ -60,22 +70,67 @@ public:
             end_point.x = (coef_y * coef_y * edge2[0] - coef_x * coef_y * edge2[1] - coef_x * constant) / (coef_x * coef_x + coef_y * coef_y);
             end_point.y = (coef_x * coef_x * edge2[1] - coef_x * coef_y * edge2[0] - coef_y * constant) / (coef_x * coef_x + coef_y * coef_y);
 
-            VizMaker::std_line_setter(&message, 
+            VizMaker::std_line_setter(&wall_message, 
                                         start_point, 
                                         end_point);
                                         
-            this->publisher_->publish(message);
+            this->wall_publisher->publish(wall_message);
+
+            std::cout << "buff count start" << std::endl;
+
+            for(int i = get_center(N)+5; i < N; i+=5){
+                vector<float> x_;
+                vector<float> y_;
+                
+                for(int j = get_center(N); j < i; j++){
+                    x_.push_back(x[j]);
+                    y_.push_back(y[j]);
+                }
+
+                LeastSquaresMethod data1;
+                coef_x = data1.coef_x(x_, y_, x_.size());
+                coef_y = data1.coef_y(x_, y_, x_.size());
+                constant = data1.constant(x_, y_, x_.size());
+
+                float buff = 0.0;
+                int range = 5;
+                float threshold = 0.020;
+
+                for(int j = 0; j < range; j++){
+                    buff += signed_dist_line_point(coef_x, coef_y, constant, x[i+j], y[i+j]);
+                }
+
+                buff /= range;
+
+                if(buff > threshold){
+                    corner_message.pose.position.x = x[i];
+                    corner_message.pose.position.y = y[i];
+
+                    corner_message.color.r = 1.0;
+                    corner_message.color.g = 0.0;
+                    corner_message.color.b = 0.0;
+                    corner_message.color.a = 1.0;
+
+                    send_message(corner_message);
+                    break;
+                }
+
+                float num = (get_center(N)+i)*msg.angle_increment + msg.angle_min;
+                std::cout <<"num"<< num << "    " << "buff: " << buff << std::endl;
+            }
         }; 
         
         auto timer_callback = [this]() -> void {
         }; 
-
-
+        
         //サブスクリプションの作成<メッセージ型>(topic名,qos,コールバック関数)
         subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>("filtered_scan", 10, topic_callback);
         timer_ = this->create_wall_timer(500ms, timer_callback); 
     }
+
 private:
+    double min_angle = -1.57;
+    double max_angle = 1.57;
     double coef_x = 0.0;
     double coef_y = 0.0;
     double constant = 0.0;
@@ -86,8 +141,21 @@ private:
     // 上記の動作に必要なprivateメンバ
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
-    rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr publisher_;
+    rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr wall_publisher;
+    rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr corner_publisher;
     std::unique_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+
+    int get_center(int seq){
+        if(seq % 2 == 0){
+            return seq/2;
+        }else{ 
+            return (seq+1)/2;
+        }
+    }
+
+    void send_message(visualization_msgs::msg::Marker &corner_message){
+        this->corner_publisher->publish(corner_message);
+    }
 };
 
 int main(int argc, char *argv[]) {

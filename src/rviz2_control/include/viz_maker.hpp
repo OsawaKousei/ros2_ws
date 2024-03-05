@@ -13,8 +13,8 @@ class VizMaker{
         message->action = visualization_msgs::msg::Marker::ADD;
         message->lifetime = rclcpp::Duration(0,0);
 
-        message->scale.x = 0.05;
-        message->scale.y = 0.05;
+        message->scale.x = 0.02;
+        message->scale.y = 0.02;
         message->scale.z = 0.01;
 
         message->pose.position.x = 0.0;
@@ -40,11 +40,11 @@ class VizMaker{
         message->action = visualization_msgs::msg::Marker::ADD;
         message->lifetime = rclcpp::Duration(0,0);
 
-        message->scale.x = 0.02;
+        message->scale.x = 0.01;
 
         message->color.r = 0.0f;
-        message->color.g = 1.0f;
-        message->color.b = 0.0f;
+        message->color.g = 0.0f;
+        message->color.b = 1.0f;
         message->color.a = 1.0;
 
         message->points.push_back(start_point);
