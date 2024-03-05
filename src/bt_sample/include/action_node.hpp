@@ -5,7 +5,6 @@
 #include "bt_sample/srv/service_bt.hpp"
 #include "test_action_client.hpp"
 #include "test_client.hpp"
-#include "test_pubsub.hpp"
 
 using namespace BT;
 
@@ -25,9 +24,11 @@ namespace MyActionNodes{
         
         // Running状態のときに実行される
         NodeStatus onRunning() override {
-            test_client::send_request(&res);
+            rclcpp::init(0, nullptr);
+            std::shared_ptr<TestClient> test_client = std::make_shared<TestClient>();
+            test_client.get()->execute(&res, test_client);
 
-            std::cout << "res: " << res << std::endl;
+            std::cout << "service res: " << res << std::endl;
             
             return NodeStatus::SUCCESS;
         }
@@ -58,6 +59,8 @@ namespace MyActionNodes{
             rclcpp::init(0, nullptr);
             std::shared_ptr<TestActionClient> test_action_client = std::make_shared<TestActionClient>();
             test_action_client.get()->execute(&res, test_action_client);
+
+            std::cout << "action res: " << res << std::endl;
             
             return NodeStatus::SUCCESS;
         }
