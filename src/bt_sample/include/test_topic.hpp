@@ -15,6 +15,7 @@ class TestTopic : public rclcpp::Node{
             auto topic_callback = [this](const msg &msgs) -> void {
                 RCLCPP_INFO(this->get_logger(), "I heard: '%d'", msgs.msg);
 
+                //条件を満たしたら終了処理を行う
                 if(msgs.msg == 10){
                     *res = 10;
                     rclcpp::shutdown();
@@ -31,7 +32,7 @@ class TestTopic : public rclcpp::Node{
             subscription_ = this->create_subscription<msg>("topic_bt2", 10, topic_callback);
         }
 
-        void execute(int *result, std::shared_ptr<TestTopic> topic_test)
+        void start(int *result, std::shared_ptr<TestTopic> topic_test)
         {   
             this->res = result;
 

@@ -19,12 +19,10 @@ class TestClient : public rclcpp::Node{
                 }
         }
 
-        void execute(int *result, std::shared_ptr<TestClient> test_client)
+        void start(int *result, std::shared_ptr<TestClient> test_client)
         {   
-            // Requestを作成
             auto request = std::make_shared<srv::Request>();
 
-            // Serviceを探索
             while(!client_ptr_->wait_for_service(1s)){
                     if(!rclcpp::ok()){
                         break;
@@ -33,11 +31,12 @@ class TestClient : public rclcpp::Node{
 
                 }
 
-            auto responce = client_ptr_->async_send_request(request);  // ServerにRequestを送信
+            auto responce = client_ptr_->async_send_request(request); 
 
             std::cout << "send request" << std::endl;
 
-            if (rclcpp::spin_until_future_complete(test_client, responce) == rclcpp::FutureReturnCode::SUCCESS) {  // Responseを待つ
+            if (rclcpp::spin_until_future_complete(test_client, responce) == rclcpp::FutureReturnCode::SUCCESS) { 
+                //結果を格納して終了処理
                 *result = responce.get()->res;
                 rclcpp::shutdown(); 
             } else {

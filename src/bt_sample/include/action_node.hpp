@@ -15,19 +15,16 @@ namespace MyActionNodes{
     public:
         ClientTest(const std::string& name) : StatefulActionNode(name,{}){ }
 
-        bool initialized_frag = false;
-
-        // ノードが呼び出されると一度だけ実行される
         NodeStatus onStart() override {
             std::cout << "call client test" << std::endl;
             return NodeStatus::RUNNING;
         }
         
-        // Running状態のときに実行される
         NodeStatus onRunning() override {
+            //ros2 nodeの呼び出し
             rclcpp::init(0, nullptr);
             std::shared_ptr<TestClient> test_client = std::make_shared<TestClient>();
-            test_client.get()->execute(&res, test_client);
+            test_client.get()->start(&res, test_client);
 
             std::cout << "service res: " << res << std::endl;
             
@@ -46,20 +43,16 @@ namespace MyActionNodes{
     public:
         ActionClientTest(const std::string& name) : StatefulActionNode(name,{}){ }
 
-        bool initialized_frag = false;
-
-        // ノードが呼び出されると一度だけ実行される
         NodeStatus onStart() override {
             std::cout << "call action client test" << std::endl;
             return NodeStatus::RUNNING;
         }
         
-        // Running状態のときに実行される
         NodeStatus onRunning() override {
 
             rclcpp::init(0, nullptr);
             std::shared_ptr<TestActionClient> test_action_client = std::make_shared<TestActionClient>();
-            test_action_client.get()->execute(&res, test_action_client);
+            test_action_client.get()->start(&res, test_action_client);
 
             std::cout << "action res: " << res << std::endl;
             
@@ -78,19 +71,17 @@ namespace MyActionNodes{
     public:
         TopicTest(const std::string& name) : StatefulActionNode(name,{}){ }
 
-        bool initialized_frag = false;
-
-        // ノードが呼び出されると一度だけ実行される
         NodeStatus onStart() override {
             std::cout << "call topic test" << std::endl;
             return NodeStatus::RUNNING;
         }
         
-        // Running状態のときに実行される
         NodeStatus onRunning() override {
             rclcpp::init(0, nullptr);
             std::shared_ptr<TestTopic> topic_test = std::make_shared<TestTopic>();
-            topic_test.get()->execute(&res, topic_test);
+            topic_test.get()->start(&res, topic_test);
+
+            std::cout << "topic res: " << res << std::endl;
 
             return NodeStatus::SUCCESS;
         }

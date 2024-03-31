@@ -21,12 +21,14 @@ class TestActionClient : public rclcpp::Node{
                 rclcpp::shutdown();
                 }
 
+                //nodeがspinされると１度だけ以下が実行される
+                //ゴールを作成して送信
                 auto goal_msg = msg::Goal();
                 goal_msg.goal = 1;
                 send_goal(goal_msg);
         }
 
-        void execute(int *result, std::shared_ptr<TestActionClient> test_action_client)
+        void start(int *result, std::shared_ptr<TestActionClient> test_action_client)
         {
             this->res = result;
 
@@ -41,14 +43,14 @@ class TestActionClient : public rclcpp::Node{
                 RCLCPP_INFO(this->get_logger(), "Sending goal");
 
                 auto send_goal_options = rclcpp_action::Client<msg>::SendGoalOptions();
-                //アクション通信に関する各コールバック関数の設定(response,feedback,result)
+
                 send_goal_options.goal_response_callback =
                 std::bind(&TestActionClient::goal_response_callback, this, _1);
                 send_goal_options.feedback_callback =
                 std::bind(&TestActionClient::feedback_callback, this, _1, _2);
                 send_goal_options.result_callback =
                 std::bind(&TestActionClient::result_callback, this, _1);
-                //ゴールの送信
+
                 this->client_ptr_->async_send_goal(goal_msg, send_goal_options);
         }
 
@@ -56,7 +58,6 @@ class TestActionClient : public rclcpp::Node{
         rclcpp_action::Client<msg>::SharedPtr client_ptr_;
         int *res;
 
-        //レスポンスを報告するだけのコールバック関数
         void goal_response_callback(const GoalHandle::SharedPtr & goal_handle)
         {
         if (!goal_handle) {
@@ -66,7 +67,6 @@ class TestActionClient : public rclcpp::Node{
         }
         }
         
-        //フィードバックの値を(一部)報告するだけのコールバック関数
         void feedback_callback(
         GoalHandle::SharedPtr,
         const std::shared_ptr<const msg::Feedback> feedback)
@@ -79,6 +79,7 @@ class TestActionClient : public rclcpp::Node{
             switch (result.code) {
             case rclcpp_action::ResultCode::SUCCEEDED:
                     RCLCPP_INFO(this->get_logger(), "Goal successed");
+                    //結果を格納して終了処理
                     *res = result.result->result;
                     rclcpp::shutdown();
                     return;
